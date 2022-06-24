@@ -5,63 +5,595 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: "香港 [免流] 0.1x", server: dnsfree01.theworkpc.com, port: 80, type: vmess, uuid: b1135a1d-0586-4c30-b61e-fa7c17d1f439, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: 2022-6-22, server: ehez.dingzige.gq, port: 80, type: vmess, uuid: c96afabb-5335-48ff-a9bc-331f7834a59b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dingzi, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: "[建议每3天更新一次订阅]", server: 194.156.231.35, port: 80, type: vmess, uuid: b1135a1d-0586-4c30-b61e-fa7c17d1f439, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: HN (5), server: 103.180.148.112, port: 80, type: vmess, uuid: 3849e48e-f276-4612-a1b9-6f07d1ab1bad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpngiare.net, headers: {Host: vpngiare.akamaized.net}}, udp: true}
+  - {name: nf, server: sxdx-nf.jiashumao.net, port: 35401, type: trojan, password: 2b3d1fe4-b0b2-34f8-a791-fdcfc9d68bfb, sni: nf.jiashumao.net, skip-cert-verify: true, udp: true}
+  - {name: 新加坡节点更新 bit.ly/36b6iJh, server: w13.udpgw.com, port: 443, type: trojan, password: 16877c70-e7b8-11ec-99f2-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: US 7｜o, server: wireless.starspace.link, port: 443, type: trojan, password: 5LN8SGTqxk336nFg, sni: wireless.starspace.link, skip-cert-verify: true, udp: true}
+  - {name: 游戏节点 | 443 | 广州 | 限速8M, server: 175.178.163.153, port: 443, type: vmess, uuid: c96afabb-5335-48ff-a9bc-331f7834a59b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tms.dingtalk.com}}, udp: true}
+  - {name: 香港6-三网优化-强加密, server: 527hk1.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 527hk1.fans8.xyz}}, udp: true}
+  - {name: 台湾节点更新 bit.ly/36b6iJh, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
+  - {name: 香港6-三网优化-强加密 2, server: bai-piao-wang-zhe.hk2.jackson2025.cf, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 527hk1.fans8.xyz}}, udp: true}
+  - {name: 美国-节点更新 bit.ly/36b6iJh, server: ruvds.testx.eu.org, port: 443, type: vmess, uuid: 0e7036c1-6de1-4a83-ef4f-e0d56c67fa10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/vmess-share/?ed=2048", headers: {Host: ruvds.testx.eu.org}}, udp: true}
+  - {name: 节点更新 bit.ly/36b6iJh_114, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ws, headers: {Host: sxqxj.cn}}, udp: true}
   - {name: "日本 [免流] 0.1x", server: bai-piao-wang-zhe.jp.884899.cf, port: 80, type: vmess, uuid: b1135a1d-0586-4c30-b61e-fa7c17d1f439, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
   - {name: "日本 [直连B] 1x", server: bai-piao-wang-zhe.jp.884899.cf, port: 39815, type: vmess, uuid: b1135a1d-0586-4c30-b61e-fa7c17d1f439, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
   - {name: "日本 [直连C] 1x", server: bai-piao-wang-zhe.jp.884899.cf, port: 39813, type: vmess, uuid: b1135a1d-0586-4c30-b61e-fa7c17d1f439, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
   - {name: "日本 [直连A] 1x-clone", server: bai-piao-wang-zhe.jp.884899.cf, port: 39812, type: vmess, uuid: b1135a1d-0586-4c30-b61e-fa7c17d1f439, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "香港 [免流] 0.1x 节点更新 bit.ly/36b6iJh", server: bai-piao-wang-zhe.hk.884899.cf, port: 80, type: vmess, uuid: b1135a1d-0586-4c30-b61e-fa7c17d1f439, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "香港 [直连A] 1x", server: bai-piao-wang-zhe.hk.884899.cf, port: 20941, type: vmess, uuid: b1135a1d-0586-4c30-b61e-fa7c17d1f439, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "香港 [直连B] 1x", server: bai-piao-wang-zhe.hk.884899.cf, port: 20942, type: vmess, uuid: b1135a1d-0586-4c30-b61e-fa7c17d1f439, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: hk, server: bai-piao-wang-zhe.hk.884899.cf, port: 20943, type: vmess, uuid: b1135a1d-0586-4c30-b61e-fa7c17d1f439, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "香港 [直连D] 1x", server: bai-piao-wang-zhe.hk.884899.cf, port: 20944, type: vmess, uuid: b1135a1d-0586-4c30-b61e-fa7c17d1f439, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: 节点更新 bit.ly/36b6iJh, server: bai-piao-wang-zhe-iplc12.98848.xyz, port: 14134, type: trojan, password: b1135a1d-0586-4c30-b61e-fa7c17d1f439, sni: bai-piao-wang-zhe-iplc12.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: US 68, server: 104.149.154.154, port: 25966, type: vmess, uuid: ca06e0f0-ca6e-418f-800d-97b23ba51bca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /VTd4o3Kj/, headers: {Host: t.me/mengge88888888}}, udp: true}
+  - {name: CN 73, server: data-hk-v1.shwjfkw.cn, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: data-hk-v1.shwjfkw.cn}}, udp: true}
+  - {name: US 74, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /go, headers: {Host: us02.gogogoo.cyou}}, udp: true}
+  - {name: Az香港, server: 138.2.59.97, port: 80, type: vmess, uuid: 1e9f956b-1720-4519-b5c9-333247f6c23f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Az香港2, server: hk2.ningmengshui.xyz, port: 80, type: vmess, uuid: 1e9f956b-1720-4519-b5c9-333247f6c23f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Az香港3, server: hk3.ningmengshui.xyz, port: 80, type: vmess, uuid: 1e9f956b-1720-4519-b5c9-333247f6c23f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Az香港4, server: hk4.ningmengshui.xyz, port: 80, type: vmess, uuid: 1e9f956b-1720-4519-b5c9-333247f6c23f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk4.ningmengshui.xyz}}, udp: true}
+  - {name: Az香港5, server: hk5.ningmengshui.xyz, port: 80, type: vmess, uuid: 1e9f956b-1720-4519-b5c9-333247f6c23f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Az香港6, server: hk6.ningmengshui.xyz, port: 80, type: vmess, uuid: 1e9f956b-1720-4519-b5c9-333247f6c23f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk6.ningmengshui.xyz}}, udp: true}
+  - {name: Az香港7, server: hk7.ningmengshui.xyz, port: 80, type: vmess, uuid: 1e9f956b-1720-4519-b5c9-333247f6c23f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Az香港8, server: hk8.ningmengshui.xyz, port: 80, type: vmess, uuid: 1e9f956b-1720-4519-b5c9-333247f6c23f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Az香港9, server: hk9.ningmengshui.xyz, port: 80, type: vmess, uuid: 1e9f956b-1720-4519-b5c9-333247f6c23f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dm.toutiao.com}}, udp: true}
+  - {name: Az香港10, server: hk10.ningmengshui.xyz, port: 80, type: vmess, uuid: 1e9f956b-1720-4519-b5c9-333247f6c23f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: AZ香港11, server: hk11.ningmengshui.xyz, port: 80, type: vmess, uuid: 1e9f956b-1720-4519-b5c9-333247f6c23f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Az香港12, server: hk12.ningmengshui.xyz, port: 80, type: vmess, uuid: 1e9f956b-1720-4519-b5c9-333247f6c23f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk12.ningmengshui.xyz}}, udp: true}
+  - {name: opc日本1, server: 138.2.35.172, port: 80, type: vmess, uuid: 1e9f956b-1720-4519-b5c9-333247f6c23f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ID10电线联通 限速3M, server: 172.64.93.136, port: 443, type: vmess, uuid: 3eadc957-f6d5-3a3b-9289-c985ef4c8322, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: testgroup2.091.se, network: ws, ws-opts: {path: /xxX5, headers: {Host: testgroup2.091.se}}, udp: true}
+  - {name: ID7电线联通 限速3M, server: 172.64.147.71, port: 443, type: vmess, uuid: 3eadc957-f6d5-3a3b-9289-c985ef4c8322, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: testgroup2.091.se, network: ws, ws-opts: {path: /xxX2, headers: {Host: testgroup2.091.se}}, udp: true}
+  - {name: ID8电线联通 限速3M, server: 172.64.84.233, port: 443, type: vmess, uuid: 3eadc957-f6d5-3a3b-9289-c985ef4c8322, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: testgroup2.091.se, network: ws, ws-opts: {path: /xxX3, headers: {Host: testgroup2.091.se}}, udp: true}
+  - {name: ID9电线联通 限速3M, server: 172.66.42.101, port: 443, type: vmess, uuid: 3eadc957-f6d5-3a3b-9289-c985ef4c8322, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: testgroup2.091.se, network: ws, ws-opts: {path: /xxX4, headers: {Host: testgroup2.091.se}}, udp: true}
+  - {name: HN (1), server: 103.180.149.203, port: 80, type: vmess, uuid: 3849e48e-f276-4612-a1b9-6f07d1ab1bad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpngiare.net, headers: {Host: vpngiare.akamaized.net}}, udp: true}
+  - {name: HN (3)( Gaming ), server: 103.180.149.87, port: 80, type: vmess, uuid: 3849e48e-f276-4612-a1b9-6f07d1ab1bad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpngiare.net, headers: {Host: vpngiare.akamaized.net}}, udp: true}
+  - {name: HN (4)(Gaming), server: 103.180.148.54, port: 80, type: vmess, uuid: 3849e48e-f276-4612-a1b9-6f07d1ab1bad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpngiare.net, headers: {Host: vpngiare.akamaized.net}}, udp: true}
+  - {name: SING(2), server: 139.162.32.162, port: 80, type: vmess, uuid: 3849e48e-f276-4612-a1b9-6f07d1ab1bad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpngiare.net, headers: {Host: vpngiare.akamaized.net}}, udp: true}
+  - {name: 8A0【精品】广州-香港HKBN|解锁Netflix、Disney+|V2RAY隧道|, server: data-hk-v2.heisey.cn, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
+  - {name: 8D1【精品】上海-美国|解锁Netflix、Disney+|V2RAY隧道|, server: data-us-v1.shwjfkw.cn, port: 50401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: sports.cntv.cn}}, udp: true}
+  - {name: 8E1【精品】上海-新加坡|V2RAY隧道|, server: data-sg-v1.shwjfkw.cn, port: 50701, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
+  - {name: "[TCP] 香港02", server: hk02.bosaidong.buzz, port: 8080, type: vmess, uuid: aa970ca9-b0b5-486f-a927-1dffab03ebca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[浙停] 香港 02", server: hk02.bosaidong.buzz, port: 443, type: vmess, uuid: aa970ca9-b0b5-486f-a927-1dffab03ebca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /JJkuv3, headers: {Host: a.189.cn}}, udp: true}
+  - {name: 香港杨枝甘露 03-D, server: 104.208.84.160, port: 12369, type: trojan, password: bbb001ed-df3d-4e9b-aae3-d1fc278c20b1, sni: 20-187-95-105.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 香港煎酿三宝 04-D, server: 20.239.179.123, port: 12388, type: trojan, password: bbb001ed-df3d-4e9b-aae3-d1fc278c20b1, sni: 20-187-95-105.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 日本牛肉盖饭 01-D, server: 20.210.95.137, port: 23442, type: trojan, password: bbb001ed-df3d-4e9b-aae3-d1fc278c20b1, sni: 52-192-154-122.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 狮城雪糕饼干 01-D, server: 139.162.45.81, port: 13236, type: trojan, password: bbb001ed-df3d-4e9b-aae3-d1fc278c20b1, sni: 52-192-154-122.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: "[节点如出现断联的情况，将会在24小时内修复]", server: 194.156.231.35, port: 80, type: vmess, uuid: b1135a1d-0586-4c30-b61e-fa7c17d1f439, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "美国 [直连C] 1x 5Gbp/s", server: bai-piao-wang-zhe10.98848.xyz, port: 43184, type: trojan, password: c8bae3de-16ed-4247-8a99-f38ef79a4b51, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: "美国 [直连C] 1x 5Gbp/s 2", server: bai-piao-wang-zhe10.98848.xyz, port: 48240, type: trojan, password: 685022af-2086-454c-8725-8ff6b6ab1d13, skip-cert-verify: true, udp: true}
+  - {name: "美国 [直连C] 1x 5Gbp/s 3", server: bai-piao-wang-zhe10.98848.xyz, port: 22168, type: trojan, password: 685022af-2086-454c-8725-8ff6b6ab1d13, skip-cert-verify: true, udp: true}
+  - {name: "美国 [直连C] 1x 5Gbp/s 4", server: bai-piao-wang-zhe10.98848.xyz, port: 50858, type: trojan, password: 685022af-2086-454c-8725-8ff6b6ab1d13, skip-cert-verify: true, udp: true}
+  - {name: 美国节点更新 bit.ly/36b6iJh 21, server: 51.81.223.29, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国节点更新 bit.ly/36b6iJh 24, server: 51.81.223.6, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国节点更新 bit.ly/36b6iJh 39, server: v04.ssrsub.com, port: 153, type: vmess, uuid: 640e3ef0-9c44-49a8-98f6-0895b11eecd6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: aweikeji-YouTube}}, udp: true}
+  - {name: 美国节点更新 bit.ly/36b6iJh 41, server: v125.v2dns.bar, port: 80, type: vmess, uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v1252N93nZez6Py, headers: {Host: v125.v2dns.bar}}, udp: true}
+  - {name: 美国节点更新 bit.ly/36b6iJh 42, server: v47.v2dns.bar, port: 2052, type: vmess, uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v47-unlimitndxd, headers: {Host: v47.v2dns.bar}}, udp: true}
+  - {name: 美国节点更新 bit.ly/36b6iJh 43, server: vus2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vus2.0bad.com}}, udp: true}
+  - {name: 美国节点更新 bit.ly/36b6iJh 44, server: www.yzzy2022.tk, port: 443, type: vmess, uuid: 4a51db92-fe01-4a5f-aece-f5a332089194, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.yzzy2022.tk}}, udp: true}
+  - {name: 台湾节点更新 bit.ly/36b6iJh 2, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
+  - {name: UN 109, server: v125.v2dns.bar, port: 80, type: vmess, uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v1252N93nZez6Py, headers: {Host: v125.v2dns.bar}}, udp: true}
+  - {name: US 114, server: 51.81.223.10, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US 115, server: 51.81.223.29, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US 125, server: 51.81.223.20, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US 126, server: 51.81.223.20, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US 127, server: 51.81.223.32, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US 138, server: v47.v2dns.bar, port: 2052, type: vmess, uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v47-unlimitndxd, headers: {Host: v47.v2dns.bar}}, udp: true}
+  - {name: US, server: v47.v2dns.bar, port: 2052, type: vmess, uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v47-unlimitndxd, headers: {Host: v47.v2dns.bar}}, udp: true}
+  - {name: 香港咖喱鱼蛋 01-D, server: 20.239.180.220, port: 12377, type: trojan, password: bbb001ed-df3d-4e9b-aae3-d1fc278c20b1, sni: 20-187-95-105.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 香港丝袜奶茶 02-D, server: 20.239.160.239, port: 12339, type: trojan, password: bbb001ed-df3d-4e9b-aae3-d1fc278c20b1, sni: 20-187-95-105.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 香港杨枝甘露 03-D 2, server: 104.208.84.160, port: 12369, type: trojan, password: bbb001ed-df3d-4e9b-aae3-d1fc278c20b1, sni: 20-187-95-105.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 香港煎酿三宝 04-D 2, server: 20.239.179.123, port: 12388, type: trojan, password: bbb001ed-df3d-4e9b-aae3-d1fc278c20b1, sni: 20-187-95-105.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 日本牛肉盖饭 01-D 2, server: 20.210.95.137, port: 23442, type: trojan, password: bbb001ed-df3d-4e9b-aae3-d1fc278c20b1, sni: 52-192-154-122.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 狮城雪糕饼干 01-D 2, server: 139.162.45.81, port: 13236, type: trojan, password: bbb001ed-df3d-4e9b-aae3-d1fc278c20b1, sni: 52-192-154-122.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: us, server: v47.v2dns.bar, port: 2052, type: vmess, uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v47-unlimitndxd, headers: {Host: v47.v2dns.bar}}, udp: true}
+  - {name: JP 003, server: jplin003.xmrth-node.xyz, port: 15901, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: JP 006, server: jpaws006.xmrth-node.xyz, port: 15863, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: JP 103, server: jpaz3.xmrth-node.xyz, port: 15945, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: JP B 003, server: jpaz3.xmrth-node.xyz, port: 15944, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: KR 006, server: kraws006.xmrth-node.xyz, port: 15949, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: KR 007, server: kraws007.xmrth-node.xyz, port: 15659, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: KR A 001, server: hkaz1.xmrth-node.xyz, port: 16072, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: KR A 002, server: hkaz2.xmrth-node.xyz, port: 15655, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: KR A 003, server: hkaz3.xmrth-node.xyz, port: 13738, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: SG 001, server: sgaws001.xmrth-node.xyz, port: 15967, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: SG 002, server: sgaws002.xmrth-node.xyz, port: 15903, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: SG 003, server: sgaws003.xmrth-node.xyz, port: 15645, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: SG 004, server: sgaws004.xmrth-node.xyz, port: 14415, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: SG 005, server: sgaws005.xmrth-node.xyz, port: 16013, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: SG 006, server: sgaws006.xmrth-node.xyz, port: 14510, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: SG 007, server: sgaws007.xmrth-node.xyz, port: 15892, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: SG A 001, server: hkaz1.xmrth-node.xyz, port: 16073, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: SG A 002, server: hkaz2.xmrth-node.xyz, port: 15437, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: SG A 003, server: hkaz3.xmrth-node.xyz, port: 14389, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: SG A 004, server: hkaz4.xmrth-node.xyz, port: 15380, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TW 1, server: tw1.xmrth-node.xyz, port: 15660, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TW 2, server: tw2.xmrth-node.xyz, port: 16018, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TW A 1, server: hkaz1.xmrth-node.xyz, port: 16074, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: TW A 2, server: hkaz2.xmrth-node.xyz, port: 14017, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: UK 001, server: uklin001.xmrth-node.xyz, port: 15856, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: UK 002, server: ukaws002.xmrth-node.xyz, port: 10292, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: US 001, server: inap001.xmrth-node.xyz, port: 15658, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: US 002, server: inap002.xmrth-node.xyz, port: 15667, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: US 003, server: inap003.xmrth-node.xyz, port: 11565, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: US 004, server: inap004.xmrth-node.xyz, port: 15671, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: US 005, server: inap005.xmrth-node.xyz, port: 15555, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: US 006, server: inap006.xmrth-node.xyz, port: 11865, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: US 007, server: inap007.xmrth-node.xyz, port: 15567, type: vmess, uuid: 8bc1b844-0ca5-3eef-b5f6-5730dba67bf9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: 大萝卜鸡🇸🇬狮城10m, server: gy01.20220512.cyou, port: 56655, type: trojan, password: 5d07c2f7-830b-4e29-aeb1-67cd98293ec6, skip-cert-verify: true, udp: true}
+  - {name: 大萝卜鸡🇸🇬狮城10m 2, server: gy02.20220512.cyou, port: 56655, type: trojan, password: 5d07c2f7-830b-4e29-aeb1-67cd98293ec6, skip-cert-verify: true, udp: true}
+  - {name: Alien, server: vuk1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 大萝卜鸡🇯🇵日本10m, server: gy01.20220512.cyou, port: 56655, type: trojan, password: 5d07c2f7-830b-4e29-aeb1-67cd98293ec6, skip-cert-verify: true, udp: true}
+  - {name: hk 2, server: 218.188.148.50, port: 35212, type: vmess, uuid: 3a57b49d-62b9-3e5b-a6ad-d0c462264946, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 韩国订阅速度不快仅防失联, server: v25.heduian.online, port: 51024, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: baidu.com}}, udp: true}
   - {name: A香港节点更新 bit.ly/36b6iJh, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 71421b16-e5ae-36df-8f0c-c9cc90d14fd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: B台湾节点更新 bit.ly/36b6iJh, server: bgpv2.ktyjsq.com, port: 12222, type: vmess, uuid: 71421b16-e5ae-36df-8f0c-c9cc90d14fd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: C美国节点更新 bit.ly/36b6iJh, server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 71421b16-e5ae-36df-8f0c-c9cc90d14fd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: D新加坡节点更新 bit.ly/36b6iJh, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 71421b16-e5ae-36df-8f0c-c9cc90d14fd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: E俄罗斯节点更新 bit.ly/36b6iJh, server: bgpv2.ktyjsq.com, port: 12007, type: vmess, uuid: 71421b16-e5ae-36df-8f0c-c9cc90d14fd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: F日本节点更新 bit.ly/36b6iJh, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 71421b16-e5ae-36df-8f0c-c9cc90d14fd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: G德国节点更新 bit.ly/36b6iJh, server: bgpv2.ktyjsq.com, port: 12228, type: vmess, uuid: 71421b16-e5ae-36df-8f0c-c9cc90d14fd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: H日本节点更新 bit.ly/36b6iJh, server: bgpv2.ktyjsq.com, port: 12205, type: vmess, uuid: 71421b16-e5ae-36df-8f0c-c9cc90d14fd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: I英国节点更新 bit.ly/36b6iJh, server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 71421b16-e5ae-36df-8f0c-c9cc90d14fd9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港特供01, server: lc-hk01-direct01.lc-hk01.lc-node.com, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lc-hk01-direct01.lc-hk01.lc-node.com}}, udp: true}
+  - {name: 香港特供05, server: lc-hk05-direct01.lc-hk05.lc-node.com, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lc-hk05-direct01.lc-hk05.lc-node.com}}, udp: true}
+  - {name: 韩国特供01, server: vu-kr01-direct01.vu-kr01.lc-node.com, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vu-kr01-direct01.vu-kr01.lc-node.com}}, udp: true}
+  - {name: 韩国特供02, server: lc-kr02-direct01.lc-kr02.lc-node.com, port: 443, type: vmess, uuid: ec736482-173e-3eff-9114-b49df8056e7d, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lc-kr02-direct01.lc-kr02.lc-node.com}}, udp: true}
+  - {name: 香港2号节点更新 bit.ly/36b6iJh, server: in-hk-1.iivvppnn.info, port: 38101, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: 香港4号节点更新 bit.ly/36b6iJh, server: ingress-i1.iivvppnn.info, port: 38102, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: 香港7号节点更新 bit.ly/36b6iJh, server: in-hk-1.iivvppnn.info, port: 38104, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: 香港8号节点更新 bit.ly/36b6iJh, server: ingress-i1.iivvppnn.info, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: 台湾3-三网优化-强加密, server: 331tw.fans8.xyz, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
+  - {name: 台湾4-三网优化-强加密, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, servername: 330tw.fans8.xyz, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
+  - {name: Az香港5-clone, server: hk5.ningmengshui.xyz, port: 80, type: vmess, uuid: 1e9f956b-1720-4519-b5c9-333247f6c23f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 香港 [免流] 0.1x
+      - 2022-6-22
+      - "[建议每3天更新一次订阅]"
+      - HN (5)
+      - nf
+      - 新加坡节点更新 bit.ly/36b6iJh
+      - US 7｜o
+      - 游戏节点 | 443 | 广州 | 限速8M
+      - 香港6-三网优化-强加密
+      - 台湾节点更新 bit.ly/36b6iJh
+      - 香港6-三网优化-强加密 2
+      - 美国-节点更新 bit.ly/36b6iJh
+      - 节点更新 bit.ly/36b6iJh_114
       - 日本 [免流] 0.1x
       - 日本 [直连B] 1x
       - 日本 [直连C] 1x
       - 日本 [直连A] 1x-clone
+      - 香港 [免流] 0.1x 节点更新 bit.ly/36b6iJh
+      - 香港 [直连A] 1x
+      - 香港 [直连B] 1x
+      - hk
+      - 香港 [直连D] 1x
+      - 节点更新 bit.ly/36b6iJh
+      - US 68
+      - CN 73
+      - US 74
+      - Az香港
+      - Az香港2
+      - Az香港3
+      - Az香港4
+      - Az香港5
+      - Az香港6
+      - Az香港7
+      - Az香港8
+      - Az香港9
+      - Az香港10
+      - AZ香港11
+      - Az香港12
+      - opc日本1
+      - ID10电线联通 限速3M
+      - ID7电线联通 限速3M
+      - ID8电线联通 限速3M
+      - ID9电线联通 限速3M
+      - HN (1)
+      - HN (3)( Gaming )
+      - HN (4)(Gaming)
+      - SING(2)
+      - 8A0【精品】广州-香港HKBN|解锁Netflix、Disney+|V2RAY隧道|
+      - 8D1【精品】上海-美国|解锁Netflix、Disney+|V2RAY隧道|
+      - 8E1【精品】上海-新加坡|V2RAY隧道|
+      - "[TCP] 香港02"
+      - "[浙停] 香港 02"
+      - 香港杨枝甘露 03-D
+      - 香港煎酿三宝 04-D
+      - 日本牛肉盖饭 01-D
+      - 狮城雪糕饼干 01-D
+      - "[节点如出现断联的情况，将会在24小时内修复]"
+      - 美国 [直连C] 1x 5Gbp/s
+      - 美国 [直连C] 1x 5Gbp/s 2
+      - 美国 [直连C] 1x 5Gbp/s 3
+      - 美国 [直连C] 1x 5Gbp/s 4
+      - 美国节点更新 bit.ly/36b6iJh 21
+      - 美国节点更新 bit.ly/36b6iJh 24
+      - 美国节点更新 bit.ly/36b6iJh 39
+      - 美国节点更新 bit.ly/36b6iJh 41
+      - 美国节点更新 bit.ly/36b6iJh 42
+      - 美国节点更新 bit.ly/36b6iJh 43
+      - 美国节点更新 bit.ly/36b6iJh 44
+      - 台湾节点更新 bit.ly/36b6iJh 2
+      - UN 109
+      - US 114
+      - US 115
+      - US 125
+      - US 126
+      - US 127
+      - US 138
+      - US
+      - 香港咖喱鱼蛋 01-D
+      - 香港丝袜奶茶 02-D
+      - 香港杨枝甘露 03-D 2
+      - 香港煎酿三宝 04-D 2
+      - 日本牛肉盖饭 01-D 2
+      - 狮城雪糕饼干 01-D 2
+      - us
+      - JP 003
+      - JP 006
+      - JP 103
+      - JP B 003
+      - KR 006
+      - KR 007
+      - KR A 001
+      - KR A 002
+      - KR A 003
+      - SG 001
+      - SG 002
+      - SG 003
+      - SG 004
+      - SG 005
+      - SG 006
+      - SG 007
+      - SG A 001
+      - SG A 002
+      - SG A 003
+      - SG A 004
+      - TW 1
+      - TW 2
+      - TW A 1
+      - TW A 2
+      - UK 001
+      - UK 002
+      - US 001
+      - US 002
+      - US 003
+      - US 004
+      - US 005
+      - US 006
+      - US 007
+      - 大萝卜鸡🇸🇬狮城10m
+      - 大萝卜鸡🇸🇬狮城10m 2
+      - Alien
+      - 大萝卜鸡🇯🇵日本10m
+      - hk 2
+      - 韩国订阅速度不快仅防失联
       - A香港节点更新 bit.ly/36b6iJh
       - B台湾节点更新 bit.ly/36b6iJh
+      - C美国节点更新 bit.ly/36b6iJh
       - D新加坡节点更新 bit.ly/36b6iJh
+      - E俄罗斯节点更新 bit.ly/36b6iJh
       - F日本节点更新 bit.ly/36b6iJh
+      - G德国节点更新 bit.ly/36b6iJh
       - H日本节点更新 bit.ly/36b6iJh
       - I英国节点更新 bit.ly/36b6iJh
+      - 香港特供01
+      - 香港特供05
+      - 韩国特供01
+      - 韩国特供02
+      - 香港2号节点更新 bit.ly/36b6iJh
+      - 香港4号节点更新 bit.ly/36b6iJh
+      - 香港7号节点更新 bit.ly/36b6iJh
+      - 香港8号节点更新 bit.ly/36b6iJh
+      - 台湾3-三网优化-强加密
+      - 台湾4-三网优化-强加密
+      - Az香港5-clone
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 香港 [免流] 0.1x
+      - 2022-6-22
+      - "[建议每3天更新一次订阅]"
+      - HN (5)
+      - nf
+      - 新加坡节点更新 bit.ly/36b6iJh
+      - US 7｜o
+      - 游戏节点 | 443 | 广州 | 限速8M
+      - 香港6-三网优化-强加密
+      - 台湾节点更新 bit.ly/36b6iJh
+      - 香港6-三网优化-强加密 2
+      - 美国-节点更新 bit.ly/36b6iJh
+      - 节点更新 bit.ly/36b6iJh_114
       - 日本 [免流] 0.1x
       - 日本 [直连B] 1x
       - 日本 [直连C] 1x
       - 日本 [直连A] 1x-clone
+      - 香港 [免流] 0.1x 节点更新 bit.ly/36b6iJh
+      - 香港 [直连A] 1x
+      - 香港 [直连B] 1x
+      - hk
+      - 香港 [直连D] 1x
+      - 节点更新 bit.ly/36b6iJh
+      - US 68
+      - CN 73
+      - US 74
+      - Az香港
+      - Az香港2
+      - Az香港3
+      - Az香港4
+      - Az香港5
+      - Az香港6
+      - Az香港7
+      - Az香港8
+      - Az香港9
+      - Az香港10
+      - AZ香港11
+      - Az香港12
+      - opc日本1
+      - ID10电线联通 限速3M
+      - ID7电线联通 限速3M
+      - ID8电线联通 限速3M
+      - ID9电线联通 限速3M
+      - HN (1)
+      - HN (3)( Gaming )
+      - HN (4)(Gaming)
+      - SING(2)
+      - 8A0【精品】广州-香港HKBN|解锁Netflix、Disney+|V2RAY隧道|
+      - 8D1【精品】上海-美国|解锁Netflix、Disney+|V2RAY隧道|
+      - 8E1【精品】上海-新加坡|V2RAY隧道|
+      - "[TCP] 香港02"
+      - "[浙停] 香港 02"
+      - 香港杨枝甘露 03-D
+      - 香港煎酿三宝 04-D
+      - 日本牛肉盖饭 01-D
+      - 狮城雪糕饼干 01-D
+      - "[节点如出现断联的情况，将会在24小时内修复]"
+      - 美国 [直连C] 1x 5Gbp/s
+      - 美国 [直连C] 1x 5Gbp/s 2
+      - 美国 [直连C] 1x 5Gbp/s 3
+      - 美国 [直连C] 1x 5Gbp/s 4
+      - 美国节点更新 bit.ly/36b6iJh 21
+      - 美国节点更新 bit.ly/36b6iJh 24
+      - 美国节点更新 bit.ly/36b6iJh 39
+      - 美国节点更新 bit.ly/36b6iJh 41
+      - 美国节点更新 bit.ly/36b6iJh 42
+      - 美国节点更新 bit.ly/36b6iJh 43
+      - 美国节点更新 bit.ly/36b6iJh 44
+      - 台湾节点更新 bit.ly/36b6iJh 2
+      - UN 109
+      - US 114
+      - US 115
+      - US 125
+      - US 126
+      - US 127
+      - US 138
+      - US
+      - 香港咖喱鱼蛋 01-D
+      - 香港丝袜奶茶 02-D
+      - 香港杨枝甘露 03-D 2
+      - 香港煎酿三宝 04-D 2
+      - 日本牛肉盖饭 01-D 2
+      - 狮城雪糕饼干 01-D 2
+      - us
+      - JP 003
+      - JP 006
+      - JP 103
+      - JP B 003
+      - KR 006
+      - KR 007
+      - KR A 001
+      - KR A 002
+      - KR A 003
+      - SG 001
+      - SG 002
+      - SG 003
+      - SG 004
+      - SG 005
+      - SG 006
+      - SG 007
+      - SG A 001
+      - SG A 002
+      - SG A 003
+      - SG A 004
+      - TW 1
+      - TW 2
+      - TW A 1
+      - TW A 2
+      - UK 001
+      - UK 002
+      - US 001
+      - US 002
+      - US 003
+      - US 004
+      - US 005
+      - US 006
+      - US 007
+      - 大萝卜鸡🇸🇬狮城10m
+      - 大萝卜鸡🇸🇬狮城10m 2
+      - Alien
+      - 大萝卜鸡🇯🇵日本10m
+      - hk 2
+      - 韩国订阅速度不快仅防失联
       - A香港节点更新 bit.ly/36b6iJh
       - B台湾节点更新 bit.ly/36b6iJh
+      - C美国节点更新 bit.ly/36b6iJh
       - D新加坡节点更新 bit.ly/36b6iJh
+      - E俄罗斯节点更新 bit.ly/36b6iJh
       - F日本节点更新 bit.ly/36b6iJh
+      - G德国节点更新 bit.ly/36b6iJh
       - H日本节点更新 bit.ly/36b6iJh
       - I英国节点更新 bit.ly/36b6iJh
+      - 香港特供01
+      - 香港特供05
+      - 韩国特供01
+      - 韩国特供02
+      - 香港2号节点更新 bit.ly/36b6iJh
+      - 香港4号节点更新 bit.ly/36b6iJh
+      - 香港7号节点更新 bit.ly/36b6iJh
+      - 香港8号节点更新 bit.ly/36b6iJh
+      - 台湾3-三网优化-强加密
+      - 台湾4-三网优化-强加密
+      - Az香港5-clone
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 香港 [免流] 0.1x
+      - 2022-6-22
+      - "[建议每3天更新一次订阅]"
+      - HN (5)
+      - nf
+      - 新加坡节点更新 bit.ly/36b6iJh
+      - US 7｜o
+      - 游戏节点 | 443 | 广州 | 限速8M
+      - 香港6-三网优化-强加密
+      - 台湾节点更新 bit.ly/36b6iJh
+      - 香港6-三网优化-强加密 2
+      - 美国-节点更新 bit.ly/36b6iJh
+      - 节点更新 bit.ly/36b6iJh_114
       - 日本 [免流] 0.1x
       - 日本 [直连B] 1x
       - 日本 [直连C] 1x
       - 日本 [直连A] 1x-clone
+      - 香港 [免流] 0.1x 节点更新 bit.ly/36b6iJh
+      - 香港 [直连A] 1x
+      - 香港 [直连B] 1x
+      - hk
+      - 香港 [直连D] 1x
+      - 节点更新 bit.ly/36b6iJh
+      - US 68
+      - CN 73
+      - US 74
+      - Az香港
+      - Az香港2
+      - Az香港3
+      - Az香港4
+      - Az香港5
+      - Az香港6
+      - Az香港7
+      - Az香港8
+      - Az香港9
+      - Az香港10
+      - AZ香港11
+      - Az香港12
+      - opc日本1
+      - ID10电线联通 限速3M
+      - ID7电线联通 限速3M
+      - ID8电线联通 限速3M
+      - ID9电线联通 限速3M
+      - HN (1)
+      - HN (3)( Gaming )
+      - HN (4)(Gaming)
+      - SING(2)
+      - 8A0【精品】广州-香港HKBN|解锁Netflix、Disney+|V2RAY隧道|
+      - 8D1【精品】上海-美国|解锁Netflix、Disney+|V2RAY隧道|
+      - 8E1【精品】上海-新加坡|V2RAY隧道|
+      - "[TCP] 香港02"
+      - "[浙停] 香港 02"
+      - 香港杨枝甘露 03-D
+      - 香港煎酿三宝 04-D
+      - 日本牛肉盖饭 01-D
+      - 狮城雪糕饼干 01-D
+      - "[节点如出现断联的情况，将会在24小时内修复]"
+      - 美国 [直连C] 1x 5Gbp/s
+      - 美国 [直连C] 1x 5Gbp/s 2
+      - 美国 [直连C] 1x 5Gbp/s 3
+      - 美国 [直连C] 1x 5Gbp/s 4
+      - 美国节点更新 bit.ly/36b6iJh 21
+      - 美国节点更新 bit.ly/36b6iJh 24
+      - 美国节点更新 bit.ly/36b6iJh 39
+      - 美国节点更新 bit.ly/36b6iJh 41
+      - 美国节点更新 bit.ly/36b6iJh 42
+      - 美国节点更新 bit.ly/36b6iJh 43
+      - 美国节点更新 bit.ly/36b6iJh 44
+      - 台湾节点更新 bit.ly/36b6iJh 2
+      - UN 109
+      - US 114
+      - US 115
+      - US 125
+      - US 126
+      - US 127
+      - US 138
+      - US
+      - 香港咖喱鱼蛋 01-D
+      - 香港丝袜奶茶 02-D
+      - 香港杨枝甘露 03-D 2
+      - 香港煎酿三宝 04-D 2
+      - 日本牛肉盖饭 01-D 2
+      - 狮城雪糕饼干 01-D 2
+      - us
+      - JP 003
+      - JP 006
+      - JP 103
+      - JP B 003
+      - KR 006
+      - KR 007
+      - KR A 001
+      - KR A 002
+      - KR A 003
+      - SG 001
+      - SG 002
+      - SG 003
+      - SG 004
+      - SG 005
+      - SG 006
+      - SG 007
+      - SG A 001
+      - SG A 002
+      - SG A 003
+      - SG A 004
+      - TW 1
+      - TW 2
+      - TW A 1
+      - TW A 2
+      - UK 001
+      - UK 002
+      - US 001
+      - US 002
+      - US 003
+      - US 004
+      - US 005
+      - US 006
+      - US 007
+      - 大萝卜鸡🇸🇬狮城10m
+      - 大萝卜鸡🇸🇬狮城10m 2
+      - Alien
+      - 大萝卜鸡🇯🇵日本10m
+      - hk 2
+      - 韩国订阅速度不快仅防失联
       - A香港节点更新 bit.ly/36b6iJh
       - B台湾节点更新 bit.ly/36b6iJh
+      - C美国节点更新 bit.ly/36b6iJh
       - D新加坡节点更新 bit.ly/36b6iJh
+      - E俄罗斯节点更新 bit.ly/36b6iJh
       - F日本节点更新 bit.ly/36b6iJh
+      - G德国节点更新 bit.ly/36b6iJh
       - H日本节点更新 bit.ly/36b6iJh
       - I英国节点更新 bit.ly/36b6iJh
+      - 香港特供01
+      - 香港特供05
+      - 韩国特供01
+      - 韩国特供02
+      - 香港2号节点更新 bit.ly/36b6iJh
+      - 香港4号节点更新 bit.ly/36b6iJh
+      - 香港7号节点更新 bit.ly/36b6iJh
+      - 香港8号节点更新 bit.ly/36b6iJh
+      - 台湾3-三网优化-强加密
+      - 台湾4-三网优化-强加密
+      - Az香港5-clone
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -80,69 +612,642 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 香港 [免流] 0.1x
+      - 2022-6-22
+      - "[建议每3天更新一次订阅]"
+      - HN (5)
+      - nf
+      - 新加坡节点更新 bit.ly/36b6iJh
+      - US 7｜o
+      - 游戏节点 | 443 | 广州 | 限速8M
+      - 香港6-三网优化-强加密
+      - 台湾节点更新 bit.ly/36b6iJh
+      - 香港6-三网优化-强加密 2
+      - 美国-节点更新 bit.ly/36b6iJh
+      - 节点更新 bit.ly/36b6iJh_114
       - 日本 [免流] 0.1x
       - 日本 [直连B] 1x
       - 日本 [直连C] 1x
       - 日本 [直连A] 1x-clone
+      - 香港 [免流] 0.1x 节点更新 bit.ly/36b6iJh
+      - 香港 [直连A] 1x
+      - 香港 [直连B] 1x
+      - hk
+      - 香港 [直连D] 1x
+      - 节点更新 bit.ly/36b6iJh
+      - US 68
+      - CN 73
+      - US 74
+      - Az香港
+      - Az香港2
+      - Az香港3
+      - Az香港4
+      - Az香港5
+      - Az香港6
+      - Az香港7
+      - Az香港8
+      - Az香港9
+      - Az香港10
+      - AZ香港11
+      - Az香港12
+      - opc日本1
+      - ID10电线联通 限速3M
+      - ID7电线联通 限速3M
+      - ID8电线联通 限速3M
+      - ID9电线联通 限速3M
+      - HN (1)
+      - HN (3)( Gaming )
+      - HN (4)(Gaming)
+      - SING(2)
+      - 8A0【精品】广州-香港HKBN|解锁Netflix、Disney+|V2RAY隧道|
+      - 8D1【精品】上海-美国|解锁Netflix、Disney+|V2RAY隧道|
+      - 8E1【精品】上海-新加坡|V2RAY隧道|
+      - "[TCP] 香港02"
+      - "[浙停] 香港 02"
+      - 香港杨枝甘露 03-D
+      - 香港煎酿三宝 04-D
+      - 日本牛肉盖饭 01-D
+      - 狮城雪糕饼干 01-D
+      - "[节点如出现断联的情况，将会在24小时内修复]"
+      - 美国 [直连C] 1x 5Gbp/s
+      - 美国 [直连C] 1x 5Gbp/s 2
+      - 美国 [直连C] 1x 5Gbp/s 3
+      - 美国 [直连C] 1x 5Gbp/s 4
+      - 美国节点更新 bit.ly/36b6iJh 21
+      - 美国节点更新 bit.ly/36b6iJh 24
+      - 美国节点更新 bit.ly/36b6iJh 39
+      - 美国节点更新 bit.ly/36b6iJh 41
+      - 美国节点更新 bit.ly/36b6iJh 42
+      - 美国节点更新 bit.ly/36b6iJh 43
+      - 美国节点更新 bit.ly/36b6iJh 44
+      - 台湾节点更新 bit.ly/36b6iJh 2
+      - UN 109
+      - US 114
+      - US 115
+      - US 125
+      - US 126
+      - US 127
+      - US 138
+      - US
+      - 香港咖喱鱼蛋 01-D
+      - 香港丝袜奶茶 02-D
+      - 香港杨枝甘露 03-D 2
+      - 香港煎酿三宝 04-D 2
+      - 日本牛肉盖饭 01-D 2
+      - 狮城雪糕饼干 01-D 2
+      - us
+      - JP 003
+      - JP 006
+      - JP 103
+      - JP B 003
+      - KR 006
+      - KR 007
+      - KR A 001
+      - KR A 002
+      - KR A 003
+      - SG 001
+      - SG 002
+      - SG 003
+      - SG 004
+      - SG 005
+      - SG 006
+      - SG 007
+      - SG A 001
+      - SG A 002
+      - SG A 003
+      - SG A 004
+      - TW 1
+      - TW 2
+      - TW A 1
+      - TW A 2
+      - UK 001
+      - UK 002
+      - US 001
+      - US 002
+      - US 003
+      - US 004
+      - US 005
+      - US 006
+      - US 007
+      - 大萝卜鸡🇸🇬狮城10m
+      - 大萝卜鸡🇸🇬狮城10m 2
+      - Alien
+      - 大萝卜鸡🇯🇵日本10m
+      - hk 2
+      - 韩国订阅速度不快仅防失联
       - A香港节点更新 bit.ly/36b6iJh
       - B台湾节点更新 bit.ly/36b6iJh
+      - C美国节点更新 bit.ly/36b6iJh
       - D新加坡节点更新 bit.ly/36b6iJh
+      - E俄罗斯节点更新 bit.ly/36b6iJh
       - F日本节点更新 bit.ly/36b6iJh
+      - G德国节点更新 bit.ly/36b6iJh
       - H日本节点更新 bit.ly/36b6iJh
       - I英国节点更新 bit.ly/36b6iJh
+      - 香港特供01
+      - 香港特供05
+      - 韩国特供01
+      - 韩国特供02
+      - 香港2号节点更新 bit.ly/36b6iJh
+      - 香港4号节点更新 bit.ly/36b6iJh
+      - 香港7号节点更新 bit.ly/36b6iJh
+      - 香港8号节点更新 bit.ly/36b6iJh
+      - 台湾3-三网优化-强加密
+      - 台湾4-三网优化-强加密
+      - Az香港5-clone
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港 [免流] 0.1x
+      - 香港6-三网优化-强加密
+      - 台湾节点更新 bit.ly/36b6iJh
+      - 香港6-三网优化-强加密 2
+      - 香港 [免流] 0.1x 节点更新 bit.ly/36b6iJh
+      - 香港 [直连A] 1x
+      - 香港 [直连B] 1x
+      - hk
+      - 香港 [直连D] 1x
+      - Az香港
+      - Az香港2
+      - Az香港3
+      - Az香港4
+      - Az香港5
+      - Az香港6
+      - Az香港7
+      - Az香港8
+      - Az香港9
+      - Az香港10
+      - AZ香港11
+      - Az香港12
+      - 8A0【精品】广州-香港HKBN|解锁Netflix、Disney+|V2RAY隧道|
+      - "[TCP] 香港02"
+      - "[浙停] 香港 02"
+      - 香港杨枝甘露 03-D
+      - 香港煎酿三宝 04-D
+      - 台湾节点更新 bit.ly/36b6iJh 2
+      - 香港咖喱鱼蛋 01-D
+      - 香港丝袜奶茶 02-D
+      - 香港杨枝甘露 03-D 2
+      - 香港煎酿三宝 04-D 2
+      - hk 2
       - A香港节点更新 bit.ly/36b6iJh
       - B台湾节点更新 bit.ly/36b6iJh
+      - 香港特供01
+      - 香港特供05
+      - 香港2号节点更新 bit.ly/36b6iJh
+      - 香港4号节点更新 bit.ly/36b6iJh
+      - 香港7号节点更新 bit.ly/36b6iJh
+      - 香港8号节点更新 bit.ly/36b6iJh
+      - 台湾3-三网优化-强加密
+      - 台湾4-三网优化-强加密
+      - Az香港5-clone
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 香港 [免流] 0.1x
+      - 2022-6-22
+      - "[建议每3天更新一次订阅]"
+      - HN (5)
+      - nf
+      - 新加坡节点更新 bit.ly/36b6iJh
+      - US 7｜o
+      - 游戏节点 | 443 | 广州 | 限速8M
+      - 香港6-三网优化-强加密
+      - 台湾节点更新 bit.ly/36b6iJh
+      - 香港6-三网优化-强加密 2
+      - 美国-节点更新 bit.ly/36b6iJh
+      - 节点更新 bit.ly/36b6iJh_114
       - 日本 [免流] 0.1x
       - 日本 [直连B] 1x
       - 日本 [直连C] 1x
       - 日本 [直连A] 1x-clone
+      - 香港 [免流] 0.1x 节点更新 bit.ly/36b6iJh
+      - 香港 [直连A] 1x
+      - 香港 [直连B] 1x
+      - hk
+      - 香港 [直连D] 1x
+      - 节点更新 bit.ly/36b6iJh
+      - US 68
+      - CN 73
+      - US 74
+      - Az香港
+      - Az香港2
+      - Az香港3
+      - Az香港4
+      - Az香港5
+      - Az香港6
+      - Az香港7
+      - Az香港8
+      - Az香港9
+      - Az香港10
+      - AZ香港11
+      - Az香港12
+      - opc日本1
+      - ID10电线联通 限速3M
+      - ID7电线联通 限速3M
+      - ID8电线联通 限速3M
+      - ID9电线联通 限速3M
+      - HN (1)
+      - HN (3)( Gaming )
+      - HN (4)(Gaming)
+      - SING(2)
+      - 8A0【精品】广州-香港HKBN|解锁Netflix、Disney+|V2RAY隧道|
+      - 8D1【精品】上海-美国|解锁Netflix、Disney+|V2RAY隧道|
+      - 8E1【精品】上海-新加坡|V2RAY隧道|
+      - "[TCP] 香港02"
+      - "[浙停] 香港 02"
+      - 香港杨枝甘露 03-D
+      - 香港煎酿三宝 04-D
+      - 日本牛肉盖饭 01-D
+      - 狮城雪糕饼干 01-D
+      - "[节点如出现断联的情况，将会在24小时内修复]"
+      - 美国 [直连C] 1x 5Gbp/s
+      - 美国 [直连C] 1x 5Gbp/s 2
+      - 美国 [直连C] 1x 5Gbp/s 3
+      - 美国 [直连C] 1x 5Gbp/s 4
+      - 美国节点更新 bit.ly/36b6iJh 21
+      - 美国节点更新 bit.ly/36b6iJh 24
+      - 美国节点更新 bit.ly/36b6iJh 39
+      - 美国节点更新 bit.ly/36b6iJh 41
+      - 美国节点更新 bit.ly/36b6iJh 42
+      - 美国节点更新 bit.ly/36b6iJh 43
+      - 美国节点更新 bit.ly/36b6iJh 44
+      - 台湾节点更新 bit.ly/36b6iJh 2
+      - UN 109
+      - US 114
+      - US 115
+      - US 125
+      - US 126
+      - US 127
+      - US 138
+      - US
+      - 香港咖喱鱼蛋 01-D
+      - 香港丝袜奶茶 02-D
+      - 香港杨枝甘露 03-D 2
+      - 香港煎酿三宝 04-D 2
+      - 日本牛肉盖饭 01-D 2
+      - 狮城雪糕饼干 01-D 2
+      - us
+      - JP 003
+      - JP 006
+      - JP 103
+      - JP B 003
+      - KR 006
+      - KR 007
+      - KR A 001
+      - KR A 002
+      - KR A 003
+      - SG 001
+      - SG 002
+      - SG 003
+      - SG 004
+      - SG 005
+      - SG 006
+      - SG 007
+      - SG A 001
+      - SG A 002
+      - SG A 003
+      - SG A 004
+      - TW 1
+      - TW 2
+      - TW A 1
+      - TW A 2
+      - UK 001
+      - UK 002
+      - US 001
+      - US 002
+      - US 003
+      - US 004
+      - US 005
+      - US 006
+      - US 007
+      - 大萝卜鸡🇸🇬狮城10m
+      - 大萝卜鸡🇸🇬狮城10m 2
+      - Alien
+      - 大萝卜鸡🇯🇵日本10m
+      - hk 2
+      - 韩国订阅速度不快仅防失联
       - A香港节点更新 bit.ly/36b6iJh
       - B台湾节点更新 bit.ly/36b6iJh
+      - C美国节点更新 bit.ly/36b6iJh
       - D新加坡节点更新 bit.ly/36b6iJh
+      - E俄罗斯节点更新 bit.ly/36b6iJh
       - F日本节点更新 bit.ly/36b6iJh
+      - G德国节点更新 bit.ly/36b6iJh
       - H日本节点更新 bit.ly/36b6iJh
       - I英国节点更新 bit.ly/36b6iJh
+      - 香港特供01
+      - 香港特供05
+      - 韩国特供01
+      - 韩国特供02
+      - 香港2号节点更新 bit.ly/36b6iJh
+      - 香港4号节点更新 bit.ly/36b6iJh
+      - 香港7号节点更新 bit.ly/36b6iJh
+      - 香港8号节点更新 bit.ly/36b6iJh
+      - 台湾3-三网优化-强加密
+      - 台湾4-三网优化-强加密
+      - Az香港5-clone
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 香港 [免流] 0.1x
+      - 2022-6-22
+      - "[建议每3天更新一次订阅]"
+      - HN (5)
+      - nf
+      - 新加坡节点更新 bit.ly/36b6iJh
+      - US 7｜o
+      - 游戏节点 | 443 | 广州 | 限速8M
+      - 香港6-三网优化-强加密
+      - 台湾节点更新 bit.ly/36b6iJh
+      - 香港6-三网优化-强加密 2
+      - 美国-节点更新 bit.ly/36b6iJh
+      - 节点更新 bit.ly/36b6iJh_114
       - 日本 [免流] 0.1x
       - 日本 [直连B] 1x
       - 日本 [直连C] 1x
       - 日本 [直连A] 1x-clone
+      - 香港 [免流] 0.1x 节点更新 bit.ly/36b6iJh
+      - 香港 [直连A] 1x
+      - 香港 [直连B] 1x
+      - hk
+      - 香港 [直连D] 1x
+      - 节点更新 bit.ly/36b6iJh
+      - US 68
+      - CN 73
+      - US 74
+      - Az香港
+      - Az香港2
+      - Az香港3
+      - Az香港4
+      - Az香港5
+      - Az香港6
+      - Az香港7
+      - Az香港8
+      - Az香港9
+      - Az香港10
+      - AZ香港11
+      - Az香港12
+      - opc日本1
+      - ID10电线联通 限速3M
+      - ID7电线联通 限速3M
+      - ID8电线联通 限速3M
+      - ID9电线联通 限速3M
+      - HN (1)
+      - HN (3)( Gaming )
+      - HN (4)(Gaming)
+      - SING(2)
+      - 8A0【精品】广州-香港HKBN|解锁Netflix、Disney+|V2RAY隧道|
+      - 8D1【精品】上海-美国|解锁Netflix、Disney+|V2RAY隧道|
+      - 8E1【精品】上海-新加坡|V2RAY隧道|
+      - "[TCP] 香港02"
+      - "[浙停] 香港 02"
+      - 香港杨枝甘露 03-D
+      - 香港煎酿三宝 04-D
+      - 日本牛肉盖饭 01-D
+      - 狮城雪糕饼干 01-D
+      - "[节点如出现断联的情况，将会在24小时内修复]"
+      - 美国 [直连C] 1x 5Gbp/s
+      - 美国 [直连C] 1x 5Gbp/s 2
+      - 美国 [直连C] 1x 5Gbp/s 3
+      - 美国 [直连C] 1x 5Gbp/s 4
+      - 美国节点更新 bit.ly/36b6iJh 21
+      - 美国节点更新 bit.ly/36b6iJh 24
+      - 美国节点更新 bit.ly/36b6iJh 39
+      - 美国节点更新 bit.ly/36b6iJh 41
+      - 美国节点更新 bit.ly/36b6iJh 42
+      - 美国节点更新 bit.ly/36b6iJh 43
+      - 美国节点更新 bit.ly/36b6iJh 44
+      - 台湾节点更新 bit.ly/36b6iJh 2
+      - UN 109
+      - US 114
+      - US 115
+      - US 125
+      - US 126
+      - US 127
+      - US 138
+      - US
+      - 香港咖喱鱼蛋 01-D
+      - 香港丝袜奶茶 02-D
+      - 香港杨枝甘露 03-D 2
+      - 香港煎酿三宝 04-D 2
+      - 日本牛肉盖饭 01-D 2
+      - 狮城雪糕饼干 01-D 2
+      - us
+      - JP 003
+      - JP 006
+      - JP 103
+      - JP B 003
+      - KR 006
+      - KR 007
+      - KR A 001
+      - KR A 002
+      - KR A 003
+      - SG 001
+      - SG 002
+      - SG 003
+      - SG 004
+      - SG 005
+      - SG 006
+      - SG 007
+      - SG A 001
+      - SG A 002
+      - SG A 003
+      - SG A 004
+      - TW 1
+      - TW 2
+      - TW A 1
+      - TW A 2
+      - UK 001
+      - UK 002
+      - US 001
+      - US 002
+      - US 003
+      - US 004
+      - US 005
+      - US 006
+      - US 007
+      - 大萝卜鸡🇸🇬狮城10m
+      - 大萝卜鸡🇸🇬狮城10m 2
+      - Alien
+      - 大萝卜鸡🇯🇵日本10m
+      - hk 2
+      - 韩国订阅速度不快仅防失联
       - A香港节点更新 bit.ly/36b6iJh
       - B台湾节点更新 bit.ly/36b6iJh
+      - C美国节点更新 bit.ly/36b6iJh
       - D新加坡节点更新 bit.ly/36b6iJh
+      - E俄罗斯节点更新 bit.ly/36b6iJh
       - F日本节点更新 bit.ly/36b6iJh
+      - G德国节点更新 bit.ly/36b6iJh
       - H日本节点更新 bit.ly/36b6iJh
       - I英国节点更新 bit.ly/36b6iJh
+      - 香港特供01
+      - 香港特供05
+      - 韩国特供01
+      - 韩国特供02
+      - 香港2号节点更新 bit.ly/36b6iJh
+      - 香港4号节点更新 bit.ly/36b6iJh
+      - 香港7号节点更新 bit.ly/36b6iJh
+      - 香港8号节点更新 bit.ly/36b6iJh
+      - 台湾3-三网优化-强加密
+      - 台湾4-三网优化-强加密
+      - Az香港5-clone
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 香港 [免流] 0.1x
+      - 2022-6-22
+      - "[建议每3天更新一次订阅]"
+      - HN (5)
+      - nf
+      - 新加坡节点更新 bit.ly/36b6iJh
+      - US 7｜o
+      - 游戏节点 | 443 | 广州 | 限速8M
+      - 香港6-三网优化-强加密
+      - 台湾节点更新 bit.ly/36b6iJh
+      - 香港6-三网优化-强加密 2
+      - 美国-节点更新 bit.ly/36b6iJh
+      - 节点更新 bit.ly/36b6iJh_114
       - 日本 [免流] 0.1x
       - 日本 [直连B] 1x
       - 日本 [直连C] 1x
       - 日本 [直连A] 1x-clone
+      - 香港 [免流] 0.1x 节点更新 bit.ly/36b6iJh
+      - 香港 [直连A] 1x
+      - 香港 [直连B] 1x
+      - hk
+      - 香港 [直连D] 1x
+      - 节点更新 bit.ly/36b6iJh
+      - US 68
+      - CN 73
+      - US 74
+      - Az香港
+      - Az香港2
+      - Az香港3
+      - Az香港4
+      - Az香港5
+      - Az香港6
+      - Az香港7
+      - Az香港8
+      - Az香港9
+      - Az香港10
+      - AZ香港11
+      - Az香港12
+      - opc日本1
+      - ID10电线联通 限速3M
+      - ID7电线联通 限速3M
+      - ID8电线联通 限速3M
+      - ID9电线联通 限速3M
+      - HN (1)
+      - HN (3)( Gaming )
+      - HN (4)(Gaming)
+      - SING(2)
+      - 8A0【精品】广州-香港HKBN|解锁Netflix、Disney+|V2RAY隧道|
+      - 8D1【精品】上海-美国|解锁Netflix、Disney+|V2RAY隧道|
+      - 8E1【精品】上海-新加坡|V2RAY隧道|
+      - "[TCP] 香港02"
+      - "[浙停] 香港 02"
+      - 香港杨枝甘露 03-D
+      - 香港煎酿三宝 04-D
+      - 日本牛肉盖饭 01-D
+      - 狮城雪糕饼干 01-D
+      - "[节点如出现断联的情况，将会在24小时内修复]"
+      - 美国 [直连C] 1x 5Gbp/s
+      - 美国 [直连C] 1x 5Gbp/s 2
+      - 美国 [直连C] 1x 5Gbp/s 3
+      - 美国 [直连C] 1x 5Gbp/s 4
+      - 美国节点更新 bit.ly/36b6iJh 21
+      - 美国节点更新 bit.ly/36b6iJh 24
+      - 美国节点更新 bit.ly/36b6iJh 39
+      - 美国节点更新 bit.ly/36b6iJh 41
+      - 美国节点更新 bit.ly/36b6iJh 42
+      - 美国节点更新 bit.ly/36b6iJh 43
+      - 美国节点更新 bit.ly/36b6iJh 44
+      - 台湾节点更新 bit.ly/36b6iJh 2
+      - UN 109
+      - US 114
+      - US 115
+      - US 125
+      - US 126
+      - US 127
+      - US 138
+      - US
+      - 香港咖喱鱼蛋 01-D
+      - 香港丝袜奶茶 02-D
+      - 香港杨枝甘露 03-D 2
+      - 香港煎酿三宝 04-D 2
+      - 日本牛肉盖饭 01-D 2
+      - 狮城雪糕饼干 01-D 2
+      - us
+      - JP 003
+      - JP 006
+      - JP 103
+      - JP B 003
+      - KR 006
+      - KR 007
+      - KR A 001
+      - KR A 002
+      - KR A 003
+      - SG 001
+      - SG 002
+      - SG 003
+      - SG 004
+      - SG 005
+      - SG 006
+      - SG 007
+      - SG A 001
+      - SG A 002
+      - SG A 003
+      - SG A 004
+      - TW 1
+      - TW 2
+      - TW A 1
+      - TW A 2
+      - UK 001
+      - UK 002
+      - US 001
+      - US 002
+      - US 003
+      - US 004
+      - US 005
+      - US 006
+      - US 007
+      - 大萝卜鸡🇸🇬狮城10m
+      - 大萝卜鸡🇸🇬狮城10m 2
+      - Alien
+      - 大萝卜鸡🇯🇵日本10m
+      - hk 2
+      - 韩国订阅速度不快仅防失联
       - A香港节点更新 bit.ly/36b6iJh
       - B台湾节点更新 bit.ly/36b6iJh
+      - C美国节点更新 bit.ly/36b6iJh
       - D新加坡节点更新 bit.ly/36b6iJh
+      - E俄罗斯节点更新 bit.ly/36b6iJh
       - F日本节点更新 bit.ly/36b6iJh
+      - G德国节点更新 bit.ly/36b6iJh
       - H日本节点更新 bit.ly/36b6iJh
       - I英国节点更新 bit.ly/36b6iJh
+      - 香港特供01
+      - 香港特供05
+      - 韩国特供01
+      - 韩国特供02
+      - 香港2号节点更新 bit.ly/36b6iJh
+      - 香港4号节点更新 bit.ly/36b6iJh
+      - 香港7号节点更新 bit.ly/36b6iJh
+      - 香港8号节点更新 bit.ly/36b6iJh
+      - 台湾3-三网优化-强加密
+      - 台湾4-三网优化-强加密
+      - Az香港5-clone
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -158,16 +1263,149 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 香港 [免流] 0.1x
+      - 2022-6-22
+      - "[建议每3天更新一次订阅]"
+      - HN (5)
+      - nf
+      - 新加坡节点更新 bit.ly/36b6iJh
+      - US 7｜o
+      - 游戏节点 | 443 | 广州 | 限速8M
+      - 香港6-三网优化-强加密
+      - 台湾节点更新 bit.ly/36b6iJh
+      - 香港6-三网优化-强加密 2
+      - 美国-节点更新 bit.ly/36b6iJh
+      - 节点更新 bit.ly/36b6iJh_114
       - 日本 [免流] 0.1x
       - 日本 [直连B] 1x
       - 日本 [直连C] 1x
       - 日本 [直连A] 1x-clone
+      - 香港 [免流] 0.1x 节点更新 bit.ly/36b6iJh
+      - 香港 [直连A] 1x
+      - 香港 [直连B] 1x
+      - hk
+      - 香港 [直连D] 1x
+      - 节点更新 bit.ly/36b6iJh
+      - US 68
+      - CN 73
+      - US 74
+      - Az香港
+      - Az香港2
+      - Az香港3
+      - Az香港4
+      - Az香港5
+      - Az香港6
+      - Az香港7
+      - Az香港8
+      - Az香港9
+      - Az香港10
+      - AZ香港11
+      - Az香港12
+      - opc日本1
+      - ID10电线联通 限速3M
+      - ID7电线联通 限速3M
+      - ID8电线联通 限速3M
+      - ID9电线联通 限速3M
+      - HN (1)
+      - HN (3)( Gaming )
+      - HN (4)(Gaming)
+      - SING(2)
+      - 8A0【精品】广州-香港HKBN|解锁Netflix、Disney+|V2RAY隧道|
+      - 8D1【精品】上海-美国|解锁Netflix、Disney+|V2RAY隧道|
+      - 8E1【精品】上海-新加坡|V2RAY隧道|
+      - "[TCP] 香港02"
+      - "[浙停] 香港 02"
+      - 香港杨枝甘露 03-D
+      - 香港煎酿三宝 04-D
+      - 日本牛肉盖饭 01-D
+      - 狮城雪糕饼干 01-D
+      - "[节点如出现断联的情况，将会在24小时内修复]"
+      - 美国 [直连C] 1x 5Gbp/s
+      - 美国 [直连C] 1x 5Gbp/s 2
+      - 美国 [直连C] 1x 5Gbp/s 3
+      - 美国 [直连C] 1x 5Gbp/s 4
+      - 美国节点更新 bit.ly/36b6iJh 21
+      - 美国节点更新 bit.ly/36b6iJh 24
+      - 美国节点更新 bit.ly/36b6iJh 39
+      - 美国节点更新 bit.ly/36b6iJh 41
+      - 美国节点更新 bit.ly/36b6iJh 42
+      - 美国节点更新 bit.ly/36b6iJh 43
+      - 美国节点更新 bit.ly/36b6iJh 44
+      - 台湾节点更新 bit.ly/36b6iJh 2
+      - UN 109
+      - US 114
+      - US 115
+      - US 125
+      - US 126
+      - US 127
+      - US 138
+      - US
+      - 香港咖喱鱼蛋 01-D
+      - 香港丝袜奶茶 02-D
+      - 香港杨枝甘露 03-D 2
+      - 香港煎酿三宝 04-D 2
+      - 日本牛肉盖饭 01-D 2
+      - 狮城雪糕饼干 01-D 2
+      - us
+      - JP 003
+      - JP 006
+      - JP 103
+      - JP B 003
+      - KR 006
+      - KR 007
+      - KR A 001
+      - KR A 002
+      - KR A 003
+      - SG 001
+      - SG 002
+      - SG 003
+      - SG 004
+      - SG 005
+      - SG 006
+      - SG 007
+      - SG A 001
+      - SG A 002
+      - SG A 003
+      - SG A 004
+      - TW 1
+      - TW 2
+      - TW A 1
+      - TW A 2
+      - UK 001
+      - UK 002
+      - US 001
+      - US 002
+      - US 003
+      - US 004
+      - US 005
+      - US 006
+      - US 007
+      - 大萝卜鸡🇸🇬狮城10m
+      - 大萝卜鸡🇸🇬狮城10m 2
+      - Alien
+      - 大萝卜鸡🇯🇵日本10m
+      - hk 2
+      - 韩国订阅速度不快仅防失联
       - A香港节点更新 bit.ly/36b6iJh
       - B台湾节点更新 bit.ly/36b6iJh
+      - C美国节点更新 bit.ly/36b6iJh
       - D新加坡节点更新 bit.ly/36b6iJh
+      - E俄罗斯节点更新 bit.ly/36b6iJh
       - F日本节点更新 bit.ly/36b6iJh
+      - G德国节点更新 bit.ly/36b6iJh
       - H日本节点更新 bit.ly/36b6iJh
       - I英国节点更新 bit.ly/36b6iJh
+      - 香港特供01
+      - 香港特供05
+      - 韩国特供01
+      - 韩国特供02
+      - 香港2号节点更新 bit.ly/36b6iJh
+      - 香港4号节点更新 bit.ly/36b6iJh
+      - 香港7号节点更新 bit.ly/36b6iJh
+      - 香港8号节点更新 bit.ly/36b6iJh
+      - 台湾3-三网优化-强加密
+      - 台湾4-三网优化-强加密
+      - Az香港5-clone
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
