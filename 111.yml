@@ -5,475 +5,427 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "[节点如出现断联的情况，将会在24小时内修复]", server: 194.156.231.35, port: 80, type: vmess, uuid: b1135a1d-0586-4c30-b61e-fa7c17d1f439, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: 2022-7-1 更新, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxusa.fovi.tk}}, udp: true}
+  - {name: 2022-7-7, server: 103.90.220.27, port: 80, type: vmess, uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: us255 节点更新 bit.ly/36b6iJh, server: youtube-bai-piao-wang-zhe.98848.xyz, port: 11610, type: trojan, password: 6d2b7ae6-7b67-4116-b6ae-3069c54d2042, skip-cert-verify: true, udp: true}
   - {name: nf, server: sxdx-nf.jiashumao.net, port: 35401, type: trojan, password: 2b3d1fe4-b0b2-34f8-a791-fdcfc9d68bfb, sni: nf.jiashumao.net, skip-cert-verify: true, udp: true}
   - {name: ID10电线联通 限速3M, server: 172.64.93.136, port: 443, type: vmess, uuid: 3eadc957-f6d5-3a3b-9289-c985ef4c8322, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: testgroup2.091.se, network: ws, ws-opts: {path: /xxX5, headers: {Host: testgroup2.091.se}}, udp: true}
   - {name: ID7电线联通 限速3M, server: 172.64.147.71, port: 443, type: vmess, uuid: 3eadc957-f6d5-3a3b-9289-c985ef4c8322, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: testgroup2.091.se, network: ws, ws-opts: {path: /xxX2, headers: {Host: testgroup2.091.se}}, udp: true}
   - {name: ID8电线联通 限速3M, server: 172.64.84.233, port: 443, type: vmess, uuid: 3eadc957-f6d5-3a3b-9289-c985ef4c8322, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: testgroup2.091.se, network: ws, ws-opts: {path: /xxX3, headers: {Host: testgroup2.091.se}}, udp: true}
   - {name: ID9电线联通 限速3M, server: 172.66.42.101, port: 443, type: vmess, uuid: 3eadc957-f6d5-3a3b-9289-c985ef4c8322, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: testgroup2.091.se, network: ws, ws-opts: {path: /xxX4, headers: {Host: testgroup2.091.se}}, udp: true}
-  - {name: usyy.884899.cf_vmess_ws, server: www.digitalocean.com, port: 443, type: vmess, uuid: 2debb06b-95ce-4e9b-956a-6cf7cadac30c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: usyy.884899.cf, network: ws, ws-opts: {path: /bai-piao-wang-zhe-iplc16vws, headers: {Host: usyy.884899.cf}}, udp: true}
-  - {name: usyy.884899.cf_trojan_tcp_Trojan, server: usyy.884899.cf, port: 443, type: trojan, password: 2debb06b-95ce-4e9b-956a-6cf7cadac30c, sni: usyy.884899.cf, skip-cert-verify: true, udp: true}
-  - {name: usyy.884899.cf_trojan_gRPC, server: www.digitalocean.com, port: 443, type: trojan, password: 2debb06b-95ce-4e9b-956a-6cf7cadac30c, sni: usyy.884899.cf, skip-cert-verify: true, udp: true}
-  - {name: us 节点更新 bit.ly/36b6iJh, server: bai-piao-wang-zhe-iplc12.98848.xyz, port: 443, type: trojan, password: 2debb06b-95ce-4e9b-956a-6cf7cadac30c, sni: usyy.884899.cf, skip-cert-verify: true, udp: true}
-  - {name: usyy.884899.cf_vmess_ws-clone, server: usyy.884899.cf, port: 443, type: vmess, uuid: 2debb06b-95ce-4e9b-956a-6cf7cadac30c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: usyy.884899.cf, network: ws, ws-opts: {path: /bai-piao-wang-zhe-iplc16vws, headers: {Host: usyy.884899.cf}}, udp: true}
-  - {name: 4K, server: 172.67.206.66, port: 443, type: trojan, password: 2debb06b-95ce-4e9b-956a-6cf7cadac30c, sni: usyy.884899.cf, skip-cert-verify: true, udp: true}
-  - {name: us141 youtube-bai-piao-wang-zhe.98848.xyz, server: youtube-bai-piao-wang-zhe.98848.xyz, port: 29969, type: trojan, password: 2a34bf1a-083d-4192-b18c-b961e0e00591, skip-cert-verify: true, udp: true}
-  - {name: us141, server: youtube-bai-piao-wang-zhe.98848.xyz, port: 16900, type: vmess, uuid: 95fba13d-e238-43dd-8220-fbe4f22a31c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: youtube-bai-piao-wang-zhe.98848.xyz, udp: true}
-  - {name: us141 节点更新 bit.ly/36b6iJh, server: youtube-bai-piao-wang-zhe.98848.xyz, port: 57052, type: trojan, password: fa41b696-ba0d-49aa-dbf7-75d083855e83, skip-cert-verify: true, udp: true}
-  - {name: us 141, server: youtube-bai-piao-wang-zhe.98848.xyz, port: 46587, type: trojan, password: tHvXJIZjEn, sni: youtube-bai-piao-wang-zhe.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国节点更新 bit.ly/36b6iJh, server: cindy.marythunt.xyz, port: 443, type: trojan, password: !<str> 372815193, sni: cindy.marythunt.xyz, skip-cert-verify: true, udp: true}
-  - {name: 新加坡节点更新 bit.ly/36b6iJh, server: 129.150.44.76, port: 10021, type: vmess, uuid: eea7cf07-3334-4414-b931-245e7316fac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 香港节点更新 bit.ly/36b6iJh, server: 149.129.67.27, port: 16563, type: vmess, uuid: 9d1a4c9b-627e-43a9-e578-e8ea2aee3857, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 香港节点更新 bit.ly/36b6iJh 2, server: clown1i.eu.org, port: 10000, type: vmess, uuid: c1386045-96a0-4363-e13a-00e4dca099ac, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 法国节点更新 bit.ly/36b6iJh, server: 51.38.118.42, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
-  - {name: 香港丝袜奶茶 02-D, server: 20.24.205.18, port: 12339, type: trojan, password: 9a14a33b-69fa-4116-89dc-6b4853e92832, sni: 20-187-95-105.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 香港杨枝甘露 03-D, server: 104.208.84.160, port: 12369, type: trojan, password: 9a14a33b-69fa-4116-89dc-6b4853e92832, sni: 20-187-95-105.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 香港煎酿三宝 04-D, server: 20.239.179.123, port: 12388, type: trojan, password: 9a14a33b-69fa-4116-89dc-6b4853e92832, sni: 20-187-95-105.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: "香港 [直连A] 1x", server: bai-piao-wang-zhe.hk.884899.cf, port: 20941, type: vmess, uuid: b1135a1d-0586-4c30-b61e-fa7c17d1f439, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "香港 [直连B] 1x", server: bai-piao-wang-zhe.hk.884899.cf, port: 20942, type: vmess, uuid: b1135a1d-0586-4c30-b61e-fa7c17d1f439, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "香港 [直连C] 1x", server: bai-piao-wang-zhe.hk.884899.cf, port: 20943, type: vmess, uuid: b1135a1d-0586-4c30-b61e-fa7c17d1f439, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "香港 [直连D] 1x", server: bai-piao-wang-zhe.hk.884899.cf, port: 20944, type: vmess, uuid: b1135a1d-0586-4c30-b61e-fa7c17d1f439, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "日本 [免流] 0.1x", server: bai-piao-wang-zhe.jp.884899.cf, port: 80, type: vmess, uuid: b1135a1d-0586-4c30-b61e-fa7c17d1f439, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "日本 [直连A] 1x", server: bai-piao-wang-zhe.jp.884899.cf, port: 39812, type: vmess, uuid: b1135a1d-0586-4c30-b61e-fa7c17d1f439, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "日本 [直连B] 1x", server: bai-piao-wang-zhe.jp.884899.cf, port: 39815, type: vmess, uuid: b1135a1d-0586-4c30-b61e-fa7c17d1f439, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "日本 [直连C] 1x", server: bai-piao-wang-zhe.jp.884899.cf, port: 39813, type: vmess, uuid: b1135a1d-0586-4c30-b61e-fa7c17d1f439, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
-  - {name: "日本 [直连D] 1x", server: bai-piao-wang-zhe.jp.884899.cf, port: 39814, type: vmess, uuid: b1135a1d-0586-4c30-b61e-fa7c17d1f439, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
   - {name: 香港1, server: bai-piao-wang-zhe-HK1.567568.ml, port: 12377, type: trojan, password: 9a14a33b-69fa-4116-89dc-6b4853e92832, sni: 20-187-95-105.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 香港2, server: bai-piao-wang-zhe-HK2.567568.ml, port: 12339, type: trojan, password: 9a14a33b-69fa-4116-89dc-6b4853e92832, sni: 20-187-95-105.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: Alien, server: 625hk03.fx6688.top, port: 80, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: V108-10x-Tokyo, server: t08.tgfaka.com, port: 38443, type: trojan, password: ad96be7b-6d0f-41c3-abca-32387b8e9ece, sni: douyincdn.com, skip-cert-verify: true, udp: true}
   - {name: "美国 [直连C] 1x 5Gbp/s", server: bai-piao-wang-zhe10.98848.xyz, port: 48240, type: trojan, password: 685022af-2086-454c-8725-8ff6b6ab1d13, skip-cert-verify: true, udp: true}
   - {name: "美国 [直连C] 1x 5Gbp/s 2", server: bai-piao-wang-zhe10.98848.xyz, port: 22168, type: trojan, password: 685022af-2086-454c-8725-8ff6b6ab1d13, skip-cert-verify: true, udp: true}
   - {name: "美国 [直连C] 1x 5Gbp/s 3", server: bai-piao-wang-zhe10.98848.xyz, port: 50858, type: trojan, password: 685022af-2086-454c-8725-8ff6b6ab1d13, skip-cert-verify: true, udp: true}
   - {name: "美国 [直连C] 1x 5Gbp/s 4", server: bai-piao-wang-zhe10.98848.xyz, port: 43184, type: trojan, password: 685022af-2086-454c-8725-8ff6b6ab1d13, skip-cert-verify: true, udp: true}
   - {name: "美国 [直连C] 1x 5Gbp/s 5", server: bai-piao-wang-zhe10.98848.xyz, port: 20762, type: trojan, password: 685022af-2086-454c-8725-8ff6b6ab1d13, sni: bai-piao-wang-zhe10.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: -clone, server: bai-piao-wang-zhe12.98848.xyz, port: 43091, type: trojan, password: 0e39f273-912d-48cc-9548-ccc185487828, sni: bai-piao-wang-zhe12.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: -clone-clone, server: youtube-bai-piao-wang-zhe.98848.xyz, port: 43091, type: trojan, password: 0e39f273-912d-48cc-9548-ccc185487828, sni: youtube-bai-piao-wang-zhe.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: "", server: bai-piao-wang-zhe12.98848.xyz, port: 36736, type: vmess, uuid: 50a9c98e-8c48-4680-feff-a7ea34705ae9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bai-piao-wang-zhe12.98848.xyz, network: ws, ws-opts: {path: /ytryr6, headers: {Host: bai-piao-wang-zhe12.98848.xyz}}, udp: true}
-  - {name: bai-piao-wang-zhe12.98848.xyz:11882, server: bai-piao-wang-zhe12.98848.xyz, port: 11882, type: trojan, password: 569d7a0e-8168-455e-81d6-7866a094e3af, sni: bai-piao-wang-zhe12.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: bai-piao-wang-zhe12.98848.xyz:443, server: bai-piao-wang-zhe12.98848.xyz, port: 443, type: trojan, password: 7986ac7f-1611-4910-8e55-671f041bc5d5, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
-  - {name: -clone 2, server: bai-piao-wang-zhe12.98848.xyz, port: 58443, type: trojan, password: bECdNJns1u, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
-  - {name: JP 002, server: jpaws002.xmrth-node.xyz, port: 15665, type: vmess, uuid: 60517dbb-a465-32c6-87e7-2a457663de53, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: JP 003, server: jplin003.xmrth-node.xyz, port: 15901, type: vmess, uuid: 60517dbb-a465-32c6-87e7-2a457663de53, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: JP 004, server: jplin004.xmrth-node.xyz, port: 16034, type: vmess, uuid: 60517dbb-a465-32c6-87e7-2a457663de53, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: JP 005, server: jplin005.xmrth-node.xyz, port: 15698, type: vmess, uuid: 60517dbb-a465-32c6-87e7-2a457663de53, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: US 001, server: inap001.xmrth-node.xyz, port: 15658, type: vmess, uuid: a56532a9-0a0b-3a39-bee6-a9e76263c448, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: US 002, server: inap002.xmrth-node.xyz, port: 15667, type: vmess, uuid: a56532a9-0a0b-3a39-bee6-a9e76263c448, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: US 003, server: inap003.xmrth-node.xyz, port: 11565, type: vmess, uuid: a56532a9-0a0b-3a39-bee6-a9e76263c448, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: US 004, server: inap004.xmrth-node.xyz, port: 15671, type: vmess, uuid: a56532a9-0a0b-3a39-bee6-a9e76263c448, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: US 005, server: inap005.xmrth-node.xyz, port: 15555, type: vmess, uuid: a56532a9-0a0b-3a39-bee6-a9e76263c448, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: US 006, server: inap006.xmrth-node.xyz, port: 11865, type: vmess, uuid: a56532a9-0a0b-3a39-bee6-a9e76263c448, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: 新加坡2, server: shuyun.cdn.yc.07.intvideos.com, port: 29007, type: trojan, password: b79a38a9-373b-49ac-9abe-ee531255c8b6, sni: emby.3dmmp.com, skip-cert-verify: true, udp: true}
-  - {name: 新加坡3, server: shuyun.cdn.yc.04.intvideos.com, port: 39008, type: trojan, password: b79a38a9-373b-49ac-9abe-ee531255c8b6, sni: emby.3dmmp.com, skip-cert-verify: true, udp: true}
-  - {name: 日本1, server: shuyun.cdn.yc.09.intvideos.com, port: 29009, type: trojan, password: b79a38a9-373b-49ac-9abe-ee531255c8b6, sni: emby.3dmmp.com, skip-cert-verify: true, udp: true}
-  - {name: 日本2, server: shuyun.cdn.yc.10.intvideos.com, port: 29010, type: trojan, password: b79a38a9-373b-49ac-9abe-ee531255c8b6, sni: emby.3dmmp.com, skip-cert-verify: true, udp: true}
-  - {name: 日本流媒体解锁, server: shuyun.cdn.yc.11.intvideos.com, port: 39011, type: trojan, password: b79a38a9-373b-49ac-9abe-ee531255c8b6, sni: emby.3dmmp.com, skip-cert-verify: true, udp: true}
-  - {name: 韩国1, server: shuyun.cdn.yc.12.intvideos.com, port: 29012, type: trojan, password: b79a38a9-373b-49ac-9abe-ee531255c8b6, sni: emby.3dmmp.com, skip-cert-verify: true, udp: true}
-  - {name: 韩国2, server: shuyun.cdn.yc.13.intvideos.com, port: 29013, type: trojan, password: b79a38a9-373b-49ac-9abe-ee531255c8b6, sni: emby.3dmmp.com, skip-cert-verify: true, udp: true}
-  - {name: 美国流媒体解锁1, server: shuyun.cdn.yc.16.intvideos.com, port: 19014, type: trojan, password: b79a38a9-373b-49ac-9abe-ee531255c8b6, sni: emby.3dmmp.com, skip-cert-verify: true, udp: true}
-  - {name: 澳大利亚, server: shuyun.cdn.yc.17.intvideos.com, port: 19028, type: trojan, password: b79a38a9-373b-49ac-9abe-ee531255c8b6, sni: emby.3dmmp.com, skip-cert-verify: true, udp: true}
-  - {name: 德国, server: shuyun.cdn.yc.19.intvideos.com, port: 29022, type: trojan, password: b79a38a9-373b-49ac-9abe-ee531255c8b6, sni: emby.3dmmp.com, skip-cert-verify: true, udp: true}
-  - {name: 加拿大, server: shuyun.cdn.yc.19.intvideos.com, port: 29025, type: trojan, password: b79a38a9-373b-49ac-9abe-ee531255c8b6, sni: emby.3dmmp.com, skip-cert-verify: true, udp: true}
-  - {name: 英国流媒体解锁, server: shuyun.cdn.yc.18.intvideos.com, port: 19024, type: trojan, password: b79a38a9-373b-49ac-9abe-ee531255c8b6, sni: emby.3dmmp.com, skip-cert-verify: true, udp: true}
-  - {name: "[LV3·原生] 香港01 | IEPL 专线 | 1x", server: pp1.zhengzhongfeizhu.xyz, port: 33009, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[LV2·原生] 香港01 | IEPL 专线 | 3x", server: pp1.zhengzhongfeizhu.xyz, port: 33002, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[LV2·原生] 香港02 | IEPL 专线 | 3x", server: pp1.zhengzhongfeizhu.xyz, port: 33003, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[LV2·原生] 香港03 | IEPL 专线 | 3x", server: pp1.zhengzhongfeizhu.xyz, port: 33004, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[LV2·原生] 香港04 | IEPL 专线 | 3x", server: pp1.zhengzhongfeizhu.xyz, port: 33005, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[LV2·原生] 香港B1 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-hgc1, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: "[LV2·原生] 香港B2 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-hgc2, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: "[LV2·原生] 香港01 | IEPL 专线 | 3x 2", server: pp1.zhengzhongfeizhu.xyz, port: 33002, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[LV2·原生] 香港02 | IEPL 专线 | 3x 2", server: pp1.zhengzhongfeizhu.xyz, port: 33003, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[LV2·原生] 香港03 | IEPL 专线 | 3x 2", server: pp1.zhengzhongfeizhu.xyz, port: 33004, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[LV2·原生] 香港04 | IEPL 专线 | 3x 2", server: pp1.zhengzhongfeizhu.xyz, port: 33005, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[LV2·原生] 香港B3 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-hgc3, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: "[LV2·原生] 香港B4 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-hgc4, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: "[LV1·解锁] 狮城01 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-sp1, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: "[LV1·解锁] 狮城02 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-sp2, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: "[LV1·解锁] 狮城03 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-sp3, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: 节点更新 bit.ly/36b6iJh, server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-sp4, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: "[LV1·解锁] 狮城05 | 中转", server: pp1.zhengzhongfeizhu.xyz, port: 43960, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /j20-sp5, headers: {Host: pp1.zhengzhongfeizhu.xyz}}, udp: true}
-  - {name: "[LV2·原生] 美国145 | 中转", server: YOUTUBE.bai-piao-wang-zhe.567568.ml, port: 19568, type: trojan, password: AglrNchEnS, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
-  - {name: "[LV2·原生] 美国145 | 中转 2", server: YOUTUBE.bai-piao-wang-zhe.567568.ml, port: 19594, type: trojan, password: YOUTUBE.bai-piao-wang-zhe.567568.ml, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
-  - {name: "[LV2·原生] 美国145 | 中转 3", server: YOUTUBE.bai-piao-wang-zhe.567568.ml, port: 12337, type: trojan, password: df8ebf95-bd60-4f7e-a505-fe8db5ba3342, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
-  - {name: "[LV2·原生] 美国145 | 中转 4", server: bai-piao-wang-zhe.us.567568.ml, port: 19568, type: trojan, password: AglrNchEnS, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
-  - {name: "[LV2·原生] 美国145 | 中转 5", server: bai-piao-wang-zhe.us.567568.ml, port: 12337, type: trojan, password: df8ebf95-bd60-4f7e-a505-fe8db5ba3342, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
-  - {name: "[LV2·原生] 美国145 | 中转 6", server: bai-piao-wang-zhe10.98848.xyz, port: 50858, type: trojan, password: 685022af-2086-454c-8725-8ff6b6ab1d13, skip-cert-verify: true, udp: true}
-  - {name: US158.vincent-jackson2022.tk_vmess_ws, server: www.digitalocean.com, port: 443, type: vmess, uuid: 6132999d-57f6-4fca-8916-bfb78890e3b6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: US158.vincent-jackson2022.tk, network: ws, ws-opts: {path: /bieivws, headers: {Host: US158.vincent-jackson2022.tk}}, udp: true}
-  - {name: US158.vincent-jackson2022.tk_trojan_tcp_Trojan, server: us158.vincent-jackson2022.tk, port: 443, type: trojan, password: 6132999d-57f6-4fca-8916-bfb78890e3b6, sni: US158.vincent-jackson2022.tk, skip-cert-verify: true, udp: true}
-  - {name: US158.vincent-jackson2022.tk_trojan_gRPC, server: www.digitalocean.com, port: 443, type: trojan, password: 6132999d-57f6-4fca-8916-bfb78890e3b6, sni: US158.vincent-jackson2022.tk, skip-cert-verify: true, udp: true}
-  - {name: US158.vincent-jackson2022.tk_vmess_ws-clone, server: US158.vincent-jackson2022.tk, port: 443, type: vmess, uuid: 6132999d-57f6-4fca-8916-bfb78890e3b6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: US158.vincent-jackson2022.tk, network: ws, ws-opts: {path: /bieivws, headers: {Host: US158.vincent-jackson2022.tk}}, udp: true}
-  - {name: US158.vincent-jackson2022.tk_vmess_ws-clone 2, server: www.digitalocean.com, port: 443, type: vmess, uuid: 6132999d-57f6-4fca-8916-bfb78890e3b6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: US158.vincent-jackson2022.tk, network: ws, ws-opts: {path: /bieivws, headers: {Host: US158.vincent-jackson2022.tk}}, udp: true}
-  - {name: IN CA, server: 165.22.222.79, port: 14951, type: vmess, uuid: ae9d1283-246c-4d12-e9d9-dca1ac61e9c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /HFHF665}, udp: true}
-  - {name: DE, server: 164.92.185.166, port: 55509, type: vmess, uuid: 508d53f3-053f-489d-ee82-6bc5ae471b05, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: " 2", server: 164.92.185.166, port: 35821, type: vmess, uuid: 5632d996-0f39-44d7-f30b-34ec7c085574, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: " 3", server: 167.172.34.254, port: 51951, type: vmess, uuid: 40bbfa8b-7606-4fe0-8e13-c5009d04f975, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: "[LV2·原生] 狮城05 | 中转", server: YOUTUBE.bai-piao-wang-zhe.567568.ml, port: 19568, type: trojan, password: AglrNchEnS, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
+  - {name: "[LV2·原生] 狮城05 | 中转 2", server: YOUTUBE.bai-piao-wang-zhe.567568.ml, port: 19594, type: trojan, password: YOUTUBE.bai-piao-wang-zhe.567568.ml, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
+  - {name: "[LV2·原生] 狮城05 | 中转 3", server: YOUTUBE.bai-piao-wang-zhe.567568.ml, port: 12337, type: trojan, password: df8ebf95-bd60-4f7e-a505-fe8db5ba3342, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
+  - {name: "[LV2·原生] 狮城05 | 中转 4", server: bai-piao-wang-zhe.us.567568.ml, port: 12337, type: trojan, password: df8ebf95-bd60-4f7e-a505-fe8db5ba3342, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
   - {name: States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh, server: youtube-bai-piao-wang-zhe.nl.884899.cf, port: 14201, type: trojan, password: 4431e7bf-b8b2-4f1f-9b6d-50c021483f75, sni: youtube-bai-piao-wang-zhe.nl.884899.cf, skip-cert-verify: true, udp: true}
   - {name: States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh 2, server: youtube-bai-piao-wang-zhe.nl.884899.cf, port: 11528, type: trojan, password: 4431e7bf-b8b2-4f1f-9b6d-50c021483f75, skip-cert-verify: true, udp: true}
   - {name: States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh 3, server: youtube-bai-piao-wang-zhe.nl.884899.cf, port: 41196, type: trojan, password: 94afcc56-cc1c-4cd4-8c82-1215cd052795, skip-cert-verify: true, udp: true}
-  - {name: 香港咖喱鱼蛋 01-D, server: 20.24.200.112, port: 12377, type: trojan, password: f67bf422-4b08-41b3-ae87-732c000a43a5, sni: 20-187-95-105.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 香港丝袜奶茶 02-D 2, server: 20.24.68.47, port: 12339, type: trojan, password: f67bf422-4b08-41b3-ae87-732c000a43a5, sni: 20-187-95-105.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 香港杨枝甘露 03-D 2, server: 104.208.77.38, port: 12369, type: trojan, password: f67bf422-4b08-41b3-ae87-732c000a43a5, sni: 20-187-95-105.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 香港煎酿三宝 04-D 2, server: 20.205.39.179, port: 12388, type: trojan, password: f67bf422-4b08-41b3-ae87-732c000a43a5, sni: 20-187-95-105.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 狮城雪糕饼干 01-D, server: 139.162.45.81, port: 13236, type: trojan, password: f67bf422-4b08-41b3-ae87-732c000a43a5, sni: 52-192-154-122.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: "香港 [免流] 0.1x", server: bai-piao-wang-zhe.hk.884899.cf, port: 80, type: vmess, uuid: 4f21494a-cfb5-455f-8fda-42590976c0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "香港 [直连A] 1x", server: bai-piao-wang-zhe.hk.884899.cf, port: 20941, type: vmess, uuid: 4f21494a-cfb5-455f-8fda-42590976c0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "香港 [直连B] 1x", server: bai-piao-wang-zhe.hk.884899.cf, port: 20942, type: vmess, uuid: 4f21494a-cfb5-455f-8fda-42590976c0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "香港 [直连C] 1x", server: bai-piao-wang-zhe.hk.884899.cf, port: 20943, type: vmess, uuid: 4f21494a-cfb5-455f-8fda-42590976c0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "香港 [直连D] 1x", server: bai-piao-wang-zhe.hk.884899.cf, port: 20944, type: vmess, uuid: 4f21494a-cfb5-455f-8fda-42590976c0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: -clone, server: usyy1.884899.cf, port: 29576, type: trojan, password: u2t5So8rN4, sni: usyy.884899.cf, skip-cert-verify: true, udp: true}
+  - {name: JP-A|日本, server: jpa-zf.jiashumao.net, port: 29881, type: trojan, password: 3dd20630-03bf-37c9-8714-1b9259c91977, skip-cert-verify: true, udp: true}
+  - {name: JP-B|日本, server: jpb-zf.jiashumao.net, port: 20479, type: trojan, password: 3dd20630-03bf-37c9-8714-1b9259c91977, skip-cert-verify: true, udp: true}
+  - {name: "us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh", server: bai-piao-wang-zhe-iplc12.98848.xyz, port: 57638, type: trojan, password: 640b9e6c-4a57-481a-bf4f-b478fb33cb5c, skip-cert-verify: true, udp: true}
+  - {name: "us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2", server: bai-piao-wang-zhe-iplc12.98848.xyz, port: 40736, type: trojan, password: 640b9e6c-4a57-481a-bf4f-b478fb33cb5c, skip-cert-verify: true, udp: true}
+  - {name: "us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3", server: bai-piao-wang-zhe-iplc12.98848.xyz, port: 16743, type: trojan, password: 640b9e6c-4a57-481a-bf4f-b478fb33cb5c, skip-cert-verify: true, udp: true}
+  - {name: Best免流专用, server: 2a01:4f8:241:1f64:1111:1111:c45:1, port: 80, type: vmess, uuid: be0a5e2d-bec9-48d0-b8dc-e8703a91a444, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pull.free.video.10010.com}}, udp: true}
+  - {name: "[节点如出现断联的情况，将会在24小时内修复]", server: 194.156.231.35, port: 80, type: vmess, uuid: 4f21494a-cfb5-455f-8fda-42590976c0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "香港 [免流] 0.1x 2", server: dnsfree01.theworkpc.com, port: 80, type: vmess, uuid: 4f21494a-cfb5-455f-8fda-42590976c0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "香港 [直连A] 1x 2", server: dnsfree01.theworkpc.com, port: 20941, type: vmess, uuid: 4f21494a-cfb5-455f-8fda-42590976c0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "香港 [直连B] 1x 2", server: dnsfree01.theworkpc.com, port: 20942, type: vmess, uuid: 4f21494a-cfb5-455f-8fda-42590976c0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "香港 [直连C] 1x 2", server: dnsfree01.theworkpc.com, port: 20943, type: vmess, uuid: 4f21494a-cfb5-455f-8fda-42590976c0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "香港 [直连D] 1x 2", server: dnsfree01.theworkpc.com, port: 20944, type: vmess, uuid: 4f21494a-cfb5-455f-8fda-42590976c0d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: 香港咖喱鱼蛋 01-D, server: 20.24.200.112, port: 12377, type: trojan, password: 3b167b67-6ce2-4077-b668-70f190a1d3d9, sni: 20-187-95-105.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 香港丝袜奶茶 02-D, server: 20.24.91.135, port: 12339, type: trojan, password: 3b167b67-6ce2-4077-b668-70f190a1d3d9, sni: 20-187-95-105.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 香港杨枝甘露 03-D, server: 20.24.194.82, port: 12369, type: trojan, password: 3b167b67-6ce2-4077-b668-70f190a1d3d9, sni: 20-187-95-105.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 香港煎酿三宝 04-D, server: 20.205.120.214, port: 12388, type: trojan, password: 3b167b67-6ce2-4077-b668-70f190a1d3d9, sni: 20-187-95-105.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 狮城雪糕饼干 01-D, server: 139.162.45.81, port: 13236, type: trojan, password: 3b167b67-6ce2-4077-b668-70f190a1d3d9, sni: 52-192-154-122.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 143.198.193.145:12337, server: 143.198.193.145, port: 12337, type: trojan, password: df8ebf95-bd60-4f7e-a505-fe8db5ba3342, skip-cert-verify: true, udp: true}
+  - {name: "sg [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh", server: youtube.bai-piao-wang-zhe.567568.ml, port: 12337, type: trojan, password: df8ebf95-bd60-4f7e-a505-fe8db5ba3342, skip-cert-verify: true, udp: true}
+  - {name: "us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 4", server: bai-piao-wang-zhe.us.567568.ml, port: 19594, type: trojan, password: YOUTUBE.bai-piao-wang-zhe.567568.ml, skip-cert-verify: true, udp: true}
+  - {name: SG, server: bai-piao-wang-zhe.us.567568.ml, port: 19568, type: trojan, password: AglrNchEnS, skip-cert-verify: true, udp: true}
+  - {name: bai-piao-wang-zhe.us.567568.ml:34312, server: bai-piao-wang-zhe.us.567568.ml, port: 34312, type: trojan, password: 7323b7f1-dcb5-499d-b6ae-f51a638ba826, skip-cert-verify: true, udp: true}
+  - {name: bai-piao-wang-zhe.us.567568.ml:13653, server: bai-piao-wang-zhe.us.567568.ml, port: 13653, type: trojan, password: 7323b7f1-dcb5-499d-b6ae-f51a638ba826, skip-cert-verify: true, udp: true}
+  - {name: bai-piao-wang-zhe.us.567568.ml, server: bai-piao-wang-zhe.us.567568.ml, port: 14236, type: trojan, password: 7323b7f1-dcb5-499d-b6ae-f51a638ba826, skip-cert-verify: true, udp: true}
+  - {name: bai-piao-wang-zhe.us.567568.ml:34096, server: bai-piao-wang-zhe.us.567568.ml, port: 34096, type: trojan, password: 7323b7f1-dcb5-499d-b6ae-f51a638ba826, skip-cert-verify: true, udp: true}
+  - {name: bai-piao-wang-zhe.us.567568.ml:50231, server: bai-piao-wang-zhe.us.567568.ml, port: 50231, type: trojan, password: 7323b7f1-dcb5-499d-b6ae-f51a638ba826, skip-cert-verify: true, udp: true}
+  - {name: youtube.bai-piao-wang-zhe.567568.ml:58443, server: youtube.bai-piao-wang-zhe.567568.ml, port: 58443, type: trojan, password: 7323b7f1-dcb5-499d-b6ae-f51a638ba826, sni: youtube.bai-piao-wang-zhe.567568.ml, skip-cert-verify: true, udp: true}
+  - {name: "us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 5", server: www.digitalocean.com, port: 443, type: vmess, uuid: 3df66137-a428-429c-a858-8b150721b354, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: usa23.884899.cf, network: ws, ws-opts: {path: /youtbue@bai-piao-wang-zhe_vws, headers: {Host: usa23.884899.cf}}, udp: true}
+  - {name: "us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 6", server: usa23.884899.cf, port: 443, type: trojan, password: 3df66137-a428-429c-a858-8b150721b354, sni: usa23.884899.cf, skip-cert-verify: true, udp: true}
+  - {name: "us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 7", server: usa23.884899.cf, port: 443, type: trojan, password: 3df66137-a428-429c-a858-8b150721b354, sni: usa23.884899.cf, skip-cert-verify: true, udp: true}
+  - {name: "us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 8", server: usa23.884899.cf, port: 443, type: vmess, uuid: 3df66137-a428-429c-a858-8b150721b354, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: usa23.884899.cf, network: ws, ws-opts: {path: /youtbue@bai-piao-wang-zhe_vws, headers: {Host: usa23.884899.cf}}, udp: true}
+  - {name: "us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 9", server: bai-piao-wang-zhe-iplc.884899.cf, port: 443, type: trojan, password: 3df66137-a428-429c-a858-8b150721b354, sni: usa23.884899.cf, skip-cert-verify: true, udp: true}
+  - {name: "us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 10", server: bai-piao-wang-zhe-iplc.884899.cf, port: 47496, type: trojan, password: BeDUJlDqDl, skip-cert-verify: true, udp: true}
+  - {name: "us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 11", server: bai-piao-wang-zhe@bai-piao-wang-zhe-iplc.884899.cf, port: 27956, type: trojan, password: youtube, sni: usa23.884899.cf, skip-cert-verify: true, udp: true}
+  - {name: "us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 12", server: bai-piao-wang-zhe-iplc.884899.cf, port: 27956, type: trojan, password: 3df66137-a428-429c-a858-8b150721b354, sni: usa23.884899.cf, skip-cert-verify: true, udp: true}
+  - {name: "NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh", server: www.digitalocean.com, port: 443, type: vmess, uuid: e49f9132-4f1c-4a11-998f-0b90697254e6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bai-piao-wang-zhe.iplc.nl.884899.cf, network: ws, ws-opts: {path: /YouTube@bai-piao-wang-zhe_vws, headers: {Host: bai-piao-wang-zhe.iplc.nl.884899.cf}}, udp: true}
+  - {name: "NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2", server: www.digitalocean.com, port: 443, type: trojan, password: e49f9132-4f1c-4a11-998f-0b90697254e6, sni: bai-piao-wang-zhe.iplc.nl.884899.cf, skip-cert-verify: true, udp: true}
+  - {name: "NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3", server: bai-piao-wang-zhe.iplc.nl.884899.cf, port: 443, type: trojan, password: e49f9132-4f1c-4a11-998f-0b90697254e6, sni: bai-piao-wang-zhe.iplc.nl.884899.cf, skip-cert-verify: true, udp: true}
+  - {name: YOUTUBE.bai-piao-wang-zhe.567568.ml, server: YOUTUBE.bai-piao-wang-zhe.567568.ml, port: 12337, type: trojan, password: df8ebf95-bd60-4f7e-a505-fe8db5ba3342, skip-cert-verify: true, udp: true}
+  - {name: YOUTUBE.bai-piao-wang-zhe.567568.ml 2, server: YOUTUBE.bai-piao-wang-zhe.567568.ml, port: 19594, type: trojan, password: YOUTUBE.bai-piao-wang-zhe.567568.ml, skip-cert-verify: true, udp: true}
+  - {name: bai-piao-wang-zhe12.98848.xyz, server: bai-piao-wang-zhe12.98848.xyz, port: 19568, type: trojan, password: AglrNchEnS, skip-cert-verify: true, udp: true}
+  - {name: bai-piao-wang-zhe12.98848.xyz:12337, server: bai-piao-wang-zhe12.98848.xyz, port: 12337, type: trojan, password: df8ebf95-bd60-4f7e-a505-fe8db5ba3342, skip-cert-verify: true, udp: true}
+  - {name: bai-piao-wang-zhe12.98848.xyz:19594, server: bai-piao-wang-zhe12.98848.xyz, port: 19594, type: trojan, password: YOUTUBE.bai-piao-wang-zhe.567568.ml, skip-cert-verify: true, udp: true}
+  - {name: bai-piao-wang-zhe12.98848.xyz:34312, server: bai-piao-wang-zhe12.98848.xyz, port: 34312, type: trojan, password: 7323b7f1-dcb5-499d-b6ae-f51a638ba826, skip-cert-verify: true, udp: true}
+  - {name: 香港@bai-piao-wang-zhe, server: 43.129.30.122, port: 29146, type: vmess, uuid: 5b20636b-c944-4f94-cce9-c6b913ab5c56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港@bai-piao-wang-zhe 2, server: 73hk03.fx6688.top, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 73hk03.fx6688.top}}, udp: true}
+  - {name: 香港@bai-piao-wang-zhe 3, server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: ip3884414509.mobgslb.tbcache.com, skip-cert-verify: true, udp: true}
+  - {name: 香港@bai-piao-wang-zhe 4, server: pp1.zhengzhongfeizhu.xyz, port: 32003, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: ip3884414509.mobgslb.tbcache.com, skip-cert-verify: true, udp: true}
+  - {name: 香港@bai-piao-wang-zhe 5, server: pp1.zhengzhongfeizhu.xyz, port: 34002, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: 111-47-215-139.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 香港@bai-piao-wang-zhe 6, server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: 111-47-215-139.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 香港@bai-piao-wang-zhe 7, server: hlu.bgp2.liuliangzhuanfa.xyz, port: 45379, type: trojan, password: 3e940f22-38d5-48b0-8cca-431c45e9ec69, sni: xg1.xianggang1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 印尼@bai-piao-wang-zhe, server: lms.uin-antasari.ac.id, port: 80, type: vmess, uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpnneo, headers: {Host: biznet-s.nextvpn.cc}}, udp: true}
+  - {name: 日本@bai-piao-wang-zhe, server: 185.172.113.182, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 韩国@bai-piao-wang-zhe, server: in02.my1188.org, port: 63004, type: vmess, uuid: c33c5af3-a848-3649-a5ec-e1e2a2491f6c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mugua-kr01.covid19.rip}}, udp: true}
+  - {name: 韩国@bai-piao-wang-zhe 2, server: kr04.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯@bai-piao-wang-zhe, server: v1.tgfaka.com, port: 443, type: vmess, uuid: 2df8cb33-de40-438c-840a-5f1d05fe7518, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v1.tgfaka.com}}, udp: true}
+  - {name: 俄罗斯@bai-piao-wang-zhe 2, server: v2.tgfaka.com, port: 443, type: vmess, uuid: 2df8cb33-de40-438c-840a-5f1d05fe7518, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v2.tgfaka.com}}, udp: true}
+  - {name: 俄罗斯@bai-piao-wang-zhe 3, server: 195.133.53.192, port: 43688, type: vmess, uuid: bd1c8b57-0a9e-4e9f-a261-48e90c871e41, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bai-piao-wang-zhe}}, udp: true}
+  - {name: 俄罗斯@bai-piao-wang-zhe 4, server: 195.133.53.192, port: 14369, type: vmess, uuid: 2331affa-1194-45ae-9457-3746120c4751, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bai-piao-wang-zhe}}, udp: true}
+  - {name: 俄罗斯@bai-piao-wang-zhe 5, server: hlu.bgp2.liuliangzhuanfa.xyz, port: 42167, type: trojan, password: 3e940f22-38d5-48b0-8cca-431c45e9ec69, sni: els1.eluosi1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 新加坡@bai-piao-wang-zhe, server: trojan2.udpgw.com, port: 443, type: trojan, password: 973ef350-f6a5-11ec-9274-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: 台湾@bai-piao-wang-zhe, server: in04.my1188.org, port: 63088, type: vmess, uuid: c33c5af3-a848-3649-a5ec-e1e2a2491f6c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mugua, headers: {Host: tw-load-balancer.myn1des.com}}, udp: true}
+  - {name: 台湾@bai-piao-wang-zhe 2, server: 625tw02.fx6688.top, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 625tw02.fx6688.top}}, udp: true}
+  - {name: 台湾@bai-piao-wang-zhe 3, server: hlu.bgp2.liuliangzhuanfa.xyz, port: 31097, type: trojan, password: 3e940f22-38d5-48b0-8cca-431c45e9ec69, sni: aa1.liumeit.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国@bai-piao-wang-zhe, server: iy.5ihx.cn, port: 12438, type: vmess, uuid: 5fd85a88-3b58-4691-d1ba-0febee42703a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国@bai-piao-wang-zhe 2, server: 107.173.148.4, port: 21280, type: vmess, uuid: e09e894a-91aa-4db7-e9ff-e5580be70c11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bai-piao-wang-zhe}}, udp: true}
+  - {name: 美国@bai-piao-wang-zhe 3, server: lms.uin-antasari.ac.id, port: 80, type: vmess, uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpnneo, headers: {Host: ctn.nextvpn.cc}}, udp: true}
+  - {name: 美国@bai-piao-wang-zhe 4, server: 142.0.130.140, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.61617561.xyz}}, udp: true}
+  - {name: 美国@bai-piao-wang-zhe 5, server: 23.225.57.222, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/120306182525, headers: {Host: www.21188776.xyz}}, udp: true}
+  - {name: 美国@bai-piao-wang-zhe 6, server: pp1.zhengzhongfeizhu.xyz, port: 33001, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: 111-47-215-139.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 德国@bai-piao-wang-zhe, server: wode.922833.xyz, port: 443, type: vmess, uuid: 208d47ae-3894-4f7a-c84f-96102490e24b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: wode.922833.xyz}}, udp: true}
+  - {name: 德国@bai-piao-wang-zhe 2, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxdeovz2.fovi.tk}}, udp: true}
+  - {name: 德国@bai-piao-wang-zhe 3, server: wode.922833.xyz, port: 443, type: vmess, uuid: 208d47ae-3894-4f7a-c84f-96102490e24b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: wode.922833.xyz}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "[节点如出现断联的情况，将会在24小时内修复]"
-      - 2022-7-1 更新
+      - 2022-7-7
       - us255 节点更新 bit.ly/36b6iJh
       - nf
       - ID10电线联通 限速3M
       - ID7电线联通 限速3M
       - ID8电线联通 限速3M
       - ID9电线联通 限速3M
-      - usyy.884899.cf_vmess_ws
-      - usyy.884899.cf_trojan_tcp_Trojan
-      - usyy.884899.cf_trojan_gRPC
-      - us 节点更新 bit.ly/36b6iJh
-      - usyy.884899.cf_vmess_ws-clone
-      - 4K
-      - us141 youtube-bai-piao-wang-zhe.98848.xyz
-      - us141
-      - us141 节点更新 bit.ly/36b6iJh
-      - us 141
-      - 美国节点更新 bit.ly/36b6iJh
-      - 新加坡节点更新 bit.ly/36b6iJh
-      - 香港节点更新 bit.ly/36b6iJh
-      - 香港节点更新 bit.ly/36b6iJh 2
       - 法国节点更新 bit.ly/36b6iJh
-      - 香港丝袜奶茶 02-D
-      - 香港杨枝甘露 03-D
-      - 香港煎酿三宝 04-D
-      - 香港 [直连A] 1x
-      - 香港 [直连B] 1x
-      - 香港 [直连C] 1x
-      - 香港 [直连D] 1x
-      - 日本 [免流] 0.1x
-      - 日本 [直连A] 1x
-      - 日本 [直连B] 1x
-      - 日本 [直连C] 1x
-      - 日本 [直连D] 1x
       - 香港1
       - 香港2
-      - Alien
-      - V108-10x-Tokyo
       - 美国 [直连C] 1x 5Gbp/s
       - 美国 [直连C] 1x 5Gbp/s 2
       - 美国 [直连C] 1x 5Gbp/s 3
       - 美国 [直连C] 1x 5Gbp/s 4
       - 美国 [直连C] 1x 5Gbp/s 5
-      - -clone
-      - -clone-clone
-      - ""
-      - bai-piao-wang-zhe12.98848.xyz:11882
-      - bai-piao-wang-zhe12.98848.xyz:443
-      - -clone 2
-      - JP 002
-      - JP 003
-      - JP 004
-      - JP 005
-      - US 001
-      - US 002
-      - US 003
-      - US 004
-      - US 005
-      - US 006
-      - 新加坡2
-      - 新加坡3
-      - 日本1
-      - 日本2
-      - 日本流媒体解锁
-      - 韩国1
-      - 韩国2
-      - 美国流媒体解锁1
-      - 澳大利亚
-      - 德国
-      - 加拿大
-      - 英国流媒体解锁
-      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
-      - "[LV2·原生] 香港01 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港02 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港04 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港B1 | 中转"
-      - "[LV2·原生] 香港B2 | 中转"
-      - "[LV2·原生] 香港01 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港02 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港03 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港04 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港B3 | 中转"
-      - "[LV2·原生] 香港B4 | 中转"
-      - "[LV1·解锁] 狮城01 | 中转"
-      - "[LV1·解锁] 狮城02 | 中转"
-      - "[LV1·解锁] 狮城03 | 中转"
-      - 节点更新 bit.ly/36b6iJh
-      - "[LV1·解锁] 狮城05 | 中转"
-      - "[LV2·原生] 美国145 | 中转"
-      - "[LV2·原生] 美国145 | 中转 2"
-      - "[LV2·原生] 美国145 | 中转 3"
-      - "[LV2·原生] 美国145 | 中转 4"
-      - "[LV2·原生] 美国145 | 中转 5"
-      - "[LV2·原生] 美国145 | 中转 6"
-      - US158.vincent-jackson2022.tk_vmess_ws
-      - US158.vincent-jackson2022.tk_trojan_tcp_Trojan
-      - US158.vincent-jackson2022.tk_trojan_gRPC
-      - US158.vincent-jackson2022.tk_vmess_ws-clone
-      - US158.vincent-jackson2022.tk_vmess_ws-clone 2
-      - IN CA
-      - DE
-      - " 2"
-      - " 3"
+      - "[LV2·原生] 狮城05 | 中转"
+      - "[LV2·原生] 狮城05 | 中转 2"
+      - "[LV2·原生] 狮城05 | 中转 3"
+      - "[LV2·原生] 狮城05 | 中转 4"
       - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
       - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh 2
       - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh 3
+      - 香港 [免流] 0.1x
+      - 香港 [直连A] 1x
+      - 香港 [直连B] 1x
+      - 香港 [直连C] 1x
+      - 香港 [直连D] 1x
+      - -clone
+      - JP-A|日本
+      - JP-B|日本
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - Best免流专用
+      - "[节点如出现断联的情况，将会在24小时内修复]"
+      - 香港 [免流] 0.1x 2
+      - 香港 [直连A] 1x 2
+      - 香港 [直连B] 1x 2
+      - 香港 [直连C] 1x 2
+      - 香港 [直连D] 1x 2
       - 香港咖喱鱼蛋 01-D
-      - 香港丝袜奶茶 02-D 2
-      - 香港杨枝甘露 03-D 2
-      - 香港煎酿三宝 04-D 2
+      - 香港丝袜奶茶 02-D
+      - 香港杨枝甘露 03-D
+      - 香港煎酿三宝 04-D
       - 狮城雪糕饼干 01-D
+      - 143.198.193.145:12337
+      - sg [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 4
+      - SG
+      - bai-piao-wang-zhe.us.567568.ml:34312
+      - bai-piao-wang-zhe.us.567568.ml:13653
+      - bai-piao-wang-zhe.us.567568.ml
+      - bai-piao-wang-zhe.us.567568.ml:34096
+      - bai-piao-wang-zhe.us.567568.ml:50231
+      - youtube.bai-piao-wang-zhe.567568.ml:58443
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 5
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 6
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 7
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 8
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 9
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 10
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 11
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 12
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - YOUTUBE.bai-piao-wang-zhe.567568.ml
+      - YOUTUBE.bai-piao-wang-zhe.567568.ml 2
+      - bai-piao-wang-zhe12.98848.xyz
+      - bai-piao-wang-zhe12.98848.xyz:12337
+      - bai-piao-wang-zhe12.98848.xyz:19594
+      - bai-piao-wang-zhe12.98848.xyz:34312
+      - 香港@bai-piao-wang-zhe
+      - 香港@bai-piao-wang-zhe 2
+      - 香港@bai-piao-wang-zhe 3
+      - 香港@bai-piao-wang-zhe 4
+      - 香港@bai-piao-wang-zhe 5
+      - 香港@bai-piao-wang-zhe 6
+      - 香港@bai-piao-wang-zhe 7
+      - 印尼@bai-piao-wang-zhe
+      - 日本@bai-piao-wang-zhe
+      - 韩国@bai-piao-wang-zhe
+      - 韩国@bai-piao-wang-zhe 2
+      - 俄罗斯@bai-piao-wang-zhe
+      - 俄罗斯@bai-piao-wang-zhe 2
+      - 俄罗斯@bai-piao-wang-zhe 3
+      - 俄罗斯@bai-piao-wang-zhe 4
+      - 俄罗斯@bai-piao-wang-zhe 5
+      - 新加坡@bai-piao-wang-zhe
+      - 台湾@bai-piao-wang-zhe
+      - 台湾@bai-piao-wang-zhe 2
+      - 台湾@bai-piao-wang-zhe 3
+      - 美国@bai-piao-wang-zhe
+      - 美国@bai-piao-wang-zhe 2
+      - 美国@bai-piao-wang-zhe 3
+      - 美国@bai-piao-wang-zhe 4
+      - 美国@bai-piao-wang-zhe 5
+      - 美国@bai-piao-wang-zhe 6
+      - 德国@bai-piao-wang-zhe
+      - 德国@bai-piao-wang-zhe 2
+      - 德国@bai-piao-wang-zhe 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "[节点如出现断联的情况，将会在24小时内修复]"
-      - 2022-7-1 更新
+      - 2022-7-7
       - us255 节点更新 bit.ly/36b6iJh
       - nf
       - ID10电线联通 限速3M
       - ID7电线联通 限速3M
       - ID8电线联通 限速3M
       - ID9电线联通 限速3M
-      - usyy.884899.cf_vmess_ws
-      - usyy.884899.cf_trojan_tcp_Trojan
-      - usyy.884899.cf_trojan_gRPC
-      - us 节点更新 bit.ly/36b6iJh
-      - usyy.884899.cf_vmess_ws-clone
-      - 4K
-      - us141 youtube-bai-piao-wang-zhe.98848.xyz
-      - us141
-      - us141 节点更新 bit.ly/36b6iJh
-      - us 141
-      - 美国节点更新 bit.ly/36b6iJh
-      - 新加坡节点更新 bit.ly/36b6iJh
-      - 香港节点更新 bit.ly/36b6iJh
-      - 香港节点更新 bit.ly/36b6iJh 2
       - 法国节点更新 bit.ly/36b6iJh
-      - 香港丝袜奶茶 02-D
-      - 香港杨枝甘露 03-D
-      - 香港煎酿三宝 04-D
-      - 香港 [直连A] 1x
-      - 香港 [直连B] 1x
-      - 香港 [直连C] 1x
-      - 香港 [直连D] 1x
-      - 日本 [免流] 0.1x
-      - 日本 [直连A] 1x
-      - 日本 [直连B] 1x
-      - 日本 [直连C] 1x
-      - 日本 [直连D] 1x
       - 香港1
       - 香港2
-      - Alien
-      - V108-10x-Tokyo
       - 美国 [直连C] 1x 5Gbp/s
       - 美国 [直连C] 1x 5Gbp/s 2
       - 美国 [直连C] 1x 5Gbp/s 3
       - 美国 [直连C] 1x 5Gbp/s 4
       - 美国 [直连C] 1x 5Gbp/s 5
-      - -clone
-      - -clone-clone
-      - ""
-      - bai-piao-wang-zhe12.98848.xyz:11882
-      - bai-piao-wang-zhe12.98848.xyz:443
-      - -clone 2
-      - JP 002
-      - JP 003
-      - JP 004
-      - JP 005
-      - US 001
-      - US 002
-      - US 003
-      - US 004
-      - US 005
-      - US 006
-      - 新加坡2
-      - 新加坡3
-      - 日本1
-      - 日本2
-      - 日本流媒体解锁
-      - 韩国1
-      - 韩国2
-      - 美国流媒体解锁1
-      - 澳大利亚
-      - 德国
-      - 加拿大
-      - 英国流媒体解锁
-      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
-      - "[LV2·原生] 香港01 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港02 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港04 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港B1 | 中转"
-      - "[LV2·原生] 香港B2 | 中转"
-      - "[LV2·原生] 香港01 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港02 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港03 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港04 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港B3 | 中转"
-      - "[LV2·原生] 香港B4 | 中转"
-      - "[LV1·解锁] 狮城01 | 中转"
-      - "[LV1·解锁] 狮城02 | 中转"
-      - "[LV1·解锁] 狮城03 | 中转"
-      - 节点更新 bit.ly/36b6iJh
-      - "[LV1·解锁] 狮城05 | 中转"
-      - "[LV2·原生] 美国145 | 中转"
-      - "[LV2·原生] 美国145 | 中转 2"
-      - "[LV2·原生] 美国145 | 中转 3"
-      - "[LV2·原生] 美国145 | 中转 4"
-      - "[LV2·原生] 美国145 | 中转 5"
-      - "[LV2·原生] 美国145 | 中转 6"
-      - US158.vincent-jackson2022.tk_vmess_ws
-      - US158.vincent-jackson2022.tk_trojan_tcp_Trojan
-      - US158.vincent-jackson2022.tk_trojan_gRPC
-      - US158.vincent-jackson2022.tk_vmess_ws-clone
-      - US158.vincent-jackson2022.tk_vmess_ws-clone 2
-      - IN CA
-      - DE
-      - " 2"
-      - " 3"
+      - "[LV2·原生] 狮城05 | 中转"
+      - "[LV2·原生] 狮城05 | 中转 2"
+      - "[LV2·原生] 狮城05 | 中转 3"
+      - "[LV2·原生] 狮城05 | 中转 4"
       - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
       - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh 2
       - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh 3
+      - 香港 [免流] 0.1x
+      - 香港 [直连A] 1x
+      - 香港 [直连B] 1x
+      - 香港 [直连C] 1x
+      - 香港 [直连D] 1x
+      - -clone
+      - JP-A|日本
+      - JP-B|日本
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - Best免流专用
+      - "[节点如出现断联的情况，将会在24小时内修复]"
+      - 香港 [免流] 0.1x 2
+      - 香港 [直连A] 1x 2
+      - 香港 [直连B] 1x 2
+      - 香港 [直连C] 1x 2
+      - 香港 [直连D] 1x 2
       - 香港咖喱鱼蛋 01-D
-      - 香港丝袜奶茶 02-D 2
-      - 香港杨枝甘露 03-D 2
-      - 香港煎酿三宝 04-D 2
+      - 香港丝袜奶茶 02-D
+      - 香港杨枝甘露 03-D
+      - 香港煎酿三宝 04-D
       - 狮城雪糕饼干 01-D
+      - 143.198.193.145:12337
+      - sg [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 4
+      - SG
+      - bai-piao-wang-zhe.us.567568.ml:34312
+      - bai-piao-wang-zhe.us.567568.ml:13653
+      - bai-piao-wang-zhe.us.567568.ml
+      - bai-piao-wang-zhe.us.567568.ml:34096
+      - bai-piao-wang-zhe.us.567568.ml:50231
+      - youtube.bai-piao-wang-zhe.567568.ml:58443
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 5
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 6
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 7
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 8
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 9
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 10
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 11
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 12
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - YOUTUBE.bai-piao-wang-zhe.567568.ml
+      - YOUTUBE.bai-piao-wang-zhe.567568.ml 2
+      - bai-piao-wang-zhe12.98848.xyz
+      - bai-piao-wang-zhe12.98848.xyz:12337
+      - bai-piao-wang-zhe12.98848.xyz:19594
+      - bai-piao-wang-zhe12.98848.xyz:34312
+      - 香港@bai-piao-wang-zhe
+      - 香港@bai-piao-wang-zhe 2
+      - 香港@bai-piao-wang-zhe 3
+      - 香港@bai-piao-wang-zhe 4
+      - 香港@bai-piao-wang-zhe 5
+      - 香港@bai-piao-wang-zhe 6
+      - 香港@bai-piao-wang-zhe 7
+      - 印尼@bai-piao-wang-zhe
+      - 日本@bai-piao-wang-zhe
+      - 韩国@bai-piao-wang-zhe
+      - 韩国@bai-piao-wang-zhe 2
+      - 俄罗斯@bai-piao-wang-zhe
+      - 俄罗斯@bai-piao-wang-zhe 2
+      - 俄罗斯@bai-piao-wang-zhe 3
+      - 俄罗斯@bai-piao-wang-zhe 4
+      - 俄罗斯@bai-piao-wang-zhe 5
+      - 新加坡@bai-piao-wang-zhe
+      - 台湾@bai-piao-wang-zhe
+      - 台湾@bai-piao-wang-zhe 2
+      - 台湾@bai-piao-wang-zhe 3
+      - 美国@bai-piao-wang-zhe
+      - 美国@bai-piao-wang-zhe 2
+      - 美国@bai-piao-wang-zhe 3
+      - 美国@bai-piao-wang-zhe 4
+      - 美国@bai-piao-wang-zhe 5
+      - 美国@bai-piao-wang-zhe 6
+      - 德国@bai-piao-wang-zhe
+      - 德国@bai-piao-wang-zhe 2
+      - 德国@bai-piao-wang-zhe 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "[节点如出现断联的情况，将会在24小时内修复]"
-      - 2022-7-1 更新
+      - 2022-7-7
       - us255 节点更新 bit.ly/36b6iJh
       - nf
       - ID10电线联通 限速3M
       - ID7电线联通 限速3M
       - ID8电线联通 限速3M
       - ID9电线联通 限速3M
-      - usyy.884899.cf_vmess_ws
-      - usyy.884899.cf_trojan_tcp_Trojan
-      - usyy.884899.cf_trojan_gRPC
-      - us 节点更新 bit.ly/36b6iJh
-      - usyy.884899.cf_vmess_ws-clone
-      - 4K
-      - us141 youtube-bai-piao-wang-zhe.98848.xyz
-      - us141
-      - us141 节点更新 bit.ly/36b6iJh
-      - us 141
-      - 美国节点更新 bit.ly/36b6iJh
-      - 新加坡节点更新 bit.ly/36b6iJh
-      - 香港节点更新 bit.ly/36b6iJh
-      - 香港节点更新 bit.ly/36b6iJh 2
       - 法国节点更新 bit.ly/36b6iJh
-      - 香港丝袜奶茶 02-D
-      - 香港杨枝甘露 03-D
-      - 香港煎酿三宝 04-D
-      - 香港 [直连A] 1x
-      - 香港 [直连B] 1x
-      - 香港 [直连C] 1x
-      - 香港 [直连D] 1x
-      - 日本 [免流] 0.1x
-      - 日本 [直连A] 1x
-      - 日本 [直连B] 1x
-      - 日本 [直连C] 1x
-      - 日本 [直连D] 1x
       - 香港1
       - 香港2
-      - Alien
-      - V108-10x-Tokyo
       - 美国 [直连C] 1x 5Gbp/s
       - 美国 [直连C] 1x 5Gbp/s 2
       - 美国 [直连C] 1x 5Gbp/s 3
       - 美国 [直连C] 1x 5Gbp/s 4
       - 美国 [直连C] 1x 5Gbp/s 5
-      - -clone
-      - -clone-clone
-      - ""
-      - bai-piao-wang-zhe12.98848.xyz:11882
-      - bai-piao-wang-zhe12.98848.xyz:443
-      - -clone 2
-      - JP 002
-      - JP 003
-      - JP 004
-      - JP 005
-      - US 001
-      - US 002
-      - US 003
-      - US 004
-      - US 005
-      - US 006
-      - 新加坡2
-      - 新加坡3
-      - 日本1
-      - 日本2
-      - 日本流媒体解锁
-      - 韩国1
-      - 韩国2
-      - 美国流媒体解锁1
-      - 澳大利亚
-      - 德国
-      - 加拿大
-      - 英国流媒体解锁
-      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
-      - "[LV2·原生] 香港01 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港02 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港04 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港B1 | 中转"
-      - "[LV2·原生] 香港B2 | 中转"
-      - "[LV2·原生] 香港01 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港02 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港03 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港04 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港B3 | 中转"
-      - "[LV2·原生] 香港B4 | 中转"
-      - "[LV1·解锁] 狮城01 | 中转"
-      - "[LV1·解锁] 狮城02 | 中转"
-      - "[LV1·解锁] 狮城03 | 中转"
-      - 节点更新 bit.ly/36b6iJh
-      - "[LV1·解锁] 狮城05 | 中转"
-      - "[LV2·原生] 美国145 | 中转"
-      - "[LV2·原生] 美国145 | 中转 2"
-      - "[LV2·原生] 美国145 | 中转 3"
-      - "[LV2·原生] 美国145 | 中转 4"
-      - "[LV2·原生] 美国145 | 中转 5"
-      - "[LV2·原生] 美国145 | 中转 6"
-      - US158.vincent-jackson2022.tk_vmess_ws
-      - US158.vincent-jackson2022.tk_trojan_tcp_Trojan
-      - US158.vincent-jackson2022.tk_trojan_gRPC
-      - US158.vincent-jackson2022.tk_vmess_ws-clone
-      - US158.vincent-jackson2022.tk_vmess_ws-clone 2
-      - IN CA
-      - DE
-      - " 2"
-      - " 3"
+      - "[LV2·原生] 狮城05 | 中转"
+      - "[LV2·原生] 狮城05 | 中转 2"
+      - "[LV2·原生] 狮城05 | 中转 3"
+      - "[LV2·原生] 狮城05 | 中转 4"
       - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
       - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh 2
       - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh 3
+      - 香港 [免流] 0.1x
+      - 香港 [直连A] 1x
+      - 香港 [直连B] 1x
+      - 香港 [直连C] 1x
+      - 香港 [直连D] 1x
+      - -clone
+      - JP-A|日本
+      - JP-B|日本
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - Best免流专用
+      - "[节点如出现断联的情况，将会在24小时内修复]"
+      - 香港 [免流] 0.1x 2
+      - 香港 [直连A] 1x 2
+      - 香港 [直连B] 1x 2
+      - 香港 [直连C] 1x 2
+      - 香港 [直连D] 1x 2
       - 香港咖喱鱼蛋 01-D
-      - 香港丝袜奶茶 02-D 2
-      - 香港杨枝甘露 03-D 2
-      - 香港煎酿三宝 04-D 2
+      - 香港丝袜奶茶 02-D
+      - 香港杨枝甘露 03-D
+      - 香港煎酿三宝 04-D
       - 狮城雪糕饼干 01-D
+      - 143.198.193.145:12337
+      - sg [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 4
+      - SG
+      - bai-piao-wang-zhe.us.567568.ml:34312
+      - bai-piao-wang-zhe.us.567568.ml:13653
+      - bai-piao-wang-zhe.us.567568.ml
+      - bai-piao-wang-zhe.us.567568.ml:34096
+      - bai-piao-wang-zhe.us.567568.ml:50231
+      - youtube.bai-piao-wang-zhe.567568.ml:58443
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 5
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 6
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 7
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 8
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 9
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 10
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 11
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 12
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - YOUTUBE.bai-piao-wang-zhe.567568.ml
+      - YOUTUBE.bai-piao-wang-zhe.567568.ml 2
+      - bai-piao-wang-zhe12.98848.xyz
+      - bai-piao-wang-zhe12.98848.xyz:12337
+      - bai-piao-wang-zhe12.98848.xyz:19594
+      - bai-piao-wang-zhe12.98848.xyz:34312
+      - 香港@bai-piao-wang-zhe
+      - 香港@bai-piao-wang-zhe 2
+      - 香港@bai-piao-wang-zhe 3
+      - 香港@bai-piao-wang-zhe 4
+      - 香港@bai-piao-wang-zhe 5
+      - 香港@bai-piao-wang-zhe 6
+      - 香港@bai-piao-wang-zhe 7
+      - 印尼@bai-piao-wang-zhe
+      - 日本@bai-piao-wang-zhe
+      - 韩国@bai-piao-wang-zhe
+      - 韩国@bai-piao-wang-zhe 2
+      - 俄罗斯@bai-piao-wang-zhe
+      - 俄罗斯@bai-piao-wang-zhe 2
+      - 俄罗斯@bai-piao-wang-zhe 3
+      - 俄罗斯@bai-piao-wang-zhe 4
+      - 俄罗斯@bai-piao-wang-zhe 5
+      - 新加坡@bai-piao-wang-zhe
+      - 台湾@bai-piao-wang-zhe
+      - 台湾@bai-piao-wang-zhe 2
+      - 台湾@bai-piao-wang-zhe 3
+      - 美国@bai-piao-wang-zhe
+      - 美国@bai-piao-wang-zhe 2
+      - 美国@bai-piao-wang-zhe 3
+      - 美国@bai-piao-wang-zhe 4
+      - 美国@bai-piao-wang-zhe 5
+      - 美国@bai-piao-wang-zhe 6
+      - 德国@bai-piao-wang-zhe
+      - 德国@bai-piao-wang-zhe 2
+      - 德国@bai-piao-wang-zhe 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -492,507 +444,457 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "[节点如出现断联的情况，将会在24小时内修复]"
-      - 2022-7-1 更新
+      - 2022-7-7
       - us255 节点更新 bit.ly/36b6iJh
       - nf
       - ID10电线联通 限速3M
       - ID7电线联通 限速3M
       - ID8电线联通 限速3M
       - ID9电线联通 限速3M
-      - usyy.884899.cf_vmess_ws
-      - usyy.884899.cf_trojan_tcp_Trojan
-      - usyy.884899.cf_trojan_gRPC
-      - us 节点更新 bit.ly/36b6iJh
-      - usyy.884899.cf_vmess_ws-clone
-      - 4K
-      - us141 youtube-bai-piao-wang-zhe.98848.xyz
-      - us141
-      - us141 节点更新 bit.ly/36b6iJh
-      - us 141
-      - 美国节点更新 bit.ly/36b6iJh
-      - 新加坡节点更新 bit.ly/36b6iJh
-      - 香港节点更新 bit.ly/36b6iJh
-      - 香港节点更新 bit.ly/36b6iJh 2
       - 法国节点更新 bit.ly/36b6iJh
-      - 香港丝袜奶茶 02-D
-      - 香港杨枝甘露 03-D
-      - 香港煎酿三宝 04-D
-      - 香港 [直连A] 1x
-      - 香港 [直连B] 1x
-      - 香港 [直连C] 1x
-      - 香港 [直连D] 1x
-      - 日本 [免流] 0.1x
-      - 日本 [直连A] 1x
-      - 日本 [直连B] 1x
-      - 日本 [直连C] 1x
-      - 日本 [直连D] 1x
       - 香港1
       - 香港2
-      - Alien
-      - V108-10x-Tokyo
       - 美国 [直连C] 1x 5Gbp/s
       - 美国 [直连C] 1x 5Gbp/s 2
       - 美国 [直连C] 1x 5Gbp/s 3
       - 美国 [直连C] 1x 5Gbp/s 4
       - 美国 [直连C] 1x 5Gbp/s 5
-      - -clone
-      - -clone-clone
-      - ""
-      - bai-piao-wang-zhe12.98848.xyz:11882
-      - bai-piao-wang-zhe12.98848.xyz:443
-      - -clone 2
-      - JP 002
-      - JP 003
-      - JP 004
-      - JP 005
-      - US 001
-      - US 002
-      - US 003
-      - US 004
-      - US 005
-      - US 006
-      - 新加坡2
-      - 新加坡3
-      - 日本1
-      - 日本2
-      - 日本流媒体解锁
-      - 韩国1
-      - 韩国2
-      - 美国流媒体解锁1
-      - 澳大利亚
-      - 德国
-      - 加拿大
-      - 英国流媒体解锁
-      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
-      - "[LV2·原生] 香港01 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港02 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港04 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港B1 | 中转"
-      - "[LV2·原生] 香港B2 | 中转"
-      - "[LV2·原生] 香港01 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港02 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港03 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港04 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港B3 | 中转"
-      - "[LV2·原生] 香港B4 | 中转"
-      - "[LV1·解锁] 狮城01 | 中转"
-      - "[LV1·解锁] 狮城02 | 中转"
-      - "[LV1·解锁] 狮城03 | 中转"
-      - 节点更新 bit.ly/36b6iJh
-      - "[LV1·解锁] 狮城05 | 中转"
-      - "[LV2·原生] 美国145 | 中转"
-      - "[LV2·原生] 美国145 | 中转 2"
-      - "[LV2·原生] 美国145 | 中转 3"
-      - "[LV2·原生] 美国145 | 中转 4"
-      - "[LV2·原生] 美国145 | 中转 5"
-      - "[LV2·原生] 美国145 | 中转 6"
-      - US158.vincent-jackson2022.tk_vmess_ws
-      - US158.vincent-jackson2022.tk_trojan_tcp_Trojan
-      - US158.vincent-jackson2022.tk_trojan_gRPC
-      - US158.vincent-jackson2022.tk_vmess_ws-clone
-      - US158.vincent-jackson2022.tk_vmess_ws-clone 2
-      - IN CA
-      - DE
-      - " 2"
-      - " 3"
+      - "[LV2·原生] 狮城05 | 中转"
+      - "[LV2·原生] 狮城05 | 中转 2"
+      - "[LV2·原生] 狮城05 | 中转 3"
+      - "[LV2·原生] 狮城05 | 中转 4"
       - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
       - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh 2
       - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh 3
-      - 香港咖喱鱼蛋 01-D
-      - 香港丝袜奶茶 02-D 2
-      - 香港杨枝甘露 03-D 2
-      - 香港煎酿三宝 04-D 2
-      - 狮城雪糕饼干 01-D
-  - name: 🌏 国内媒体
-    type: select
-    proxies:
-      - 🎯 全球直连
-      - 香港节点更新 bit.ly/36b6iJh
-      - 香港节点更新 bit.ly/36b6iJh 2
-      - 香港丝袜奶茶 02-D
-      - 香港杨枝甘露 03-D
-      - 香港煎酿三宝 04-D
+      - 香港 [免流] 0.1x
       - 香港 [直连A] 1x
       - 香港 [直连B] 1x
       - 香港 [直连C] 1x
       - 香港 [直连D] 1x
+      - -clone
+      - JP-A|日本
+      - JP-B|日本
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - Best免流专用
+      - "[节点如出现断联的情况，将会在24小时内修复]"
+      - 香港 [免流] 0.1x 2
+      - 香港 [直连A] 1x 2
+      - 香港 [直连B] 1x 2
+      - 香港 [直连C] 1x 2
+      - 香港 [直连D] 1x 2
+      - 香港咖喱鱼蛋 01-D
+      - 香港丝袜奶茶 02-D
+      - 香港杨枝甘露 03-D
+      - 香港煎酿三宝 04-D
+      - 狮城雪糕饼干 01-D
+      - 143.198.193.145:12337
+      - sg [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 4
+      - SG
+      - bai-piao-wang-zhe.us.567568.ml:34312
+      - bai-piao-wang-zhe.us.567568.ml:13653
+      - bai-piao-wang-zhe.us.567568.ml
+      - bai-piao-wang-zhe.us.567568.ml:34096
+      - bai-piao-wang-zhe.us.567568.ml:50231
+      - youtube.bai-piao-wang-zhe.567568.ml:58443
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 5
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 6
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 7
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 8
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 9
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 10
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 11
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 12
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - YOUTUBE.bai-piao-wang-zhe.567568.ml
+      - YOUTUBE.bai-piao-wang-zhe.567568.ml 2
+      - bai-piao-wang-zhe12.98848.xyz
+      - bai-piao-wang-zhe12.98848.xyz:12337
+      - bai-piao-wang-zhe12.98848.xyz:19594
+      - bai-piao-wang-zhe12.98848.xyz:34312
+      - 香港@bai-piao-wang-zhe
+      - 香港@bai-piao-wang-zhe 2
+      - 香港@bai-piao-wang-zhe 3
+      - 香港@bai-piao-wang-zhe 4
+      - 香港@bai-piao-wang-zhe 5
+      - 香港@bai-piao-wang-zhe 6
+      - 香港@bai-piao-wang-zhe 7
+      - 印尼@bai-piao-wang-zhe
+      - 日本@bai-piao-wang-zhe
+      - 韩国@bai-piao-wang-zhe
+      - 韩国@bai-piao-wang-zhe 2
+      - 俄罗斯@bai-piao-wang-zhe
+      - 俄罗斯@bai-piao-wang-zhe 2
+      - 俄罗斯@bai-piao-wang-zhe 3
+      - 俄罗斯@bai-piao-wang-zhe 4
+      - 俄罗斯@bai-piao-wang-zhe 5
+      - 新加坡@bai-piao-wang-zhe
+      - 台湾@bai-piao-wang-zhe
+      - 台湾@bai-piao-wang-zhe 2
+      - 台湾@bai-piao-wang-zhe 3
+      - 美国@bai-piao-wang-zhe
+      - 美国@bai-piao-wang-zhe 2
+      - 美国@bai-piao-wang-zhe 3
+      - 美国@bai-piao-wang-zhe 4
+      - 美国@bai-piao-wang-zhe 5
+      - 美国@bai-piao-wang-zhe 6
+      - 德国@bai-piao-wang-zhe
+      - 德国@bai-piao-wang-zhe 2
+      - 德国@bai-piao-wang-zhe 3
+  - name: 🌏 国内媒体
+    type: select
+    proxies:
+      - 🎯 全球直连
       - 香港1
       - 香港2
-      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
-      - "[LV2·原生] 香港01 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港02 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港04 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港B1 | 中转"
-      - "[LV2·原生] 香港B2 | 中转"
-      - "[LV2·原生] 香港01 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港02 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港03 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港04 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港B3 | 中转"
-      - "[LV2·原生] 香港B4 | 中转"
+      - 香港 [免流] 0.1x
+      - 香港 [直连A] 1x
+      - 香港 [直连B] 1x
+      - 香港 [直连C] 1x
+      - 香港 [直连D] 1x
+      - 香港 [免流] 0.1x 2
+      - 香港 [直连A] 1x 2
+      - 香港 [直连B] 1x 2
+      - 香港 [直连C] 1x 2
+      - 香港 [直连D] 1x 2
       - 香港咖喱鱼蛋 01-D
-      - 香港丝袜奶茶 02-D 2
-      - 香港杨枝甘露 03-D 2
-      - 香港煎酿三宝 04-D 2
+      - 香港丝袜奶茶 02-D
+      - 香港杨枝甘露 03-D
+      - 香港煎酿三宝 04-D
+      - 香港@bai-piao-wang-zhe
+      - 香港@bai-piao-wang-zhe 2
+      - 香港@bai-piao-wang-zhe 3
+      - 香港@bai-piao-wang-zhe 4
+      - 香港@bai-piao-wang-zhe 5
+      - 香港@bai-piao-wang-zhe 6
+      - 香港@bai-piao-wang-zhe 7
+      - 台湾@bai-piao-wang-zhe
+      - 台湾@bai-piao-wang-zhe 2
+      - 台湾@bai-piao-wang-zhe 3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "[节点如出现断联的情况，将会在24小时内修复]"
-      - 2022-7-1 更新
+      - 2022-7-7
       - us255 节点更新 bit.ly/36b6iJh
       - nf
       - ID10电线联通 限速3M
       - ID7电线联通 限速3M
       - ID8电线联通 限速3M
       - ID9电线联通 限速3M
-      - usyy.884899.cf_vmess_ws
-      - usyy.884899.cf_trojan_tcp_Trojan
-      - usyy.884899.cf_trojan_gRPC
-      - us 节点更新 bit.ly/36b6iJh
-      - usyy.884899.cf_vmess_ws-clone
-      - 4K
-      - us141 youtube-bai-piao-wang-zhe.98848.xyz
-      - us141
-      - us141 节点更新 bit.ly/36b6iJh
-      - us 141
-      - 美国节点更新 bit.ly/36b6iJh
-      - 新加坡节点更新 bit.ly/36b6iJh
-      - 香港节点更新 bit.ly/36b6iJh
-      - 香港节点更新 bit.ly/36b6iJh 2
       - 法国节点更新 bit.ly/36b6iJh
-      - 香港丝袜奶茶 02-D
-      - 香港杨枝甘露 03-D
-      - 香港煎酿三宝 04-D
-      - 香港 [直连A] 1x
-      - 香港 [直连B] 1x
-      - 香港 [直连C] 1x
-      - 香港 [直连D] 1x
-      - 日本 [免流] 0.1x
-      - 日本 [直连A] 1x
-      - 日本 [直连B] 1x
-      - 日本 [直连C] 1x
-      - 日本 [直连D] 1x
       - 香港1
       - 香港2
-      - Alien
-      - V108-10x-Tokyo
       - 美国 [直连C] 1x 5Gbp/s
       - 美国 [直连C] 1x 5Gbp/s 2
       - 美国 [直连C] 1x 5Gbp/s 3
       - 美国 [直连C] 1x 5Gbp/s 4
       - 美国 [直连C] 1x 5Gbp/s 5
-      - -clone
-      - -clone-clone
-      - ""
-      - bai-piao-wang-zhe12.98848.xyz:11882
-      - bai-piao-wang-zhe12.98848.xyz:443
-      - -clone 2
-      - JP 002
-      - JP 003
-      - JP 004
-      - JP 005
-      - US 001
-      - US 002
-      - US 003
-      - US 004
-      - US 005
-      - US 006
-      - 新加坡2
-      - 新加坡3
-      - 日本1
-      - 日本2
-      - 日本流媒体解锁
-      - 韩国1
-      - 韩国2
-      - 美国流媒体解锁1
-      - 澳大利亚
-      - 德国
-      - 加拿大
-      - 英国流媒体解锁
-      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
-      - "[LV2·原生] 香港01 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港02 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港04 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港B1 | 中转"
-      - "[LV2·原生] 香港B2 | 中转"
-      - "[LV2·原生] 香港01 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港02 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港03 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港04 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港B3 | 中转"
-      - "[LV2·原生] 香港B4 | 中转"
-      - "[LV1·解锁] 狮城01 | 中转"
-      - "[LV1·解锁] 狮城02 | 中转"
-      - "[LV1·解锁] 狮城03 | 中转"
-      - 节点更新 bit.ly/36b6iJh
-      - "[LV1·解锁] 狮城05 | 中转"
-      - "[LV2·原生] 美国145 | 中转"
-      - "[LV2·原生] 美国145 | 中转 2"
-      - "[LV2·原生] 美国145 | 中转 3"
-      - "[LV2·原生] 美国145 | 中转 4"
-      - "[LV2·原生] 美国145 | 中转 5"
-      - "[LV2·原生] 美国145 | 中转 6"
-      - US158.vincent-jackson2022.tk_vmess_ws
-      - US158.vincent-jackson2022.tk_trojan_tcp_Trojan
-      - US158.vincent-jackson2022.tk_trojan_gRPC
-      - US158.vincent-jackson2022.tk_vmess_ws-clone
-      - US158.vincent-jackson2022.tk_vmess_ws-clone 2
-      - IN CA
-      - DE
-      - " 2"
-      - " 3"
+      - "[LV2·原生] 狮城05 | 中转"
+      - "[LV2·原生] 狮城05 | 中转 2"
+      - "[LV2·原生] 狮城05 | 中转 3"
+      - "[LV2·原生] 狮城05 | 中转 4"
       - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
       - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh 2
       - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh 3
+      - 香港 [免流] 0.1x
+      - 香港 [直连A] 1x
+      - 香港 [直连B] 1x
+      - 香港 [直连C] 1x
+      - 香港 [直连D] 1x
+      - -clone
+      - JP-A|日本
+      - JP-B|日本
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - Best免流专用
+      - "[节点如出现断联的情况，将会在24小时内修复]"
+      - 香港 [免流] 0.1x 2
+      - 香港 [直连A] 1x 2
+      - 香港 [直连B] 1x 2
+      - 香港 [直连C] 1x 2
+      - 香港 [直连D] 1x 2
       - 香港咖喱鱼蛋 01-D
-      - 香港丝袜奶茶 02-D 2
-      - 香港杨枝甘露 03-D 2
-      - 香港煎酿三宝 04-D 2
+      - 香港丝袜奶茶 02-D
+      - 香港杨枝甘露 03-D
+      - 香港煎酿三宝 04-D
       - 狮城雪糕饼干 01-D
+      - 143.198.193.145:12337
+      - sg [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 4
+      - SG
+      - bai-piao-wang-zhe.us.567568.ml:34312
+      - bai-piao-wang-zhe.us.567568.ml:13653
+      - bai-piao-wang-zhe.us.567568.ml
+      - bai-piao-wang-zhe.us.567568.ml:34096
+      - bai-piao-wang-zhe.us.567568.ml:50231
+      - youtube.bai-piao-wang-zhe.567568.ml:58443
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 5
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 6
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 7
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 8
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 9
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 10
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 11
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 12
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - YOUTUBE.bai-piao-wang-zhe.567568.ml
+      - YOUTUBE.bai-piao-wang-zhe.567568.ml 2
+      - bai-piao-wang-zhe12.98848.xyz
+      - bai-piao-wang-zhe12.98848.xyz:12337
+      - bai-piao-wang-zhe12.98848.xyz:19594
+      - bai-piao-wang-zhe12.98848.xyz:34312
+      - 香港@bai-piao-wang-zhe
+      - 香港@bai-piao-wang-zhe 2
+      - 香港@bai-piao-wang-zhe 3
+      - 香港@bai-piao-wang-zhe 4
+      - 香港@bai-piao-wang-zhe 5
+      - 香港@bai-piao-wang-zhe 6
+      - 香港@bai-piao-wang-zhe 7
+      - 印尼@bai-piao-wang-zhe
+      - 日本@bai-piao-wang-zhe
+      - 韩国@bai-piao-wang-zhe
+      - 韩国@bai-piao-wang-zhe 2
+      - 俄罗斯@bai-piao-wang-zhe
+      - 俄罗斯@bai-piao-wang-zhe 2
+      - 俄罗斯@bai-piao-wang-zhe 3
+      - 俄罗斯@bai-piao-wang-zhe 4
+      - 俄罗斯@bai-piao-wang-zhe 5
+      - 新加坡@bai-piao-wang-zhe
+      - 台湾@bai-piao-wang-zhe
+      - 台湾@bai-piao-wang-zhe 2
+      - 台湾@bai-piao-wang-zhe 3
+      - 美国@bai-piao-wang-zhe
+      - 美国@bai-piao-wang-zhe 2
+      - 美国@bai-piao-wang-zhe 3
+      - 美国@bai-piao-wang-zhe 4
+      - 美国@bai-piao-wang-zhe 5
+      - 美国@bai-piao-wang-zhe 6
+      - 德国@bai-piao-wang-zhe
+      - 德国@bai-piao-wang-zhe 2
+      - 德国@bai-piao-wang-zhe 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "[节点如出现断联的情况，将会在24小时内修复]"
-      - 2022-7-1 更新
+      - 2022-7-7
       - us255 节点更新 bit.ly/36b6iJh
       - nf
       - ID10电线联通 限速3M
       - ID7电线联通 限速3M
       - ID8电线联通 限速3M
       - ID9电线联通 限速3M
-      - usyy.884899.cf_vmess_ws
-      - usyy.884899.cf_trojan_tcp_Trojan
-      - usyy.884899.cf_trojan_gRPC
-      - us 节点更新 bit.ly/36b6iJh
-      - usyy.884899.cf_vmess_ws-clone
-      - 4K
-      - us141 youtube-bai-piao-wang-zhe.98848.xyz
-      - us141
-      - us141 节点更新 bit.ly/36b6iJh
-      - us 141
-      - 美国节点更新 bit.ly/36b6iJh
-      - 新加坡节点更新 bit.ly/36b6iJh
-      - 香港节点更新 bit.ly/36b6iJh
-      - 香港节点更新 bit.ly/36b6iJh 2
       - 法国节点更新 bit.ly/36b6iJh
-      - 香港丝袜奶茶 02-D
-      - 香港杨枝甘露 03-D
-      - 香港煎酿三宝 04-D
-      - 香港 [直连A] 1x
-      - 香港 [直连B] 1x
-      - 香港 [直连C] 1x
-      - 香港 [直连D] 1x
-      - 日本 [免流] 0.1x
-      - 日本 [直连A] 1x
-      - 日本 [直连B] 1x
-      - 日本 [直连C] 1x
-      - 日本 [直连D] 1x
       - 香港1
       - 香港2
-      - Alien
-      - V108-10x-Tokyo
       - 美国 [直连C] 1x 5Gbp/s
       - 美国 [直连C] 1x 5Gbp/s 2
       - 美国 [直连C] 1x 5Gbp/s 3
       - 美国 [直连C] 1x 5Gbp/s 4
       - 美国 [直连C] 1x 5Gbp/s 5
-      - -clone
-      - -clone-clone
-      - ""
-      - bai-piao-wang-zhe12.98848.xyz:11882
-      - bai-piao-wang-zhe12.98848.xyz:443
-      - -clone 2
-      - JP 002
-      - JP 003
-      - JP 004
-      - JP 005
-      - US 001
-      - US 002
-      - US 003
-      - US 004
-      - US 005
-      - US 006
-      - 新加坡2
-      - 新加坡3
-      - 日本1
-      - 日本2
-      - 日本流媒体解锁
-      - 韩国1
-      - 韩国2
-      - 美国流媒体解锁1
-      - 澳大利亚
-      - 德国
-      - 加拿大
-      - 英国流媒体解锁
-      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
-      - "[LV2·原生] 香港01 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港02 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港04 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港B1 | 中转"
-      - "[LV2·原生] 香港B2 | 中转"
-      - "[LV2·原生] 香港01 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港02 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港03 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港04 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港B3 | 中转"
-      - "[LV2·原生] 香港B4 | 中转"
-      - "[LV1·解锁] 狮城01 | 中转"
-      - "[LV1·解锁] 狮城02 | 中转"
-      - "[LV1·解锁] 狮城03 | 中转"
-      - 节点更新 bit.ly/36b6iJh
-      - "[LV1·解锁] 狮城05 | 中转"
-      - "[LV2·原生] 美国145 | 中转"
-      - "[LV2·原生] 美国145 | 中转 2"
-      - "[LV2·原生] 美国145 | 中转 3"
-      - "[LV2·原生] 美国145 | 中转 4"
-      - "[LV2·原生] 美国145 | 中转 5"
-      - "[LV2·原生] 美国145 | 中转 6"
-      - US158.vincent-jackson2022.tk_vmess_ws
-      - US158.vincent-jackson2022.tk_trojan_tcp_Trojan
-      - US158.vincent-jackson2022.tk_trojan_gRPC
-      - US158.vincent-jackson2022.tk_vmess_ws-clone
-      - US158.vincent-jackson2022.tk_vmess_ws-clone 2
-      - IN CA
-      - DE
-      - " 2"
-      - " 3"
+      - "[LV2·原生] 狮城05 | 中转"
+      - "[LV2·原生] 狮城05 | 中转 2"
+      - "[LV2·原生] 狮城05 | 中转 3"
+      - "[LV2·原生] 狮城05 | 中转 4"
       - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
       - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh 2
       - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh 3
+      - 香港 [免流] 0.1x
+      - 香港 [直连A] 1x
+      - 香港 [直连B] 1x
+      - 香港 [直连C] 1x
+      - 香港 [直连D] 1x
+      - -clone
+      - JP-A|日本
+      - JP-B|日本
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - Best免流专用
+      - "[节点如出现断联的情况，将会在24小时内修复]"
+      - 香港 [免流] 0.1x 2
+      - 香港 [直连A] 1x 2
+      - 香港 [直连B] 1x 2
+      - 香港 [直连C] 1x 2
+      - 香港 [直连D] 1x 2
       - 香港咖喱鱼蛋 01-D
-      - 香港丝袜奶茶 02-D 2
-      - 香港杨枝甘露 03-D 2
-      - 香港煎酿三宝 04-D 2
+      - 香港丝袜奶茶 02-D
+      - 香港杨枝甘露 03-D
+      - 香港煎酿三宝 04-D
       - 狮城雪糕饼干 01-D
+      - 143.198.193.145:12337
+      - sg [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 4
+      - SG
+      - bai-piao-wang-zhe.us.567568.ml:34312
+      - bai-piao-wang-zhe.us.567568.ml:13653
+      - bai-piao-wang-zhe.us.567568.ml
+      - bai-piao-wang-zhe.us.567568.ml:34096
+      - bai-piao-wang-zhe.us.567568.ml:50231
+      - youtube.bai-piao-wang-zhe.567568.ml:58443
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 5
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 6
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 7
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 8
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 9
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 10
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 11
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 12
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - YOUTUBE.bai-piao-wang-zhe.567568.ml
+      - YOUTUBE.bai-piao-wang-zhe.567568.ml 2
+      - bai-piao-wang-zhe12.98848.xyz
+      - bai-piao-wang-zhe12.98848.xyz:12337
+      - bai-piao-wang-zhe12.98848.xyz:19594
+      - bai-piao-wang-zhe12.98848.xyz:34312
+      - 香港@bai-piao-wang-zhe
+      - 香港@bai-piao-wang-zhe 2
+      - 香港@bai-piao-wang-zhe 3
+      - 香港@bai-piao-wang-zhe 4
+      - 香港@bai-piao-wang-zhe 5
+      - 香港@bai-piao-wang-zhe 6
+      - 香港@bai-piao-wang-zhe 7
+      - 印尼@bai-piao-wang-zhe
+      - 日本@bai-piao-wang-zhe
+      - 韩国@bai-piao-wang-zhe
+      - 韩国@bai-piao-wang-zhe 2
+      - 俄罗斯@bai-piao-wang-zhe
+      - 俄罗斯@bai-piao-wang-zhe 2
+      - 俄罗斯@bai-piao-wang-zhe 3
+      - 俄罗斯@bai-piao-wang-zhe 4
+      - 俄罗斯@bai-piao-wang-zhe 5
+      - 新加坡@bai-piao-wang-zhe
+      - 台湾@bai-piao-wang-zhe
+      - 台湾@bai-piao-wang-zhe 2
+      - 台湾@bai-piao-wang-zhe 3
+      - 美国@bai-piao-wang-zhe
+      - 美国@bai-piao-wang-zhe 2
+      - 美国@bai-piao-wang-zhe 3
+      - 美国@bai-piao-wang-zhe 4
+      - 美国@bai-piao-wang-zhe 5
+      - 美国@bai-piao-wang-zhe 6
+      - 德国@bai-piao-wang-zhe
+      - 德国@bai-piao-wang-zhe 2
+      - 德国@bai-piao-wang-zhe 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "[节点如出现断联的情况，将会在24小时内修复]"
-      - 2022-7-1 更新
+      - 2022-7-7
       - us255 节点更新 bit.ly/36b6iJh
       - nf
       - ID10电线联通 限速3M
       - ID7电线联通 限速3M
       - ID8电线联通 限速3M
       - ID9电线联通 限速3M
-      - usyy.884899.cf_vmess_ws
-      - usyy.884899.cf_trojan_tcp_Trojan
-      - usyy.884899.cf_trojan_gRPC
-      - us 节点更新 bit.ly/36b6iJh
-      - usyy.884899.cf_vmess_ws-clone
-      - 4K
-      - us141 youtube-bai-piao-wang-zhe.98848.xyz
-      - us141
-      - us141 节点更新 bit.ly/36b6iJh
-      - us 141
-      - 美国节点更新 bit.ly/36b6iJh
-      - 新加坡节点更新 bit.ly/36b6iJh
-      - 香港节点更新 bit.ly/36b6iJh
-      - 香港节点更新 bit.ly/36b6iJh 2
       - 法国节点更新 bit.ly/36b6iJh
-      - 香港丝袜奶茶 02-D
-      - 香港杨枝甘露 03-D
-      - 香港煎酿三宝 04-D
-      - 香港 [直连A] 1x
-      - 香港 [直连B] 1x
-      - 香港 [直连C] 1x
-      - 香港 [直连D] 1x
-      - 日本 [免流] 0.1x
-      - 日本 [直连A] 1x
-      - 日本 [直连B] 1x
-      - 日本 [直连C] 1x
-      - 日本 [直连D] 1x
       - 香港1
       - 香港2
-      - Alien
-      - V108-10x-Tokyo
       - 美国 [直连C] 1x 5Gbp/s
       - 美国 [直连C] 1x 5Gbp/s 2
       - 美国 [直连C] 1x 5Gbp/s 3
       - 美国 [直连C] 1x 5Gbp/s 4
       - 美国 [直连C] 1x 5Gbp/s 5
-      - -clone
-      - -clone-clone
-      - ""
-      - bai-piao-wang-zhe12.98848.xyz:11882
-      - bai-piao-wang-zhe12.98848.xyz:443
-      - -clone 2
-      - JP 002
-      - JP 003
-      - JP 004
-      - JP 005
-      - US 001
-      - US 002
-      - US 003
-      - US 004
-      - US 005
-      - US 006
-      - 新加坡2
-      - 新加坡3
-      - 日本1
-      - 日本2
-      - 日本流媒体解锁
-      - 韩国1
-      - 韩国2
-      - 美国流媒体解锁1
-      - 澳大利亚
-      - 德国
-      - 加拿大
-      - 英国流媒体解锁
-      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
-      - "[LV2·原生] 香港01 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港02 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港04 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港B1 | 中转"
-      - "[LV2·原生] 香港B2 | 中转"
-      - "[LV2·原生] 香港01 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港02 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港03 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港04 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港B3 | 中转"
-      - "[LV2·原生] 香港B4 | 中转"
-      - "[LV1·解锁] 狮城01 | 中转"
-      - "[LV1·解锁] 狮城02 | 中转"
-      - "[LV1·解锁] 狮城03 | 中转"
-      - 节点更新 bit.ly/36b6iJh
-      - "[LV1·解锁] 狮城05 | 中转"
-      - "[LV2·原生] 美国145 | 中转"
-      - "[LV2·原生] 美国145 | 中转 2"
-      - "[LV2·原生] 美国145 | 中转 3"
-      - "[LV2·原生] 美国145 | 中转 4"
-      - "[LV2·原生] 美国145 | 中转 5"
-      - "[LV2·原生] 美国145 | 中转 6"
-      - US158.vincent-jackson2022.tk_vmess_ws
-      - US158.vincent-jackson2022.tk_trojan_tcp_Trojan
-      - US158.vincent-jackson2022.tk_trojan_gRPC
-      - US158.vincent-jackson2022.tk_vmess_ws-clone
-      - US158.vincent-jackson2022.tk_vmess_ws-clone 2
-      - IN CA
-      - DE
-      - " 2"
-      - " 3"
+      - "[LV2·原生] 狮城05 | 中转"
+      - "[LV2·原生] 狮城05 | 中转 2"
+      - "[LV2·原生] 狮城05 | 中转 3"
+      - "[LV2·原生] 狮城05 | 中转 4"
       - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
       - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh 2
       - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh 3
+      - 香港 [免流] 0.1x
+      - 香港 [直连A] 1x
+      - 香港 [直连B] 1x
+      - 香港 [直连C] 1x
+      - 香港 [直连D] 1x
+      - -clone
+      - JP-A|日本
+      - JP-B|日本
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - Best免流专用
+      - "[节点如出现断联的情况，将会在24小时内修复]"
+      - 香港 [免流] 0.1x 2
+      - 香港 [直连A] 1x 2
+      - 香港 [直连B] 1x 2
+      - 香港 [直连C] 1x 2
+      - 香港 [直连D] 1x 2
       - 香港咖喱鱼蛋 01-D
-      - 香港丝袜奶茶 02-D 2
-      - 香港杨枝甘露 03-D 2
-      - 香港煎酿三宝 04-D 2
+      - 香港丝袜奶茶 02-D
+      - 香港杨枝甘露 03-D
+      - 香港煎酿三宝 04-D
       - 狮城雪糕饼干 01-D
+      - 143.198.193.145:12337
+      - sg [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 4
+      - SG
+      - bai-piao-wang-zhe.us.567568.ml:34312
+      - bai-piao-wang-zhe.us.567568.ml:13653
+      - bai-piao-wang-zhe.us.567568.ml
+      - bai-piao-wang-zhe.us.567568.ml:34096
+      - bai-piao-wang-zhe.us.567568.ml:50231
+      - youtube.bai-piao-wang-zhe.567568.ml:58443
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 5
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 6
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 7
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 8
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 9
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 10
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 11
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 12
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - YOUTUBE.bai-piao-wang-zhe.567568.ml
+      - YOUTUBE.bai-piao-wang-zhe.567568.ml 2
+      - bai-piao-wang-zhe12.98848.xyz
+      - bai-piao-wang-zhe12.98848.xyz:12337
+      - bai-piao-wang-zhe12.98848.xyz:19594
+      - bai-piao-wang-zhe12.98848.xyz:34312
+      - 香港@bai-piao-wang-zhe
+      - 香港@bai-piao-wang-zhe 2
+      - 香港@bai-piao-wang-zhe 3
+      - 香港@bai-piao-wang-zhe 4
+      - 香港@bai-piao-wang-zhe 5
+      - 香港@bai-piao-wang-zhe 6
+      - 香港@bai-piao-wang-zhe 7
+      - 印尼@bai-piao-wang-zhe
+      - 日本@bai-piao-wang-zhe
+      - 韩国@bai-piao-wang-zhe
+      - 韩国@bai-piao-wang-zhe 2
+      - 俄罗斯@bai-piao-wang-zhe
+      - 俄罗斯@bai-piao-wang-zhe 2
+      - 俄罗斯@bai-piao-wang-zhe 3
+      - 俄罗斯@bai-piao-wang-zhe 4
+      - 俄罗斯@bai-piao-wang-zhe 5
+      - 新加坡@bai-piao-wang-zhe
+      - 台湾@bai-piao-wang-zhe
+      - 台湾@bai-piao-wang-zhe 2
+      - 台湾@bai-piao-wang-zhe 3
+      - 美国@bai-piao-wang-zhe
+      - 美国@bai-piao-wang-zhe 2
+      - 美国@bai-piao-wang-zhe 3
+      - 美国@bai-piao-wang-zhe 4
+      - 美国@bai-piao-wang-zhe 5
+      - 美国@bai-piao-wang-zhe 6
+      - 德国@bai-piao-wang-zhe
+      - 德国@bai-piao-wang-zhe 2
+      - 德国@bai-piao-wang-zhe 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1008,119 +910,107 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "[节点如出现断联的情况，将会在24小时内修复]"
-      - 2022-7-1 更新
+      - 2022-7-7
       - us255 节点更新 bit.ly/36b6iJh
       - nf
       - ID10电线联通 限速3M
       - ID7电线联通 限速3M
       - ID8电线联通 限速3M
       - ID9电线联通 限速3M
-      - usyy.884899.cf_vmess_ws
-      - usyy.884899.cf_trojan_tcp_Trojan
-      - usyy.884899.cf_trojan_gRPC
-      - us 节点更新 bit.ly/36b6iJh
-      - usyy.884899.cf_vmess_ws-clone
-      - 4K
-      - us141 youtube-bai-piao-wang-zhe.98848.xyz
-      - us141
-      - us141 节点更新 bit.ly/36b6iJh
-      - us 141
-      - 美国节点更新 bit.ly/36b6iJh
-      - 新加坡节点更新 bit.ly/36b6iJh
-      - 香港节点更新 bit.ly/36b6iJh
-      - 香港节点更新 bit.ly/36b6iJh 2
       - 法国节点更新 bit.ly/36b6iJh
-      - 香港丝袜奶茶 02-D
-      - 香港杨枝甘露 03-D
-      - 香港煎酿三宝 04-D
-      - 香港 [直连A] 1x
-      - 香港 [直连B] 1x
-      - 香港 [直连C] 1x
-      - 香港 [直连D] 1x
-      - 日本 [免流] 0.1x
-      - 日本 [直连A] 1x
-      - 日本 [直连B] 1x
-      - 日本 [直连C] 1x
-      - 日本 [直连D] 1x
       - 香港1
       - 香港2
-      - Alien
-      - V108-10x-Tokyo
       - 美国 [直连C] 1x 5Gbp/s
       - 美国 [直连C] 1x 5Gbp/s 2
       - 美国 [直连C] 1x 5Gbp/s 3
       - 美国 [直连C] 1x 5Gbp/s 4
       - 美国 [直连C] 1x 5Gbp/s 5
-      - -clone
-      - -clone-clone
-      - ""
-      - bai-piao-wang-zhe12.98848.xyz:11882
-      - bai-piao-wang-zhe12.98848.xyz:443
-      - -clone 2
-      - JP 002
-      - JP 003
-      - JP 004
-      - JP 005
-      - US 001
-      - US 002
-      - US 003
-      - US 004
-      - US 005
-      - US 006
-      - 新加坡2
-      - 新加坡3
-      - 日本1
-      - 日本2
-      - 日本流媒体解锁
-      - 韩国1
-      - 韩国2
-      - 美国流媒体解锁1
-      - 澳大利亚
-      - 德国
-      - 加拿大
-      - 英国流媒体解锁
-      - "[LV3·原生] 香港01 | IEPL 专线 | 1x"
-      - "[LV2·原生] 香港01 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港02 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港03 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港04 | IEPL 专线 | 3x"
-      - "[LV2·原生] 香港B1 | 中转"
-      - "[LV2·原生] 香港B2 | 中转"
-      - "[LV2·原生] 香港01 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港02 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港03 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港04 | IEPL 专线 | 3x 2"
-      - "[LV2·原生] 香港B3 | 中转"
-      - "[LV2·原生] 香港B4 | 中转"
-      - "[LV1·解锁] 狮城01 | 中转"
-      - "[LV1·解锁] 狮城02 | 中转"
-      - "[LV1·解锁] 狮城03 | 中转"
-      - 节点更新 bit.ly/36b6iJh
-      - "[LV1·解锁] 狮城05 | 中转"
-      - "[LV2·原生] 美国145 | 中转"
-      - "[LV2·原生] 美国145 | 中转 2"
-      - "[LV2·原生] 美国145 | 中转 3"
-      - "[LV2·原生] 美国145 | 中转 4"
-      - "[LV2·原生] 美国145 | 中转 5"
-      - "[LV2·原生] 美国145 | 中转 6"
-      - US158.vincent-jackson2022.tk_vmess_ws
-      - US158.vincent-jackson2022.tk_trojan_tcp_Trojan
-      - US158.vincent-jackson2022.tk_trojan_gRPC
-      - US158.vincent-jackson2022.tk_vmess_ws-clone
-      - US158.vincent-jackson2022.tk_vmess_ws-clone 2
-      - IN CA
-      - DE
-      - " 2"
-      - " 3"
+      - "[LV2·原生] 狮城05 | 中转"
+      - "[LV2·原生] 狮城05 | 中转 2"
+      - "[LV2·原生] 狮城05 | 中转 3"
+      - "[LV2·原生] 狮城05 | 中转 4"
       - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh
       - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh 2
       - States (US)Californiated 5Gbp/s节点更新 bit.ly/36b6iJh 3
+      - 香港 [免流] 0.1x
+      - 香港 [直连A] 1x
+      - 香港 [直连B] 1x
+      - 香港 [直连C] 1x
+      - 香港 [直连D] 1x
+      - -clone
+      - JP-A|日本
+      - JP-B|日本
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - Best免流专用
+      - "[节点如出现断联的情况，将会在24小时内修复]"
+      - 香港 [免流] 0.1x 2
+      - 香港 [直连A] 1x 2
+      - 香港 [直连B] 1x 2
+      - 香港 [直连C] 1x 2
+      - 香港 [直连D] 1x 2
       - 香港咖喱鱼蛋 01-D
-      - 香港丝袜奶茶 02-D 2
-      - 香港杨枝甘露 03-D 2
-      - 香港煎酿三宝 04-D 2
+      - 香港丝袜奶茶 02-D
+      - 香港杨枝甘露 03-D
+      - 香港煎酿三宝 04-D
       - 狮城雪糕饼干 01-D
+      - 143.198.193.145:12337
+      - sg [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 4
+      - SG
+      - bai-piao-wang-zhe.us.567568.ml:34312
+      - bai-piao-wang-zhe.us.567568.ml:13653
+      - bai-piao-wang-zhe.us.567568.ml
+      - bai-piao-wang-zhe.us.567568.ml:34096
+      - bai-piao-wang-zhe.us.567568.ml:50231
+      - youtube.bai-piao-wang-zhe.567568.ml:58443
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 5
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 6
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 7
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 8
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 9
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 10
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 11
+      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 12
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - YOUTUBE.bai-piao-wang-zhe.567568.ml
+      - YOUTUBE.bai-piao-wang-zhe.567568.ml 2
+      - bai-piao-wang-zhe12.98848.xyz
+      - bai-piao-wang-zhe12.98848.xyz:12337
+      - bai-piao-wang-zhe12.98848.xyz:19594
+      - bai-piao-wang-zhe12.98848.xyz:34312
+      - 香港@bai-piao-wang-zhe
+      - 香港@bai-piao-wang-zhe 2
+      - 香港@bai-piao-wang-zhe 3
+      - 香港@bai-piao-wang-zhe 4
+      - 香港@bai-piao-wang-zhe 5
+      - 香港@bai-piao-wang-zhe 6
+      - 香港@bai-piao-wang-zhe 7
+      - 印尼@bai-piao-wang-zhe
+      - 日本@bai-piao-wang-zhe
+      - 韩国@bai-piao-wang-zhe
+      - 韩国@bai-piao-wang-zhe 2
+      - 俄罗斯@bai-piao-wang-zhe
+      - 俄罗斯@bai-piao-wang-zhe 2
+      - 俄罗斯@bai-piao-wang-zhe 3
+      - 俄罗斯@bai-piao-wang-zhe 4
+      - 俄罗斯@bai-piao-wang-zhe 5
+      - 新加坡@bai-piao-wang-zhe
+      - 台湾@bai-piao-wang-zhe
+      - 台湾@bai-piao-wang-zhe 2
+      - 台湾@bai-piao-wang-zhe 3
+      - 美国@bai-piao-wang-zhe
+      - 美国@bai-piao-wang-zhe 2
+      - 美国@bai-piao-wang-zhe 3
+      - 美国@bai-piao-wang-zhe 4
+      - 美国@bai-piao-wang-zhe 5
+      - 美国@bai-piao-wang-zhe 6
+      - 德国@bai-piao-wang-zhe
+      - 德国@bai-piao-wang-zhe 2
+      - 德国@bai-piao-wang-zhe 3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
