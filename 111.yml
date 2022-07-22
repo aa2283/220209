@@ -5,19 +5,11 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 2022-7-18, server: trojan3.udpgw.com, port: 443, type: trojan, password: 8db1b560-019d-11ed-8bdf-1239d0255272, skip-cert-verify: true, udp: true}
   - {name: "Singapore (SG) [LV2·原生] 狮城05 | 中转", server: youtube.bai-piao-wang-zhe.567568.ml, port: 443, type: trojan, password: e88cb308-73f7-4302-89bf-b65c7386b117, sni: youtube.bai-piao-wang-zhe.567568.ml, skip-cert-verify: true, udp: true}
-  - {name: "CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh", server: bai-piao-wang-zhe-iplc6.98848.xyz, port: 443, type: trojan, password: 67aUrSUvM7, skip-cert-verify: true, udp: true}
   - {name: "SG [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh", server: bai-piao-wang-zhe.us.567568.ml, port: 19594, type: trojan, password: YOUTUBE.bai-piao-wang-zhe.567568.ml, skip-cert-verify: true, udp: true}
-  - {name: bai-piao-wang-zhe-iplc6.98848.xyz, server: bai-piao-wang-zhe-iplc6.98848.xyz, port: 21478, type: trojan, password: d13a870b-5888-4cb8-cbf7-4e4c6a6b0cb4, skip-cert-verify: true, udp: true}
   - {name: 台湾@bai-piao-wang-zhe, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bai-piao-wang-zhe}}, udp: true}
-  - {name: 新加坡@bai-piao-wang-zhe, server: 129.150.61.170, port: 29493, type: vmess, uuid: ac0d0076-93d2-48ad-ba6e-ea5c8d7b0132, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bai-piao-wang-zhe}}, udp: true}
-  - {name: "CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2", server: bai-piao-wang-zhe-iplc6.98848.xyz, port: 22883, type: trojan, password: d13a870b-5888-4cb8-cbf7-4e4c6a6b0cb4, skip-cert-verify: true, udp: true}
   - {name: 美国@bai-piao-wang-zhe, server: in-jp-1.iivvppnn.info, port: 38301, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bai-piao-wang-zhe}}, udp: true}
   - {name: 土耳其@bai-piao-wang-zhe, server: best04.downloadmovie.cn, port: 65073, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: bai-piao-wang-zhe}}, udp: true}
-  - {name: 美国01-HyperlinkVPN, server: 216.24.179.210, port: 58939, type: trojan, password: ea5321bc-ec83-483b-8e13-ae7962e20b0e, skip-cert-verify: true, udp: true}
-  - {name: 美国02-HyperlinkVPN, server: 173.242.113.252, port: 50500, type: trojan, password: dacbc926-ea36-4be2-9f52-f343d353a2de, skip-cert-verify: true, udp: true}
-  - {name: 美国03-HyperlinkVPN, server: 80.251.223.57, port: 50500, type: trojan, password: 220281b3-650f-4cdf-93f4-8a222e2dff27, skip-cert-verify: true, udp: true}
   - {name: 香港@bai-piao-wang-zhe, server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: 111-47-215-139.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 香港@bai-piao-wang-zhe 2, server: pp1.zhengzhongfeizhu.xyz, port: 32001, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: 111-47-215-139.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 美国@bai-piao-wang-zhe 2, server: cc4.qweasdzxc.gq, port: 45747, type: ss, cipher: chacha20-ietf-poly1305, password: 6ThhE43itV3, udp: true}
@@ -28,105 +20,74 @@ proxies:
   - {name: 泰国@bai-piao-wang-zhe, server: best03.downloadmovie.cn, port: 65081, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: bai-piao-wang-zhe}}, udp: true}
   - {name: 香港@bai-piao-wang-zhe 7, server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: 111-47-215-139.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 韩国@bai-piao-wang-zhe, server: chess.magicefire.com, port: 443, type: vmess, uuid: 9aa80017-3427-4165-a522-f5f9a11330d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: NL 5Gbp/s节点更新 bit.ly/36b6iJh, server: youtube-bai-piao-wang-zhe.nl.884899.cf, port: 41196, type: trojan, password: 94afcc56-cc1c-4cd4-8c82-1215cd052795, skip-cert-verify: true, udp: true}
   - {name: 土耳其@bai-piao-wang-zhe 2, server: best03.downloadmovie.cn, port: 65073, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: bai-piao-wang-zhe}}, udp: true}
   - {name: 台湾-@bai-piao-wang-zhe-3, server: cn04.downloadmovie.cn, port: 65025, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn04.downloadmovie.cn%22%7D"}}, udp: true}
-  - {name: 美国02-HyperlinkVPN 2, server: 173.242.113.252, port: 50500, type: trojan, password: dacbc926-ea36-4be2-9f52-f343d353a2de, skip-cert-verify: true, udp: true}
   - {name: 沙特@bai-piao-wang-zhe, server: best02.downloadmovie.cn, port: 65071, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: bai-piao-wang-zhe}}, udp: true}
-  - {name: 美国01-HyperlinkVPN 2, server: 216.24.179.210, port: 58939, type: trojan, password: ea5321bc-ec83-483b-8e13-ae7962e20b0e, skip-cert-verify: true, udp: true}
-  - {name: 台湾@bai-piao-wang-zhe 2, server: auto-moble.downloadmovie.cn, port: 65023, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: bai-piao-wang-zhe}}, udp: true}
-  - {name: 俄罗斯@bai-piao-wang-zhe, server: rn.v2yyds.com, port: 31911, type: trojan, password: 0896373c-7cd9-4221-b50d-9634990d6751, skip-cert-verify: true, udp: true}
   - {name: 香港@bai-piao-wang-zhe 8, server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: ip3884414509.mobgslb.tbcache.com, skip-cert-verify: true, udp: true}
-  - {name: 韩国@bai-piao-wang-zhe 2, server: chess.magicefire.com, port: 443, type: vmess, uuid: 9aa80017-3427-4165-a522-f5f9a11330d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 香港@bai-piao-wang-zhe 9, server: pp1.zhengzhongfeizhu.xyz, port: 34002, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: 111-47-215-139.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 日本@bai-piao-wang-zhe, server: 120.233.25.136, port: 54902, type: ss, cipher: chacha20-ietf-poly1305, password: F77EbseT9YJkL, udp: true}
   - {name: 印尼@bai-piao-wang-zhe, server: api.qiscus.com, port: 443, type: vmess, uuid: 8f9b60e6-1db3-42e4-97b9-1e311f427649, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess-ws-makae, headers: {Host: bn-id01.ipv2ray.xyz}}, udp: true}
   - {name: 美国@bai-piao-wang-zhe 3, server: lms.uin-antasari.ac.id, port: 80, type: vmess, uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpnneo, headers: {Host: ctn.nextvpn.cc}}, udp: true}
   - {name: 阿根廷@bai-piao-wang-zhe, server: best03.downloadmovie.cn, port: 65086, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: bai-piao-wang-zhe}}, udp: true}
   - {name: 埃及@bai-piao-wang-zhe, server: best04.downloadmovie.cn, port: 65090, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: bai-piao-wang-zhe}}, udp: true}
-  - {name: "us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh", server: bai-piao-wang-zhe-iplc.884899.cf, port: 443, type: trojan, password: 3df66137-a428-429c-a858-8b150721b354, sni: usa23.884899.cf, skip-cert-verify: true, udp: true}
-  - {name: "美国 [直连C] 1x 5Gbp/s", server: bai-piao-wang-zhe10.98848.xyz, port: 43184, type: trojan, password: 685022af-2086-454c-8725-8ff6b6ab1d13, skip-cert-verify: true, udp: true}
-  - {name: "us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2", server: bai-piao-wang-zhe-iplc.884899.cf, port: 27956, type: trojan, password: 3df66137-a428-429c-a858-8b150721b354, sni: usa23.884899.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本01-HyperlinkVPN, server: 45.78.52.116, port: 58939, type: trojan, password: ea5321bc-ec83-483b-8e13-ae7962e20b0e, skip-cert-verify: true, udp: true}
   - {name: 南非@bai-piao-wang-zhe, server: best04.downloadmovie.cn, port: 65070, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: bai-piao-wang-zhe}}, udp: true}
   - {name: 美国-@bai-piao-wang-zhe-9, server: in-jp-1.iivvppnn.info, port: 38301, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
-  - {name: 新加坡@bai-piao-wang-zhe 2, server: sg-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
   - {name: "[LV2·原生] 狮城05 | 中转", server: youtube.bai-piao-wang-zhe.567568.ml, port: 19568, type: trojan, password: AglrNchEnS, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
-  - {name: NL 5Gbp/s节点更新 bit.ly/36b6iJh 2, server: youtube-bai-piao-wang-zhe.nl.884899.cf, port: 11528, type: trojan, password: 4431e7bf-b8b2-4f1f-9b6d-50c021483f75, skip-cert-verify: true, udp: true}
+  - {name: NL 5Gbp/s节点更新 bit.ly/36b6iJh, server: youtube-bai-piao-wang-zhe.nl.884899.cf, port: 11528, type: trojan, password: 4431e7bf-b8b2-4f1f-9b6d-50c021483f75, skip-cert-verify: true, udp: true}
   - {name: "NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh", server: bai-piao-wang-zhe.iplc.nl.884899.cf, port: 443, type: trojan, password: e49f9132-4f1c-4a11-998f-0b90697254e6, sni: bai-piao-wang-zhe.iplc.nl.884899.cf, skip-cert-verify: true, udp: true}
-  - {name: 日本01-HyperlinkVPN 2, server: 45.78.52.116, port: 58939, type: trojan, password: ea5321bc-ec83-483b-8e13-ae7962e20b0e, skip-cert-verify: true, udp: true}
   - {name: "NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2", server: bai-piao-wang-zhe.iplc.nl.884899.cf, port: 443, type: vmess, uuid: e49f9132-4f1c-4a11-998f-0b90697254e6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bai-piao-wang-zhe.iplc.nl.884899.cf, network: ws, ws-opts: {path: /YouTube@bai-piao-wang-zhe_vws, headers: {Host: bai-piao-wang-zhe.iplc.nl.884899.cf}}, udp: true}
   - {name: 印度@bai-piao-wang-zhe, server: in-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
-  - {name: 美国@bai-piao-wang-zhe 4, server: www.digitalocean.com, port: 443, type: vmess, uuid: 3df66137-a428-429c-a858-8b150721b354, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /youtbue@bai-piao-wang-zhe_vws, headers: {Host: usa23.884899.cf}}, udp: true}
-  - {name: "us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3", server: usa23.884899.cf, port: 443, type: trojan, password: 3df66137-a428-429c-a858-8b150721b354, sni: usa23.884899.cf, skip-cert-verify: true, udp: true}
   - {name: "NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3", server: bai-piao-wang-zhe.iplc.nl.884899.cf, port: 443, type: trojan, password: e49f9132-4f1c-4a11-998f-0b90697254e6, sni: bai-piao-wang-zhe.iplc.nl.884899.cf, skip-cert-verify: true, udp: true}
-  - {name: 韩国@bai-piao-wang-zhe 3, server: chess.magicefire.com, port: 443, type: vmess, uuid: 9aa80017-3427-4165-a522-f5f9a11330d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 韩国@bai-piao-wang-zhe 2, server: chess.magicefire.com, port: 443, type: vmess, uuid: 9aa80017-3427-4165-a522-f5f9a11330d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 英国@bai-piao-wang-zhe, server: powerservice.com, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sshocean, headers: {Host: uk2.v2rayserv.com}}, udp: true}
-  - {name: 韩国@bai-piao-wang-zhe 4, server: 146.56.110.129, port: 53702, type: vmess, uuid: d0ee8ec0-ef63-41aa-9087-11edf7a978b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 韩国@bai-piao-wang-zhe 3, server: 146.56.110.129, port: 53702, type: vmess, uuid: d0ee8ec0-ef63-41aa-9087-11edf7a978b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Netherlands (NL)  5Gbp/s节点更新 bit.ly/36b6iJh, server: youtube-bai-piao-wang-zhe.nl.884899.cf, port: 14201, type: trojan, password: 4431e7bf-b8b2-4f1f-9b6d-50c021483f75, sni: youtube-bai-piao-wang-zhe.nl.884899.cf, skip-cert-verify: true, udp: true}
-  - {name: 新加坡@bai-piao-wang-zhe 3, server: sg-04.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
-  - {name: 美国@bai-piao-wang-zhe 5, server: ingress-i2.iivvppnn.info, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bai-piao-wang-zhe}}, udp: true}
+  - {name: 美国@bai-piao-wang-zhe 4, server: ingress-i2.iivvppnn.info, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bai-piao-wang-zhe}}, udp: true}
   - {name: "Singapore (SG) [LV2·原生] 狮城05 | 中转 2", server: youtube.bai-piao-wang-zhe.567568.ml, port: 443, type: trojan, password: e88cb308-73f7-4302-89bf-b65c7386b117, sni: youtube.bai-piao-wang-zhe.567568.ml, skip-cert-verify: true, udp: true}
-  - {name: 韩国@bai-piao-wang-zhe 5, server: best04.downloadmovie.cn, port: 65048, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: bai-piao-wang-zhe}}, udp: true}
-  - {name: 新加坡@bai-piao-wang-zhe 4, server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bai-piao-wang-zhe}}, udp: true}
+  - {name: 韩国@bai-piao-wang-zhe 4, server: best04.downloadmovie.cn, port: 65048, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: bai-piao-wang-zhe}}, udp: true}
+  - {name: 新加坡@bai-piao-wang-zhe, server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bai-piao-wang-zhe}}, udp: true}
   - {name: 阿根廷@bai-piao-wang-zhe 2, server: best04.downloadmovie.cn, port: 65086, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: bai-piao-wang-zhe}}, udp: true}
-  - {name: usa23.884899.cf_vmess_ws, server: www.digitalocean.com, port: 443, type: vmess, uuid: 3df66137-a428-429c-a858-8b150721b354, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: usa23.884899.cf, network: ws, ws-opts: {path: /youtbue@bai-piao-wang-zhe_vws, headers: {Host: usa23.884899.cf}}, udp: true}
-  - {name: 美国节点更新 bit.ly/36b6iJh, server: usa23.884899.cf, port: 443, type: trojan, password: 3df66137-a428-429c-a858-8b150721b354, sni: usa23.884899.cf, skip-cert-verify: true, udp: true}
-  - {name: ^JP-03-TR-1x, server: jp-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: jp-03.licom.ml, skip-cert-verify: true, udp: true}
-  - {name: SG-02-V2-1x-CF, server: 172.104.61.236, port: 443, type: vmess, uuid: ce433528-39fa-4711-bc0d-25a5b1579574, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: sg-02-cf.licom.ml, network: ws, ws-opts: {path: /, headers: {Host: sg-02-cf.licom.ml}}, udp: true}
-  - {name: ^SG-02-TR-1x, server: sg-02.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: sg-02.licom.ml, skip-cert-verify: true, udp: true}
-  - {name: ^SG-03-TR-1x, server: sg-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: sg-03.licom.ml, skip-cert-verify: true, udp: true}
-  - {name: ^SG-04-TR-1x, server: sg-04.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: sg-04.licom.ml, skip-cert-verify: true, udp: true}
-  - {name: IN-01-TR-1x, server: in-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: in-01.licom.ml, skip-cert-verify: true, udp: true}
   - {name: IN 02|1x|TR, server: in-02.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: in-02.licom.ml, skip-cert-verify: true, udp: true}
   - {name: IN 03|1x|TR, server: in-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: in-03.licom.ml, skip-cert-verify: true, udp: true}
-  - {name: JP 1 → bai-piao-wang-zhe, server: jp-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
-  - {name: JP 2 → bai-piao-wang-zhe, server: in-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
   - {name: SG 1 → bai-piao-wang-zhe, server: trojan3.udpgw.com, port: 443, type: trojan, password: 8db1b560-019d-11ed-8bdf-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: SG 2 → bai-piao-wang-zhe, server: sg-04.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
-  - {name: SG 3 → bai-piao-wang-zhe, server: sg-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
   - {name: SG 节点更新 bit.ly/36b6iJh, server: bai-piao-wang-zhe.us.567568.ml, port: 12337, type: trojan, password: df8ebf95-bd60-4f7e-a505-fe8db5ba3342, skip-cert-verify: true, udp: true}
-  - {name: 节点更新 bit.ly/36b6iJh, server: bai-piao-wang-zhe-iplc6.98848.xyz, port: 19125, type: vmess, uuid: 6cd73eff-31f3-429d-b5de-3871121335ef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bai-piao-wang-zhe-iplc6.98848.xyz, network: ws, ws-opts: {path: /youtbue@bai-piao-wang-zhe_ws, headers: {Host: bing.com}}, udp: true}
-  - {name: "CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3", server: usa23.884899.cf, port: 21478, type: trojan, password: d13a870b-5888-4cb8-cbf7-4e4c6a6b0cb4, skip-cert-verify: true, udp: true}
-  - {name: "CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 4", server: bai-piao-wang-zhe-iplc6.98848.xyz, port: 15752, type: trojan, password: zAQX7WNBFV, skip-cert-verify: true, udp: true}
-  - {name: "CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 5", server: bai-piao-wang-zhe-iplc6.98848.xyz, port: 48563, type: trojan, password: m4u97SHa5I, sni: bai-piao-wang-zhe-iplc6.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: "CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 6", server: bai-piao-wang-zhe-iplc6.98848.xyz, port: 19179, type: vmess, uuid: 6cd73eff-31f3-429d-b5de-3871121335ef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /youtbue@bai-piao-wang-zhe_ws, headers: {Host: bing.com}}, udp: true}
-  - {name: "CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 7", server: usa23.884899.cf, port: 48563, type: trojan, password: m4u97SHa5I, sni: bai-piao-wang-zhe-iplc6.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港微软云10Gbps, server: trojan-daozhu-uallen-qbit-azure-hk.kinhproxy.com, port: 443, type: trojan, password: trojan-daozhu-uallen-qbit-azure-hk, sni: trojan-daozhu-uallen-qbit-azure-hk.kinhproxy.com, skip-cert-verify: true, udp: true}
-  - {name: 美国01, server: 216.24.179.210, port: 58939, type: trojan, password: ea5321bc-ec83-483b-8e13-ae7962e20b0e, skip-cert-verify: true, udp: true}
-  - {name: bai-piao-wang-zhe-iplc6.98848.xyz:19568, server: bai-piao-wang-zhe-iplc6.98848.xyz, port: 19568, type: trojan, password: ea5321bc-ec83-483b-8e13-ae7962e20b0e, sni: usa23.884899.cf, skip-cert-verify: true, udp: true}
-  - {name: 节点更新 bit.ly/36b6iJh 2, server: bai-piao-wang-zhe-iplc6.98848.xyz, port: 12337, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: usa23.884899.cf, skip-cert-verify: true, udp: true}
-  - {name: hk, server: bai-piao-wang-zhe.HK.567568.ml, port: 443, type: trojan, password: trojan-daozhu-uallen-qbit-azure-hk, sni: trojan-daozhu-uallen-qbit-azure-hk.kinhproxy.com, skip-cert-verify: true, udp: true}
-  - {name: JP 1 → bai-piao-wang-zhe 2, server: jp-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
-  - {name: JP 2 → bai-piao-wang-zhe 2, server: in-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
-  - {name: SG 2 → bai-piao-wang-zhe 2, server: sg-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
-  - {name: SG 3 → bai-piao-wang-zhe 2, server: sg-04.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
+  - {name: JP 1 → bai-piao-wang-zhe, server: jp-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
   - {name: SG 5 → bai-piao-wang-zhe, server: 715hk02.ok365.cyou, port: 443, type: trojan, password: 15d01051-48d0-4058-8422-ecc686fc340d, skip-cert-verify: true, udp: true}
-  - {name: 节点更新 bit.ly/36b6iJh 3, server: us23.567568.ml, port: 27956, type: trojan, password: 3df66137-a428-429c-a858-8b150721b354, skip-cert-verify: true, udp: true}
-  - {name: us23.567568.ml_vmess_ws, server: www.digitalocean.com, port: 443, type: vmess, uuid: 3df66137-a428-429c-a858-8b150721b354, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us23.567568.ml, network: ws, ws-opts: {path: /youtbue@bai-piao-wang-zhe_vws, headers: {Host: us23.567568.ml}}, udp: true}
+  - {name: us23.567568.ml, server: us23.567568.ml, port: 443, type: vmess, uuid: 3df66137-a428-429c-a858-8b150721b354, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us23.567568.ml, network: ws, ws-opts: {path: /youtbue@bai-piao-wang-zhe_vws, headers: {Host: us23.567568.ml}}, udp: true}
   - {name: us23.567568.ml_Trojan, server: us23.567568.ml, port: 443, type: trojan, password: 3df66137-a428-429c-a858-8b150721b354, sni: us23.567568.ml, skip-cert-verify: true, udp: true}
   - {name: us23.567568.ml_trojan_gRPC, server: www.digitalocean.com, port: 443, type: trojan, password: 3df66137-a428-429c-a858-8b150721b354, sni: us23.567568.ml, skip-cert-verify: true, udp: true}
-  - {name: 节点更新 bit.ly/36b6iJh 4, server: us23.567568.ml, port: 27956, type: trojan, password: 3df66137-a428-429c-a858-8b150721b354, skip-cert-verify: true, udp: true}
-  - {name: 节点更新 bit.ly/36b6iJh 5, server: bai-piao-wang-zhe.hk2.567568.ml, port: 443, type: trojan, password: trojan-daozhu-uallen-qbit-azure-hk, sni: trojan-daozhu-uallen-qbit-azure-hk.kinhproxy.com, skip-cert-verify: true, udp: true}
+  - {name: 香港微软云10Gbps, server: trojan-daozhu-uallen-qbit-azure-hk.kinhproxy.com, port: 443, type: trojan, password: trojan-daozhu-uallen-qbit-azure-hk, sni: trojan-daozhu-uallen-qbit-azure-hk.kinhproxy.com, skip-cert-verify: true, udp: true}
+  - {name: DE 1 → bai-piao-wang-zhe, server: 11declu.pronetworklink.net, port: 443, type: trojan, password: 56654eb4-4db0-4443-a0bb-4147ac0aa56f, skip-cert-verify: true, udp: true}
+  - {name: JP 2 → bai-piao-wang-zhe, server: in-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
+  - {name: RO 1 → bai-piao-wang-zhe, server: supernortheast.xn--mesv7f5toqlp.club, port: 12003, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5, skip-cert-verify: true, udp: true}
+  - {name: RO 2 → bai-piao-wang-zhe, server: supernortheast.xn--mesv7f5toqlp.club, port: 12001, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5, skip-cert-verify: true, udp: true}
+  - {name: RO 3 → bai-piao-wang-zhe, server: supernortheast.xn--mesv7f5toqlp.club, port: 12002, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5, skip-cert-verify: true, udp: true}
+  - {name: RO 4 → bai-piao-wang-zhe, server: supernortheast.xn--mesv7f5toqlp.club, port: 12004, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5, skip-cert-verify: true, udp: true}
+  - {name: SG 3 → bai-piao-wang-zhe, server: supersouth.xn--mesv7f5toqlp.club, port: 12001, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5, skip-cert-verify: true, udp: true}
+  - {name: SG 4 → bai-piao-wang-zhe, server: sg-04.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
+  - {name: SG 7 → bai-piao-wang-zhe, server: supersouth.xn--mesv7f5toqlp.club, port: 12003, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5, sni: supersouth.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: US 11 → bai-piao-wang-zhe, server: youtube-bai-piao-wang-zhe.nl.884899.cf, port: 41196, type: trojan, password: 94afcc56-cc1c-4cd4-8c82-1215cd052795, skip-cert-verify: true, udp: true}
+  - {name: us123.567568.ml_vmess_ws, server: us123.567568.ml, port: 443, type: vmess, uuid: youtube@bai-piao-wang-zhe_3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us123.567568.ml, network: ws, ws-opts: {path: /youtube@bai-piao-wang-zhe_vws, headers: {Host: us123.567568.ml}}, udp: true}
+  - {name: us123.567568.ml_vmess_ws-clone, server: youtube_bai-piao-wang-zhe-iplc12.98848.xyz, port: 443, type: vmess, uuid: youtube@bai-piao-wang-zhe_3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us123.567568.ml, network: ws, ws-opts: {path: /youtube@bai-piao-wang-zhe_vws, headers: {Host: us123.567568.ml}}, udp: true}
+  - {name: Azure 韩国-Powered by @gd1214b, server: azkr.gd1214b.net, port: 443, type: vmess, uuid: 055bf827-f723-4cf7-85ac-33e83c6e1d96, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: azkr.gd1214b.net, network: ws, ws-opts: {path: /, headers: {Host: azkr.gd1214b.net}}, udp: true}
+  - {name: "CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh", server: bai-piao-wang-zhe@youtube-bai-piao-wang-zhe.us.98848.xyz, port: 59366, type: trojan, password: youtube, skip-cert-verify: true, udp: true}
+  - {name: youtube-bai-piao-wang-zhe.us.98848.xyz:43922, server: youtube-bai-piao-wang-zhe.us.98848.xyz, port: 43922, type: trojan, password: 84c413a4-fb46-4421-b12d-c85e61165648, skip-cert-verify: true, udp: true}
+  - {name: ca127.98848.xyz_vmess_ws, server: ca127.98848.xyz, port: 443, type: vmess, uuid: youtube@bai-piao-wang-zhe_3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ca127.98848.xyz, network: ws, ws-opts: {path: /youtbue@bai-piao-wang-zhe_vws, headers: {Host: ca127.98848.xyz}}, udp: true}
+  - {name: SG 5 → bai-piao-wang-zhe-clone, server: sg-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
+  - {name: SG 7 → bai-piao-wang-zhe-clone, server: supersouth.xn--mesv7f5toqlp.club, port: 12003, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5, sni: supersouth.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: ca127.98848.xyz, server: ca127.98848.xyz, port: 443, type: trojan, password: ce9b461f-de8a-425f-8036-371e07995deb, sni: ca127.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: ca127.98848.xyz_vmess_ws 2, server: www.digitalocean.com, port: 443, type: vmess, uuid: youtube@bai-piao-wang-zhe_3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ca127.98848.xyz, network: ws, ws-opts: {path: /youtbue@bai-piao-wang-zhe_vws, headers: {Host: ca127.98848.xyz}}, udp: true}
+  - {name: ca127.98848.xyz_Trojan, server: ca127.98848.xyz, port: 443, type: trojan, password: ce9b461f-de8a-425f-8036-371e07995deb, sni: ca127.98848.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 2022-7-18
       - Singapore (SG) [LV2·原生] 狮城05 | 中转
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
       - SG [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
-      - bai-piao-wang-zhe-iplc6.98848.xyz
       - 台湾@bai-piao-wang-zhe
-      - 新加坡@bai-piao-wang-zhe
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
       - 美国@bai-piao-wang-zhe
       - 土耳其@bai-piao-wang-zhe
-      - 美国01-HyperlinkVPN
-      - 美国02-HyperlinkVPN
-      - 美国03-HyperlinkVPN
       - 香港@bai-piao-wang-zhe
       - 香港@bai-piao-wang-zhe 2
       - 美国@bai-piao-wang-zhe 2
@@ -137,104 +98,73 @@ proxy-groups:
       - 泰国@bai-piao-wang-zhe
       - 香港@bai-piao-wang-zhe 7
       - 韩国@bai-piao-wang-zhe
-      - NL 5Gbp/s节点更新 bit.ly/36b6iJh
       - 土耳其@bai-piao-wang-zhe 2
       - 台湾-@bai-piao-wang-zhe-3
-      - 美国02-HyperlinkVPN 2
       - 沙特@bai-piao-wang-zhe
-      - 美国01-HyperlinkVPN 2
-      - 台湾@bai-piao-wang-zhe 2
-      - 俄罗斯@bai-piao-wang-zhe
       - 香港@bai-piao-wang-zhe 8
-      - 韩国@bai-piao-wang-zhe 2
       - 香港@bai-piao-wang-zhe 9
-      - 日本@bai-piao-wang-zhe
       - 印尼@bai-piao-wang-zhe
       - 美国@bai-piao-wang-zhe 3
       - 阿根廷@bai-piao-wang-zhe
       - 埃及@bai-piao-wang-zhe
-      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
-      - 美国 [直连C] 1x 5Gbp/s
-      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
-      - 日本01-HyperlinkVPN
       - 南非@bai-piao-wang-zhe
       - 美国-@bai-piao-wang-zhe-9
-      - 新加坡@bai-piao-wang-zhe 2
       - "[LV2·原生] 狮城05 | 中转"
-      - NL 5Gbp/s节点更新 bit.ly/36b6iJh 2
+      - NL 5Gbp/s节点更新 bit.ly/36b6iJh
       - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
-      - 日本01-HyperlinkVPN 2
       - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
       - 印度@bai-piao-wang-zhe
-      - 美国@bai-piao-wang-zhe 4
-      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
       - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
-      - 韩国@bai-piao-wang-zhe 3
+      - 韩国@bai-piao-wang-zhe 2
       - 英国@bai-piao-wang-zhe
-      - 韩国@bai-piao-wang-zhe 4
+      - 韩国@bai-piao-wang-zhe 3
       - Netherlands (NL)  5Gbp/s节点更新 bit.ly/36b6iJh
-      - 新加坡@bai-piao-wang-zhe 3
-      - 美国@bai-piao-wang-zhe 5
+      - 美国@bai-piao-wang-zhe 4
       - Singapore (SG) [LV2·原生] 狮城05 | 中转 2
-      - 韩国@bai-piao-wang-zhe 5
-      - 新加坡@bai-piao-wang-zhe 4
+      - 韩国@bai-piao-wang-zhe 4
+      - 新加坡@bai-piao-wang-zhe
       - 阿根廷@bai-piao-wang-zhe 2
-      - usa23.884899.cf_vmess_ws
-      - 美国节点更新 bit.ly/36b6iJh
-      - ^JP-03-TR-1x
-      - SG-02-V2-1x-CF
-      - ^SG-02-TR-1x
-      - ^SG-03-TR-1x
-      - ^SG-04-TR-1x
-      - IN-01-TR-1x
       - IN 02|1x|TR
       - IN 03|1x|TR
-      - JP 1 → bai-piao-wang-zhe
-      - JP 2 → bai-piao-wang-zhe
       - SG 1 → bai-piao-wang-zhe
-      - SG 2 → bai-piao-wang-zhe
-      - SG 3 → bai-piao-wang-zhe
       - SG 节点更新 bit.ly/36b6iJh
-      - 节点更新 bit.ly/36b6iJh
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 4
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 5
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 6
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 7
-      - 香港微软云10Gbps
-      - 美国01
-      - bai-piao-wang-zhe-iplc6.98848.xyz:19568
-      - 节点更新 bit.ly/36b6iJh 2
-      - hk
-      - JP 1 → bai-piao-wang-zhe 2
-      - JP 2 → bai-piao-wang-zhe 2
-      - SG 2 → bai-piao-wang-zhe 2
-      - SG 3 → bai-piao-wang-zhe 2
+      - JP 1 → bai-piao-wang-zhe
       - SG 5 → bai-piao-wang-zhe
-      - 节点更新 bit.ly/36b6iJh 3
-      - us23.567568.ml_vmess_ws
+      - us23.567568.ml
       - us23.567568.ml_Trojan
       - us23.567568.ml_trojan_gRPC
-      - 节点更新 bit.ly/36b6iJh 4
-      - 节点更新 bit.ly/36b6iJh 5
+      - 香港微软云10Gbps
+      - DE 1 → bai-piao-wang-zhe
+      - JP 2 → bai-piao-wang-zhe
+      - RO 1 → bai-piao-wang-zhe
+      - RO 2 → bai-piao-wang-zhe
+      - RO 3 → bai-piao-wang-zhe
+      - RO 4 → bai-piao-wang-zhe
+      - SG 3 → bai-piao-wang-zhe
+      - SG 4 → bai-piao-wang-zhe
+      - SG 7 → bai-piao-wang-zhe
+      - US 11 → bai-piao-wang-zhe
+      - us123.567568.ml_vmess_ws
+      - us123.567568.ml_vmess_ws-clone
+      - Azure 韩国-Powered by @gd1214b
+      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - youtube-bai-piao-wang-zhe.us.98848.xyz:43922
+      - ca127.98848.xyz_vmess_ws
+      - SG 5 → bai-piao-wang-zhe-clone
+      - SG 7 → bai-piao-wang-zhe-clone
+      - ca127.98848.xyz
+      - ca127.98848.xyz_vmess_ws 2
+      - ca127.98848.xyz_Trojan
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 2022-7-18
       - Singapore (SG) [LV2·原生] 狮城05 | 中转
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
       - SG [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
-      - bai-piao-wang-zhe-iplc6.98848.xyz
       - 台湾@bai-piao-wang-zhe
-      - 新加坡@bai-piao-wang-zhe
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
       - 美国@bai-piao-wang-zhe
       - 土耳其@bai-piao-wang-zhe
-      - 美国01-HyperlinkVPN
-      - 美国02-HyperlinkVPN
-      - 美国03-HyperlinkVPN
       - 香港@bai-piao-wang-zhe
       - 香港@bai-piao-wang-zhe 2
       - 美国@bai-piao-wang-zhe 2
@@ -245,105 +175,74 @@ proxy-groups:
       - 泰国@bai-piao-wang-zhe
       - 香港@bai-piao-wang-zhe 7
       - 韩国@bai-piao-wang-zhe
-      - NL 5Gbp/s节点更新 bit.ly/36b6iJh
       - 土耳其@bai-piao-wang-zhe 2
       - 台湾-@bai-piao-wang-zhe-3
-      - 美国02-HyperlinkVPN 2
       - 沙特@bai-piao-wang-zhe
-      - 美国01-HyperlinkVPN 2
-      - 台湾@bai-piao-wang-zhe 2
-      - 俄罗斯@bai-piao-wang-zhe
       - 香港@bai-piao-wang-zhe 8
-      - 韩国@bai-piao-wang-zhe 2
       - 香港@bai-piao-wang-zhe 9
-      - 日本@bai-piao-wang-zhe
       - 印尼@bai-piao-wang-zhe
       - 美国@bai-piao-wang-zhe 3
       - 阿根廷@bai-piao-wang-zhe
       - 埃及@bai-piao-wang-zhe
-      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
-      - 美国 [直连C] 1x 5Gbp/s
-      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
-      - 日本01-HyperlinkVPN
       - 南非@bai-piao-wang-zhe
       - 美国-@bai-piao-wang-zhe-9
-      - 新加坡@bai-piao-wang-zhe 2
       - "[LV2·原生] 狮城05 | 中转"
-      - NL 5Gbp/s节点更新 bit.ly/36b6iJh 2
+      - NL 5Gbp/s节点更新 bit.ly/36b6iJh
       - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
-      - 日本01-HyperlinkVPN 2
       - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
       - 印度@bai-piao-wang-zhe
-      - 美国@bai-piao-wang-zhe 4
-      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
       - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
-      - 韩国@bai-piao-wang-zhe 3
+      - 韩国@bai-piao-wang-zhe 2
       - 英国@bai-piao-wang-zhe
-      - 韩国@bai-piao-wang-zhe 4
+      - 韩国@bai-piao-wang-zhe 3
       - Netherlands (NL)  5Gbp/s节点更新 bit.ly/36b6iJh
-      - 新加坡@bai-piao-wang-zhe 3
-      - 美国@bai-piao-wang-zhe 5
+      - 美国@bai-piao-wang-zhe 4
       - Singapore (SG) [LV2·原生] 狮城05 | 中转 2
-      - 韩国@bai-piao-wang-zhe 5
-      - 新加坡@bai-piao-wang-zhe 4
+      - 韩国@bai-piao-wang-zhe 4
+      - 新加坡@bai-piao-wang-zhe
       - 阿根廷@bai-piao-wang-zhe 2
-      - usa23.884899.cf_vmess_ws
-      - 美国节点更新 bit.ly/36b6iJh
-      - ^JP-03-TR-1x
-      - SG-02-V2-1x-CF
-      - ^SG-02-TR-1x
-      - ^SG-03-TR-1x
-      - ^SG-04-TR-1x
-      - IN-01-TR-1x
       - IN 02|1x|TR
       - IN 03|1x|TR
-      - JP 1 → bai-piao-wang-zhe
-      - JP 2 → bai-piao-wang-zhe
       - SG 1 → bai-piao-wang-zhe
-      - SG 2 → bai-piao-wang-zhe
-      - SG 3 → bai-piao-wang-zhe
       - SG 节点更新 bit.ly/36b6iJh
-      - 节点更新 bit.ly/36b6iJh
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 4
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 5
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 6
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 7
-      - 香港微软云10Gbps
-      - 美国01
-      - bai-piao-wang-zhe-iplc6.98848.xyz:19568
-      - 节点更新 bit.ly/36b6iJh 2
-      - hk
-      - JP 1 → bai-piao-wang-zhe 2
-      - JP 2 → bai-piao-wang-zhe 2
-      - SG 2 → bai-piao-wang-zhe 2
-      - SG 3 → bai-piao-wang-zhe 2
+      - JP 1 → bai-piao-wang-zhe
       - SG 5 → bai-piao-wang-zhe
-      - 节点更新 bit.ly/36b6iJh 3
-      - us23.567568.ml_vmess_ws
+      - us23.567568.ml
       - us23.567568.ml_Trojan
       - us23.567568.ml_trojan_gRPC
-      - 节点更新 bit.ly/36b6iJh 4
-      - 节点更新 bit.ly/36b6iJh 5
+      - 香港微软云10Gbps
+      - DE 1 → bai-piao-wang-zhe
+      - JP 2 → bai-piao-wang-zhe
+      - RO 1 → bai-piao-wang-zhe
+      - RO 2 → bai-piao-wang-zhe
+      - RO 3 → bai-piao-wang-zhe
+      - RO 4 → bai-piao-wang-zhe
+      - SG 3 → bai-piao-wang-zhe
+      - SG 4 → bai-piao-wang-zhe
+      - SG 7 → bai-piao-wang-zhe
+      - US 11 → bai-piao-wang-zhe
+      - us123.567568.ml_vmess_ws
+      - us123.567568.ml_vmess_ws-clone
+      - Azure 韩国-Powered by @gd1214b
+      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - youtube-bai-piao-wang-zhe.us.98848.xyz:43922
+      - ca127.98848.xyz_vmess_ws
+      - SG 5 → bai-piao-wang-zhe-clone
+      - SG 7 → bai-piao-wang-zhe-clone
+      - ca127.98848.xyz
+      - ca127.98848.xyz_vmess_ws 2
+      - ca127.98848.xyz_Trojan
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 2022-7-18
       - Singapore (SG) [LV2·原生] 狮城05 | 中转
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
       - SG [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
-      - bai-piao-wang-zhe-iplc6.98848.xyz
       - 台湾@bai-piao-wang-zhe
-      - 新加坡@bai-piao-wang-zhe
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
       - 美国@bai-piao-wang-zhe
       - 土耳其@bai-piao-wang-zhe
-      - 美国01-HyperlinkVPN
-      - 美国02-HyperlinkVPN
-      - 美国03-HyperlinkVPN
       - 香港@bai-piao-wang-zhe
       - 香港@bai-piao-wang-zhe 2
       - 美国@bai-piao-wang-zhe 2
@@ -354,86 +253,63 @@ proxy-groups:
       - 泰国@bai-piao-wang-zhe
       - 香港@bai-piao-wang-zhe 7
       - 韩国@bai-piao-wang-zhe
-      - NL 5Gbp/s节点更新 bit.ly/36b6iJh
       - 土耳其@bai-piao-wang-zhe 2
       - 台湾-@bai-piao-wang-zhe-3
-      - 美国02-HyperlinkVPN 2
       - 沙特@bai-piao-wang-zhe
-      - 美国01-HyperlinkVPN 2
-      - 台湾@bai-piao-wang-zhe 2
-      - 俄罗斯@bai-piao-wang-zhe
       - 香港@bai-piao-wang-zhe 8
-      - 韩国@bai-piao-wang-zhe 2
       - 香港@bai-piao-wang-zhe 9
-      - 日本@bai-piao-wang-zhe
       - 印尼@bai-piao-wang-zhe
       - 美国@bai-piao-wang-zhe 3
       - 阿根廷@bai-piao-wang-zhe
       - 埃及@bai-piao-wang-zhe
-      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
-      - 美国 [直连C] 1x 5Gbp/s
-      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
-      - 日本01-HyperlinkVPN
       - 南非@bai-piao-wang-zhe
       - 美国-@bai-piao-wang-zhe-9
-      - 新加坡@bai-piao-wang-zhe 2
       - "[LV2·原生] 狮城05 | 中转"
-      - NL 5Gbp/s节点更新 bit.ly/36b6iJh 2
+      - NL 5Gbp/s节点更新 bit.ly/36b6iJh
       - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
-      - 日本01-HyperlinkVPN 2
       - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
       - 印度@bai-piao-wang-zhe
-      - 美国@bai-piao-wang-zhe 4
-      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
       - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
-      - 韩国@bai-piao-wang-zhe 3
+      - 韩国@bai-piao-wang-zhe 2
       - 英国@bai-piao-wang-zhe
-      - 韩国@bai-piao-wang-zhe 4
+      - 韩国@bai-piao-wang-zhe 3
       - Netherlands (NL)  5Gbp/s节点更新 bit.ly/36b6iJh
-      - 新加坡@bai-piao-wang-zhe 3
-      - 美国@bai-piao-wang-zhe 5
+      - 美国@bai-piao-wang-zhe 4
       - Singapore (SG) [LV2·原生] 狮城05 | 中转 2
-      - 韩国@bai-piao-wang-zhe 5
-      - 新加坡@bai-piao-wang-zhe 4
+      - 韩国@bai-piao-wang-zhe 4
+      - 新加坡@bai-piao-wang-zhe
       - 阿根廷@bai-piao-wang-zhe 2
-      - usa23.884899.cf_vmess_ws
-      - 美国节点更新 bit.ly/36b6iJh
-      - ^JP-03-TR-1x
-      - SG-02-V2-1x-CF
-      - ^SG-02-TR-1x
-      - ^SG-03-TR-1x
-      - ^SG-04-TR-1x
-      - IN-01-TR-1x
       - IN 02|1x|TR
       - IN 03|1x|TR
-      - JP 1 → bai-piao-wang-zhe
-      - JP 2 → bai-piao-wang-zhe
       - SG 1 → bai-piao-wang-zhe
-      - SG 2 → bai-piao-wang-zhe
-      - SG 3 → bai-piao-wang-zhe
       - SG 节点更新 bit.ly/36b6iJh
-      - 节点更新 bit.ly/36b6iJh
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 4
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 5
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 6
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 7
-      - 香港微软云10Gbps
-      - 美国01
-      - bai-piao-wang-zhe-iplc6.98848.xyz:19568
-      - 节点更新 bit.ly/36b6iJh 2
-      - hk
-      - JP 1 → bai-piao-wang-zhe 2
-      - JP 2 → bai-piao-wang-zhe 2
-      - SG 2 → bai-piao-wang-zhe 2
-      - SG 3 → bai-piao-wang-zhe 2
+      - JP 1 → bai-piao-wang-zhe
       - SG 5 → bai-piao-wang-zhe
-      - 节点更新 bit.ly/36b6iJh 3
-      - us23.567568.ml_vmess_ws
+      - us23.567568.ml
       - us23.567568.ml_Trojan
       - us23.567568.ml_trojan_gRPC
-      - 节点更新 bit.ly/36b6iJh 4
-      - 节点更新 bit.ly/36b6iJh 5
+      - 香港微软云10Gbps
+      - DE 1 → bai-piao-wang-zhe
+      - JP 2 → bai-piao-wang-zhe
+      - RO 1 → bai-piao-wang-zhe
+      - RO 2 → bai-piao-wang-zhe
+      - RO 3 → bai-piao-wang-zhe
+      - RO 4 → bai-piao-wang-zhe
+      - SG 3 → bai-piao-wang-zhe
+      - SG 4 → bai-piao-wang-zhe
+      - SG 7 → bai-piao-wang-zhe
+      - US 11 → bai-piao-wang-zhe
+      - us123.567568.ml_vmess_ws
+      - us123.567568.ml_vmess_ws-clone
+      - Azure 韩国-Powered by @gd1214b
+      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - youtube-bai-piao-wang-zhe.us.98848.xyz:43922
+      - ca127.98848.xyz_vmess_ws
+      - SG 5 → bai-piao-wang-zhe-clone
+      - SG 7 → bai-piao-wang-zhe-clone
+      - ca127.98848.xyz
+      - ca127.98848.xyz_vmess_ws 2
+      - ca127.98848.xyz_Trojan
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -452,19 +328,11 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 2022-7-18
       - Singapore (SG) [LV2·原生] 狮城05 | 中转
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
       - SG [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
-      - bai-piao-wang-zhe-iplc6.98848.xyz
       - 台湾@bai-piao-wang-zhe
-      - 新加坡@bai-piao-wang-zhe
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
       - 美国@bai-piao-wang-zhe
       - 土耳其@bai-piao-wang-zhe
-      - 美国01-HyperlinkVPN
-      - 美国02-HyperlinkVPN
-      - 美国03-HyperlinkVPN
       - 香港@bai-piao-wang-zhe
       - 香港@bai-piao-wang-zhe 2
       - 美国@bai-piao-wang-zhe 2
@@ -475,86 +343,63 @@ proxy-groups:
       - 泰国@bai-piao-wang-zhe
       - 香港@bai-piao-wang-zhe 7
       - 韩国@bai-piao-wang-zhe
-      - NL 5Gbp/s节点更新 bit.ly/36b6iJh
       - 土耳其@bai-piao-wang-zhe 2
       - 台湾-@bai-piao-wang-zhe-3
-      - 美国02-HyperlinkVPN 2
       - 沙特@bai-piao-wang-zhe
-      - 美国01-HyperlinkVPN 2
-      - 台湾@bai-piao-wang-zhe 2
-      - 俄罗斯@bai-piao-wang-zhe
       - 香港@bai-piao-wang-zhe 8
-      - 韩国@bai-piao-wang-zhe 2
       - 香港@bai-piao-wang-zhe 9
-      - 日本@bai-piao-wang-zhe
       - 印尼@bai-piao-wang-zhe
       - 美国@bai-piao-wang-zhe 3
       - 阿根廷@bai-piao-wang-zhe
       - 埃及@bai-piao-wang-zhe
-      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
-      - 美国 [直连C] 1x 5Gbp/s
-      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
-      - 日本01-HyperlinkVPN
       - 南非@bai-piao-wang-zhe
       - 美国-@bai-piao-wang-zhe-9
-      - 新加坡@bai-piao-wang-zhe 2
       - "[LV2·原生] 狮城05 | 中转"
-      - NL 5Gbp/s节点更新 bit.ly/36b6iJh 2
+      - NL 5Gbp/s节点更新 bit.ly/36b6iJh
       - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
-      - 日本01-HyperlinkVPN 2
       - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
       - 印度@bai-piao-wang-zhe
-      - 美国@bai-piao-wang-zhe 4
-      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
       - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
-      - 韩国@bai-piao-wang-zhe 3
+      - 韩国@bai-piao-wang-zhe 2
       - 英国@bai-piao-wang-zhe
-      - 韩国@bai-piao-wang-zhe 4
+      - 韩国@bai-piao-wang-zhe 3
       - Netherlands (NL)  5Gbp/s节点更新 bit.ly/36b6iJh
-      - 新加坡@bai-piao-wang-zhe 3
-      - 美国@bai-piao-wang-zhe 5
+      - 美国@bai-piao-wang-zhe 4
       - Singapore (SG) [LV2·原生] 狮城05 | 中转 2
-      - 韩国@bai-piao-wang-zhe 5
-      - 新加坡@bai-piao-wang-zhe 4
+      - 韩国@bai-piao-wang-zhe 4
+      - 新加坡@bai-piao-wang-zhe
       - 阿根廷@bai-piao-wang-zhe 2
-      - usa23.884899.cf_vmess_ws
-      - 美国节点更新 bit.ly/36b6iJh
-      - ^JP-03-TR-1x
-      - SG-02-V2-1x-CF
-      - ^SG-02-TR-1x
-      - ^SG-03-TR-1x
-      - ^SG-04-TR-1x
-      - IN-01-TR-1x
       - IN 02|1x|TR
       - IN 03|1x|TR
-      - JP 1 → bai-piao-wang-zhe
-      - JP 2 → bai-piao-wang-zhe
       - SG 1 → bai-piao-wang-zhe
-      - SG 2 → bai-piao-wang-zhe
-      - SG 3 → bai-piao-wang-zhe
       - SG 节点更新 bit.ly/36b6iJh
-      - 节点更新 bit.ly/36b6iJh
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 4
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 5
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 6
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 7
-      - 香港微软云10Gbps
-      - 美国01
-      - bai-piao-wang-zhe-iplc6.98848.xyz:19568
-      - 节点更新 bit.ly/36b6iJh 2
-      - hk
-      - JP 1 → bai-piao-wang-zhe 2
-      - JP 2 → bai-piao-wang-zhe 2
-      - SG 2 → bai-piao-wang-zhe 2
-      - SG 3 → bai-piao-wang-zhe 2
+      - JP 1 → bai-piao-wang-zhe
       - SG 5 → bai-piao-wang-zhe
-      - 节点更新 bit.ly/36b6iJh 3
-      - us23.567568.ml_vmess_ws
+      - us23.567568.ml
       - us23.567568.ml_Trojan
       - us23.567568.ml_trojan_gRPC
-      - 节点更新 bit.ly/36b6iJh 4
-      - 节点更新 bit.ly/36b6iJh 5
+      - 香港微软云10Gbps
+      - DE 1 → bai-piao-wang-zhe
+      - JP 2 → bai-piao-wang-zhe
+      - RO 1 → bai-piao-wang-zhe
+      - RO 2 → bai-piao-wang-zhe
+      - RO 3 → bai-piao-wang-zhe
+      - RO 4 → bai-piao-wang-zhe
+      - SG 3 → bai-piao-wang-zhe
+      - SG 4 → bai-piao-wang-zhe
+      - SG 7 → bai-piao-wang-zhe
+      - US 11 → bai-piao-wang-zhe
+      - us123.567568.ml_vmess_ws
+      - us123.567568.ml_vmess_ws-clone
+      - Azure 韩国-Powered by @gd1214b
+      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - youtube-bai-piao-wang-zhe.us.98848.xyz:43922
+      - ca127.98848.xyz_vmess_ws
+      - SG 5 → bai-piao-wang-zhe-clone
+      - SG 7 → bai-piao-wang-zhe-clone
+      - ca127.98848.xyz
+      - ca127.98848.xyz_vmess_ws 2
+      - ca127.98848.xyz_Trojan
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -568,30 +413,20 @@ proxy-groups:
       - 香港@bai-piao-wang-zhe 6
       - 香港@bai-piao-wang-zhe 7
       - 台湾-@bai-piao-wang-zhe-3
-      - 台湾@bai-piao-wang-zhe 2
       - 香港@bai-piao-wang-zhe 8
       - 香港@bai-piao-wang-zhe 9
       - 香港微软云10Gbps
-      - hk
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 2022-7-18
       - Singapore (SG) [LV2·原生] 狮城05 | 中转
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
       - SG [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
-      - bai-piao-wang-zhe-iplc6.98848.xyz
       - 台湾@bai-piao-wang-zhe
-      - 新加坡@bai-piao-wang-zhe
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
       - 美国@bai-piao-wang-zhe
       - 土耳其@bai-piao-wang-zhe
-      - 美国01-HyperlinkVPN
-      - 美国02-HyperlinkVPN
-      - 美国03-HyperlinkVPN
       - 香港@bai-piao-wang-zhe
       - 香港@bai-piao-wang-zhe 2
       - 美国@bai-piao-wang-zhe 2
@@ -602,104 +437,73 @@ proxy-groups:
       - 泰国@bai-piao-wang-zhe
       - 香港@bai-piao-wang-zhe 7
       - 韩国@bai-piao-wang-zhe
-      - NL 5Gbp/s节点更新 bit.ly/36b6iJh
       - 土耳其@bai-piao-wang-zhe 2
       - 台湾-@bai-piao-wang-zhe-3
-      - 美国02-HyperlinkVPN 2
       - 沙特@bai-piao-wang-zhe
-      - 美国01-HyperlinkVPN 2
-      - 台湾@bai-piao-wang-zhe 2
-      - 俄罗斯@bai-piao-wang-zhe
       - 香港@bai-piao-wang-zhe 8
-      - 韩国@bai-piao-wang-zhe 2
       - 香港@bai-piao-wang-zhe 9
-      - 日本@bai-piao-wang-zhe
       - 印尼@bai-piao-wang-zhe
       - 美国@bai-piao-wang-zhe 3
       - 阿根廷@bai-piao-wang-zhe
       - 埃及@bai-piao-wang-zhe
-      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
-      - 美国 [直连C] 1x 5Gbp/s
-      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
-      - 日本01-HyperlinkVPN
       - 南非@bai-piao-wang-zhe
       - 美国-@bai-piao-wang-zhe-9
-      - 新加坡@bai-piao-wang-zhe 2
       - "[LV2·原生] 狮城05 | 中转"
-      - NL 5Gbp/s节点更新 bit.ly/36b6iJh 2
+      - NL 5Gbp/s节点更新 bit.ly/36b6iJh
       - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
-      - 日本01-HyperlinkVPN 2
       - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
       - 印度@bai-piao-wang-zhe
-      - 美国@bai-piao-wang-zhe 4
-      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
       - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
-      - 韩国@bai-piao-wang-zhe 3
+      - 韩国@bai-piao-wang-zhe 2
       - 英国@bai-piao-wang-zhe
-      - 韩国@bai-piao-wang-zhe 4
+      - 韩国@bai-piao-wang-zhe 3
       - Netherlands (NL)  5Gbp/s节点更新 bit.ly/36b6iJh
-      - 新加坡@bai-piao-wang-zhe 3
-      - 美国@bai-piao-wang-zhe 5
+      - 美国@bai-piao-wang-zhe 4
       - Singapore (SG) [LV2·原生] 狮城05 | 中转 2
-      - 韩国@bai-piao-wang-zhe 5
-      - 新加坡@bai-piao-wang-zhe 4
+      - 韩国@bai-piao-wang-zhe 4
+      - 新加坡@bai-piao-wang-zhe
       - 阿根廷@bai-piao-wang-zhe 2
-      - usa23.884899.cf_vmess_ws
-      - 美国节点更新 bit.ly/36b6iJh
-      - ^JP-03-TR-1x
-      - SG-02-V2-1x-CF
-      - ^SG-02-TR-1x
-      - ^SG-03-TR-1x
-      - ^SG-04-TR-1x
-      - IN-01-TR-1x
       - IN 02|1x|TR
       - IN 03|1x|TR
-      - JP 1 → bai-piao-wang-zhe
-      - JP 2 → bai-piao-wang-zhe
       - SG 1 → bai-piao-wang-zhe
-      - SG 2 → bai-piao-wang-zhe
-      - SG 3 → bai-piao-wang-zhe
       - SG 节点更新 bit.ly/36b6iJh
-      - 节点更新 bit.ly/36b6iJh
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 4
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 5
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 6
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 7
-      - 香港微软云10Gbps
-      - 美国01
-      - bai-piao-wang-zhe-iplc6.98848.xyz:19568
-      - 节点更新 bit.ly/36b6iJh 2
-      - hk
-      - JP 1 → bai-piao-wang-zhe 2
-      - JP 2 → bai-piao-wang-zhe 2
-      - SG 2 → bai-piao-wang-zhe 2
-      - SG 3 → bai-piao-wang-zhe 2
+      - JP 1 → bai-piao-wang-zhe
       - SG 5 → bai-piao-wang-zhe
-      - 节点更新 bit.ly/36b6iJh 3
-      - us23.567568.ml_vmess_ws
+      - us23.567568.ml
       - us23.567568.ml_Trojan
       - us23.567568.ml_trojan_gRPC
-      - 节点更新 bit.ly/36b6iJh 4
-      - 节点更新 bit.ly/36b6iJh 5
+      - 香港微软云10Gbps
+      - DE 1 → bai-piao-wang-zhe
+      - JP 2 → bai-piao-wang-zhe
+      - RO 1 → bai-piao-wang-zhe
+      - RO 2 → bai-piao-wang-zhe
+      - RO 3 → bai-piao-wang-zhe
+      - RO 4 → bai-piao-wang-zhe
+      - SG 3 → bai-piao-wang-zhe
+      - SG 4 → bai-piao-wang-zhe
+      - SG 7 → bai-piao-wang-zhe
+      - US 11 → bai-piao-wang-zhe
+      - us123.567568.ml_vmess_ws
+      - us123.567568.ml_vmess_ws-clone
+      - Azure 韩国-Powered by @gd1214b
+      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - youtube-bai-piao-wang-zhe.us.98848.xyz:43922
+      - ca127.98848.xyz_vmess_ws
+      - SG 5 → bai-piao-wang-zhe-clone
+      - SG 7 → bai-piao-wang-zhe-clone
+      - ca127.98848.xyz
+      - ca127.98848.xyz_vmess_ws 2
+      - ca127.98848.xyz_Trojan
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 2022-7-18
       - Singapore (SG) [LV2·原生] 狮城05 | 中转
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
       - SG [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
-      - bai-piao-wang-zhe-iplc6.98848.xyz
       - 台湾@bai-piao-wang-zhe
-      - 新加坡@bai-piao-wang-zhe
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
       - 美国@bai-piao-wang-zhe
       - 土耳其@bai-piao-wang-zhe
-      - 美国01-HyperlinkVPN
-      - 美国02-HyperlinkVPN
-      - 美国03-HyperlinkVPN
       - 香港@bai-piao-wang-zhe
       - 香港@bai-piao-wang-zhe 2
       - 美国@bai-piao-wang-zhe 2
@@ -710,105 +514,74 @@ proxy-groups:
       - 泰国@bai-piao-wang-zhe
       - 香港@bai-piao-wang-zhe 7
       - 韩国@bai-piao-wang-zhe
-      - NL 5Gbp/s节点更新 bit.ly/36b6iJh
       - 土耳其@bai-piao-wang-zhe 2
       - 台湾-@bai-piao-wang-zhe-3
-      - 美国02-HyperlinkVPN 2
       - 沙特@bai-piao-wang-zhe
-      - 美国01-HyperlinkVPN 2
-      - 台湾@bai-piao-wang-zhe 2
-      - 俄罗斯@bai-piao-wang-zhe
       - 香港@bai-piao-wang-zhe 8
-      - 韩国@bai-piao-wang-zhe 2
       - 香港@bai-piao-wang-zhe 9
-      - 日本@bai-piao-wang-zhe
       - 印尼@bai-piao-wang-zhe
       - 美国@bai-piao-wang-zhe 3
       - 阿根廷@bai-piao-wang-zhe
       - 埃及@bai-piao-wang-zhe
-      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
-      - 美国 [直连C] 1x 5Gbp/s
-      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
-      - 日本01-HyperlinkVPN
       - 南非@bai-piao-wang-zhe
       - 美国-@bai-piao-wang-zhe-9
-      - 新加坡@bai-piao-wang-zhe 2
       - "[LV2·原生] 狮城05 | 中转"
-      - NL 5Gbp/s节点更新 bit.ly/36b6iJh 2
+      - NL 5Gbp/s节点更新 bit.ly/36b6iJh
       - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
-      - 日本01-HyperlinkVPN 2
       - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
       - 印度@bai-piao-wang-zhe
-      - 美国@bai-piao-wang-zhe 4
-      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
       - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
-      - 韩国@bai-piao-wang-zhe 3
+      - 韩国@bai-piao-wang-zhe 2
       - 英国@bai-piao-wang-zhe
-      - 韩国@bai-piao-wang-zhe 4
+      - 韩国@bai-piao-wang-zhe 3
       - Netherlands (NL)  5Gbp/s节点更新 bit.ly/36b6iJh
-      - 新加坡@bai-piao-wang-zhe 3
-      - 美国@bai-piao-wang-zhe 5
+      - 美国@bai-piao-wang-zhe 4
       - Singapore (SG) [LV2·原生] 狮城05 | 中转 2
-      - 韩国@bai-piao-wang-zhe 5
-      - 新加坡@bai-piao-wang-zhe 4
+      - 韩国@bai-piao-wang-zhe 4
+      - 新加坡@bai-piao-wang-zhe
       - 阿根廷@bai-piao-wang-zhe 2
-      - usa23.884899.cf_vmess_ws
-      - 美国节点更新 bit.ly/36b6iJh
-      - ^JP-03-TR-1x
-      - SG-02-V2-1x-CF
-      - ^SG-02-TR-1x
-      - ^SG-03-TR-1x
-      - ^SG-04-TR-1x
-      - IN-01-TR-1x
       - IN 02|1x|TR
       - IN 03|1x|TR
-      - JP 1 → bai-piao-wang-zhe
-      - JP 2 → bai-piao-wang-zhe
       - SG 1 → bai-piao-wang-zhe
-      - SG 2 → bai-piao-wang-zhe
-      - SG 3 → bai-piao-wang-zhe
       - SG 节点更新 bit.ly/36b6iJh
-      - 节点更新 bit.ly/36b6iJh
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 4
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 5
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 6
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 7
-      - 香港微软云10Gbps
-      - 美国01
-      - bai-piao-wang-zhe-iplc6.98848.xyz:19568
-      - 节点更新 bit.ly/36b6iJh 2
-      - hk
-      - JP 1 → bai-piao-wang-zhe 2
-      - JP 2 → bai-piao-wang-zhe 2
-      - SG 2 → bai-piao-wang-zhe 2
-      - SG 3 → bai-piao-wang-zhe 2
+      - JP 1 → bai-piao-wang-zhe
       - SG 5 → bai-piao-wang-zhe
-      - 节点更新 bit.ly/36b6iJh 3
-      - us23.567568.ml_vmess_ws
+      - us23.567568.ml
       - us23.567568.ml_Trojan
       - us23.567568.ml_trojan_gRPC
-      - 节点更新 bit.ly/36b6iJh 4
-      - 节点更新 bit.ly/36b6iJh 5
+      - 香港微软云10Gbps
+      - DE 1 → bai-piao-wang-zhe
+      - JP 2 → bai-piao-wang-zhe
+      - RO 1 → bai-piao-wang-zhe
+      - RO 2 → bai-piao-wang-zhe
+      - RO 3 → bai-piao-wang-zhe
+      - RO 4 → bai-piao-wang-zhe
+      - SG 3 → bai-piao-wang-zhe
+      - SG 4 → bai-piao-wang-zhe
+      - SG 7 → bai-piao-wang-zhe
+      - US 11 → bai-piao-wang-zhe
+      - us123.567568.ml_vmess_ws
+      - us123.567568.ml_vmess_ws-clone
+      - Azure 韩国-Powered by @gd1214b
+      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - youtube-bai-piao-wang-zhe.us.98848.xyz:43922
+      - ca127.98848.xyz_vmess_ws
+      - SG 5 → bai-piao-wang-zhe-clone
+      - SG 7 → bai-piao-wang-zhe-clone
+      - ca127.98848.xyz
+      - ca127.98848.xyz_vmess_ws 2
+      - ca127.98848.xyz_Trojan
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 2022-7-18
       - Singapore (SG) [LV2·原生] 狮城05 | 中转
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
       - SG [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
-      - bai-piao-wang-zhe-iplc6.98848.xyz
       - 台湾@bai-piao-wang-zhe
-      - 新加坡@bai-piao-wang-zhe
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
       - 美国@bai-piao-wang-zhe
       - 土耳其@bai-piao-wang-zhe
-      - 美国01-HyperlinkVPN
-      - 美国02-HyperlinkVPN
-      - 美国03-HyperlinkVPN
       - 香港@bai-piao-wang-zhe
       - 香港@bai-piao-wang-zhe 2
       - 美国@bai-piao-wang-zhe 2
@@ -819,86 +592,63 @@ proxy-groups:
       - 泰国@bai-piao-wang-zhe
       - 香港@bai-piao-wang-zhe 7
       - 韩国@bai-piao-wang-zhe
-      - NL 5Gbp/s节点更新 bit.ly/36b6iJh
       - 土耳其@bai-piao-wang-zhe 2
       - 台湾-@bai-piao-wang-zhe-3
-      - 美国02-HyperlinkVPN 2
       - 沙特@bai-piao-wang-zhe
-      - 美国01-HyperlinkVPN 2
-      - 台湾@bai-piao-wang-zhe 2
-      - 俄罗斯@bai-piao-wang-zhe
       - 香港@bai-piao-wang-zhe 8
-      - 韩国@bai-piao-wang-zhe 2
       - 香港@bai-piao-wang-zhe 9
-      - 日本@bai-piao-wang-zhe
       - 印尼@bai-piao-wang-zhe
       - 美国@bai-piao-wang-zhe 3
       - 阿根廷@bai-piao-wang-zhe
       - 埃及@bai-piao-wang-zhe
-      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
-      - 美国 [直连C] 1x 5Gbp/s
-      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
-      - 日本01-HyperlinkVPN
       - 南非@bai-piao-wang-zhe
       - 美国-@bai-piao-wang-zhe-9
-      - 新加坡@bai-piao-wang-zhe 2
       - "[LV2·原生] 狮城05 | 中转"
-      - NL 5Gbp/s节点更新 bit.ly/36b6iJh 2
+      - NL 5Gbp/s节点更新 bit.ly/36b6iJh
       - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
-      - 日本01-HyperlinkVPN 2
       - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
       - 印度@bai-piao-wang-zhe
-      - 美国@bai-piao-wang-zhe 4
-      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
       - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
-      - 韩国@bai-piao-wang-zhe 3
+      - 韩国@bai-piao-wang-zhe 2
       - 英国@bai-piao-wang-zhe
-      - 韩国@bai-piao-wang-zhe 4
+      - 韩国@bai-piao-wang-zhe 3
       - Netherlands (NL)  5Gbp/s节点更新 bit.ly/36b6iJh
-      - 新加坡@bai-piao-wang-zhe 3
-      - 美国@bai-piao-wang-zhe 5
+      - 美国@bai-piao-wang-zhe 4
       - Singapore (SG) [LV2·原生] 狮城05 | 中转 2
-      - 韩国@bai-piao-wang-zhe 5
-      - 新加坡@bai-piao-wang-zhe 4
+      - 韩国@bai-piao-wang-zhe 4
+      - 新加坡@bai-piao-wang-zhe
       - 阿根廷@bai-piao-wang-zhe 2
-      - usa23.884899.cf_vmess_ws
-      - 美国节点更新 bit.ly/36b6iJh
-      - ^JP-03-TR-1x
-      - SG-02-V2-1x-CF
-      - ^SG-02-TR-1x
-      - ^SG-03-TR-1x
-      - ^SG-04-TR-1x
-      - IN-01-TR-1x
       - IN 02|1x|TR
       - IN 03|1x|TR
-      - JP 1 → bai-piao-wang-zhe
-      - JP 2 → bai-piao-wang-zhe
       - SG 1 → bai-piao-wang-zhe
-      - SG 2 → bai-piao-wang-zhe
-      - SG 3 → bai-piao-wang-zhe
       - SG 节点更新 bit.ly/36b6iJh
-      - 节点更新 bit.ly/36b6iJh
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 4
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 5
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 6
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 7
-      - 香港微软云10Gbps
-      - 美国01
-      - bai-piao-wang-zhe-iplc6.98848.xyz:19568
-      - 节点更新 bit.ly/36b6iJh 2
-      - hk
-      - JP 1 → bai-piao-wang-zhe 2
-      - JP 2 → bai-piao-wang-zhe 2
-      - SG 2 → bai-piao-wang-zhe 2
-      - SG 3 → bai-piao-wang-zhe 2
+      - JP 1 → bai-piao-wang-zhe
       - SG 5 → bai-piao-wang-zhe
-      - 节点更新 bit.ly/36b6iJh 3
-      - us23.567568.ml_vmess_ws
+      - us23.567568.ml
       - us23.567568.ml_Trojan
       - us23.567568.ml_trojan_gRPC
-      - 节点更新 bit.ly/36b6iJh 4
-      - 节点更新 bit.ly/36b6iJh 5
+      - 香港微软云10Gbps
+      - DE 1 → bai-piao-wang-zhe
+      - JP 2 → bai-piao-wang-zhe
+      - RO 1 → bai-piao-wang-zhe
+      - RO 2 → bai-piao-wang-zhe
+      - RO 3 → bai-piao-wang-zhe
+      - RO 4 → bai-piao-wang-zhe
+      - SG 3 → bai-piao-wang-zhe
+      - SG 4 → bai-piao-wang-zhe
+      - SG 7 → bai-piao-wang-zhe
+      - US 11 → bai-piao-wang-zhe
+      - us123.567568.ml_vmess_ws
+      - us123.567568.ml_vmess_ws-clone
+      - Azure 韩国-Powered by @gd1214b
+      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - youtube-bai-piao-wang-zhe.us.98848.xyz:43922
+      - ca127.98848.xyz_vmess_ws
+      - SG 5 → bai-piao-wang-zhe-clone
+      - SG 7 → bai-piao-wang-zhe-clone
+      - ca127.98848.xyz
+      - ca127.98848.xyz_vmess_ws 2
+      - ca127.98848.xyz_Trojan
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -914,19 +664,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 2022-7-18
       - Singapore (SG) [LV2·原生] 狮城05 | 中转
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
       - SG [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
-      - bai-piao-wang-zhe-iplc6.98848.xyz
       - 台湾@bai-piao-wang-zhe
-      - 新加坡@bai-piao-wang-zhe
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
       - 美国@bai-piao-wang-zhe
       - 土耳其@bai-piao-wang-zhe
-      - 美国01-HyperlinkVPN
-      - 美国02-HyperlinkVPN
-      - 美国03-HyperlinkVPN
       - 香港@bai-piao-wang-zhe
       - 香港@bai-piao-wang-zhe 2
       - 美国@bai-piao-wang-zhe 2
@@ -937,86 +679,63 @@ proxy-groups:
       - 泰国@bai-piao-wang-zhe
       - 香港@bai-piao-wang-zhe 7
       - 韩国@bai-piao-wang-zhe
-      - NL 5Gbp/s节点更新 bit.ly/36b6iJh
       - 土耳其@bai-piao-wang-zhe 2
       - 台湾-@bai-piao-wang-zhe-3
-      - 美国02-HyperlinkVPN 2
       - 沙特@bai-piao-wang-zhe
-      - 美国01-HyperlinkVPN 2
-      - 台湾@bai-piao-wang-zhe 2
-      - 俄罗斯@bai-piao-wang-zhe
       - 香港@bai-piao-wang-zhe 8
-      - 韩国@bai-piao-wang-zhe 2
       - 香港@bai-piao-wang-zhe 9
-      - 日本@bai-piao-wang-zhe
       - 印尼@bai-piao-wang-zhe
       - 美国@bai-piao-wang-zhe 3
       - 阿根廷@bai-piao-wang-zhe
       - 埃及@bai-piao-wang-zhe
-      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
-      - 美国 [直连C] 1x 5Gbp/s
-      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
-      - 日本01-HyperlinkVPN
       - 南非@bai-piao-wang-zhe
       - 美国-@bai-piao-wang-zhe-9
-      - 新加坡@bai-piao-wang-zhe 2
       - "[LV2·原生] 狮城05 | 中转"
-      - NL 5Gbp/s节点更新 bit.ly/36b6iJh 2
+      - NL 5Gbp/s节点更新 bit.ly/36b6iJh
       - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
-      - 日本01-HyperlinkVPN 2
       - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
       - 印度@bai-piao-wang-zhe
-      - 美国@bai-piao-wang-zhe 4
-      - us [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
       - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
-      - 韩国@bai-piao-wang-zhe 3
+      - 韩国@bai-piao-wang-zhe 2
       - 英国@bai-piao-wang-zhe
-      - 韩国@bai-piao-wang-zhe 4
+      - 韩国@bai-piao-wang-zhe 3
       - Netherlands (NL)  5Gbp/s节点更新 bit.ly/36b6iJh
-      - 新加坡@bai-piao-wang-zhe 3
-      - 美国@bai-piao-wang-zhe 5
+      - 美国@bai-piao-wang-zhe 4
       - Singapore (SG) [LV2·原生] 狮城05 | 中转 2
-      - 韩国@bai-piao-wang-zhe 5
-      - 新加坡@bai-piao-wang-zhe 4
+      - 韩国@bai-piao-wang-zhe 4
+      - 新加坡@bai-piao-wang-zhe
       - 阿根廷@bai-piao-wang-zhe 2
-      - usa23.884899.cf_vmess_ws
-      - 美国节点更新 bit.ly/36b6iJh
-      - ^JP-03-TR-1x
-      - SG-02-V2-1x-CF
-      - ^SG-02-TR-1x
-      - ^SG-03-TR-1x
-      - ^SG-04-TR-1x
-      - IN-01-TR-1x
       - IN 02|1x|TR
       - IN 03|1x|TR
-      - JP 1 → bai-piao-wang-zhe
-      - JP 2 → bai-piao-wang-zhe
       - SG 1 → bai-piao-wang-zhe
-      - SG 2 → bai-piao-wang-zhe
-      - SG 3 → bai-piao-wang-zhe
       - SG 节点更新 bit.ly/36b6iJh
-      - 节点更新 bit.ly/36b6iJh
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 4
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 5
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 6
-      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 7
-      - 香港微软云10Gbps
-      - 美国01
-      - bai-piao-wang-zhe-iplc6.98848.xyz:19568
-      - 节点更新 bit.ly/36b6iJh 2
-      - hk
-      - JP 1 → bai-piao-wang-zhe 2
-      - JP 2 → bai-piao-wang-zhe 2
-      - SG 2 → bai-piao-wang-zhe 2
-      - SG 3 → bai-piao-wang-zhe 2
+      - JP 1 → bai-piao-wang-zhe
       - SG 5 → bai-piao-wang-zhe
-      - 节点更新 bit.ly/36b6iJh 3
-      - us23.567568.ml_vmess_ws
+      - us23.567568.ml
       - us23.567568.ml_Trojan
       - us23.567568.ml_trojan_gRPC
-      - 节点更新 bit.ly/36b6iJh 4
-      - 节点更新 bit.ly/36b6iJh 5
+      - 香港微软云10Gbps
+      - DE 1 → bai-piao-wang-zhe
+      - JP 2 → bai-piao-wang-zhe
+      - RO 1 → bai-piao-wang-zhe
+      - RO 2 → bai-piao-wang-zhe
+      - RO 3 → bai-piao-wang-zhe
+      - RO 4 → bai-piao-wang-zhe
+      - SG 3 → bai-piao-wang-zhe
+      - SG 4 → bai-piao-wang-zhe
+      - SG 7 → bai-piao-wang-zhe
+      - US 11 → bai-piao-wang-zhe
+      - us123.567568.ml_vmess_ws
+      - us123.567568.ml_vmess_ws-clone
+      - Azure 韩国-Powered by @gd1214b
+      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - youtube-bai-piao-wang-zhe.us.98848.xyz:43922
+      - ca127.98848.xyz_vmess_ws
+      - SG 5 → bai-piao-wang-zhe-clone
+      - SG 7 → bai-piao-wang-zhe-clone
+      - ca127.98848.xyz
+      - ca127.98848.xyz_vmess_ws 2
+      - ca127.98848.xyz_Trojan
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
