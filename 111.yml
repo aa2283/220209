@@ -24,6 +24,154 @@ proxies:
   - {name: 香港@bai-piao-wang-zhe 8, server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: ip3884414509.mobgslb.tbcache.com, skip-cert-verify: true, udp: true}
   - {name: 香港@bai-piao-wang-zhe 9, server: pp1.zhengzhongfeizhu.xyz, port: 34002, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: 111-47-215-139.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 印尼@bai-piao-wang-zhe, server: api.qiscus.com, port: 443, type: vmess, uuid: 8f9b60e6-1db3-42e4-97b9-1e311f427649, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess-ws-makae, headers: {Host: bn-id01.ipv2ray.xyz}}, udp: true}
+  - {name: 美国@bai-piao-wang-zhe 2, server: lms.uin-antasari.ac.id, port: 80, type: vmess, uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpnneo, headers: {Host: ctn.nextvpn.cc}}, udp: true}
+  - {name: 阿根廷@bai-piao-wang-zhe, server: best03.downloadmovie.cn, port: 65086, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: bai-piao-wang-zhe}}, udp: true}
+  - {name: 埃及@bai-piao-wang-zhe, server: best04.downloadmovie.cn, port: 65090, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: bai-piao-wang-zhe}}, udp: true}
+  - {name: 南非@bai-piao-wang-zhe, server: best04.downloadmovie.cn, port: 65070, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: bai-piao-wang-zhe}}, udp: true}
+  - {name: 美国-@bai-piao-wang-zhe-9, server: in-jp-1.iivvppnn.info, port: 38301, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: www.ivpnpro.net}}, udp: true}
+  - {name: NL 5Gbp/s节点更新 bit.ly/36b6iJh, server: youtube-bai-piao-wang-zhe.nl.884899.cf, port: 11528, type: trojan, password: 4431e7bf-b8b2-4f1f-9b6d-50c021483f75, skip-cert-verify: true, udp: true}
+  - {name: "NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh", server: bai-piao-wang-zhe.iplc.nl.884899.cf, port: 443, type: trojan, password: e49f9132-4f1c-4a11-998f-0b90697254e6, sni: bai-piao-wang-zhe.iplc.nl.884899.cf, skip-cert-verify: true, udp: true}
+  - {name: "NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2", server: bai-piao-wang-zhe.iplc.nl.884899.cf, port: 443, type: vmess, uuid: e49f9132-4f1c-4a11-998f-0b90697254e6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: bai-piao-wang-zhe.iplc.nl.884899.cf, network: ws, ws-opts: {path: /YouTube@bai-piao-wang-zhe_vws, headers: {Host: bai-piao-wang-zhe.iplc.nl.884899.cf}}, udp: true}
+  - {name: 印度@bai-piao-wang-zhe, server: in-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
+  - {name: "NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3", server: bai-piao-wang-zhe.iplc.nl.884899.cf, port: 443, type: trojan, password: e49f9132-4f1c-4a11-998f-0b90697254e6, sni: bai-piao-wang-zhe.iplc.nl.884899.cf, skip-cert-verify: true, udp: true}
+  - {name: 韩国@bai-piao-wang-zhe 2, server: chess.magicefire.com, port: 443, type: vmess, uuid: 9aa80017-3427-4165-a522-f5f9a11330d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Netherlands (NL)  5Gbp/s节点更新 bit.ly/36b6iJh, server: youtube-bai-piao-wang-zhe.nl.884899.cf, port: 14201, type: trojan, password: 4431e7bf-b8b2-4f1f-9b6d-50c021483f75, sni: youtube-bai-piao-wang-zhe.nl.884899.cf, skip-cert-verify: true, udp: true}
+  - {name: 美国@bai-piao-wang-zhe 3, server: ingress-i2.iivvppnn.info, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bai-piao-wang-zhe}}, udp: true}
+  - {name: 韩国@bai-piao-wang-zhe 3, server: best04.downloadmovie.cn, port: 65048, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: bai-piao-wang-zhe}}, udp: true}
+  - {name: 新加坡@bai-piao-wang-zhe, server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: bai-piao-wang-zhe}}, udp: true}
+  - {name: IN 02|1x|TR, server: in-02.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: in-02.licom.ml, skip-cert-verify: true, udp: true}
+  - {name: IN 03|1x|TR, server: in-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: in-03.licom.ml, skip-cert-verify: true, udp: true}
+  - {name: us23.567568.ml_trojan_gRPC, server: www.digitalocean.com, port: 443, type: trojan, password: 3df66137-a428-429c-a858-8b150721b354, sni: us23.567568.ml, skip-cert-verify: true, udp: true}
+  - {name: JP 2 → bai-piao-wang-zhe, server: in-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
+  - {name: RO 1 → bai-piao-wang-zhe, server: supernortheast.xn--mesv7f5toqlp.club, port: 12003, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5, skip-cert-verify: true, udp: true}
+  - {name: RO 2 → bai-piao-wang-zhe, server: supernortheast.xn--mesv7f5toqlp.club, port: 12001, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5, skip-cert-verify: true, udp: true}
+  - {name: RO 3 → bai-piao-wang-zhe, server: supernortheast.xn--mesv7f5toqlp.club, port: 12002, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5, skip-cert-verify: true, udp: true}
+  - {name: SG 4 → bai-piao-wang-zhe, server: sg-04.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
+  - {name: US 11 → bai-piao-wang-zhe, server: youtube-bai-piao-wang-zhe.nl.884899.cf, port: 41196, type: trojan, password: 94afcc56-cc1c-4cd4-8c82-1215cd052795, skip-cert-verify: true, udp: true}
+  - {name: us123.567568.ml_vmess_ws-clone, server: youtube_bai-piao-wang-zhe-iplc12.98848.xyz, port: 443, type: vmess, uuid: youtube@bai-piao-wang-zhe_3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: us123.567568.ml, network: ws, ws-opts: {path: /youtube@bai-piao-wang-zhe_vws, headers: {Host: us123.567568.ml}}, udp: true}
+  - {name: ca127.98848.xyz_vmess_ws, server: www.digitalocean.com, port: 443, type: vmess, uuid: youtube@bai-piao-wang-zhe_3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ca127.98848.xyz, network: ws, ws-opts: {path: /youtbue@bai-piao-wang-zhe_vws, headers: {Host: ca127.98848.xyz}}, udp: true}
+  - {name: "[直连]日本 04", server: supernortheast.xn--mesv7f5toqlp.club, port: 12004, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5, sni: supernortheast.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: 666, server: azhk.sharecentre.xyz, port: 58975, type: vmess, uuid: f0e9aff1-ba59-4af4-f3a1-6d17fffb4aca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Sharecentrepro, headers: {Host: azhk.sharecentre.xyz}}, udp: true}
+  - {name: "CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh", server: youtube-bai-piao-wang-zhe.us.98848.xyz, port: 43922, type: trojan, password: 84c413a4-fb46-4421-b12d-c85e61165648, skip-cert-verify: true, udp: true}
+  - {name: ca127.98848.xyz_vmess_ws 2, server: ca127.98848.xyz, port: 443, type: vmess, uuid: youtube@bai-piao-wang-zhe_3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: ca127.98848.xyz, network: ws, ws-opts: {path: /youtbue@bai-piao-wang-zhe_vws, headers: {Host: ca127.98848.xyz}}, udp: true}
+  - {name: ca127.98848.xyz-clone-clone, server: ca127.98848.xyz, port: 443, type: trojan, password: ce9b461f-de8a-425f-8036-371e07995deb, sni: ca127.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: US/1, server: 20.89.230.23, port: 48090, type: vmess, uuid: 6baaeb1e-5dce-49b7-d6f4-b30a9ea3b758, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: xx/2, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxusa.fovi.tk}}, udp: true}
+  - {name: US/4, server: 103.5.54.177, port: 54723, type: vmess, uuid: 1031729b-4fd5-495c-f21f-94c94ffd3afc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 103.5.54.177}}, udp: true}
+  - {name: US/6, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, skip-cert-verify: true, udp: true}
+  - {name: US/7, server: 165.154.235.49, port: 443, type: trojan, password: 8a841c54-8840-399a-9095-8d9624800e43, sni: 20020627.luohuaxian.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN/8, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}, udp: true}
+  - {name: CA/10, server: 196.247.59.154, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: CZ/11, server: 195.133.53.192, port: 43688, type: vmess, uuid: bd1c8b57-0a9e-4e9f-a261-48e90c871e41, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 195.133.53.192}}, udp: true}
+  - {name: CA/13, server: 196.247.59.154, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: IT/14, server: 92.223.93.233, port: 1035, type: ss, cipher: chacha20-ietf-poly1305, password: )1N1E6v0SU_rGTpg, udp: true}
+  - {name: FR/15, server: 51.38.118.42, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: CN/18, server: 111.45.29.75, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: tw.speedasia.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN/20, server: 116.129.254.192, port: 16268, type: vmess, uuid: c7cab382-c1a0-3a50-8606-280124aaad86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CA/21, server: 196.247.59.154, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: CA/22, server: 196.247.59.154, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US/23, server: 192.210.206.50, port: 11188, type: vmess, uuid: de0ff7f6-370e-41c9-c24a-b932c7c1ad58, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hello}, udp: true}
+  - {name: US/24, server: 107.173.166.160, port: 11188, type: vmess, uuid: d644ebef-f0e6-468f-d122-cea661ed9d09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hello}, udp: true}
+  - {name: SG/25, server: 8.219.10.137, port: 11070, type: vmess, uuid: 0431f60c-99b1-44f9-c656-f88990433c56, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP/26, server: 20.89.67.251, port: 80, type: vmess, uuid: 1257774c-2bad-4eaa-8369-456a4571982c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 20.89.67.251}}, udp: true}
+  - {name: xx/27, server: 104.18.24.139, port: 80, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/5206194863/62c7702a0ea8b/, headers: {Host: sg1-v2ray.sshkit.org}}, udp: true}
+  - {name: JP/28, server: 185.172.113.101, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: KR/29, server: chess.magicefire.com, port: 443, type: vmess, uuid: 9aa80017-3427-4165-a522-f5f9a11330d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: JP/30, server: 185.172.113.102, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: SG/31, server: 47.241.220.160, port: 28475, type: vmess, uuid: 5b00ad6f-bc33-4946-8a32-b7e59620e935, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: xx/32, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxany.fovi.tk}}, udp: true}
+  - {name: MY/33, server: 210.1.226.161, port: 30861, type: vmess, uuid: 6453d978-8b5c-4369-a43e-c092c92f44ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US/34, server: 20.214.180.60, port: 45364, type: vmess, uuid: e05375d9-4f6b-47d8-85a0-87b29f891838, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kj65152}, udp: true}
+  - {name: CN/35, server: best02.downloadmovie.cn, port: 65081, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: best02.downloadmovie.cn}}, udp: true}
+  - {name: HK/36, server: 43.129.158.202, port: 38009, type: vmess, uuid: 7fe50249-0f9c-42bb-9815-842bec303691, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US/37, server: 129.159.33.199, port: 45328, type: vmess, uuid: 842c33ff-31b5-410c-a96e-0cb52a99a6da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: JP/38, server: 185.172.113.102, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/39, server: 185.172.113.106, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/40, server: 185.172.113.106, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/41, server: 185.172.113.102, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/42, server: 185.172.113.102, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/43, server: 185.172.113.101, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/44, server: 185.172.113.102, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/45, server: 185.172.113.101, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US/46, server: 64.112.43.180, port: 13674, type: vmess, uuid: f44ce146-2d6d-4e84-dcac-3bdd8689d053, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CA/47, server: 196.247.59.154, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US/48, server: 23.230.146.254, port: 1258, type: vmess, uuid: edeb41cc-a76a-47f2-fa96-b9141e66a2b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: DE/50, server: 3.127.184.113, port: 50902, type: ss, cipher: chacha20-ietf-poly1305, password: Wodeshijie@@, udp: true}
+  - {name: CN/51, server: in-us-1.onebox6.org, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: YouTube-aweikeji}}, udp: true}
+  - {name: JP/52, server: 185.172.113.106, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US/54, server: 129.146.133.157, port: 51009, type: vmess, uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN/55, server: pp1.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: 111-47-215-139.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: US/56, server: v116.v2dns.bar, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v116-DtoEwAEX, headers: {Host: v116.v2dns.bar}}, udp: true}
+  - {name: JP/58, server: jp02.wol1.ml, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 81cafca0-18d7-4fec-ae38-6838c005510e, udp: true}
+  - {name: RU/59, server: 176.119.156.229, port: 852, type: vmess, uuid: 35b021ff-cf42-4b32-aeb7-4f634363df40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: d76bb35696.laowanxiang.com}}, udp: true}
+  - {name: FR/60, server: 51.195.35.134, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/273213070933, headers: {Host: www.98272029.xyz}}, udp: true}
+  - {name: SG/61, server: 168.138.173.205, port: 22503, type: vmess, uuid: 62e99d02-7105-443d-eeff-2cfeb4a4fe11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: IN/62, server: in-04.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: in-04.licom.ml, skip-cert-verify: true, udp: true}
+  - {name: xx/63, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxdeovz2.fovi.tk}}, udp: true}
+  - {name: US/70, server: 23.230.146.254, port: 1258, type: vmess, uuid: edeb41cc-a76a-47f2-fa96-b9141e66a2b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TW/71, server: tw-tb-c.zc20200426.club, port: 39999, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: CN/73, server: best02.downloadmovie.cn, port: 65087, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: best02.downloadmovie.cn}}, udp: true}
+  - {name: xx/74, server: 207.2.120.172, port: 443, type: trojan, password: 8a841c54-8840-399a-9095-8d9624800e43, sni: 20020517.luohuaxian.xyz, skip-cert-verify: true, udp: true}
+  - {name: IN/75, server: 3.111.242.2, port: 51846, type: ss, cipher: chacha20-ietf-poly1305, password: RekWopdog8, udp: true}
+  - {name: KR/76, server: 146.56.110.129, port: 53702, type: vmess, uuid: d0ee8ec0-ef63-41aa-9087-11edf7a978b9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: KR/77, server: 3.37.56.9, port: 59649, type: ss, cipher: chacha20-ietf-poly1305, password: QoQXye81TE, udp: true}
+  - {name: JP/78, server: 185.172.113.101, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US/79, server: 129.159.41.233, port: 32586, type: vmess, uuid: 341a9182-c423-499c-c46e-d17838b29037, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP/80, server: 185.172.113.101, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/81, server: 185.172.113.102, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/82, server: 185.172.113.106, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: JP/83, server: 185.172.113.106, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: KR/84, server: 152.70.247.24, port: 18152, type: vmess, uuid: 8dee0987-1be4-47aa-a1dc-5f141d8d7e91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JP/85, server: 185.172.113.106, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US/86, server: 107.174.186.134, port: 443, type: trojan, password: 8a841c54-8840-399a-9095-8d9624800e43, sni: 20020723.luohuaxian.xyz, skip-cert-verify: true, udp: true}
+  - {name: US/87, server: 52.13.166.179, port: 59369, type: ss, cipher: chacha20-ietf-poly1305, password: fijboorrom, udp: true}
+  - {name: CN/88, server: ingress-i2.iivvppnn.info, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i2.iivvppnn.info}}, udp: true}
+  - {name: CN/89, server: in-jp-1.iivvppnn.info, port: 38301, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: in-jp-1.iivvppnn.info}}, udp: true}
+  - {name: IN/90, server: in-01.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
+  - {name: xx/91, server: 104.18.24.139, port: 80, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/5206194863/62c7702a0ea8b/, headers: {Host: sg1-v2ray.sshkit.org}}, udp: true}
+  - {name: CN/92, server: 120.233.29.189, port: 65039, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket}, udp: true}
+  - {name: GB/93, server: 5.188.5.190, port: 15256, type: ss, cipher: chacha20-ietf-poly1305, password: 4SGLMZ7Z83fN, udp: true}
+  - {name: SG/94, server: youtube.bai-piao-wang-zhe.567568.ml, port: 443, type: vmess, uuid: e88cb308-73f7-4302-89bf-b65c7386b117, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /youtbue@bai-piao-wang-zhe_vws, headers: {Host: youtube.bai-piao-wang-zhe.567568.ml}}, udp: true}
+  - {name: US/95, server: 92.38.176.81, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: US/96, server: 38.143.66.20, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: CN/97, server: 120.233.7.221, port: 18007, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US/99, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, skip-cert-verify: true, udp: true}
+  - {name: US/100, server: xmrh014.xmrth-node.xyz, port: 15885, type: vmess, uuid: ab3f9ddc-7c35-3793-98f0-1c37eb9741e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 87318706-ws.va.huya.com}}, udp: true}
+  - {name: CN/101, server: cn04.downloadmovie.cn, port: 65028, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: "%7B%22Host%22:%22cn04.downloadmovie.cn%22%7D"}}, udp: true}
+  - {name: CN/102, server: zc.9900.sd20211007.xyz, port: 32001, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US/103, server: api.qiscus.com, port: 443, type: vmess, uuid: 8f9b60e6-1db3-42e4-97b9-1e311f427649, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess-ws-makae, headers: {Host: bn-id01.ipv2ray.xyz}}, udp: true}
+  - {name: US/104, server: xmrh014.xmrth-node.xyz, port: 15885, type: vmess, uuid: ab3f9ddc-7c35-3793-98f0-1c37eb9741e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: 87318706-ws.va.huya.com}}, udp: true}
+  - {name: CN/105, server: 120.197.130.126, port: 13008, type: vmess, uuid: 21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN/106, server: data-hk-v1.heisey.cn, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: tv.cctv.com}}, udp: true}
+  - {name: CN/108, server: cn05.downloadmovie.cn, port: 65037, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rocket, headers: {Host: cn05.downloadmovie.cn}}, udp: true}
+  - {name: CN/109, server: data-hk-v2.shwjfkw.cn, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: data-hk-v2.shwjfkw.cn}}, udp: true}
+  - {name: KR/110, server: 152.70.247.24, port: 18152, type: vmess, uuid: 8dee0987-1be4-47aa-a1dc-5f141d8d7e91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: GB/111, server: uk.london1.vpntester.net, port: 15256, type: ss, cipher: chacha20-ietf-poly1305, password: 4SGLMZ7Z83fN, udp: true}
+  - {name: NL/115, server: youtube-bai-piao-wang-zhe.nl.884899.cf, port: 41196, type: trojan, password: 94afcc56-cc1c-4cd4-8c82-1215cd052795, skip-cert-verify: true, udp: true}
+  - {name: KR/116, server: 152.70.247.24, port: 18152, type: vmess, uuid: 8dee0987-1be4-47aa-a1dc-5f141d8d7e91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: NL/117, server: bai-piao-wang-zhe.iplc.nl.884899.cf, port: 443, type: trojan, password: e49f9132-4f1c-4a11-998f-0b90697254e6, skip-cert-verify: true, udp: true}
+  - {name: RO/119, server: 5.183.102.34, port: 37667, type: vmess, uuid: 66f93c8f-4458-41d3-e447-f0b57d893527, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: RU/120, server: 92.223.65.31, port: 29092, type: ss, cipher: chacha20-ietf-poly1305, password: ypoq8dJBPqst, udp: true}
+  - {name: "Singapore (SG) [LV2·原生] 狮城05 | 中转 2", server: YOUTUBE.bai-piao-wang-zhe.567568.ml, port: 12337, type: trojan, password: 0e55cfd4-9b13-409c-8f37-d6396280671b, skip-cert-verify: true, udp: true}
+  - {name: "Singapore (SG) [LV2·原生] 狮城05 | 中转 3", server: YOUTUBE.bai-piao-wang-zhe.567568.ml, port: 19568, type: trojan, password: 0e55cfd4-9b13-409c-8f37-d6396280671b, skip-cert-verify: true, udp: true}
+  - {name: "Singapore (SG) [LV2·原生] 狮城05 | 中转 4", server: youtube.bai-piao-wang-zhe.567568.ml, port: 443, type: vmess, uuid: e4b562fc-57b6-4054-863a-642b598080d6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: youtube.bai-piao-wang-zhe.567568.ml, network: ws, ws-opts: {path: /youtbue@bai-piao-wang-zhe_vws, headers: {Host: youtube.bai-piao-wang-zhe.567568.ml}}, udp: true}
+  - {name: "Singapore (SG) [LV2·原生] 狮城05 | 中转 5", server: youtube.bai-piao-wang-zhe.567568.ml, port: 443, type: trojan, password: e4b562fc-57b6-4054-863a-642b598080d6, sni: youtube.bai-piao-wang-zhe.567568.ml, skip-cert-verify: true, udp: true}
+  - {name: "Singapore (SG) [LV2·原生] 狮城05 | 中转 6", server: youtube.bai-piao-wang-zhe.567568.ml, port: 443, type: trojan, password: e4b562fc-57b6-4054-863a-642b598080d6, sni: youtube.bai-piao-wang-zhe.567568.ml, skip-cert-verify: true, udp: true}
+  - {name: "jp [LV2·原生] 节点更新 bit.ly/36b6iJh", server: youtube-bai-piao-wang-zhe.az.98848.xyz, port: 10345, type: trojan, password: youtube-bai-piao-wang-zhe.az.98848.xyz, sni: youtube-bai-piao-wang-zhe.az.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: "jp [LV2·原生] 节点更新 bit.ly/36b6iJh 2", server: youtube-bai-piao-wang-zhe.az.98848.xyz, port: 443, type: vmess, uuid: 9cb127c8-6bd8-4795-995d-5efdc3089acc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: youtube-bai-piao-wang-zhe.az.98848.xyz, network: ws, ws-opts: {path: /youtbue@bai-piao-wang-zhe_vws, headers: {Host: youtube-bai-piao-wang-zhe.az.98848.xyz}}, udp: true}
+  - {name: "jp [LV2·原生] 节点更新 bit.ly/36b6iJh 3", server: youtube-bai-piao-wang-zhe.az.98848.xyz, port: 443, type: trojan, password: 9cb127c8-6bd8-4795-995d-5efdc3089acc, sni: youtube-bai-piao-wang-zhe.az.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: "jp [LV2·原生] 节点更新 bit.ly/36b6iJh 4", server: youtube-bai-piao-wang-zhe.az.98848.xyz, port: 443, type: trojan, password: 9cb127c8-6bd8-4795-995d-5efdc3089acc, sni: youtube-bai-piao-wang-zhe.az.98848.xyz, skip-cert-verify: true, udp: true}
+  - {name: 节点更新 bit.ly/36b6iJh, server: youtube-bai-piao-wang-zhe.nl.884899.cf, port: 20085, type: trojan, password: OHrPT7zexX, skip-cert-verify: true, udp: true}
+  - {name: 节点更新 bit.ly/36b6iJh 2, server: bai-piao-wang-zhe.iplc.nl.884899.cf, port: 43974, type: trojan, password: Q2nveoovyp, skip-cert-verify: true, udp: true}
+  - {name: "HongKong [免流]-环球 0.1x", server: dnsfree01.theworkpc.com, port: 80, type: vmess, uuid: 42ed0a20-f8e9-4f0a-98b6-4d3ad61eff72, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "HongKong [直连A]-环球 1x", server: dnsfree01.theworkpc.com, port: 20941, type: vmess, uuid: 42ed0a20-f8e9-4f0a-98b6-4d3ad61eff72, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "HongKong [直连B]-环球 1x", server: dnsfree01.theworkpc.com, port: 20942, type: vmess, uuid: 42ed0a20-f8e9-4f0a-98b6-4d3ad61eff72, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "HongKong [直连C]-环球 1x", server: dnsfree01.theworkpc.com, port: 20943, type: vmess, uuid: 42ed0a20-f8e9-4f0a-98b6-4d3ad61eff72, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: "HongKong [直连D]-环球 1x", server: dnsfree01.theworkpc.com, port: 20944, type: vmess, uuid: 42ed0a20-f8e9-4f0a-98b6-4d3ad61eff72, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: v.qq.com}}, udp: true}
+  - {name: 香港9, server: 716hk02.ljydw.top, port: 443, type: trojan, password: b484419f-d690-4613-847c-75c301d93759, sni: 716hk02.ljydw.top, skip-cert-verify: true, udp: true}
+  - {name: 香港0, server: 716hk01.ljydw.top, port: 443, type: trojan, password: b484419f-d690-4613-847c-75c301d93759, sni: 716hk01.ljydw.top, skip-cert-verify: true, udp: true}
+  - {name: 香港1, server: 712hk01.ljydw.top, port: 443, type: trojan, password: b484419f-d690-4613-847c-75c301d93759, sni: 712hk01.ljydw.top, skip-cert-verify: true, udp: true}
+  - {name: 香港2, server: 712hk02.ljydw.top, port: 443, type: trojan, password: b484419f-d690-4613-847c-75c301d93759, sni: 712hk02.ljydw.top, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -49,6 +197,154 @@ proxy-groups:
       - 香港@bai-piao-wang-zhe 8
       - 香港@bai-piao-wang-zhe 9
       - 印尼@bai-piao-wang-zhe
+      - 美国@bai-piao-wang-zhe 2
+      - 阿根廷@bai-piao-wang-zhe
+      - 埃及@bai-piao-wang-zhe
+      - 南非@bai-piao-wang-zhe
+      - 美国-@bai-piao-wang-zhe-9
+      - NL 5Gbp/s节点更新 bit.ly/36b6iJh
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - 印度@bai-piao-wang-zhe
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - 韩国@bai-piao-wang-zhe 2
+      - Netherlands (NL)  5Gbp/s节点更新 bit.ly/36b6iJh
+      - 美国@bai-piao-wang-zhe 3
+      - 韩国@bai-piao-wang-zhe 3
+      - 新加坡@bai-piao-wang-zhe
+      - IN 02|1x|TR
+      - IN 03|1x|TR
+      - us23.567568.ml_trojan_gRPC
+      - JP 2 → bai-piao-wang-zhe
+      - RO 1 → bai-piao-wang-zhe
+      - RO 2 → bai-piao-wang-zhe
+      - RO 3 → bai-piao-wang-zhe
+      - SG 4 → bai-piao-wang-zhe
+      - US 11 → bai-piao-wang-zhe
+      - us123.567568.ml_vmess_ws-clone
+      - ca127.98848.xyz_vmess_ws
+      - "[直连]日本 04"
+      - 666
+      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - ca127.98848.xyz_vmess_ws 2
+      - ca127.98848.xyz-clone-clone
+      - US/1
+      - xx/2
+      - US/4
+      - US/6
+      - US/7
+      - CN/8
+      - CA/10
+      - CZ/11
+      - CA/13
+      - IT/14
+      - FR/15
+      - CN/18
+      - CN/20
+      - CA/21
+      - CA/22
+      - US/23
+      - US/24
+      - SG/25
+      - JP/26
+      - xx/27
+      - JP/28
+      - KR/29
+      - JP/30
+      - SG/31
+      - xx/32
+      - MY/33
+      - US/34
+      - CN/35
+      - HK/36
+      - US/37
+      - JP/38
+      - JP/39
+      - JP/40
+      - JP/41
+      - JP/42
+      - JP/43
+      - JP/44
+      - JP/45
+      - US/46
+      - CA/47
+      - US/48
+      - DE/50
+      - CN/51
+      - JP/52
+      - US/54
+      - CN/55
+      - US/56
+      - JP/58
+      - RU/59
+      - FR/60
+      - SG/61
+      - IN/62
+      - xx/63
+      - US/70
+      - TW/71
+      - CN/73
+      - xx/74
+      - IN/75
+      - KR/76
+      - KR/77
+      - JP/78
+      - US/79
+      - JP/80
+      - JP/81
+      - JP/82
+      - JP/83
+      - KR/84
+      - JP/85
+      - US/86
+      - US/87
+      - CN/88
+      - CN/89
+      - IN/90
+      - xx/91
+      - CN/92
+      - GB/93
+      - SG/94
+      - US/95
+      - US/96
+      - CN/97
+      - US/99
+      - US/100
+      - CN/101
+      - CN/102
+      - US/103
+      - US/104
+      - CN/105
+      - CN/106
+      - CN/108
+      - CN/109
+      - KR/110
+      - GB/111
+      - NL/115
+      - KR/116
+      - NL/117
+      - RO/119
+      - RU/120
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 2
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 3
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 4
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 5
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 6
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh 2
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh 3
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh 4
+      - 节点更新 bit.ly/36b6iJh
+      - 节点更新 bit.ly/36b6iJh 2
+      - HongKong [免流]-环球 0.1x
+      - HongKong [直连A]-环球 1x
+      - HongKong [直连B]-环球 1x
+      - HongKong [直连C]-环球 1x
+      - HongKong [直连D]-环球 1x
+      - 香港9
+      - 香港0
+      - 香港1
+      - 香港2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -73,6 +369,154 @@ proxy-groups:
       - 香港@bai-piao-wang-zhe 8
       - 香港@bai-piao-wang-zhe 9
       - 印尼@bai-piao-wang-zhe
+      - 美国@bai-piao-wang-zhe 2
+      - 阿根廷@bai-piao-wang-zhe
+      - 埃及@bai-piao-wang-zhe
+      - 南非@bai-piao-wang-zhe
+      - 美国-@bai-piao-wang-zhe-9
+      - NL 5Gbp/s节点更新 bit.ly/36b6iJh
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - 印度@bai-piao-wang-zhe
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - 韩国@bai-piao-wang-zhe 2
+      - Netherlands (NL)  5Gbp/s节点更新 bit.ly/36b6iJh
+      - 美国@bai-piao-wang-zhe 3
+      - 韩国@bai-piao-wang-zhe 3
+      - 新加坡@bai-piao-wang-zhe
+      - IN 02|1x|TR
+      - IN 03|1x|TR
+      - us23.567568.ml_trojan_gRPC
+      - JP 2 → bai-piao-wang-zhe
+      - RO 1 → bai-piao-wang-zhe
+      - RO 2 → bai-piao-wang-zhe
+      - RO 3 → bai-piao-wang-zhe
+      - SG 4 → bai-piao-wang-zhe
+      - US 11 → bai-piao-wang-zhe
+      - us123.567568.ml_vmess_ws-clone
+      - ca127.98848.xyz_vmess_ws
+      - "[直连]日本 04"
+      - 666
+      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - ca127.98848.xyz_vmess_ws 2
+      - ca127.98848.xyz-clone-clone
+      - US/1
+      - xx/2
+      - US/4
+      - US/6
+      - US/7
+      - CN/8
+      - CA/10
+      - CZ/11
+      - CA/13
+      - IT/14
+      - FR/15
+      - CN/18
+      - CN/20
+      - CA/21
+      - CA/22
+      - US/23
+      - US/24
+      - SG/25
+      - JP/26
+      - xx/27
+      - JP/28
+      - KR/29
+      - JP/30
+      - SG/31
+      - xx/32
+      - MY/33
+      - US/34
+      - CN/35
+      - HK/36
+      - US/37
+      - JP/38
+      - JP/39
+      - JP/40
+      - JP/41
+      - JP/42
+      - JP/43
+      - JP/44
+      - JP/45
+      - US/46
+      - CA/47
+      - US/48
+      - DE/50
+      - CN/51
+      - JP/52
+      - US/54
+      - CN/55
+      - US/56
+      - JP/58
+      - RU/59
+      - FR/60
+      - SG/61
+      - IN/62
+      - xx/63
+      - US/70
+      - TW/71
+      - CN/73
+      - xx/74
+      - IN/75
+      - KR/76
+      - KR/77
+      - JP/78
+      - US/79
+      - JP/80
+      - JP/81
+      - JP/82
+      - JP/83
+      - KR/84
+      - JP/85
+      - US/86
+      - US/87
+      - CN/88
+      - CN/89
+      - IN/90
+      - xx/91
+      - CN/92
+      - GB/93
+      - SG/94
+      - US/95
+      - US/96
+      - CN/97
+      - US/99
+      - US/100
+      - CN/101
+      - CN/102
+      - US/103
+      - US/104
+      - CN/105
+      - CN/106
+      - CN/108
+      - CN/109
+      - KR/110
+      - GB/111
+      - NL/115
+      - KR/116
+      - NL/117
+      - RO/119
+      - RU/120
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 2
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 3
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 4
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 5
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 6
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh 2
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh 3
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh 4
+      - 节点更新 bit.ly/36b6iJh
+      - 节点更新 bit.ly/36b6iJh 2
+      - HongKong [免流]-环球 0.1x
+      - HongKong [直连A]-环球 1x
+      - HongKong [直连B]-环球 1x
+      - HongKong [直连C]-环球 1x
+      - HongKong [直连D]-环球 1x
+      - 香港9
+      - 香港0
+      - 香港1
+      - 香港2
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -98,6 +542,154 @@ proxy-groups:
       - 香港@bai-piao-wang-zhe 8
       - 香港@bai-piao-wang-zhe 9
       - 印尼@bai-piao-wang-zhe
+      - 美国@bai-piao-wang-zhe 2
+      - 阿根廷@bai-piao-wang-zhe
+      - 埃及@bai-piao-wang-zhe
+      - 南非@bai-piao-wang-zhe
+      - 美国-@bai-piao-wang-zhe-9
+      - NL 5Gbp/s节点更新 bit.ly/36b6iJh
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - 印度@bai-piao-wang-zhe
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - 韩国@bai-piao-wang-zhe 2
+      - Netherlands (NL)  5Gbp/s节点更新 bit.ly/36b6iJh
+      - 美国@bai-piao-wang-zhe 3
+      - 韩国@bai-piao-wang-zhe 3
+      - 新加坡@bai-piao-wang-zhe
+      - IN 02|1x|TR
+      - IN 03|1x|TR
+      - us23.567568.ml_trojan_gRPC
+      - JP 2 → bai-piao-wang-zhe
+      - RO 1 → bai-piao-wang-zhe
+      - RO 2 → bai-piao-wang-zhe
+      - RO 3 → bai-piao-wang-zhe
+      - SG 4 → bai-piao-wang-zhe
+      - US 11 → bai-piao-wang-zhe
+      - us123.567568.ml_vmess_ws-clone
+      - ca127.98848.xyz_vmess_ws
+      - "[直连]日本 04"
+      - 666
+      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - ca127.98848.xyz_vmess_ws 2
+      - ca127.98848.xyz-clone-clone
+      - US/1
+      - xx/2
+      - US/4
+      - US/6
+      - US/7
+      - CN/8
+      - CA/10
+      - CZ/11
+      - CA/13
+      - IT/14
+      - FR/15
+      - CN/18
+      - CN/20
+      - CA/21
+      - CA/22
+      - US/23
+      - US/24
+      - SG/25
+      - JP/26
+      - xx/27
+      - JP/28
+      - KR/29
+      - JP/30
+      - SG/31
+      - xx/32
+      - MY/33
+      - US/34
+      - CN/35
+      - HK/36
+      - US/37
+      - JP/38
+      - JP/39
+      - JP/40
+      - JP/41
+      - JP/42
+      - JP/43
+      - JP/44
+      - JP/45
+      - US/46
+      - CA/47
+      - US/48
+      - DE/50
+      - CN/51
+      - JP/52
+      - US/54
+      - CN/55
+      - US/56
+      - JP/58
+      - RU/59
+      - FR/60
+      - SG/61
+      - IN/62
+      - xx/63
+      - US/70
+      - TW/71
+      - CN/73
+      - xx/74
+      - IN/75
+      - KR/76
+      - KR/77
+      - JP/78
+      - US/79
+      - JP/80
+      - JP/81
+      - JP/82
+      - JP/83
+      - KR/84
+      - JP/85
+      - US/86
+      - US/87
+      - CN/88
+      - CN/89
+      - IN/90
+      - xx/91
+      - CN/92
+      - GB/93
+      - SG/94
+      - US/95
+      - US/96
+      - CN/97
+      - US/99
+      - US/100
+      - CN/101
+      - CN/102
+      - US/103
+      - US/104
+      - CN/105
+      - CN/106
+      - CN/108
+      - CN/109
+      - KR/110
+      - GB/111
+      - NL/115
+      - KR/116
+      - NL/117
+      - RO/119
+      - RU/120
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 2
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 3
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 4
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 5
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 6
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh 2
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh 3
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh 4
+      - 节点更新 bit.ly/36b6iJh
+      - 节点更新 bit.ly/36b6iJh 2
+      - HongKong [免流]-环球 0.1x
+      - HongKong [直连A]-环球 1x
+      - HongKong [直连B]-环球 1x
+      - HongKong [直连C]-环球 1x
+      - HongKong [直连D]-环球 1x
+      - 香港9
+      - 香港0
+      - 香港1
+      - 香港2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -135,6 +727,154 @@ proxy-groups:
       - 香港@bai-piao-wang-zhe 8
       - 香港@bai-piao-wang-zhe 9
       - 印尼@bai-piao-wang-zhe
+      - 美国@bai-piao-wang-zhe 2
+      - 阿根廷@bai-piao-wang-zhe
+      - 埃及@bai-piao-wang-zhe
+      - 南非@bai-piao-wang-zhe
+      - 美国-@bai-piao-wang-zhe-9
+      - NL 5Gbp/s节点更新 bit.ly/36b6iJh
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - 印度@bai-piao-wang-zhe
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - 韩国@bai-piao-wang-zhe 2
+      - Netherlands (NL)  5Gbp/s节点更新 bit.ly/36b6iJh
+      - 美国@bai-piao-wang-zhe 3
+      - 韩国@bai-piao-wang-zhe 3
+      - 新加坡@bai-piao-wang-zhe
+      - IN 02|1x|TR
+      - IN 03|1x|TR
+      - us23.567568.ml_trojan_gRPC
+      - JP 2 → bai-piao-wang-zhe
+      - RO 1 → bai-piao-wang-zhe
+      - RO 2 → bai-piao-wang-zhe
+      - RO 3 → bai-piao-wang-zhe
+      - SG 4 → bai-piao-wang-zhe
+      - US 11 → bai-piao-wang-zhe
+      - us123.567568.ml_vmess_ws-clone
+      - ca127.98848.xyz_vmess_ws
+      - "[直连]日本 04"
+      - 666
+      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - ca127.98848.xyz_vmess_ws 2
+      - ca127.98848.xyz-clone-clone
+      - US/1
+      - xx/2
+      - US/4
+      - US/6
+      - US/7
+      - CN/8
+      - CA/10
+      - CZ/11
+      - CA/13
+      - IT/14
+      - FR/15
+      - CN/18
+      - CN/20
+      - CA/21
+      - CA/22
+      - US/23
+      - US/24
+      - SG/25
+      - JP/26
+      - xx/27
+      - JP/28
+      - KR/29
+      - JP/30
+      - SG/31
+      - xx/32
+      - MY/33
+      - US/34
+      - CN/35
+      - HK/36
+      - US/37
+      - JP/38
+      - JP/39
+      - JP/40
+      - JP/41
+      - JP/42
+      - JP/43
+      - JP/44
+      - JP/45
+      - US/46
+      - CA/47
+      - US/48
+      - DE/50
+      - CN/51
+      - JP/52
+      - US/54
+      - CN/55
+      - US/56
+      - JP/58
+      - RU/59
+      - FR/60
+      - SG/61
+      - IN/62
+      - xx/63
+      - US/70
+      - TW/71
+      - CN/73
+      - xx/74
+      - IN/75
+      - KR/76
+      - KR/77
+      - JP/78
+      - US/79
+      - JP/80
+      - JP/81
+      - JP/82
+      - JP/83
+      - KR/84
+      - JP/85
+      - US/86
+      - US/87
+      - CN/88
+      - CN/89
+      - IN/90
+      - xx/91
+      - CN/92
+      - GB/93
+      - SG/94
+      - US/95
+      - US/96
+      - CN/97
+      - US/99
+      - US/100
+      - CN/101
+      - CN/102
+      - US/103
+      - US/104
+      - CN/105
+      - CN/106
+      - CN/108
+      - CN/109
+      - KR/110
+      - GB/111
+      - NL/115
+      - KR/116
+      - NL/117
+      - RO/119
+      - RU/120
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 2
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 3
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 4
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 5
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 6
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh 2
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh 3
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh 4
+      - 节点更新 bit.ly/36b6iJh
+      - 节点更新 bit.ly/36b6iJh 2
+      - HongKong [免流]-环球 0.1x
+      - HongKong [直连A]-环球 1x
+      - HongKong [直连B]-环球 1x
+      - HongKong [直连C]-环球 1x
+      - HongKong [直连D]-环球 1x
+      - 香港9
+      - 香港0
+      - 香港1
+      - 香港2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -149,6 +889,10 @@ proxy-groups:
       - 台湾-@bai-piao-wang-zhe-3
       - 香港@bai-piao-wang-zhe 8
       - 香港@bai-piao-wang-zhe 9
+      - 香港9
+      - 香港0
+      - 香港1
+      - 香港2
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -174,6 +918,154 @@ proxy-groups:
       - 香港@bai-piao-wang-zhe 8
       - 香港@bai-piao-wang-zhe 9
       - 印尼@bai-piao-wang-zhe
+      - 美国@bai-piao-wang-zhe 2
+      - 阿根廷@bai-piao-wang-zhe
+      - 埃及@bai-piao-wang-zhe
+      - 南非@bai-piao-wang-zhe
+      - 美国-@bai-piao-wang-zhe-9
+      - NL 5Gbp/s节点更新 bit.ly/36b6iJh
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - 印度@bai-piao-wang-zhe
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - 韩国@bai-piao-wang-zhe 2
+      - Netherlands (NL)  5Gbp/s节点更新 bit.ly/36b6iJh
+      - 美国@bai-piao-wang-zhe 3
+      - 韩国@bai-piao-wang-zhe 3
+      - 新加坡@bai-piao-wang-zhe
+      - IN 02|1x|TR
+      - IN 03|1x|TR
+      - us23.567568.ml_trojan_gRPC
+      - JP 2 → bai-piao-wang-zhe
+      - RO 1 → bai-piao-wang-zhe
+      - RO 2 → bai-piao-wang-zhe
+      - RO 3 → bai-piao-wang-zhe
+      - SG 4 → bai-piao-wang-zhe
+      - US 11 → bai-piao-wang-zhe
+      - us123.567568.ml_vmess_ws-clone
+      - ca127.98848.xyz_vmess_ws
+      - "[直连]日本 04"
+      - 666
+      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - ca127.98848.xyz_vmess_ws 2
+      - ca127.98848.xyz-clone-clone
+      - US/1
+      - xx/2
+      - US/4
+      - US/6
+      - US/7
+      - CN/8
+      - CA/10
+      - CZ/11
+      - CA/13
+      - IT/14
+      - FR/15
+      - CN/18
+      - CN/20
+      - CA/21
+      - CA/22
+      - US/23
+      - US/24
+      - SG/25
+      - JP/26
+      - xx/27
+      - JP/28
+      - KR/29
+      - JP/30
+      - SG/31
+      - xx/32
+      - MY/33
+      - US/34
+      - CN/35
+      - HK/36
+      - US/37
+      - JP/38
+      - JP/39
+      - JP/40
+      - JP/41
+      - JP/42
+      - JP/43
+      - JP/44
+      - JP/45
+      - US/46
+      - CA/47
+      - US/48
+      - DE/50
+      - CN/51
+      - JP/52
+      - US/54
+      - CN/55
+      - US/56
+      - JP/58
+      - RU/59
+      - FR/60
+      - SG/61
+      - IN/62
+      - xx/63
+      - US/70
+      - TW/71
+      - CN/73
+      - xx/74
+      - IN/75
+      - KR/76
+      - KR/77
+      - JP/78
+      - US/79
+      - JP/80
+      - JP/81
+      - JP/82
+      - JP/83
+      - KR/84
+      - JP/85
+      - US/86
+      - US/87
+      - CN/88
+      - CN/89
+      - IN/90
+      - xx/91
+      - CN/92
+      - GB/93
+      - SG/94
+      - US/95
+      - US/96
+      - CN/97
+      - US/99
+      - US/100
+      - CN/101
+      - CN/102
+      - US/103
+      - US/104
+      - CN/105
+      - CN/106
+      - CN/108
+      - CN/109
+      - KR/110
+      - GB/111
+      - NL/115
+      - KR/116
+      - NL/117
+      - RO/119
+      - RU/120
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 2
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 3
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 4
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 5
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 6
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh 2
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh 3
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh 4
+      - 节点更新 bit.ly/36b6iJh
+      - 节点更新 bit.ly/36b6iJh 2
+      - HongKong [免流]-环球 0.1x
+      - HongKong [直连A]-环球 1x
+      - HongKong [直连B]-环球 1x
+      - HongKong [直连C]-环球 1x
+      - HongKong [直连D]-环球 1x
+      - 香港9
+      - 香港0
+      - 香港1
+      - 香港2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -198,6 +1090,154 @@ proxy-groups:
       - 香港@bai-piao-wang-zhe 8
       - 香港@bai-piao-wang-zhe 9
       - 印尼@bai-piao-wang-zhe
+      - 美国@bai-piao-wang-zhe 2
+      - 阿根廷@bai-piao-wang-zhe
+      - 埃及@bai-piao-wang-zhe
+      - 南非@bai-piao-wang-zhe
+      - 美国-@bai-piao-wang-zhe-9
+      - NL 5Gbp/s节点更新 bit.ly/36b6iJh
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - 印度@bai-piao-wang-zhe
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - 韩国@bai-piao-wang-zhe 2
+      - Netherlands (NL)  5Gbp/s节点更新 bit.ly/36b6iJh
+      - 美国@bai-piao-wang-zhe 3
+      - 韩国@bai-piao-wang-zhe 3
+      - 新加坡@bai-piao-wang-zhe
+      - IN 02|1x|TR
+      - IN 03|1x|TR
+      - us23.567568.ml_trojan_gRPC
+      - JP 2 → bai-piao-wang-zhe
+      - RO 1 → bai-piao-wang-zhe
+      - RO 2 → bai-piao-wang-zhe
+      - RO 3 → bai-piao-wang-zhe
+      - SG 4 → bai-piao-wang-zhe
+      - US 11 → bai-piao-wang-zhe
+      - us123.567568.ml_vmess_ws-clone
+      - ca127.98848.xyz_vmess_ws
+      - "[直连]日本 04"
+      - 666
+      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - ca127.98848.xyz_vmess_ws 2
+      - ca127.98848.xyz-clone-clone
+      - US/1
+      - xx/2
+      - US/4
+      - US/6
+      - US/7
+      - CN/8
+      - CA/10
+      - CZ/11
+      - CA/13
+      - IT/14
+      - FR/15
+      - CN/18
+      - CN/20
+      - CA/21
+      - CA/22
+      - US/23
+      - US/24
+      - SG/25
+      - JP/26
+      - xx/27
+      - JP/28
+      - KR/29
+      - JP/30
+      - SG/31
+      - xx/32
+      - MY/33
+      - US/34
+      - CN/35
+      - HK/36
+      - US/37
+      - JP/38
+      - JP/39
+      - JP/40
+      - JP/41
+      - JP/42
+      - JP/43
+      - JP/44
+      - JP/45
+      - US/46
+      - CA/47
+      - US/48
+      - DE/50
+      - CN/51
+      - JP/52
+      - US/54
+      - CN/55
+      - US/56
+      - JP/58
+      - RU/59
+      - FR/60
+      - SG/61
+      - IN/62
+      - xx/63
+      - US/70
+      - TW/71
+      - CN/73
+      - xx/74
+      - IN/75
+      - KR/76
+      - KR/77
+      - JP/78
+      - US/79
+      - JP/80
+      - JP/81
+      - JP/82
+      - JP/83
+      - KR/84
+      - JP/85
+      - US/86
+      - US/87
+      - CN/88
+      - CN/89
+      - IN/90
+      - xx/91
+      - CN/92
+      - GB/93
+      - SG/94
+      - US/95
+      - US/96
+      - CN/97
+      - US/99
+      - US/100
+      - CN/101
+      - CN/102
+      - US/103
+      - US/104
+      - CN/105
+      - CN/106
+      - CN/108
+      - CN/109
+      - KR/110
+      - GB/111
+      - NL/115
+      - KR/116
+      - NL/117
+      - RO/119
+      - RU/120
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 2
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 3
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 4
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 5
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 6
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh 2
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh 3
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh 4
+      - 节点更新 bit.ly/36b6iJh
+      - 节点更新 bit.ly/36b6iJh 2
+      - HongKong [免流]-环球 0.1x
+      - HongKong [直连A]-环球 1x
+      - HongKong [直连B]-环球 1x
+      - HongKong [直连C]-环球 1x
+      - HongKong [直连D]-环球 1x
+      - 香港9
+      - 香港0
+      - 香港1
+      - 香港2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -223,6 +1263,154 @@ proxy-groups:
       - 香港@bai-piao-wang-zhe 8
       - 香港@bai-piao-wang-zhe 9
       - 印尼@bai-piao-wang-zhe
+      - 美国@bai-piao-wang-zhe 2
+      - 阿根廷@bai-piao-wang-zhe
+      - 埃及@bai-piao-wang-zhe
+      - 南非@bai-piao-wang-zhe
+      - 美国-@bai-piao-wang-zhe-9
+      - NL 5Gbp/s节点更新 bit.ly/36b6iJh
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - 印度@bai-piao-wang-zhe
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - 韩国@bai-piao-wang-zhe 2
+      - Netherlands (NL)  5Gbp/s节点更新 bit.ly/36b6iJh
+      - 美国@bai-piao-wang-zhe 3
+      - 韩国@bai-piao-wang-zhe 3
+      - 新加坡@bai-piao-wang-zhe
+      - IN 02|1x|TR
+      - IN 03|1x|TR
+      - us23.567568.ml_trojan_gRPC
+      - JP 2 → bai-piao-wang-zhe
+      - RO 1 → bai-piao-wang-zhe
+      - RO 2 → bai-piao-wang-zhe
+      - RO 3 → bai-piao-wang-zhe
+      - SG 4 → bai-piao-wang-zhe
+      - US 11 → bai-piao-wang-zhe
+      - us123.567568.ml_vmess_ws-clone
+      - ca127.98848.xyz_vmess_ws
+      - "[直连]日本 04"
+      - 666
+      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - ca127.98848.xyz_vmess_ws 2
+      - ca127.98848.xyz-clone-clone
+      - US/1
+      - xx/2
+      - US/4
+      - US/6
+      - US/7
+      - CN/8
+      - CA/10
+      - CZ/11
+      - CA/13
+      - IT/14
+      - FR/15
+      - CN/18
+      - CN/20
+      - CA/21
+      - CA/22
+      - US/23
+      - US/24
+      - SG/25
+      - JP/26
+      - xx/27
+      - JP/28
+      - KR/29
+      - JP/30
+      - SG/31
+      - xx/32
+      - MY/33
+      - US/34
+      - CN/35
+      - HK/36
+      - US/37
+      - JP/38
+      - JP/39
+      - JP/40
+      - JP/41
+      - JP/42
+      - JP/43
+      - JP/44
+      - JP/45
+      - US/46
+      - CA/47
+      - US/48
+      - DE/50
+      - CN/51
+      - JP/52
+      - US/54
+      - CN/55
+      - US/56
+      - JP/58
+      - RU/59
+      - FR/60
+      - SG/61
+      - IN/62
+      - xx/63
+      - US/70
+      - TW/71
+      - CN/73
+      - xx/74
+      - IN/75
+      - KR/76
+      - KR/77
+      - JP/78
+      - US/79
+      - JP/80
+      - JP/81
+      - JP/82
+      - JP/83
+      - KR/84
+      - JP/85
+      - US/86
+      - US/87
+      - CN/88
+      - CN/89
+      - IN/90
+      - xx/91
+      - CN/92
+      - GB/93
+      - SG/94
+      - US/95
+      - US/96
+      - CN/97
+      - US/99
+      - US/100
+      - CN/101
+      - CN/102
+      - US/103
+      - US/104
+      - CN/105
+      - CN/106
+      - CN/108
+      - CN/109
+      - KR/110
+      - GB/111
+      - NL/115
+      - KR/116
+      - NL/117
+      - RO/119
+      - RU/120
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 2
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 3
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 4
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 5
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 6
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh 2
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh 3
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh 4
+      - 节点更新 bit.ly/36b6iJh
+      - 节点更新 bit.ly/36b6iJh 2
+      - HongKong [免流]-环球 0.1x
+      - HongKong [直连A]-环球 1x
+      - HongKong [直连B]-环球 1x
+      - HongKong [直连C]-环球 1x
+      - HongKong [直连D]-环球 1x
+      - 香港9
+      - 香港0
+      - 香港1
+      - 香港2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -257,6 +1445,154 @@ proxy-groups:
       - 香港@bai-piao-wang-zhe 8
       - 香港@bai-piao-wang-zhe 9
       - 印尼@bai-piao-wang-zhe
+      - 美国@bai-piao-wang-zhe 2
+      - 阿根廷@bai-piao-wang-zhe
+      - 埃及@bai-piao-wang-zhe
+      - 南非@bai-piao-wang-zhe
+      - 美国-@bai-piao-wang-zhe-9
+      - NL 5Gbp/s节点更新 bit.ly/36b6iJh
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 2
+      - 印度@bai-piao-wang-zhe
+      - NL [直连] 1x 1G/S 节点更新 bit.ly/36b6iJh 3
+      - 韩国@bai-piao-wang-zhe 2
+      - Netherlands (NL)  5Gbp/s节点更新 bit.ly/36b6iJh
+      - 美国@bai-piao-wang-zhe 3
+      - 韩国@bai-piao-wang-zhe 3
+      - 新加坡@bai-piao-wang-zhe
+      - IN 02|1x|TR
+      - IN 03|1x|TR
+      - us23.567568.ml_trojan_gRPC
+      - JP 2 → bai-piao-wang-zhe
+      - RO 1 → bai-piao-wang-zhe
+      - RO 2 → bai-piao-wang-zhe
+      - RO 3 → bai-piao-wang-zhe
+      - SG 4 → bai-piao-wang-zhe
+      - US 11 → bai-piao-wang-zhe
+      - us123.567568.ml_vmess_ws-clone
+      - ca127.98848.xyz_vmess_ws
+      - "[直连]日本 04"
+      - 666
+      - CA[直连] 1x 1G/S 节点更新 bit.ly/36b6iJh
+      - ca127.98848.xyz_vmess_ws 2
+      - ca127.98848.xyz-clone-clone
+      - US/1
+      - xx/2
+      - US/4
+      - US/6
+      - US/7
+      - CN/8
+      - CA/10
+      - CZ/11
+      - CA/13
+      - IT/14
+      - FR/15
+      - CN/18
+      - CN/20
+      - CA/21
+      - CA/22
+      - US/23
+      - US/24
+      - SG/25
+      - JP/26
+      - xx/27
+      - JP/28
+      - KR/29
+      - JP/30
+      - SG/31
+      - xx/32
+      - MY/33
+      - US/34
+      - CN/35
+      - HK/36
+      - US/37
+      - JP/38
+      - JP/39
+      - JP/40
+      - JP/41
+      - JP/42
+      - JP/43
+      - JP/44
+      - JP/45
+      - US/46
+      - CA/47
+      - US/48
+      - DE/50
+      - CN/51
+      - JP/52
+      - US/54
+      - CN/55
+      - US/56
+      - JP/58
+      - RU/59
+      - FR/60
+      - SG/61
+      - IN/62
+      - xx/63
+      - US/70
+      - TW/71
+      - CN/73
+      - xx/74
+      - IN/75
+      - KR/76
+      - KR/77
+      - JP/78
+      - US/79
+      - JP/80
+      - JP/81
+      - JP/82
+      - JP/83
+      - KR/84
+      - JP/85
+      - US/86
+      - US/87
+      - CN/88
+      - CN/89
+      - IN/90
+      - xx/91
+      - CN/92
+      - GB/93
+      - SG/94
+      - US/95
+      - US/96
+      - CN/97
+      - US/99
+      - US/100
+      - CN/101
+      - CN/102
+      - US/103
+      - US/104
+      - CN/105
+      - CN/106
+      - CN/108
+      - CN/109
+      - KR/110
+      - GB/111
+      - NL/115
+      - KR/116
+      - NL/117
+      - RO/119
+      - RU/120
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 2
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 3
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 4
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 5
+      - Singapore (SG) [LV2·原生] 狮城05 | 中转 6
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh 2
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh 3
+      - jp [LV2·原生] 节点更新 bit.ly/36b6iJh 4
+      - 节点更新 bit.ly/36b6iJh
+      - 节点更新 bit.ly/36b6iJh 2
+      - HongKong [免流]-环球 0.1x
+      - HongKong [直连A]-环球 1x
+      - HongKong [直连B]-环球 1x
+      - HongKong [直连C]-环球 1x
+      - HongKong [直连D]-环球 1x
+      - 香港9
+      - 香港0
+      - 香港1
+      - 香港2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -10146,525 +11482,6 @@ rules:
  - DOMAIN-SUFFIX,s3.amazonaws.com,🔰 节点选择
  - DOMAIN-SUFFIX,zaobao.com.sg,🔰 节点选择
  - DOMAIN,international-gfe.download.nvidia.com,🔰 节点选择
- - DOMAIN-KEYWORD,adservice,⛔️ 广告拦截
- - DOMAIN,ad.51wnl-cq.com,⛔️ 广告拦截
- - DOMAIN,adextra.51wnl-cq.com,⛔️ 广告拦截
- - DOMAIN,log.51wnl-cq.com,⛔️ 广告拦截
- - DOMAIN,r.51wnl-cq.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,iadsdk.apple.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,ads.internal.unity3d.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,unityads.unity3d.com,⛔️ 广告拦截
- - DOMAIN,tunion-api.m.taobao.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,atm.youku.com,⛔️ 广告拦截
- - DOMAIN,ad.mobile.youku.com,⛔️ 广告拦截
- - DOMAIN,iyes.youku.com,⛔️ 广告拦截
- - DOMAIN,pl.cp31.ott.cibntv.net,⛔️ 广告拦截
- - DOMAIN,optimus-ads.amap.com,⛔️ 广告拦截
- - DOMAIN,optimus-ads.amap.com.w.alikunlun.com,⛔️ 广告拦截
- - DOMAIN,adproxy.autohome.com.cn,⛔️ 广告拦截
- - DOMAIN,rd.autohome.com.cn,⛔️ 广告拦截
- - DOMAIN,al.autohome.com.cn,⛔️ 广告拦截
- - DOMAIN,applogapi.autohome.com.cn,⛔️ 广告拦截
- - DOMAIN,adm0.autoimg.cn,⛔️ 广告拦截
- - DOMAIN,adm1.autoimg.cn,⛔️ 广告拦截
- - DOMAIN,adm2.autoimg.cn,⛔️ 广告拦截
- - DOMAIN,adm3.autoimg.cn,⛔️ 广告拦截
- - DOMAIN-SUFFIX,duapps.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,cpro.baidu.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,pos.baidu.com,⛔️ 广告拦截
- - DOMAIN,afd.baidu.com,⛔️ 广告拦截
- - DOMAIN,als.baidu.com,⛔️ 广告拦截
- - DOMAIN,duclick.baidu.com,⛔️ 广告拦截
- - DOMAIN,mobads.baidu.com,⛔️ 广告拦截
- - DOMAIN,mobads-logs.baidu.com,⛔️ 广告拦截
- - DOMAIN,nadvideo2.baidu.com,⛔️ 广告拦截
- - DOMAIN,nsclick.baidu.com,⛔️ 广告拦截
- - DOMAIN,t7z.cupid.iqiyi.com,⛔️ 广告拦截
- - DOMAIN,t7z.cupid.ptqy.gitv.tv,⛔️ 广告拦截
- - IP-CIDR,101.227.97.240/32,⛔️ 广告拦截,no-resolve
- - IP-CIDR,101.227.200.11/32,⛔️ 广告拦截,no-resolve
- - IP-CIDR,101.227.200.28/32,⛔️ 广告拦截,no-resolve
- - IP-CIDR,124.192.153.42/32,⛔️ 广告拦截,no-resolve
- - DOMAIN-SUFFIX,pangolin-sdk-toutiao.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com,⛔️ 广告拦截
- - DOMAIN,ad.toutiao.com,⛔️ 广告拦截
- - DOMAIN,dsp.toutiao.com,⛔️ 广告拦截
- - DOMAIN,pangolin.snssdk.com,⛔️ 广告拦截
- - DOMAIN,advertise.baicizhan.com,⛔️ 广告拦截
- - DOMAIN,advertise.baicizhan.org,⛔️ 广告拦截
- - DOMAIN,adx.yiche.com,⛔️ 广告拦截
- - DOMAIN,log.ycapp.yiche.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,iad.appboy.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,iad-03.appboy.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,iad-01.braze.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,iad-02.braze.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,iad-03.braze.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,iad-04.braze.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,iad-05.braze.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,iad-06.braze.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,iad-08.braze.com,⛔️ 广告拦截
- - DOMAIN,adstore-index-1252524079.file.myqcloud.com,⛔️ 广告拦截
- - DOMAIN,galaxy.bjcathay.com,⛔️ 广告拦截
- - DOMAIN,mdrecv.app.cntvwb.cn,⛔️ 广告拦截
- - DOMAIN,sdapprecv.app.cntvwb.cn,⛔️ 广告拦截
- - DOMAIN,vdapprecv.app.cntvwb.cn,⛔️ 广告拦截
- - DOMAIN,ad.21cn.com,⛔️ 广告拦截
- - DOMAIN,ad.k.21cn.com,⛔️ 广告拦截
- - DOMAIN,admarket.21cn.com,⛔️ 广告拦截
- - DOMAIN,adshows.21cn.com,⛔️ 广告拦截
- - DOMAIN,atrace.chelaile.net.cn,⛔️ 广告拦截
- - DOMAIN,logs.chelaile.net.cn,⛔️ 广告拦截
- - DOMAIN,dispatcher.360in.com,⛔️ 广告拦截
- - DOMAIN,ad.360in.com,⛔️ 广告拦截
- - DOMAIN,exp.360in.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,doubleclick.net,⛔️ 广告拦截
- - DOMAIN-SUFFIX,googleadservices.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,googleadsserving.cn,⛔️ 广告拦截
- - DOMAIN-SUFFIX,googlesyndication.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,googletagservices.com,⛔️ 广告拦截
- - DOMAIN,ads.youtube.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,da.mgtv.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,da.hunantv.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,log.hunantv.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,v2.hunantv.com,⛔️ 广告拦截
- - DOMAIN,adx.hupu.com,⛔️ 广告拦截
- - DOMAIN,adx-api.hupu.com,⛔️ 广告拦截
- - DOMAIN,goblin.hupu.com,⛔️ 广告拦截
- - DOMAIN,ad.hpplay.cn,⛔️ 广告拦截
- - DOMAIN,adc.hpplay.cn,⛔️ 广告拦截
- - DOMAIN,adcdn.hpplay.cn,⛔️ 广告拦截
- - DOMAIN,adeng.hpplay.cn,⛔️ 广告拦截
- - DOMAIN,pin.hpplay.cn,⛔️ 广告拦截
- - DOMAIN,rp.hpplay.cn,⛔️ 广告拦截
- - DOMAIN,rpt.hpplay.cn,⛔️ 广告拦截
- - DOMAIN,richmanapi.jxedt.com,⛔️ 广告拦截
- - DOMAIN,richmanmain.jxedt.com,⛔️ 广告拦截
- - DOMAIN,richmanrules.jxedt.com,⛔️ 广告拦截
- - DOMAIN,ad-stat.ksosoft.com,⛔️ 广告拦截
- - DOMAIN,img.auction-ads.wpscdn.cn,⛔️ 广告拦截
- - DOMAIN,counter.kingsoft.com,⛔️ 广告拦截
- - DOMAIN,counter.ksosoft.com,⛔️ 广告拦截
- - DOMAIN,minfo.wps.cn,⛔️ 广告拦截
- - DOMAIN,mobad.ijinshan.com,⛔️ 广告拦截
- - DOMAIN,ups.ksmobile.net,⛔️ 广告拦截
- - DOMAIN,ws.ksmobile.net,⛔️ 广告拦截
- - DOMAIN-SUFFIX,e.kuaishou.com,⛔️ 广告拦截
- - DOMAIN,js-ad.a.yximgs.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,webp2p.letv.com,⛔️ 广告拦截
- - DOMAIN,ark.letv.com,⛔️ 广告拦截
- - DOMAIN,emma-414870e223.huodonghezi.com,⛔️ 广告拦截
- - DOMAIN,g3.letv.com,⛔️ 广告拦截
- - DOMAIN,n.mark.letv.com,⛔️ 广告拦截
- - DOMAIN,a.wkanx.com,⛔️ 广告拦截
- - DOMAIN,cwx.lianwangtech.com,⛔️ 广告拦截
- - DOMAIN,c1wx.lianwangtech.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,ads.msn.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,ads1.msn.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,ads2.msn.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,bingads.microsoft.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,rads.msn.com,⛔️ 广告拦截
- - DOMAIN,mobileads.msn.com,⛔️ 广告拦截
- - DOMAIN,ad.api.moji.com,⛔️ 广告拦截
- - DOMAIN,adlaunch.moji.com,⛔️ 广告拦截
- - DOMAIN,ads.mojicdn.com,⛔️ 广告拦截
- - DOMAIN,v1.log.moji.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,ad.cmvideo.cn,⛔️ 广告拦截
- - DOMAIN,ggc.cmvideo.cn,⛔️ 广告拦截
- - DOMAIN,ggic03.miguvideo.com,⛔️ 广告拦截
- - DOMAIN,ggmk.miguvideo.com,⛔️ 广告拦截
- - DOMAIN,ggv.cmvideo.cn,⛔️ 广告拦截
- - DOMAIN,ggx.cmvideo.cn,⛔️ 广告拦截
- - DOMAIN,ggx03.miguvideo.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,dsp.youdao.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,union.youdao.com,⛔️ 广告拦截
- - DOMAIN,ad.bn.netease.com,⛔️ 广告拦截
- - DOMAIN,ad.yixin.im,⛔️ 广告拦截
- - DOMAIN,admusicpic.music.126.net,⛔️ 广告拦截
- - DOMAIN,g1.163.com,⛔️ 广告拦截
- - DOMAIN,gorgon.youdao.com,⛔️ 广告拦截
- - DOMAIN,iad.g.163.com,⛔️ 广告拦截
- - DOMAIN,iadmat.nosdn.127.net,⛔️ 广告拦截
- - DOMAIN,iadmusicmat.music.126.net,⛔️ 广告拦截
- - DOMAIN,iadmusicmatvideo.music.126.net,⛔️ 广告拦截
- - DOMAIN,impservice.dictapp.youdao.com,⛔️ 广告拦截
- - DOMAIN,impservice.youdao.com,⛔️ 广告拦截
- - DOMAIN,n.3g.163.com,⛔️ 广告拦截
- - DOMAIN,nex.163.com,⛔️ 广告拦截
- - DOMAIN,yt-adp.nosdn.127.net,⛔️ 广告拦截
- - DOMAIN,yt-adp.ws.126.net,⛔️ 广告拦截
- - DOMAIN,ads.aplus.pptv.com,⛔️ 广告拦截
- - DOMAIN,ads.aplusapi.pptv.com,⛔️ 广告拦截
- - DOMAIN,asimgs.pplive.cn,⛔️ 广告拦截
- - DOMAIN,de.as.pptv.com,⛔️ 广告拦截
- - DOMAIN,regist.fotoable.com,⛔️ 广告拦截
- - DOMAIN,cdn.adapi.fotoable.com,⛔️ 广告拦截
- - DOMAIN,adnew.wifi8.com,⛔️ 广告拦截
- - DOMAIN,adfile.wifi8.com,⛔️ 广告拦截
- - DOMAIN,ad-analysis.pconline.com.cn,⛔️ 广告拦截
- - DOMAIN,iad0ssl.pcauto.com.cn,⛔️ 广告拦截
- - DOMAIN,iad0ssl.pconline.com.cn,⛔️ 广告拦截
- - DOMAIN,imgad0.pcauto.com.cn,⛔️ 广告拦截
- - DOMAIN,imgad0.pconline.com.cn,⛔️ 广告拦截
- - DOMAIN,ivy.pchouse.com.cn,⛔️ 广告拦截
- - DOMAIN-SUFFIX,deliver.ifeng.com,⛔️ 广告拦截
- - DOMAIN,api.newad.ifeng.com,⛔️ 广告拦截
- - DOMAIN,ifengad.3g.ifeng.com,⛔️ 广告拦截
- - DOMAIN,ad.qingting.fm,⛔️ 广告拦截
- - DOMAIN,adlaunch.qingting.fm,⛔️ 广告拦截
- - DOMAIN,ad-cdn.qingting.fm,⛔️ 广告拦截
- - DOMAIN-SUFFIX,ads.oppomobile.com,⛔️ 广告拦截
- - DOMAIN,adsfs.oppomobile.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,alitui.weibo.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,beacon.sina.com.cn,⛔️ 广告拦截
- - DOMAIN,adimg.uve.weibo.com,⛔️ 广告拦截
- - DOMAIN,adimg.vue.weibo.com,⛔️ 广告拦截
- - DOMAIN,u1.img.mobile.sina.cn,⛔️ 广告拦截
- - DOMAIN,sax.sina.com.cn,⛔️ 广告拦截
- - DOMAIN,saxs.sina.com.cn,⛔️ 广告拦截
- - DOMAIN,saxn.sina.com.cn,⛔️ 广告拦截
- - DOMAIN-SUFFIX,ad.sohu.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,ads.sohu.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,aty.sohu.com,⛔️ 广告拦截
- - DOMAIN,hui.sohu.com,⛔️ 广告拦截
- - DOMAIN,ads.snapchat.com,⛔️ 广告拦截
- - DOMAIN,adsapi.snapchat.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,hoisin.coocaa.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,hoisin.coocaatv.com,⛔️ 广告拦截
- - DOMAIN,data-hoisin.coocaa.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,e.qq.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,gdt.qq.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,l.qq.com,⛔️ 广告拦截
- - DOMAIN,adsmind.apdcdn.tc.qq.com,⛔️ 广告拦截
- - DOMAIN,adsmind.gdtimg.com,⛔️ 广告拦截
- - DOMAIN,adsmind.tc.qq.com,⛔️ 广告拦截
- - DOMAIN,adsmind.ugdtimg.com,⛔️ 广告拦截
- - DOMAIN,livep.l.t002.ottcn.com,⛔️ 广告拦截
- - DOMAIN,pgdt.gtimg.cn,⛔️ 广告拦截
- - DOMAIN,pgdt.gtimg.com,⛔️ 广告拦截
- - DOMAIN,pgdt.ugdtimg.com,⛔️ 广告拦截
- - DOMAIN,splashqqlive.gtimg.com,⛔️ 广告拦截
- - DOMAIN,wa.gtimg.com,⛔️ 广告拦截
- - DOMAIN,ad.tencentmusic.com,⛔️ 广告拦截
- - DOMAIN,adstats.tencentmusic.com,⛔️ 广告拦截
- - DOMAIN,adserviceretry.kugou.com,⛔️ 广告拦截
- - DOMAIN,ads.service.kugou.com,⛔️ 广告拦截
- - DOMAIN,adsfile.bssdlbig.kugou.com,⛔️ 广告拦截
- - DOMAIN,g.koowo.com,⛔️ 广告拦截
- - DOMAIN,kgmobilestat.kugou.com,⛔️ 广告拦截
- - DOMAIN,kgmobilestatbak.kugou.com,⛔️ 广告拦截
- - DOMAIN,mobilelog.kugou.com,⛔️ 广告拦截
- - DOMAIN,mobilead.kuwo.cn,⛔️ 广告拦截
- - DOMAIN,rich.kuwo.cn,⛔️ 广告拦截
- - DOMAIN,tmead.y.qq.com,⛔️ 广告拦截
- - DOMAIN,adm.10jqka.com.cn,⛔️ 广告拦截
- - DOMAIN,stat.10jqka.com.cn,⛔️ 广告拦截
- - DOMAIN,admonitor.thepaper.cn,⛔️ 广告拦截
- - DOMAIN,adpai.thepaper.cn,⛔️ 广告拦截
- - DOMAIN,imgadpai.thepaper.cn,⛔️ 广告拦截
- - DOMAIN,adsp.xunlei.com,⛔️ 广告拦截
- - DOMAIN,etl.xlmc.sandai.net,⛔️ 广告拦截
- - DOMAIN,adv-adlog.variflight.com,⛔️ 广告拦截
- - DOMAIN,adv-ads.variflight.com,⛔️ 广告拦截
- - DOMAIN,app-ad.variflight.com,⛔️ 广告拦截
- - DOMAIN,adlog.vivo.com.cn,⛔️ 广告拦截
- - DOMAIN,adreq.vivo.com.cn,⛔️ 广告拦截
- - DOMAIN,ads-marketing-vivofs.vivo.com.cn,⛔️ 广告拦截
- - DOMAIN,adsdk.vivo.com.cn,⛔️ 广告拦截
- - DOMAIN,adsstatic.vivo.com.cn,⛔️ 广告拦截
- - DOMAIN,adxlog.vivo.com.cn,⛔️ 广告拦截
- - DOMAIN,vcardsdkservice.vivo.com.cn,⛔️ 广告拦截
- - DOMAIN-KEYWORD,stsdk.vivo.com.cn,⛔️ 广告拦截
- - DOMAIN-KEYWORD,stsdk.vivoglobal.com,⛔️ 广告拦截
- - DOMAIN,ads.viber.com,⛔️ 广告拦截
- - DOMAIN,ads-d.viber.com,⛔️ 广告拦截
- - DOMAIN,ads.aws.viber.com,⛔️ 广告拦截
- - DOMAIN,ad.ximalaya.com,⛔️ 广告拦截
- - DOMAIN,adbs.ximalaya.com,⛔️ 广告拦截
- - DOMAIN,adse.ximalaya.com,⛔️ 广告拦截
- - DOMAIN,adse.wsa.ximalaya.com,⛔️ 广告拦截
- - DOMAIN,adbehavior.wsa.ximalaya.com,⛔️ 广告拦截
- - DOMAIN,adbehavior.ximalaya.com,⛔️ 广告拦截
- - DOMAIN,adsebs.ximalaya.com,⛔️ 广告拦截
- - DOMAIN,adwbs.ximalaya.com,⛔️ 广告拦截
- - DOMAIN,ads-img-qc.xhscdn.com,⛔️ 广告拦截
- - DOMAIN,ads-video-al.xhscdn.com,⛔️ 广告拦截
- - DOMAIN,ads-video-qc.xhscdn.com,⛔️ 广告拦截
- - DOMAIN,t-ads.xiaohongshu.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,adserver.yahoo.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,adspecs.yahoo.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,advertising.yahoo.com,⛔️ 广告拦截
- - DOMAIN-SUFFIX,gemini.yahoo.com,⛔️ 广告拦截
- - DOMAIN,admarketing.yahoo.net,⛔️ 广告拦截
- - DOMAIN,ads.auctions.yahoo.com,⛔️ 广告拦截
- - DOMAIN,ads.finance.yahoo.com,⛔️ 广告拦截
- - DOMAIN,ads.yahoo.com,⛔️ 广告拦截
- - DOMAIN,ads.yahoo.de,⛔️ 广告拦截
- - DOMAIN,appcloud2.in.zhihu.com,⛔️ 广告拦截
- - DOMAIN,mqtt.zhihu.com,⛔️ 广告拦截
- - DOMAIN,sugar.zhihu.com,⛔️ 广告拦截
- - DOMAIN,118.89.204.198,⛔️ 广告拦截
- - IP-CIDR,118.89.204.198/32,⛔️ 广告拦截,no-resolve
- - IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,⛔️ 广告拦截,no-resolve
- - DOMAIN,apppv.zol.com.cn,⛔️ 广告拦截
- - DOMAIN,pvnapp.zol.com.cn,⛔️ 广告拦截
- - DOMAIN-SUFFIX,17gouwuba.com,🚫 运营劫持
- - DOMAIN-SUFFIX,186078.com,🚫 运营劫持
- - DOMAIN-SUFFIX,189key.com,🚫 运营劫持
- - DOMAIN-SUFFIX,189zj.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,285680.com,🚫 运营劫持
- - DOMAIN-SUFFIX,3721zh.com,🚫 运营劫持
- - DOMAIN-SUFFIX,4336wang.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,51chumoping.com,🚫 运营劫持
- - DOMAIN-SUFFIX,51mld.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,51mypc.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,58mingri.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,58mingtian.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,5vl58stm.com,🚫 运营劫持
- - DOMAIN-SUFFIX,6d63d3.com,🚫 运营劫持
- - DOMAIN-SUFFIX,7gg.cc,🚫 运营劫持
- - DOMAIN-SUFFIX,91veg.com,🚫 运营劫持
- - DOMAIN-SUFFIX,9s6q.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,adsame.com,🚫 运营劫持
- - DOMAIN-SUFFIX,akuai.top,🚫 运营劫持
- - DOMAIN-SUFFIX,atplay.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,baiwanchuangyi.com,🚫 运营劫持
- - DOMAIN-SUFFIX,beerto.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,beilamusi.com,🚫 运营劫持
- - DOMAIN-SUFFIX,benshiw.net,🚫 运营劫持
- - DOMAIN-SUFFIX,bianxianmao.com,🚫 运营劫持
- - DOMAIN-SUFFIX,bkyhq.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,bryonypie.com,🚫 运营劫持
- - DOMAIN-SUFFIX,cishantao.com,🚫 运营劫持
- - DOMAIN-SUFFIX,cszlks.com,🚫 运营劫持
- - DOMAIN-SUFFIX,cudaojia.com,🚫 运营劫持
- - DOMAIN-SUFFIX,dafapromo.com,🚫 运营劫持
- - DOMAIN-SUFFIX,daitdai.com,🚫 运营劫持
- - DOMAIN-SUFFIX,dsaeerf.com,🚫 运营劫持
- - DOMAIN-SUFFIX,dugesheying.com,🚫 运营劫持
- - DOMAIN-SUFFIX,dv8c1t.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,echatu.com,🚫 运营劫持
- - DOMAIN-SUFFIX,erdoscs.com,🚫 运营劫持
- - DOMAIN-SUFFIX,fan-yong.com,🚫 运营劫持
- - DOMAIN-SUFFIX,feih.com.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,fjlqqc.com,🚫 运营劫持
- - DOMAIN-SUFFIX,fkku194.com,🚫 运营劫持
- - DOMAIN-SUFFIX,freedrive.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,gclick.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,goufanli100.com,🚫 运营劫持
- - DOMAIN-SUFFIX,goupaoerdai.com,🚫 运营劫持
- - DOMAIN-SUFFIX,gouwubang.com,🚫 运营劫持
- - DOMAIN-SUFFIX,gscxs.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,gzxnlk.com,🚫 运营劫持
- - DOMAIN-SUFFIX,haoshengtoys.com,🚫 运营劫持
- - DOMAIN-SUFFIX,hbssjd.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,hyunke.com,🚫 运营劫持
- - DOMAIN-SUFFIX,ichaosheng.com,🚫 运营劫持
- - DOMAIN-SUFFIX,ishop789.com,🚫 运营劫持
- - DOMAIN-SUFFIX,jdkic.com,🚫 运营劫持
- - DOMAIN-SUFFIX,jiubuhua.com,🚫 运营劫持
- - DOMAIN-SUFFIX,jsncke.com,🚫 运营劫持
- - DOMAIN-SUFFIX,junkucm.com,🚫 运营劫持
- - DOMAIN-SUFFIX,jwg365.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,kawo77.com,🚫 运营劫持
- - DOMAIN-SUFFIX,kualianyingxiao.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,kumihua.com,🚫 运营劫持
- - DOMAIN-SUFFIX,ltheanine.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,lvehaisen.com,🚫 运营劫持
- - DOMAIN-SUFFIX,maipinshangmao.com,🚫 运营劫持
- - DOMAIN-SUFFIX,minisplat.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,mkitgfs.com,🚫 运营劫持
- - DOMAIN-SUFFIX,mlnbike.com,🚫 运营劫持
- - DOMAIN-SUFFIX,mobjump.com,🚫 运营劫持
- - DOMAIN-SUFFIX,nbkbgd.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,newapi.com,🚫 运营劫持
- - DOMAIN-SUFFIX,pinzhitmall.com,🚫 运营劫持
- - DOMAIN-SUFFIX,poppyta.com,🚫 运营劫持
- - DOMAIN-SUFFIX,qianchuanghr.com,🚫 运营劫持
- - DOMAIN-SUFFIX,qichexin.com,🚫 运营劫持
- - DOMAIN-SUFFIX,qinchugudao.com,🚫 运营劫持
- - DOMAIN-SUFFIX,quanliyouxi.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,qutaobi.com,🚫 运营劫持
- - DOMAIN-SUFFIX,ry51w.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,sg536.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,sifubo.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,sifuce.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,sifuda.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,sifufu.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,sifuge.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,sifugu.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,sifuhe.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,sifuhu.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,sifuji.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,sifuka.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,smgru.net,🚫 运营劫持
- - DOMAIN-SUFFIX,taoggou.com,🚫 运营劫持
- - DOMAIN-SUFFIX,tcxshop.com,🚫 运营劫持
- - DOMAIN-SUFFIX,tjqonline.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,topitme.com,🚫 运营劫持
- - DOMAIN-SUFFIX,tt114.net,🚫 运营劫持
- - DOMAIN-SUFFIX,tt3sm4.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,tuia.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,tuipenguin.com,🚫 运营劫持
- - DOMAIN-SUFFIX,tuitiger.com,🚫 运营劫持
- - DOMAIN-SUFFIX,urlaw.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,urlet.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,websd8.com,🚫 运营劫持
- - DOMAIN-SUFFIX,wsgblw.com,🚫 运营劫持
- - DOMAIN-SUFFIX,wx16999.com,🚫 运营劫持
- - DOMAIN-SUFFIX,xchmai.com,🚫 运营劫持
- - DOMAIN-SUFFIX,xiaohuau.xyz,🚫 运营劫持
- - DOMAIN-SUFFIX,ygyzx.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,yinmong.com,🚫 运营劫持
- - DOMAIN-SUFFIX,yitaopt.com,🚫 运营劫持
- - DOMAIN-SUFFIX,yjqiqi.com,🚫 运营劫持
- - DOMAIN-SUFFIX,yukhj.com,🚫 运营劫持
- - DOMAIN-SUFFIX,zhaozecheng.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,zhenxinet.com,🚫 运营劫持
- - DOMAIN-SUFFIX,zlne800.com,🚫 运营劫持
- - DOMAIN-SUFFIX,zmlled.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,zunmi.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,zzd6.com,🚫 运营劫持
- - IP-CIDR,39.107.15.115/32,🚫 运营劫持,no-resolve
- - IP-CIDR,47.89.59.182/32,🚫 运营劫持,no-resolve
- - IP-CIDR,103.49.209.27/32,🚫 运营劫持,no-resolve
- - IP-CIDR,123.56.152.96/32,🚫 运营劫持,no-resolve
- - IP-CIDR,61.160.200.223/32,🚫 运营劫持,no-resolve
- - IP-CIDR,61.160.200.242/32,🚫 运营劫持,no-resolve
- - IP-CIDR,61.160.200.252/32,🚫 运营劫持,no-resolve
- - IP-CIDR,61.174.50.214/32,🚫 运营劫持,no-resolve
- - IP-CIDR,111.175.220.163/32,🚫 运营劫持,no-resolve
- - IP-CIDR,111.175.220.164/32,🚫 运营劫持,no-resolve
- - IP-CIDR,122.229.8.47/32,🚫 运营劫持,no-resolve
- - IP-CIDR,122.229.29.89/32,🚫 运营劫持,no-resolve
- - IP-CIDR,124.232.160.178/32,🚫 运营劫持,no-resolve
- - IP-CIDR,175.6.223.15/32,🚫 运营劫持,no-resolve
- - IP-CIDR,183.59.53.237/32,🚫 运营劫持,no-resolve
- - IP-CIDR,218.93.127.37/32,🚫 运营劫持,no-resolve
- - IP-CIDR,221.228.17.152/32,🚫 运营劫持,no-resolve
- - IP-CIDR,221.231.6.79/32,🚫 运营劫持,no-resolve
- - IP-CIDR,222.186.61.91/32,🚫 运营劫持,no-resolve
- - IP-CIDR,222.186.61.95/32,🚫 运营劫持,no-resolve
- - IP-CIDR,222.186.61.96/32,🚫 运营劫持,no-resolve
- - IP-CIDR,222.186.61.97/32,🚫 运营劫持,no-resolve
- - IP-CIDR,106.75.231.48/32,🚫 运营劫持,no-resolve
- - IP-CIDR,119.4.249.166/32,🚫 运营劫持,no-resolve
- - IP-CIDR,220.196.52.141/32,🚫 运营劫持,no-resolve
- - IP-CIDR,221.6.4.148/32,🚫 运营劫持,no-resolve
- - IP-CIDR,114.247.28.96/32,🚫 运营劫持,no-resolve
- - IP-CIDR,120.240.95.37/32,🚫 运营劫持,no-resolve
- - IP-CIDR,221.179.131.72/32,🚫 运营劫持,no-resolve
- - IP-CIDR,221.179.140.145/32,🚫 运营劫持,no-resolve
- - IP-CIDR,115.182.16.79/32,🚫 运营劫持,no-resolve
- - IP-CIDR,118.144.88.126/32,🚫 运营劫持,no-resolve
- - IP-CIDR,118.144.88.215/32,🚫 运营劫持,no-resolve
- - IP-CIDR,118.144.88.216/32,🚫 运营劫持,no-resolve
- - IP-CIDR,120.76.189.132/32,🚫 运营劫持,no-resolve
- - IP-CIDR,124.14.21.147/32,🚫 运营劫持,no-resolve
- - IP-CIDR,124.14.21.151/32,🚫 运营劫持,no-resolve
- - IP-CIDR,180.166.52.24/32,🚫 运营劫持,no-resolve
- - IP-CIDR,211.161.101.106/32,🚫 运营劫持,no-resolve
- - IP-CIDR,211.161.101.110/32,🚫 运营劫持,no-resolve
- - IP-CIDR,220.115.251.25/32,🚫 运营劫持,no-resolve
- - IP-CIDR,222.73.156.235/32,🚫 运营劫持,no-resolve
- - IP-CIDR,114.119.160.0/21,🚫 运营劫持,no-resolve
- - DOMAIN-SUFFIX,kuaizip.com,🚫 运营劫持
- - DOMAIN-SUFFIX,mackeeper.com,🚫 运营劫持
- - DOMAIN-SUFFIX,zryydi.com,🚫 运营劫持
- - DOMAIN-SUFFIX,flash.cn,🚫 运营劫持
- - DOMAIN,geo2.adobe.com,🚫 运营劫持
- - DOMAIN-SUFFIX,4009997658.com,🚫 运营劫持
- - DOMAIN-SUFFIX,abbyychina.com,🚫 运营劫持
- - DOMAIN-SUFFIX,alienskins.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,anydeskchina.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,bartender.cc,🚫 运营劫持
- - DOMAIN-SUFFIX,betterzip.net,🚫 运营劫持
- - DOMAIN-SUFFIX,betterzipcn.com,🚫 运营劫持
- - DOMAIN-SUFFIX,beyondcompare.cc,🚫 运营劫持
- - DOMAIN-SUFFIX,bingdianhuanyuan.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,chemdraw.com.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,cjmakeding.com,🚫 运营劫持
- - DOMAIN-SUFFIX,cjmkt.com,🚫 运营劫持
- - DOMAIN-SUFFIX,codesoftchina.com,🚫 运营劫持
- - DOMAIN-SUFFIX,coreldrawchina.com,🚫 运营劫持
- - DOMAIN-SUFFIX,crossoverchina.com,🚫 运营劫持
- - DOMAIN-SUFFIX,dongmansoft.com,🚫 运营劫持
- - DOMAIN-SUFFIX,earmasterchina.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,easyrecoverychina.com,🚫 运营劫持
- - DOMAIN-SUFFIX,ediuschina.com,🚫 运营劫持
- - DOMAIN-SUFFIX,flstudiochina.com,🚫 运营劫持
- - DOMAIN-SUFFIX,folxchina.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,formysql.com,🚫 运营劫持
- - DOMAIN-SUFFIX,guitarpro.cc,🚫 运营劫持
- - DOMAIN-SUFFIX,huishenghuiying.com.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,hypeapp.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,hypersnap.net,🚫 运营劫持
- - DOMAIN-SUFFIX,iconworkshop.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,idmchina.net,🚫 运营劫持
- - DOMAIN-SUFFIX,imazingchina.com,🚫 运营劫持
- - DOMAIN-SUFFIX,imindmap.cc,🚫 运营劫持
- - DOMAIN-SUFFIX,jihehuaban.com.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,keyshot.cc,🚫 运营劫持
- - DOMAIN-SUFFIX,kingdeecn.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,logoshejishi.com,🚫 运营劫持
- - DOMAIN-SUFFIX,luping.net.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,mairuan.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,mairuan.com,🚫 运营劫持
- - DOMAIN-SUFFIX,mairuan.com.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,mairuan.net,🚫 运营劫持
- - DOMAIN-SUFFIX,mairuanwang.com,🚫 运营劫持
- - DOMAIN-SUFFIX,makeding.com,🚫 运营劫持
- - DOMAIN-SUFFIX,mathtype.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,mindmanager.cc,🚫 运营劫持
- - DOMAIN-SUFFIX,mindmanager.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,mindmapper.cc,🚫 运营劫持
- - DOMAIN-SUFFIX,mycleanmymac.com,🚫 运营劫持
- - DOMAIN-SUFFIX,nicelabel.cc,🚫 运营劫持
- - DOMAIN-SUFFIX,ntfsformac.cc,🚫 运营劫持
- - DOMAIN-SUFFIX,ntfsformac.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,officesoftcn.com,🚫 运营劫持
- - DOMAIN-SUFFIX,overturechina.com,🚫 运营劫持
- - DOMAIN-SUFFIX,passwordrecovery.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,pdfexpert.cc,🚫 运营劫持
- - DOMAIN-SUFFIX,photozoomchina.com,🚫 运营劫持
- - DOMAIN-SUFFIX,shankejingling.com,🚫 运营劫持
- - DOMAIN-SUFFIX,ultraiso.net,🚫 运营劫持
- - DOMAIN-SUFFIX,vegaschina.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,xitongqingli.com,🚫 运营劫持
- - DOMAIN-SUFFIX,xmindchina.net,🚫 运营劫持
- - DOMAIN-SUFFIX,xshellcn.com,🚫 运营劫持
- - DOMAIN-SUFFIX,yihuifu.cn,🚫 运营劫持
- - DOMAIN-SUFFIX,yuanchengxiezuo.com,🚫 运营劫持
- - DOMAIN-SUFFIX,zbrushcn.com,🚫 运营劫持
- - DOMAIN-SUFFIX,zhzzx.com,🚫 运营劫持
- - DOMAIN-SUFFIX,googlevideo.com,🌌 YouTube
- - DOMAIN-SUFFIX,withyoutube.com,🌌 YouTube
- - DOMAIN-SUFFIX,youtu.be,🌌 YouTube
- - DOMAIN-SUFFIX,youtube.com,🌌 YouTube
- - DOMAIN-SUFFIX,youtubeeducation.com,🌌 YouTube
- - DOMAIN-SUFFIX,youtubegaming.com,🌌 YouTube
- - DOMAIN-SUFFIX,youtubekids.com,🌌 YouTube
- - DOMAIN-SUFFIX,youtube-nocookie.com,🌌 YouTube
- - DOMAIN-SUFFIX,yt.be,🌌 YouTube
- - DOMAIN-SUFFIX,ytimg.com,🌌 YouTube
- - DOMAIN,youtubei.googleapis.com,🌌 YouTube
- - DOMAIN,yt3.ggpht.com,🌌 YouTube
- - DOMAIN,api.biliapi.com,🌏 港台媒体
- - DOMAIN,api.biliapi.net,🌏 港台媒体
- - DOMAIN,api.bilibili.com,🌏 港台媒体
- - DOMAIN,app.biliapi.com,🌏 港台媒体
- - DOMAIN,app.biliapi.net,🌏 港台媒体
- - DOMAIN,app.bilibili.com,🌏 港台媒体
- - DOMAIN,grpc.biliapi.net,🌏 港台媒体
- - DOMAIN,m.bilibili.com,🌏 港台媒体
- - DOMAIN,upos-hz-mirrorakam.akamaized.net,🌏 港台媒体
- - DOMAIN,www.bilibili.com,🌏 港台媒体
- - DOMAIN-KEYWORD,cn-hk-eq-bcache-,🌏 港台媒体
- - DOMAIN,cache.video.iqiyi.com,🌏 港台媒体
- - IP-CIDR,116.211.202.206/32,🌏 港台媒体,no-resolve
- - IP-CIDR,116.211.202.216/32,🌏 港台媒体,no-resolve
- - DOMAIN-SUFFIX,api.mgtv.com,🌏 港台媒体
- - DOMAIN,mobileso.bz.mgtv.com,🌏 港台媒体
  - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.co,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.com,🍎 苹果服务
@@ -11014,4 +11831,3 @@ rules:
  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
-
