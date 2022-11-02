@@ -5,435 +5,215 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: FI芬兰()_1, server: 8.209.104.139, port: 443, type: vmess, uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wmzmvws, headers: {Host: goodfamily19.site}}, udp: true}
-  - {name: FI芬兰()_2, server: 8.209.105.235, port: 443, type: vmess, uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wmzmvws, headers: {Host: goodfamily19.site}}, udp: true}
-  - {name: FI芬兰()_3, server: 8.209.70.229, port: 443, type: vmess, uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wmzmvws, headers: {Host: goodfamily19.site}}, udp: true}
-  - {name: FI芬兰()_4, server: 138.2.52.244, port: 443, type: vmess, uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wmzmvws, headers: {Host: goodfamily19.site}}, udp: true}
-  - {name: FI芬兰()_5, server: 198.244.148.214, port: 443, type: vmess, uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wmzmvws, headers: {Host: goodfamily19.site}}, udp: true}
-  - {name: FI芬兰()_6, server: 138.2.122.225, port: 443, type: vmess, uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wmzmvws, headers: {Host: goodfamily19.site}}, udp: true}
-  - {name: FI芬兰()_7, server: 8.209.116.199, port: 443, type: vmess, uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wmzmvws, headers: {Host: goodfamily19.site}}, udp: true}
-  - {name: FI芬兰()_8, server: 51.75.70.34, port: 443, type: vmess, uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wmzmvws, headers: {Host: goodfamily19.site}}, udp: true}
-  - {name: FI芬兰()_9, server: univstar1.198.244.148.214.sslip.io, port: 443, type: vmess, uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wmzmvws, headers: {Host: goodfamily19.site}}, udp: true}
-  - {name: FI芬兰()_10, server: 139.99.236.163, port: 443, type: vmess, uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wmzmvws, headers: {Host: goodfamily19.site}}, udp: true}
-  - {name: FI芬兰()_11, server: 138.2.52.244, port: 443, type: vmess, uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wmzmvws, headers: {Host: goodfamily19.site}}, udp: true}
-  - {name: FI芬兰()_12, server: 57.128.45.161, port: 80, type: vmess, uuid: 35d25899-ed20-46d9-9c7c-99c0d414d5e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /user, headers: {Host: 57.128.45.161}}, udp: true}
-  - {name: FR法国()_1, server: 172.64.148.111, port: 443, type: vmess, uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: fr2.cfcdn4.xyz}}, udp: true}
-  - {name: FR法国()_2, server: 172.64.148.111, port: 443, type: vmess, uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: fr2.cfcdn4.xyz}}, udp: true}
-  - {name: HK+香港()_1, server: download2hkt.windowsupdate.lol, port: 443, type: trojan, password: b1171e62-aad8-46dc-8014-1478a9aabb04, sni: dc3-download.windowsupdate1.com, skip-cert-verify: true, udp: true}
-  - {name: HK香港()_1, server: gz.daxun.cyou, port: 20631, type: vmess, uuid: b1171e62-aad8-46dc-8014-1478a9aabb04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /BGP01, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: HK+香港()_2, server: 20014.purefast2.com, port: 20014, type: trojan, password: db3ac581-a797-3b61-812a-1b210306424d, sni: purefast1.com, skip-cert-verify: true, udp: true}
-  - {name: HK+香港()_3, server: 20000.purefast2.com, port: 20000, type: trojan, password: db3ac581-a797-3b61-812a-1b210306424d, sni: purefast1.com, skip-cert-verify: true, udp: true}
-  - {name: HK香港()_2, server: shk.xlkjjs.top, port: 33998, type: vmess, uuid: d25500d5-0f0c-3366-97e7-a447e37b2157, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shk.xlkjjs.top}}, udp: true}
-  - {name: HK+香港()_4, server: gy3.brnt.fun, port: 32104, type: ss, cipher: chacha20-ietf-poly1305, password: 77520bf7-8db9-49d5-aa7b-82a0e40915ef, udp: true}
-  - {name: HK+香港()_5, server: gy3.brnt.fun, port: 32103, type: ss, cipher: chacha20-ietf-poly1305, password: 77520bf7-8db9-49d5-aa7b-82a0e40915ef, udp: true}
-  - {name: IN印度()_1, server: gz.daxun.cyou, port: 20631, type: vmess, uuid: b1171e62-aad8-46dc-8014-1478a9aabb04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yd01, headers: {Host: gz.daxun.cyou}}, udp: true}
-  - {name: IN印度()_2, server: 8.209.118.212, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxuk.fovi.tk}}, udp: true}
-  - {name: IN印度()_3, server: 47.254.171.201, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxuk.fovi.tk}}, udp: true}
-  - {name: IN印度()_4, server: 8.209.119.59, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxuk.fovi.tk}}, udp: true}
-  - {name: IN印度()_5, server: 23.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 23.72img.xyz}}, udp: true}
-  - {name: IN+印度(), server: gy.brnt.fun, port: 32100, type: ss, cipher: chacha20-ietf-poly1305, password: 77520bf7-8db9-49d5-aa7b-82a0e40915ef, udp: true}
-  - {name: JP日本()_1, server: gz.daxun.cyou, port: 20631, type: vmess, uuid: b1171e62-aad8-46dc-8014-1478a9aabb04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /JPZZ03, headers: {Host: gz.daxun.cyou}}, udp: true}
-  - {name: JP日本()_2, server: jp.xlkjjs.top, port: 31000, type: vmess, uuid: d25500d5-0f0c-3366-97e7-a447e37b2157, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.xlkjjs.top}}, udp: true}
-  - {name: JP+日本()_1, server: 20004.purefast2.com, port: 20004, type: trojan, password: db3ac581-a797-3b61-812a-1b210306424d, sni: purefast1.com, skip-cert-verify: true, udp: true}
-  - {name: JP日本()_3, server: jp06-vm0.entry.srthdw.art, port: 447, type: vmess, uuid: e8e27689-ab7c-3599-ba07-cfe694b92f88, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp06-vm0.entry.srthdw.art}}, udp: true}
-  - {name: JP日本()_4, server: jp05-vm0.entry.srthdw.art, port: 447, type: vmess, uuid: e8e27689-ab7c-3599-ba07-cfe694b92f88, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp05-vm0.entry.srthdw.art}}, udp: true}
-  - {name: JP日本()_5, server: jp02-vm0.entry.srthdw.art, port: 447, type: vmess, uuid: e8e27689-ab7c-3599-ba07-cfe694b92f88, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp02-vm0.entry.srthdw.art}}, udp: true}
-  - {name: JP+日本()_2, server: hy.brnt.fun, port: 32109, type: ss, cipher: chacha20-ietf-poly1305, password: 77520bf7-8db9-49d5-aa7b-82a0e40915ef, udp: true}
-  - {name: KR韩国(), server: gz.daxun.cyou, port: 20631, type: vmess, uuid: b1171e62-aad8-46dc-8014-1478a9aabb04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jgwhg01, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: KR+韩国()_1, server: 20002.purefast2.com, port: 20002, type: trojan, password: db3ac581-a797-3b61-812a-1b210306424d, sni: purefast1.com, skip-cert-verify: true, udp: true}
-  - {name: KR+韩国()_2, server: gy3.brnt.fun, port: 21924, type: ss, cipher: chacha20-ietf-poly1305, password: 77520bf7-8db9-49d5-aa7b-82a0e40915ef, udp: true}
-  - {name: NL+荷兰(), server: 20011.purefast2.com, port: 20011, type: trojan, password: db3ac581-a797-3b61-812a-1b210306424d, sni: purefast1.com, skip-cert-verify: true, udp: true}
-  - {name: RU俄罗斯()_1, server: 211.72.35.110, port: 443, type: vmess, uuid: 541ca026-58d3-48f1-d6ef-3a05543ddcb7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ru.tzccifq.ga}}, udp: true}
-  - {name: RU俄罗斯()_2, server: 211.72.35.110, port: 443, type: vmess, uuid: 541ca026-58d3-48f1-d6ef-3a05543ddcb7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ru.tzccifq.ga}}, udp: true}
-  - {name: RU俄罗斯()_3, server: pf.napsternetv.com, port: 34147, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: RU俄罗斯()_4, server: v116.aagogo.cf, port: 443, type: vmess, uuid: fb620b4d-6b24-3633-a93e-0f1f8be64dc3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v116-kDPxxx6Otf, headers: {Host: v116.aagogo.cf}}, udp: true}
-  - {name: RU俄罗斯()_5, server: els200.jslist.tk, port: 8443, type: vmess, uuid: e30cfa80-bc2c-43df-e808-97876aee77e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wo.php, headers: {Host: els200.jslist.tk}}, udp: true}
-  - {name: SG+新加坡()_1, server: 20006.purefast2.com, port: 20006, type: trojan, password: a71df8e7-d563-3ebc-a26a-168c8dc8c9f3, sni: purefast1.com, skip-cert-verify: true, udp: true}
-  - {name: SG新加坡(), server: 219.76.13.175, port: 443, type: vmess, uuid: 9dc0c6aa-39a1-46be-9938-85999e3c3498, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/1731390093/6357cedd7a199/, headers: {Host: sg1.31vpn.com}}, udp: true}
-  - {name: SG+新加坡()_2, server: 20006.purefast2.com, port: 20006, type: trojan, password: db3ac581-a797-3b61-812a-1b210306424d, sni: purefast1.com, skip-cert-verify: true, udp: true}
-  - {name: SG+新加坡()_3, server: gy3.brnt.fun, port: 32102, type: ss, cipher: chacha20-ietf-poly1305, password: 77520bf7-8db9-49d5-aa7b-82a0e40915ef, udp: true}
-  - {name: SG+新加坡()_4, server: hy.brnt.fun, port: 32102, type: ss, cipher: chacha20-ietf-poly1305, password: 77520bf7-8db9-49d5-aa7b-82a0e40915ef, udp: true}
-  - {name: TUR+土耳其(), server: 20008.purefast2.com, port: 20008, type: trojan, password: db3ac581-a797-3b61-812a-1b210306424d, sni: purefast1.com, skip-cert-verify: true, udp: true}
-  - {name: TW台湾()_1, server: gz.daxun.cyou, port: 20631, type: vmess, uuid: b1171e62-aad8-46dc-8014-1478a9aabb04, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /scloudhinet01, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: TW+台湾()_1, server: 20001.purefast2.com, port: 20001, type: trojan, password: db3ac581-a797-3b61-812a-1b210306424d, sni: purefast1.com, skip-cert-verify: true, udp: true}
-  - {name: TW台湾()_2, server: dd.yunhua.cyou, port: 38270, type: vmess, uuid: 33af2f99-9064-337b-8378-5da5c8e7b094, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: TW+台湾()_2, server: hy.brnt.fun, port: 32107, type: ss, cipher: chacha20-ietf-poly1305, password: 77520bf7-8db9-49d5-aa7b-82a0e40915ef, udp: true}
-  - {name: TW+台湾()_3, server: gy3.brnt.fun, port: 32107, type: ss, cipher: chacha20-ietf-poly1305, password: 77520bf7-8db9-49d5-aa7b-82a0e40915ef, udp: true}
-  - {name: UK英国()_1, server: 8.218.8.205, port: 2086, type: vmess, uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aries, headers: {Host: scw.cloudflare.quest}}, udp: true}
-  - {name: UK英国()_2, server: 8.210.86.247, port: 2086, type: vmess, uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aries, headers: {Host: scw.cloudflare.quest}}, udp: true}
-  - {name: UK英国()_3, server: 8.219.141.221, port: 2086, type: vmess, uuid: ad1454a4-c9e2-4836-c98d-66e3646c2aa4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aries, headers: {Host: uk.cloudflare.quest}}, udp: true}
-  - {name: UK英国()_4, server: 8.219.195.220, port: 2086, type: vmess, uuid: ad1454a4-c9e2-4836-c98d-66e3646c2aa4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aries, headers: {Host: uk.cloudflare.quest}}, udp: true}
-  - {name: UK英国()_5, server: 8.210.119.159, port: 2086, type: vmess, uuid: ad1454a4-c9e2-4836-c98d-66e3646c2aa4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aries, headers: {Host: uk.cloudflare.quest}}, udp: true}
-  - {name: UK英国()_6, server: www.gov.hk, port: 2086, type: vmess, uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aries, headers: {Host: scw.cloudflare.quest}}, udp: true}
-  - {name: UK英国()_7, server: jp.yunhua.cyou, port: 22223, type: vmess, uuid: 33af2f99-9064-337b-8378-5da5c8e7b094, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: UK+英国(), server: 20009.purefast2.com, port: 20009, type: trojan, password: db3ac581-a797-3b61-812a-1b210306424d, sni: purefast1.com, skip-cert-verify: true, udp: true}
-  - {name: UKR+乌克兰(), server: hy.brnt.fun, port: 31129, type: ss, cipher: chacha20-ietf-poly1305, password: 77520bf7-8db9-49d5-aa7b-82a0e40915ef, udp: true}
-  - {name: US美国()_1, server: 172.64.154.102, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: US美国()_2, server: 141.101.114.20, port: 443, type: vmess, uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash1.trump2023.net}}, udp: true}
-  - {name: US美国()_3, server: 141.101.115.120, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: lg1.cfcdn3.xyz}}, udp: true}
-  - {name: US美国()_4, server: 172.64.154.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: US美国()_5, server: 172.64.153.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: US美国()_6, server: 172.64.154.102, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: US美国()_7, server: 172.64.154.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: US美国()_8, server: 172.64.154.102, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: US美国()_9, server: 172.64.154.222, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg1.cfcdn1.xyz}}, udp: true}
-  - {name: US美国()_10, server: 141.101.115.133, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg1.cfcdn1.xyz}}, udp: true}
-  - {name: US美国()_11, server: 172.64.153.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: US美国()_12, server: 139.99.236.163, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: US美国()_13, server: 47.89.158.166, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: US美国()_14, server: we.alicesss.repl.co, port: 443, type: vmess, uuid: 68ac8a42-30ca-43fc-bf9b-2f4ceb1eade8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /68ac8a42-30ca-43fc-bf9b-2f4ceb1eade8-vmess, headers: {Host: we.alicesss.repl.co}}, udp: true}
-  - {name: US美国()_15, server: 141.101.115.20, port: 443, type: vmess, uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash1.trump2023.net}}, udp: true}
-  - {name: US美国()_16, server: 172.67.184.67, port: 443, type: vmess, uuid: 3baaad0f-b764-4f4e-d382-cdd104390838, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /live, headers: {Host: www.aoop1994.eu.org}}, udp: true}
-  - {name: US美国()_17, server: 172.64.154.201, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: US美国()_18, server: 66.212.20.3, port: 443, type: vmess, uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: v2ray2.ssr-free2.xyz}}, udp: true}
-  - {name: US美国()_19, server: 172.64.148.92, port: 443, type: vmess, uuid: 9dc0c6aa-39a1-46be-9938-85999e3c3498, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/1731390093/6357cedd7a199/, headers: {Host: sg1.31vpn.com}}, udp: true}
-  - {name: US美国()_20, server: 8.209.105.109, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: US美国()_21, server: 47.252.25.151, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: US美国()_22, server: 47.90.138.13, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: US美国()_23, server: 47.91.76.74, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: US美国()_24, server: 8.209.90.179, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: US美国()_25, server: 47.253.49.107, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: US美国()_26, server: 47.253.34.161, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: US美国()_27, server: 47.252.33.77, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: US美国()_28, server: 8.209.104.103, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: US美国()_29, server: 47.89.185.79, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: US美国()_30, server: 47.253.46.190, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: US美国()_31, server: 47.89.186.162, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: US美国()_32, server: 47.90.138.13, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: US美国()_33, server: 8.210.86.247, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: US美国()_34, server: 47.74.51.122, port: 443, type: vmess, uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wmzmvws, headers: {Host: goodfamily19.site}}, udp: true}
-  - {name: US美国()_35, server: 47.89.187.209, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: US美国()_36, server: 47.252.25.151, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: US美国()_37, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxpol.fovi.tk}}, udp: true}
-  - {name: US美国()_38, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxuk.fovi.tk}}, udp: true}
-  - {name: US美国()_39, server: 47.252.20.124, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: US美国()_40, server: 141.101.114.120, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
+  - {name: _RU_俄罗斯联邦->🇩🇪_DE_德国, server: pf.napsternetv.com, port: 34147, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _HK_香港->🇯🇵_JP_日本, server: 219.76.13.180, port: 443, type: trojan, password: F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0, sni: stutter.freetrade.link, skip-cert-verify: true, udp: true}
+  - {name: _RU_俄罗斯联邦, server: pf.napsternetv.com, port: 34146, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _RU_俄罗斯联邦->🇩🇪_DE_德国 2, server: pf.napsternetv.com, port: 34147, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _KR_韩国->🇸🇬_SG_新加坡, server: 121.78.213.3, port: 443, type: trojan, password: ZRYSly2IRuFlgpZCaep3Ey3DDXqTDczO04aeC8F36OjaYSCABnA573wN8xxK9S, sni: httah.freetrade.link, skip-cert-verify: true, udp: true}
+  - {name: default_name, server: ca.0112233.xyz, port: 8443, type: vmess, uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /home, headers: {Host: ca.0112233.xyz}}, udp: true}
+  - {name: default_name 2, server: 141.101.114.20, port: 443, type: vmess, uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash1.trump2023.net}}, udp: true}
+  - {name: _US_美国->🇩🇪_DE_德国, server: 128.14.140.254, port: 443, type: vmess, uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: v2ray2.ssr-free2.xyz}}, udp: true}
+  - {name: default_name 3, server: 198.41.212.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
+  - {name: _JP_日本, server: jps.dafeicnd.com, port: 36246, type: vmess, uuid: 9e4d3781-1e73-49d8-a8d3-a065b22e927d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /grzvhmgexlntcmp4, headers: {Host: jps.dafeicnd.com}}, udp: true}
+  - {name: _US_美国->🇫🇷_FR_法国, server: 172.64.148.111, port: 443, type: vmess, uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: fr2.cfcdn4.xyz}}, udp: true}
+  - {name: _KR_韩国->🇸🇬_SG_新加坡 2, server: 146.56.162.25, port: 443, type: vmess, uuid: 9dc0c6aa-39a1-46be-9938-85999e3c3498, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /fastssh/1731390093/6357cedd7a199/, headers: {Host: sg1.31vpn.com}}, udp: true}
+  - {name: _US_美国, server: vde2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vde2.0bad.com}}, udp: true}
+  - {name: _AU_澳大利亚, server: vau1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vau1.0bad.com}}, udp: true}
+  - {name: default_name 4, server: ca.0112233.xyz, port: 443, type: vmess, uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ca.0112233.xyz}}, udp: true}
+  - {name: default_name 5, server: namer-us-sea-01-edgecast.qdns.live, port: 2053, type: vmess, uuid: 935dfe1a-c512-31bc-9e97-b1ab73826047, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: namer-us-sea-01-edgecast.qdns.live}}, udp: true}
+  - {name: _TW_台湾->🇸🇬_SG_新加坡, server: 220.130.80.179, port: 443, type: vmess, uuid: ceb8a7f4-a45b-48a7-8f8e-ca7124a5ebee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /howdy, headers: {Host: v2ray2.udpgw.com}}, udp: true}
+  - {name: _RU_俄罗斯联邦 2, server: pf.napsternetv.com, port: 34146, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _GB_英国, server: vuk2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vuk2.0bad.com}}, udp: true}
+  - {name: _RU_俄罗斯联邦->🇳🇱_NL_荷兰, server: pf.napsternetv.com, port: 34141, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 2, server: cf.731808.tk, port: 443, type: vmess, uuid: 8194f724-d648-4eb8-98d2-0013136e79f0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /bxfbvws, headers: {Host: h5528.1808.cf}}, udp: true}
+  - {name: default_name 6, server: 141.101.114.33, port: 443, type: vmess, uuid: e5a88ce2-fc1b-45d1-9c5f-553721d28004, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: v2ray1.zhujicn2.org}}, udp: true}
+  - {name: _SG_新加坡, server: madush.duckdns.org, port: 40515, type: vmess, uuid: f0e69c63-99e9-455c-a8ae-cbab068c7481, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ar.linkedin.com}}, udp: true}
+  - {name: _KR_韩国, server: 3.35.214.217, port: 443, type: vmess, uuid: 5282f68b-14ca-4325-a630-d911abf59c54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: HK_【付费推荐：https//goo.gs/vip】, server: univstar.8.210.86.247.sslip.io, port: 443, type: vmess, uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wmzmvws, headers: {Host: goodfamily19.site}}, udp: true}
+  - {name: DE_【付费推荐：https//goo.gs/vip】, server: london1.na.invari.na.oonvari.com, port: 443, type: vmess, uuid: 3f3c52f5-0e50-4fcf-8ee2-c8b7e0c8abab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /aaf44db73dfc/, headers: {Host: london1.na.invari.na.oonvari.com}}, udp: true}
+  - {name: JP_【付费推荐：https//goo.gs/vip】, server: vjp1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vjp1.0bad.com}}, udp: true}
+  - {name: US_【付费推荐：https//goo.gs/vip】, server: 172.67.134.218, port: 443, type: vmess, uuid: f87fc0d6-4e32-4922-cbfe-e5735a5189ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /live, headers: {Host: www.aoop.eu.org}}, udp: true}
+  - {name: DE_【付费推荐：https//goo.gs/vip】 2, server: 8.209.90.179, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
+  - {name: DE_【付费推荐：https//goo.gs/vip】 3, server: 8.209.118.212, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
+  - {name: 【付费推荐：https//goo.gs/vip】, server: jp4.mayaa.cf, port: 443, type: vmess, uuid: 1d3d73f3-243c-4b48-b0b9-b699314a590c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dsadvcxvcx, headers: {Host: jp4.mayaa.cf}}, udp: true}
+  - {name: US_【付费推荐：https//goo.gs/vip】 2, server: 172.67.178.55, port: 443, type: vmess, uuid: 0145bfef-aa53-416f-90d4-8634295dab57, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /live, headers: {Host: www.aoopmiss.cf}}, udp: true}
+  - {name: FR_【付费推荐：https//goo.gs/vip】, server: 152.228.191.232, port: 443, type: vmess, uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wmzmvws, headers: {Host: goodfamily19.site}}, udp: true}
+  - {name: US_【付费推荐：https//goo.gs/vip】 3, server: 138.2.52.244, port: 443, type: vmess, uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wmzmvws, headers: {Host: goodfamily19.site}}, udp: true}
+  - {name: AU_【付费推荐：https//goo.gs/vip】, server: vau1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vau1.0bad.com}}, udp: true}
+  - {name: US_【付费推荐：https//goo.gs/vip】 4, server: 172.67.65.166, port: 443, type: vmess, uuid: c8ba97b8-3ad5-491c-c35c-58451d5b08d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /live, headers: {Host: www.aoop.cf}}, udp: true}
+  - {name: US_【付费推荐：https//goo.gs/vip】 5, server: sg-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Ertusg86/635014638c264/, headers: {Host: zoom.us}}, udp: true}
+  - {name: 【付费推荐：https//goo.gs/vip】 2, server: 104.17.146.10, port: 80, type: vmess, uuid: 1e7ab649-4988-4b7d-bb2c-bc18ec1a9e3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wgnsldjfknzj, headers: {Host: us1.cachexy.ga}}, udp: true}
+  - {name: CN_【付费推荐：https//goo.gs/vip】, server: 106.75.218.112, port: 80, type: vmess, uuid: a3270e74-4d22-489a-83f4-dac1f7266c13, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: us.vmess2.xservs.xyz}}, udp: true}
+  - {name: US_【付费推荐：https//goo.gs/vip】 6, server: 15.235.147.186, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Ertusg86/635014638c264/}, udp: true}
+  - {name: Relay_🇬🇧GB-🇬🇧GB_211, server: vuk2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vuk2.0bad.com}}, udp: true}
+  - {name: v2cross.com - 北京市优刻得信息科技有限公司(UCloud)BGP数据中心 25, server: 106.75.218.112, port: 80, type: vmess, uuid: a3270e74-4d22-489a-83f4-dac1f7266c13, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: us.vmess2.xservs.xyz}}, udp: true}
+  - {name: github.com/Pawdroid - 美国  6, server: roewesu.eu.org, port: 443, type: vmess, uuid: 84e46faf-7d89-43af-8bd9-01b41fc1ddce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: roewesu.eu.org, headers: {Host: roewesu.eu.org}}, udp: true}
+  - {name: 新加坡(TG频道:), server: univstar.8.219.165.71.sslip.io, port: 443, type: vmess, uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wmzmvws, headers: {Host: goodfamily19.site}}, udp: true}
+  - {name: github.com/Pawdroid - 美国  22, server: 129.159.139.101, port: 443, type: vmess, uuid: b7519a6f-c1de-4667-e606-b60c65d19078, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 英国(TG频道:), server: univstar.51.195.140.208.sslip.io, port: 443, type: vmess, uuid: 572126f8-5301-83c2-0a26-c30ced3db7c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wmzmvws, headers: {Host: goodfamily19.site}}, udp: true}
+  - {name: github.com/Pawdroid - 美国CloudFlare节点 15, server: cf.731808.tk, port: 443, type: vmess, uuid: 42bb6ec1-86df-43ef-a93b-70a981f8fd3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /mlymvws, headers: {Host: h4423.731808.tk}}, udp: true}
+  - {name: 日本高速接入点-01, server: jp1.sanfen001.pics, port: 443, type: trojan, password: 3a9a4584-b778-45d2-b4b9-fe84c4e93266, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - FI芬兰()_1
-      - FI芬兰()_2
-      - FI芬兰()_3
-      - FI芬兰()_4
-      - FI芬兰()_5
-      - FI芬兰()_6
-      - FI芬兰()_7
-      - FI芬兰()_8
-      - FI芬兰()_9
-      - FI芬兰()_10
-      - FI芬兰()_11
-      - FI芬兰()_12
-      - FR法国()_1
-      - FR法国()_2
-      - HK+香港()_1
-      - HK香港()_1
-      - HK+香港()_2
-      - HK+香港()_3
-      - HK香港()_2
-      - HK+香港()_4
-      - HK+香港()_5
-      - IN印度()_1
-      - IN印度()_2
-      - IN印度()_3
-      - IN印度()_4
-      - IN印度()_5
-      - IN+印度()
-      - JP日本()_1
-      - JP日本()_2
-      - JP+日本()_1
-      - JP日本()_3
-      - JP日本()_4
-      - JP日本()_5
-      - JP+日本()_2
-      - KR韩国()
-      - KR+韩国()_1
-      - KR+韩国()_2
-      - NL+荷兰()
-      - RU俄罗斯()_1
-      - RU俄罗斯()_2
-      - RU俄罗斯()_3
-      - RU俄罗斯()_4
-      - RU俄罗斯()_5
-      - SG+新加坡()_1
-      - SG新加坡()
-      - SG+新加坡()_2
-      - SG+新加坡()_3
-      - SG+新加坡()_4
-      - TUR+土耳其()
-      - TW台湾()_1
-      - TW+台湾()_1
-      - TW台湾()_2
-      - TW+台湾()_2
-      - TW+台湾()_3
-      - UK英国()_1
-      - UK英国()_2
-      - UK英国()_3
-      - UK英国()_4
-      - UK英国()_5
-      - UK英国()_6
-      - UK英国()_7
-      - UK+英国()
-      - UKR+乌克兰()
-      - US美国()_1
-      - US美国()_2
-      - US美国()_3
-      - US美国()_4
-      - US美国()_5
-      - US美国()_6
-      - US美国()_7
-      - US美国()_8
-      - US美国()_9
-      - US美国()_10
-      - US美国()_11
-      - US美国()_12
-      - US美国()_13
-      - US美国()_14
-      - US美国()_15
-      - US美国()_16
-      - US美国()_17
-      - US美国()_18
-      - US美国()_19
-      - US美国()_20
-      - US美国()_21
-      - US美国()_22
-      - US美国()_23
-      - US美国()_24
-      - US美国()_25
-      - US美国()_26
-      - US美国()_27
-      - US美国()_28
-      - US美国()_29
-      - US美国()_30
-      - US美国()_31
-      - US美国()_32
-      - US美国()_33
-      - US美国()_34
-      - US美国()_35
-      - US美国()_36
-      - US美国()_37
-      - US美国()_38
-      - US美国()_39
-      - US美国()_40
+      - _RU_俄罗斯联邦->🇩🇪_DE_德国
+      - _HK_香港->🇯🇵_JP_日本
+      - _RU_俄罗斯联邦
+      - _RU_俄罗斯联邦->🇩🇪_DE_德国 2
+      - _KR_韩国->🇸🇬_SG_新加坡
+      - default_name
+      - default_name 2
+      - _US_美国->🇩🇪_DE_德国
+      - default_name 3
+      - _JP_日本
+      - _US_美国->🇫🇷_FR_法国
+      - _KR_韩国->🇸🇬_SG_新加坡 2
+      - _US_美国
+      - _AU_澳大利亚
+      - default_name 4
+      - default_name 5
+      - _TW_台湾->🇸🇬_SG_新加坡
+      - _RU_俄罗斯联邦 2
+      - _GB_英国
+      - _RU_俄罗斯联邦->🇳🇱_NL_荷兰
+      - _US_美国 2
+      - default_name 6
+      - _SG_新加坡
+      - _KR_韩国
+      - HK_【付费推荐：https//goo.gs/vip】
+      - DE_【付费推荐：https//goo.gs/vip】
+      - JP_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】
+      - DE_【付费推荐：https//goo.gs/vip】 2
+      - DE_【付费推荐：https//goo.gs/vip】 3
+      - 【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 2
+      - FR_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 3
+      - AU_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 4
+      - US_【付费推荐：https//goo.gs/vip】 5
+      - 【付费推荐：https//goo.gs/vip】 2
+      - CN_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 6
+      - Relay_🇬🇧GB-🇬🇧GB_211
+      - v2cross.com - 北京市优刻得信息科技有限公司(UCloud)BGP数据中心 25
+      - github.com/Pawdroid - 美国  6
+      - 新加坡(TG频道:)
+      - github.com/Pawdroid - 美国  22
+      - 英国(TG频道:)
+      - github.com/Pawdroid - 美国CloudFlare节点 15
+      - 日本高速接入点-01
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - FI芬兰()_1
-      - FI芬兰()_2
-      - FI芬兰()_3
-      - FI芬兰()_4
-      - FI芬兰()_5
-      - FI芬兰()_6
-      - FI芬兰()_7
-      - FI芬兰()_8
-      - FI芬兰()_9
-      - FI芬兰()_10
-      - FI芬兰()_11
-      - FI芬兰()_12
-      - FR法国()_1
-      - FR法国()_2
-      - HK+香港()_1
-      - HK香港()_1
-      - HK+香港()_2
-      - HK+香港()_3
-      - HK香港()_2
-      - HK+香港()_4
-      - HK+香港()_5
-      - IN印度()_1
-      - IN印度()_2
-      - IN印度()_3
-      - IN印度()_4
-      - IN印度()_5
-      - IN+印度()
-      - JP日本()_1
-      - JP日本()_2
-      - JP+日本()_1
-      - JP日本()_3
-      - JP日本()_4
-      - JP日本()_5
-      - JP+日本()_2
-      - KR韩国()
-      - KR+韩国()_1
-      - KR+韩国()_2
-      - NL+荷兰()
-      - RU俄罗斯()_1
-      - RU俄罗斯()_2
-      - RU俄罗斯()_3
-      - RU俄罗斯()_4
-      - RU俄罗斯()_5
-      - SG+新加坡()_1
-      - SG新加坡()
-      - SG+新加坡()_2
-      - SG+新加坡()_3
-      - SG+新加坡()_4
-      - TUR+土耳其()
-      - TW台湾()_1
-      - TW+台湾()_1
-      - TW台湾()_2
-      - TW+台湾()_2
-      - TW+台湾()_3
-      - UK英国()_1
-      - UK英国()_2
-      - UK英国()_3
-      - UK英国()_4
-      - UK英国()_5
-      - UK英国()_6
-      - UK英国()_7
-      - UK+英国()
-      - UKR+乌克兰()
-      - US美国()_1
-      - US美国()_2
-      - US美国()_3
-      - US美国()_4
-      - US美国()_5
-      - US美国()_6
-      - US美国()_7
-      - US美国()_8
-      - US美国()_9
-      - US美国()_10
-      - US美国()_11
-      - US美国()_12
-      - US美国()_13
-      - US美国()_14
-      - US美国()_15
-      - US美国()_16
-      - US美国()_17
-      - US美国()_18
-      - US美国()_19
-      - US美国()_20
-      - US美国()_21
-      - US美国()_22
-      - US美国()_23
-      - US美国()_24
-      - US美国()_25
-      - US美国()_26
-      - US美国()_27
-      - US美国()_28
-      - US美国()_29
-      - US美国()_30
-      - US美国()_31
-      - US美国()_32
-      - US美国()_33
-      - US美国()_34
-      - US美国()_35
-      - US美国()_36
-      - US美国()_37
-      - US美国()_38
-      - US美国()_39
-      - US美国()_40
+      - _RU_俄罗斯联邦->🇩🇪_DE_德国
+      - _HK_香港->🇯🇵_JP_日本
+      - _RU_俄罗斯联邦
+      - _RU_俄罗斯联邦->🇩🇪_DE_德国 2
+      - _KR_韩国->🇸🇬_SG_新加坡
+      - default_name
+      - default_name 2
+      - _US_美国->🇩🇪_DE_德国
+      - default_name 3
+      - _JP_日本
+      - _US_美国->🇫🇷_FR_法国
+      - _KR_韩国->🇸🇬_SG_新加坡 2
+      - _US_美国
+      - _AU_澳大利亚
+      - default_name 4
+      - default_name 5
+      - _TW_台湾->🇸🇬_SG_新加坡
+      - _RU_俄罗斯联邦 2
+      - _GB_英国
+      - _RU_俄罗斯联邦->🇳🇱_NL_荷兰
+      - _US_美国 2
+      - default_name 6
+      - _SG_新加坡
+      - _KR_韩国
+      - HK_【付费推荐：https//goo.gs/vip】
+      - DE_【付费推荐：https//goo.gs/vip】
+      - JP_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】
+      - DE_【付费推荐：https//goo.gs/vip】 2
+      - DE_【付费推荐：https//goo.gs/vip】 3
+      - 【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 2
+      - FR_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 3
+      - AU_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 4
+      - US_【付费推荐：https//goo.gs/vip】 5
+      - 【付费推荐：https//goo.gs/vip】 2
+      - CN_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 6
+      - Relay_🇬🇧GB-🇬🇧GB_211
+      - v2cross.com - 北京市优刻得信息科技有限公司(UCloud)BGP数据中心 25
+      - github.com/Pawdroid - 美国  6
+      - 新加坡(TG频道:)
+      - github.com/Pawdroid - 美国  22
+      - 英国(TG频道:)
+      - github.com/Pawdroid - 美国CloudFlare节点 15
+      - 日本高速接入点-01
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - FI芬兰()_1
-      - FI芬兰()_2
-      - FI芬兰()_3
-      - FI芬兰()_4
-      - FI芬兰()_5
-      - FI芬兰()_6
-      - FI芬兰()_7
-      - FI芬兰()_8
-      - FI芬兰()_9
-      - FI芬兰()_10
-      - FI芬兰()_11
-      - FI芬兰()_12
-      - FR法国()_1
-      - FR法国()_2
-      - HK+香港()_1
-      - HK香港()_1
-      - HK+香港()_2
-      - HK+香港()_3
-      - HK香港()_2
-      - HK+香港()_4
-      - HK+香港()_5
-      - IN印度()_1
-      - IN印度()_2
-      - IN印度()_3
-      - IN印度()_4
-      - IN印度()_5
-      - IN+印度()
-      - JP日本()_1
-      - JP日本()_2
-      - JP+日本()_1
-      - JP日本()_3
-      - JP日本()_4
-      - JP日本()_5
-      - JP+日本()_2
-      - KR韩国()
-      - KR+韩国()_1
-      - KR+韩国()_2
-      - NL+荷兰()
-      - RU俄罗斯()_1
-      - RU俄罗斯()_2
-      - RU俄罗斯()_3
-      - RU俄罗斯()_4
-      - RU俄罗斯()_5
-      - SG+新加坡()_1
-      - SG新加坡()
-      - SG+新加坡()_2
-      - SG+新加坡()_3
-      - SG+新加坡()_4
-      - TUR+土耳其()
-      - TW台湾()_1
-      - TW+台湾()_1
-      - TW台湾()_2
-      - TW+台湾()_2
-      - TW+台湾()_3
-      - UK英国()_1
-      - UK英国()_2
-      - UK英国()_3
-      - UK英国()_4
-      - UK英国()_5
-      - UK英国()_6
-      - UK英国()_7
-      - UK+英国()
-      - UKR+乌克兰()
-      - US美国()_1
-      - US美国()_2
-      - US美国()_3
-      - US美国()_4
-      - US美国()_5
-      - US美国()_6
-      - US美国()_7
-      - US美国()_8
-      - US美国()_9
-      - US美国()_10
-      - US美国()_11
-      - US美国()_12
-      - US美国()_13
-      - US美国()_14
-      - US美国()_15
-      - US美国()_16
-      - US美国()_17
-      - US美国()_18
-      - US美国()_19
-      - US美国()_20
-      - US美国()_21
-      - US美国()_22
-      - US美国()_23
-      - US美国()_24
-      - US美国()_25
-      - US美国()_26
-      - US美国()_27
-      - US美国()_28
-      - US美国()_29
-      - US美国()_30
-      - US美国()_31
-      - US美国()_32
-      - US美国()_33
-      - US美国()_34
-      - US美国()_35
-      - US美国()_36
-      - US美国()_37
-      - US美国()_38
-      - US美国()_39
-      - US美国()_40
+      - _RU_俄罗斯联邦->🇩🇪_DE_德国
+      - _HK_香港->🇯🇵_JP_日本
+      - _RU_俄罗斯联邦
+      - _RU_俄罗斯联邦->🇩🇪_DE_德国 2
+      - _KR_韩国->🇸🇬_SG_新加坡
+      - default_name
+      - default_name 2
+      - _US_美国->🇩🇪_DE_德国
+      - default_name 3
+      - _JP_日本
+      - _US_美国->🇫🇷_FR_法国
+      - _KR_韩国->🇸🇬_SG_新加坡 2
+      - _US_美国
+      - _AU_澳大利亚
+      - default_name 4
+      - default_name 5
+      - _TW_台湾->🇸🇬_SG_新加坡
+      - _RU_俄罗斯联邦 2
+      - _GB_英国
+      - _RU_俄罗斯联邦->🇳🇱_NL_荷兰
+      - _US_美国 2
+      - default_name 6
+      - _SG_新加坡
+      - _KR_韩国
+      - HK_【付费推荐：https//goo.gs/vip】
+      - DE_【付费推荐：https//goo.gs/vip】
+      - JP_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】
+      - DE_【付费推荐：https//goo.gs/vip】 2
+      - DE_【付费推荐：https//goo.gs/vip】 3
+      - 【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 2
+      - FR_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 3
+      - AU_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 4
+      - US_【付费推荐：https//goo.gs/vip】 5
+      - 【付费推荐：https//goo.gs/vip】 2
+      - CN_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 6
+      - Relay_🇬🇧GB-🇬🇧GB_211
+      - v2cross.com - 北京市优刻得信息科技有限公司(UCloud)BGP数据中心 25
+      - github.com/Pawdroid - 美国  6
+      - 新加坡(TG频道:)
+      - github.com/Pawdroid - 美国  22
+      - 英国(TG频道:)
+      - github.com/Pawdroid - 美国CloudFlare节点 15
+      - 日本高速接入点-01
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -452,451 +232,221 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - FI芬兰()_1
-      - FI芬兰()_2
-      - FI芬兰()_3
-      - FI芬兰()_4
-      - FI芬兰()_5
-      - FI芬兰()_6
-      - FI芬兰()_7
-      - FI芬兰()_8
-      - FI芬兰()_9
-      - FI芬兰()_10
-      - FI芬兰()_11
-      - FI芬兰()_12
-      - FR法国()_1
-      - FR法国()_2
-      - HK+香港()_1
-      - HK香港()_1
-      - HK+香港()_2
-      - HK+香港()_3
-      - HK香港()_2
-      - HK+香港()_4
-      - HK+香港()_5
-      - IN印度()_1
-      - IN印度()_2
-      - IN印度()_3
-      - IN印度()_4
-      - IN印度()_5
-      - IN+印度()
-      - JP日本()_1
-      - JP日本()_2
-      - JP+日本()_1
-      - JP日本()_3
-      - JP日本()_4
-      - JP日本()_5
-      - JP+日本()_2
-      - KR韩国()
-      - KR+韩国()_1
-      - KR+韩国()_2
-      - NL+荷兰()
-      - RU俄罗斯()_1
-      - RU俄罗斯()_2
-      - RU俄罗斯()_3
-      - RU俄罗斯()_4
-      - RU俄罗斯()_5
-      - SG+新加坡()_1
-      - SG新加坡()
-      - SG+新加坡()_2
-      - SG+新加坡()_3
-      - SG+新加坡()_4
-      - TUR+土耳其()
-      - TW台湾()_1
-      - TW+台湾()_1
-      - TW台湾()_2
-      - TW+台湾()_2
-      - TW+台湾()_3
-      - UK英国()_1
-      - UK英国()_2
-      - UK英国()_3
-      - UK英国()_4
-      - UK英国()_5
-      - UK英国()_6
-      - UK英国()_7
-      - UK+英国()
-      - UKR+乌克兰()
-      - US美国()_1
-      - US美国()_2
-      - US美国()_3
-      - US美国()_4
-      - US美国()_5
-      - US美国()_6
-      - US美国()_7
-      - US美国()_8
-      - US美国()_9
-      - US美国()_10
-      - US美国()_11
-      - US美国()_12
-      - US美国()_13
-      - US美国()_14
-      - US美国()_15
-      - US美国()_16
-      - US美国()_17
-      - US美国()_18
-      - US美国()_19
-      - US美国()_20
-      - US美国()_21
-      - US美国()_22
-      - US美国()_23
-      - US美国()_24
-      - US美国()_25
-      - US美国()_26
-      - US美国()_27
-      - US美国()_28
-      - US美国()_29
-      - US美国()_30
-      - US美国()_31
-      - US美国()_32
-      - US美国()_33
-      - US美国()_34
-      - US美国()_35
-      - US美国()_36
-      - US美国()_37
-      - US美国()_38
-      - US美国()_39
-      - US美国()_40
+      - _RU_俄罗斯联邦->🇩🇪_DE_德国
+      - _HK_香港->🇯🇵_JP_日本
+      - _RU_俄罗斯联邦
+      - _RU_俄罗斯联邦->🇩🇪_DE_德国 2
+      - _KR_韩国->🇸🇬_SG_新加坡
+      - default_name
+      - default_name 2
+      - _US_美国->🇩🇪_DE_德国
+      - default_name 3
+      - _JP_日本
+      - _US_美国->🇫🇷_FR_法国
+      - _KR_韩国->🇸🇬_SG_新加坡 2
+      - _US_美国
+      - _AU_澳大利亚
+      - default_name 4
+      - default_name 5
+      - _TW_台湾->🇸🇬_SG_新加坡
+      - _RU_俄罗斯联邦 2
+      - _GB_英国
+      - _RU_俄罗斯联邦->🇳🇱_NL_荷兰
+      - _US_美国 2
+      - default_name 6
+      - _SG_新加坡
+      - _KR_韩国
+      - HK_【付费推荐：https//goo.gs/vip】
+      - DE_【付费推荐：https//goo.gs/vip】
+      - JP_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】
+      - DE_【付费推荐：https//goo.gs/vip】 2
+      - DE_【付费推荐：https//goo.gs/vip】 3
+      - 【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 2
+      - FR_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 3
+      - AU_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 4
+      - US_【付费推荐：https//goo.gs/vip】 5
+      - 【付费推荐：https//goo.gs/vip】 2
+      - CN_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 6
+      - Relay_🇬🇧GB-🇬🇧GB_211
+      - v2cross.com - 北京市优刻得信息科技有限公司(UCloud)BGP数据中心 25
+      - github.com/Pawdroid - 美国  6
+      - 新加坡(TG频道:)
+      - github.com/Pawdroid - 美国  22
+      - 英国(TG频道:)
+      - github.com/Pawdroid - 美国CloudFlare节点 15
+      - 日本高速接入点-01
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - HK+香港()_1
-      - HK香港()_1
-      - HK+香港()_2
-      - HK+香港()_3
-      - HK香港()_2
-      - HK+香港()_4
-      - HK+香港()_5
-      - TW台湾()_1
-      - TW+台湾()_1
-      - TW台湾()_2
-      - TW+台湾()_2
-      - TW+台湾()_3
+      - _HK_香港->🇯🇵_JP_日本
+      - _TW_台湾->🇸🇬_SG_新加坡
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - FI芬兰()_1
-      - FI芬兰()_2
-      - FI芬兰()_3
-      - FI芬兰()_4
-      - FI芬兰()_5
-      - FI芬兰()_6
-      - FI芬兰()_7
-      - FI芬兰()_8
-      - FI芬兰()_9
-      - FI芬兰()_10
-      - FI芬兰()_11
-      - FI芬兰()_12
-      - FR法国()_1
-      - FR法国()_2
-      - HK+香港()_1
-      - HK香港()_1
-      - HK+香港()_2
-      - HK+香港()_3
-      - HK香港()_2
-      - HK+香港()_4
-      - HK+香港()_5
-      - IN印度()_1
-      - IN印度()_2
-      - IN印度()_3
-      - IN印度()_4
-      - IN印度()_5
-      - IN+印度()
-      - JP日本()_1
-      - JP日本()_2
-      - JP+日本()_1
-      - JP日本()_3
-      - JP日本()_4
-      - JP日本()_5
-      - JP+日本()_2
-      - KR韩国()
-      - KR+韩国()_1
-      - KR+韩国()_2
-      - NL+荷兰()
-      - RU俄罗斯()_1
-      - RU俄罗斯()_2
-      - RU俄罗斯()_3
-      - RU俄罗斯()_4
-      - RU俄罗斯()_5
-      - SG+新加坡()_1
-      - SG新加坡()
-      - SG+新加坡()_2
-      - SG+新加坡()_3
-      - SG+新加坡()_4
-      - TUR+土耳其()
-      - TW台湾()_1
-      - TW+台湾()_1
-      - TW台湾()_2
-      - TW+台湾()_2
-      - TW+台湾()_3
-      - UK英国()_1
-      - UK英国()_2
-      - UK英国()_3
-      - UK英国()_4
-      - UK英国()_5
-      - UK英国()_6
-      - UK英国()_7
-      - UK+英国()
-      - UKR+乌克兰()
-      - US美国()_1
-      - US美国()_2
-      - US美国()_3
-      - US美国()_4
-      - US美国()_5
-      - US美国()_6
-      - US美国()_7
-      - US美国()_8
-      - US美国()_9
-      - US美国()_10
-      - US美国()_11
-      - US美国()_12
-      - US美国()_13
-      - US美国()_14
-      - US美国()_15
-      - US美国()_16
-      - US美国()_17
-      - US美国()_18
-      - US美国()_19
-      - US美国()_20
-      - US美国()_21
-      - US美国()_22
-      - US美国()_23
-      - US美国()_24
-      - US美国()_25
-      - US美国()_26
-      - US美国()_27
-      - US美国()_28
-      - US美国()_29
-      - US美国()_30
-      - US美国()_31
-      - US美国()_32
-      - US美国()_33
-      - US美国()_34
-      - US美国()_35
-      - US美国()_36
-      - US美国()_37
-      - US美国()_38
-      - US美国()_39
-      - US美国()_40
+      - _RU_俄罗斯联邦->🇩🇪_DE_德国
+      - _HK_香港->🇯🇵_JP_日本
+      - _RU_俄罗斯联邦
+      - _RU_俄罗斯联邦->🇩🇪_DE_德国 2
+      - _KR_韩国->🇸🇬_SG_新加坡
+      - default_name
+      - default_name 2
+      - _US_美国->🇩🇪_DE_德国
+      - default_name 3
+      - _JP_日本
+      - _US_美国->🇫🇷_FR_法国
+      - _KR_韩国->🇸🇬_SG_新加坡 2
+      - _US_美国
+      - _AU_澳大利亚
+      - default_name 4
+      - default_name 5
+      - _TW_台湾->🇸🇬_SG_新加坡
+      - _RU_俄罗斯联邦 2
+      - _GB_英国
+      - _RU_俄罗斯联邦->🇳🇱_NL_荷兰
+      - _US_美国 2
+      - default_name 6
+      - _SG_新加坡
+      - _KR_韩国
+      - HK_【付费推荐：https//goo.gs/vip】
+      - DE_【付费推荐：https//goo.gs/vip】
+      - JP_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】
+      - DE_【付费推荐：https//goo.gs/vip】 2
+      - DE_【付费推荐：https//goo.gs/vip】 3
+      - 【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 2
+      - FR_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 3
+      - AU_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 4
+      - US_【付费推荐：https//goo.gs/vip】 5
+      - 【付费推荐：https//goo.gs/vip】 2
+      - CN_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 6
+      - Relay_🇬🇧GB-🇬🇧GB_211
+      - v2cross.com - 北京市优刻得信息科技有限公司(UCloud)BGP数据中心 25
+      - github.com/Pawdroid - 美国  6
+      - 新加坡(TG频道:)
+      - github.com/Pawdroid - 美国  22
+      - 英国(TG频道:)
+      - github.com/Pawdroid - 美国CloudFlare节点 15
+      - 日本高速接入点-01
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - FI芬兰()_1
-      - FI芬兰()_2
-      - FI芬兰()_3
-      - FI芬兰()_4
-      - FI芬兰()_5
-      - FI芬兰()_6
-      - FI芬兰()_7
-      - FI芬兰()_8
-      - FI芬兰()_9
-      - FI芬兰()_10
-      - FI芬兰()_11
-      - FI芬兰()_12
-      - FR法国()_1
-      - FR法国()_2
-      - HK+香港()_1
-      - HK香港()_1
-      - HK+香港()_2
-      - HK+香港()_3
-      - HK香港()_2
-      - HK+香港()_4
-      - HK+香港()_5
-      - IN印度()_1
-      - IN印度()_2
-      - IN印度()_3
-      - IN印度()_4
-      - IN印度()_5
-      - IN+印度()
-      - JP日本()_1
-      - JP日本()_2
-      - JP+日本()_1
-      - JP日本()_3
-      - JP日本()_4
-      - JP日本()_5
-      - JP+日本()_2
-      - KR韩国()
-      - KR+韩国()_1
-      - KR+韩国()_2
-      - NL+荷兰()
-      - RU俄罗斯()_1
-      - RU俄罗斯()_2
-      - RU俄罗斯()_3
-      - RU俄罗斯()_4
-      - RU俄罗斯()_5
-      - SG+新加坡()_1
-      - SG新加坡()
-      - SG+新加坡()_2
-      - SG+新加坡()_3
-      - SG+新加坡()_4
-      - TUR+土耳其()
-      - TW台湾()_1
-      - TW+台湾()_1
-      - TW台湾()_2
-      - TW+台湾()_2
-      - TW+台湾()_3
-      - UK英国()_1
-      - UK英国()_2
-      - UK英国()_3
-      - UK英国()_4
-      - UK英国()_5
-      - UK英国()_6
-      - UK英国()_7
-      - UK+英国()
-      - UKR+乌克兰()
-      - US美国()_1
-      - US美国()_2
-      - US美国()_3
-      - US美国()_4
-      - US美国()_5
-      - US美国()_6
-      - US美国()_7
-      - US美国()_8
-      - US美国()_9
-      - US美国()_10
-      - US美国()_11
-      - US美国()_12
-      - US美国()_13
-      - US美国()_14
-      - US美国()_15
-      - US美国()_16
-      - US美国()_17
-      - US美国()_18
-      - US美国()_19
-      - US美国()_20
-      - US美国()_21
-      - US美国()_22
-      - US美国()_23
-      - US美国()_24
-      - US美国()_25
-      - US美国()_26
-      - US美国()_27
-      - US美国()_28
-      - US美国()_29
-      - US美国()_30
-      - US美国()_31
-      - US美国()_32
-      - US美国()_33
-      - US美国()_34
-      - US美国()_35
-      - US美国()_36
-      - US美国()_37
-      - US美国()_38
-      - US美国()_39
-      - US美国()_40
+      - _RU_俄罗斯联邦->🇩🇪_DE_德国
+      - _HK_香港->🇯🇵_JP_日本
+      - _RU_俄罗斯联邦
+      - _RU_俄罗斯联邦->🇩🇪_DE_德国 2
+      - _KR_韩国->🇸🇬_SG_新加坡
+      - default_name
+      - default_name 2
+      - _US_美国->🇩🇪_DE_德国
+      - default_name 3
+      - _JP_日本
+      - _US_美国->🇫🇷_FR_法国
+      - _KR_韩国->🇸🇬_SG_新加坡 2
+      - _US_美国
+      - _AU_澳大利亚
+      - default_name 4
+      - default_name 5
+      - _TW_台湾->🇸🇬_SG_新加坡
+      - _RU_俄罗斯联邦 2
+      - _GB_英国
+      - _RU_俄罗斯联邦->🇳🇱_NL_荷兰
+      - _US_美国 2
+      - default_name 6
+      - _SG_新加坡
+      - _KR_韩国
+      - HK_【付费推荐：https//goo.gs/vip】
+      - DE_【付费推荐：https//goo.gs/vip】
+      - JP_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】
+      - DE_【付费推荐：https//goo.gs/vip】 2
+      - DE_【付费推荐：https//goo.gs/vip】 3
+      - 【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 2
+      - FR_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 3
+      - AU_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 4
+      - US_【付费推荐：https//goo.gs/vip】 5
+      - 【付费推荐：https//goo.gs/vip】 2
+      - CN_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 6
+      - Relay_🇬🇧GB-🇬🇧GB_211
+      - v2cross.com - 北京市优刻得信息科技有限公司(UCloud)BGP数据中心 25
+      - github.com/Pawdroid - 美国  6
+      - 新加坡(TG频道:)
+      - github.com/Pawdroid - 美国  22
+      - 英国(TG频道:)
+      - github.com/Pawdroid - 美国CloudFlare节点 15
+      - 日本高速接入点-01
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - FI芬兰()_1
-      - FI芬兰()_2
-      - FI芬兰()_3
-      - FI芬兰()_4
-      - FI芬兰()_5
-      - FI芬兰()_6
-      - FI芬兰()_7
-      - FI芬兰()_8
-      - FI芬兰()_9
-      - FI芬兰()_10
-      - FI芬兰()_11
-      - FI芬兰()_12
-      - FR法国()_1
-      - FR法国()_2
-      - HK+香港()_1
-      - HK香港()_1
-      - HK+香港()_2
-      - HK+香港()_3
-      - HK香港()_2
-      - HK+香港()_4
-      - HK+香港()_5
-      - IN印度()_1
-      - IN印度()_2
-      - IN印度()_3
-      - IN印度()_4
-      - IN印度()_5
-      - IN+印度()
-      - JP日本()_1
-      - JP日本()_2
-      - JP+日本()_1
-      - JP日本()_3
-      - JP日本()_4
-      - JP日本()_5
-      - JP+日本()_2
-      - KR韩国()
-      - KR+韩国()_1
-      - KR+韩国()_2
-      - NL+荷兰()
-      - RU俄罗斯()_1
-      - RU俄罗斯()_2
-      - RU俄罗斯()_3
-      - RU俄罗斯()_4
-      - RU俄罗斯()_5
-      - SG+新加坡()_1
-      - SG新加坡()
-      - SG+新加坡()_2
-      - SG+新加坡()_3
-      - SG+新加坡()_4
-      - TUR+土耳其()
-      - TW台湾()_1
-      - TW+台湾()_1
-      - TW台湾()_2
-      - TW+台湾()_2
-      - TW+台湾()_3
-      - UK英国()_1
-      - UK英国()_2
-      - UK英国()_3
-      - UK英国()_4
-      - UK英国()_5
-      - UK英国()_6
-      - UK英国()_7
-      - UK+英国()
-      - UKR+乌克兰()
-      - US美国()_1
-      - US美国()_2
-      - US美国()_3
-      - US美国()_4
-      - US美国()_5
-      - US美国()_6
-      - US美国()_7
-      - US美国()_8
-      - US美国()_9
-      - US美国()_10
-      - US美国()_11
-      - US美国()_12
-      - US美国()_13
-      - US美国()_14
-      - US美国()_15
-      - US美国()_16
-      - US美国()_17
-      - US美国()_18
-      - US美国()_19
-      - US美国()_20
-      - US美国()_21
-      - US美国()_22
-      - US美国()_23
-      - US美国()_24
-      - US美国()_25
-      - US美国()_26
-      - US美国()_27
-      - US美国()_28
-      - US美国()_29
-      - US美国()_30
-      - US美国()_31
-      - US美国()_32
-      - US美国()_33
-      - US美国()_34
-      - US美国()_35
-      - US美国()_36
-      - US美国()_37
-      - US美国()_38
-      - US美国()_39
-      - US美国()_40
+      - _RU_俄罗斯联邦->🇩🇪_DE_德国
+      - _HK_香港->🇯🇵_JP_日本
+      - _RU_俄罗斯联邦
+      - _RU_俄罗斯联邦->🇩🇪_DE_德国 2
+      - _KR_韩国->🇸🇬_SG_新加坡
+      - default_name
+      - default_name 2
+      - _US_美国->🇩🇪_DE_德国
+      - default_name 3
+      - _JP_日本
+      - _US_美国->🇫🇷_FR_法国
+      - _KR_韩国->🇸🇬_SG_新加坡 2
+      - _US_美国
+      - _AU_澳大利亚
+      - default_name 4
+      - default_name 5
+      - _TW_台湾->🇸🇬_SG_新加坡
+      - _RU_俄罗斯联邦 2
+      - _GB_英国
+      - _RU_俄罗斯联邦->🇳🇱_NL_荷兰
+      - _US_美国 2
+      - default_name 6
+      - _SG_新加坡
+      - _KR_韩国
+      - HK_【付费推荐：https//goo.gs/vip】
+      - DE_【付费推荐：https//goo.gs/vip】
+      - JP_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】
+      - DE_【付费推荐：https//goo.gs/vip】 2
+      - DE_【付费推荐：https//goo.gs/vip】 3
+      - 【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 2
+      - FR_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 3
+      - AU_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 4
+      - US_【付费推荐：https//goo.gs/vip】 5
+      - 【付费推荐：https//goo.gs/vip】 2
+      - CN_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 6
+      - Relay_🇬🇧GB-🇬🇧GB_211
+      - v2cross.com - 北京市优刻得信息科技有限公司(UCloud)BGP数据中心 25
+      - github.com/Pawdroid - 美国  6
+      - 新加坡(TG频道:)
+      - github.com/Pawdroid - 美国  22
+      - 英国(TG频道:)
+      - github.com/Pawdroid - 美国CloudFlare节点 15
+      - 日本高速接入点-01
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -912,109 +462,54 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - FI芬兰()_1
-      - FI芬兰()_2
-      - FI芬兰()_3
-      - FI芬兰()_4
-      - FI芬兰()_5
-      - FI芬兰()_6
-      - FI芬兰()_7
-      - FI芬兰()_8
-      - FI芬兰()_9
-      - FI芬兰()_10
-      - FI芬兰()_11
-      - FI芬兰()_12
-      - FR法国()_1
-      - FR法国()_2
-      - HK+香港()_1
-      - HK香港()_1
-      - HK+香港()_2
-      - HK+香港()_3
-      - HK香港()_2
-      - HK+香港()_4
-      - HK+香港()_5
-      - IN印度()_1
-      - IN印度()_2
-      - IN印度()_3
-      - IN印度()_4
-      - IN印度()_5
-      - IN+印度()
-      - JP日本()_1
-      - JP日本()_2
-      - JP+日本()_1
-      - JP日本()_3
-      - JP日本()_4
-      - JP日本()_5
-      - JP+日本()_2
-      - KR韩国()
-      - KR+韩国()_1
-      - KR+韩国()_2
-      - NL+荷兰()
-      - RU俄罗斯()_1
-      - RU俄罗斯()_2
-      - RU俄罗斯()_3
-      - RU俄罗斯()_4
-      - RU俄罗斯()_5
-      - SG+新加坡()_1
-      - SG新加坡()
-      - SG+新加坡()_2
-      - SG+新加坡()_3
-      - SG+新加坡()_4
-      - TUR+土耳其()
-      - TW台湾()_1
-      - TW+台湾()_1
-      - TW台湾()_2
-      - TW+台湾()_2
-      - TW+台湾()_3
-      - UK英国()_1
-      - UK英国()_2
-      - UK英国()_3
-      - UK英国()_4
-      - UK英国()_5
-      - UK英国()_6
-      - UK英国()_7
-      - UK+英国()
-      - UKR+乌克兰()
-      - US美国()_1
-      - US美国()_2
-      - US美国()_3
-      - US美国()_4
-      - US美国()_5
-      - US美国()_6
-      - US美国()_7
-      - US美国()_8
-      - US美国()_9
-      - US美国()_10
-      - US美国()_11
-      - US美国()_12
-      - US美国()_13
-      - US美国()_14
-      - US美国()_15
-      - US美国()_16
-      - US美国()_17
-      - US美国()_18
-      - US美国()_19
-      - US美国()_20
-      - US美国()_21
-      - US美国()_22
-      - US美国()_23
-      - US美国()_24
-      - US美国()_25
-      - US美国()_26
-      - US美国()_27
-      - US美国()_28
-      - US美国()_29
-      - US美国()_30
-      - US美国()_31
-      - US美国()_32
-      - US美国()_33
-      - US美国()_34
-      - US美国()_35
-      - US美国()_36
-      - US美国()_37
-      - US美国()_38
-      - US美国()_39
-      - US美国()_40
+      - _RU_俄罗斯联邦->🇩🇪_DE_德国
+      - _HK_香港->🇯🇵_JP_日本
+      - _RU_俄罗斯联邦
+      - _RU_俄罗斯联邦->🇩🇪_DE_德国 2
+      - _KR_韩国->🇸🇬_SG_新加坡
+      - default_name
+      - default_name 2
+      - _US_美国->🇩🇪_DE_德国
+      - default_name 3
+      - _JP_日本
+      - _US_美国->🇫🇷_FR_法国
+      - _KR_韩国->🇸🇬_SG_新加坡 2
+      - _US_美国
+      - _AU_澳大利亚
+      - default_name 4
+      - default_name 5
+      - _TW_台湾->🇸🇬_SG_新加坡
+      - _RU_俄罗斯联邦 2
+      - _GB_英国
+      - _RU_俄罗斯联邦->🇳🇱_NL_荷兰
+      - _US_美国 2
+      - default_name 6
+      - _SG_新加坡
+      - _KR_韩国
+      - HK_【付费推荐：https//goo.gs/vip】
+      - DE_【付费推荐：https//goo.gs/vip】
+      - JP_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】
+      - DE_【付费推荐：https//goo.gs/vip】 2
+      - DE_【付费推荐：https//goo.gs/vip】 3
+      - 【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 2
+      - FR_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 3
+      - AU_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 4
+      - US_【付费推荐：https//goo.gs/vip】 5
+      - 【付费推荐：https//goo.gs/vip】 2
+      - CN_【付费推荐：https//goo.gs/vip】
+      - US_【付费推荐：https//goo.gs/vip】 6
+      - Relay_🇬🇧GB-🇬🇧GB_211
+      - v2cross.com - 北京市优刻得信息科技有限公司(UCloud)BGP数据中心 25
+      - github.com/Pawdroid - 美国  6
+      - 新加坡(TG频道:)
+      - github.com/Pawdroid - 美国  22
+      - 英国(TG频道:)
+      - github.com/Pawdroid - 美国CloudFlare节点 15
+      - 日本高速接入点-01
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
