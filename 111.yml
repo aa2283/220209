@@ -5,467 +5,351 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: default_name, server: techplanet.today, port: 2083, type: vmess, uuid: 8a21b84d-183e-450d-ec82-8d45855d8180, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xui.mycf.ml}}, udp: true}
-  - {name: default_name 2, server: 198.41.212.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: _US_美国, server: jp1.mayaa.cf, port: 443, type: vmess, uuid: 595b4629-116d-4fe1-dcab-d2a6b112b81a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hfhqqweqwxxx, headers: {Host: jp1.mayaa.cf}}, udp: true}
-  - {name: _NL_荷兰, server: content-provider24.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
-  - {name: _JP_日本, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _DE_德国, server: 188.34.159.186, port: 35855, type: vmess, uuid: 97e8fba7-327a-4752-8aca-043858a7e518, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: _US_美国 2, server: 128.14.140.254, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: _US_美国->🇫🇷_FR_法国, server: frr.xlkjjs.top, port: 443, type: vmess, uuid: b3b0c76a-c54b-37eb-b3aa-8ad440f29baf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: frr.xlkjjs.top}}, udp: true}
-  - {name: _JP_日本 2, server: trs12.bolab.net, port: 443, type: trojan, password: 14bdba6dede262387ebdebaa706e1c90, skip-cert-verify: true, udp: true}
-  - {name: _SG_新加坡, server: lll.277428.xyz, port: 40771, type: vmess, uuid: 61194810-5193-48bc-eb0a-7978a059d681, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: _SG_新加坡 2, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: _JP_日本 3, server: ocrb2.happyfree.top, port: 443, type: trojan, password: 6578df36-8b6f-4411-b42a-521877145573, skip-cert-verify: true, udp: true}
-  - {name: _FR_法国, server: content-provider5.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 3, server: ocrb1.happyfree.top, port: 443, type: trojan, password: 6578df36-8b6f-4411-b42a-521877145573, skip-cert-verify: true, udp: true}
-  - {name: default_name 3, server: 141.101.115.20, port: 443, type: vmess, uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash1.trump2023.net}}, udp: true}
-  - {name: _IN_印度, server: 152.67.160.174, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, skip-cert-verify: true, udp: true}
-  - {name: _FR_法国 2, server: content-provider12.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: origin, skip-cert-verify: true, udp: true}
-  - {name: _FR_法国 3, server: 51.77.71.131, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
-  - {name: _NL_荷兰 2, server: content-provider23.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
-  - {name: _HK_香港, server: v2-hkg-cm.clsnet.online, port: 543, type: vmess, uuid: 7ee5a840-75d1-34a8-bd2a-187cdb286792, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CA加拿大(www.LCR189.COM), server: gz.daxun.cyou, port: 20631, type: vmess, uuid: af4d2493-9156-4514-9f6b-ee5d1a1e4713, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /canada1, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: DE德国(www.LCR189.COM)_1, server: 13.225.102.6, port: 80, type: vmess, uuid: 331a5f51-9863-44eb-ce72-e2616cca9ba0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /0xOwC49TUIazwkOFi5o0cUnNNWTcHMngTMaDnyrNrGdCARhPaoo9oUsfQn3jumxvqvm3t3WGcYbVSG1tch0YsJsAerk5Lxu3t, headers: {Host: ol.cdn.yj2022.cf}}, udp: true}
+  - {name: DE德国(www.LCR189.COM)_2, server: cu.kapoknode.com, port: 25883, type: vmess, uuid: c1be1b8e-0555-48d9-bab0-29b097ada541, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.kapoknode.com}}, udp: true}
+  - {name: DE+德国(www.LCR189.COM), server: hnt.cndns.shop, port: 27763, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
+  - {name: FR法国(www.LCR189.COM)_1, server: main.millionaireaisle.com, port: 443, type: vmess, uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /IYKLD53M, headers: {Host: opfr1.v2rayfree1.xyz}}, udp: true}
+  - {name: FR法国(www.LCR189.COM)_2, server: main.millionaireaisle.com, port: 443, type: vmess, uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /9JZFDTKE, headers: {Host: fr1.trump2023.org}}, udp: true}
+  - {name: FR法国(www.LCR189.COM)_3, server: ip-443.xn--7or562f.eu.org, port: 443, type: vmess, uuid: 1f4322e1-0e7e-4af2-cc09-84666ac15616, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: w1.800876.xyz}}, udp: true}
+  - {name: HK香港(www.LCR189.COM)_1, server: 20.2.84.116, port: 80, type: vmess, uuid: 57c0f85d-e8c5-4eba-99cb-1a4521e0172a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}, udp: true}
+  - {name: HK香港(www.LCR189.COM)_2, server: 20.239.177.38, port: 80, type: vmess, uuid: 57c0f85d-e8c5-4eba-99cb-1a4521e0172a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}, udp: true}
+  - {name: HK香港(www.LCR189.COM)_3, server: fsyy.fosi.hk, port: 43706, type: vmess, uuid: 1be3f298-2a93-4560-8a2b-dc301756cbc1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: fsyy.fosi.hk}}, udp: true}
+  - {name: HK香港(www.LCR189.COM)_4, server: hk80.sanfen001.pics, port: 80, type: vmess, uuid: 9f3f612a-2fb0-420d-830f-1a502a1db50c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/download, headers: {Host: hk80.sanfen001.pics}}, udp: true}
+  - {name: HK香港(www.LCR189.COM)_5, server: gddx.fosi.hk, port: 60952, type: vmess, uuid: 8c90d865-4bbb-4f3e-be0b-ca2dcde937b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: gddx.fosi.hk}}, udp: true}
+  - {name: HK香港(www.LCR189.COM)_6, server: azsh01.1aba.cn, port: 45260, type: vmess, uuid: 8c90d865-4bbb-4f3e-be0b-ca2dcde937b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: azsh01.1aba.cn}}, udp: true}
+  - {name: HK香港(www.LCR189.COM)_7, server: gz.daxun.cyou, port: 20631, type: vmess, uuid: af4d2493-9156-4514-9f6b-ee5d1a1e4713, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /BGP03, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: HK香港(www.LCR189.COM)_8, server: 183.245.7.190, port: 25588, type: vmess, uuid: a6a9c987-0292-451b-82ee-fff2a2b00f1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /0a6a9c987-0292-451b-82ee-fff2a2b00f1d, headers: {Host: 183.245.7.190}}, udp: true}
+  - {name: HK香港(www.LCR189.COM)_9, server: gddx.fosi.hk, port: 35499, type: vmess, uuid: 1be3f298-2a93-4560-8a2b-dc301756cbc1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: gddx.fosi.hk}}, udp: true}
+  - {name: HK香港(www.LCR189.COM)_10, server: hk1.sanfen001.pics, port: 443, type: vmess, uuid: 9f3f612a-2fb0-420d-830f-1a502a1db50c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: hk1.sanfen001.pics}}, udp: true}
+  - {name: HK香港(www.LCR189.COM)_11, server: 96cfae9d-7c6c-0722-5eb8-a2b8e9d53aee.cnnic.rip, port: 80, type: vmess, uuid: 862d1d66-78b7-4a7b-a35b-7553006f3056, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [96cfae9d-7c6c-0722-5eb8-a2b8e9d53aee.cnnic.rip]}}, udp: true}
+  - {name: HK香港(www.LCR189.COM)_12, server: azsh01.1aba.cn, port: 45260, type: vmess, uuid: f59fcbce-fb98-442c-9436-c22f9a31c6c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: azsh01.1aba.cn}}, udp: true}
+  - {name: HK香港(www.LCR189.COM)_13, server: cu.kapoknode.com, port: 25897, type: vmess, uuid: c1be1b8e-0555-48d9-bab0-29b097ada541, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.kapoknode.com}}, udp: true}
+  - {name: HK+香港(www.LCR189.COM), server: download2hkt.windowsupdate.lol, port: 443, type: trojan, password: af4d2493-9156-4514-9f6b-ee5d1a1e4713, sni: dc3-download.windowsupdate1.com, skip-cert-verify: true, udp: true}
+  - {name: ID印尼(www.LCR189.COM)_1, server: main.millionaireaisle.com, port: 443, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Variu88/634dab7abadf1/, headers: {Host: us-lb.sshkit.org}}, udp: true}
+  - {name: IN印度(www.LCR189.COM), server: cu.kapoknode.com, port: 25882, type: vmess, uuid: c1be1b8e-0555-48d9-bab0-29b097ada541, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.kapoknode.com}}, udp: true}
+  - {name: JP日本(www.LCR189.COM)_1, server: a976632911.fun, port: 5888, type: vmess, uuid: 294eecf0-1194-4007-aa23-653099029a82, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.189.cn}}, udp: true}
+  - {name: JP日本(www.LCR189.COM)_2, server: jp03-vm0.entry.srthdw.art, port: 447, type: vmess, uuid: 938faa46-da30-31dd-8bcf-1ef93c2bd79f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp03-vm0.entry.srthdw.art}}, udp: true}
+  - {name: JP日本(www.LCR189.COM)_3, server: gz.daxun.cyou, port: 20631, type: vmess, uuid: af4d2493-9156-4514-9f6b-ee5d1a1e4713, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dj01, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: JP日本(www.LCR189.COM)_4, server: azsh01.1aba.cn, port: 17180, type: vmess, uuid: 2d745d85-7535-4bab-9be2-986d1ad04c14, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: azsh01.1aba.cn}}, udp: true}
+  - {name: JP日本(www.LCR189.COM)_5, server: shcu.1aba.cn, port: 11613, type: vmess, uuid: dc3fd041-0ac4-431c-be5e-f65d00d8ccb6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: shcu.1aba.cn}}, udp: true}
+  - {name: JP日本(www.LCR189.COM)_6, server: azsh01.1aba.cn, port: 17180, type: vmess, uuid: 8c90d865-4bbb-4f3e-be0b-ca2dcde937b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: azsh01.1aba.cn}}, udp: true}
+  - {name: JP日本(www.LCR189.COM)_7, server: shcu.1aba.cn, port: 51550, type: vmess, uuid: f59fcbce-fb98-442c-9436-c22f9a31c6c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: shcu.1aba.cn}}, udp: true}
+  - {name: JP+日本(www.LCR189.COM), server: hnt.cndns.shop, port: 27761, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
+  - {name: JP日本(www.LCR189.COM)_8, server: 54.248.175.71, port: 44455, type: vmess, uuid: 10c0bf3e-9d0d-4a32-9e32-151aa8e46330, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 54.248.175.71}}, udp: true}
+  - {name: KR韩国(www.LCR189.COM)_1, server: gz.daxun.cyou, port: 20631, type: vmess, uuid: af4d2493-9156-4514-9f6b-ee5d1a1e4713, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /jgwhg01, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: KR+韩国(www.LCR189.COM)_2, server: hnt.cndns.shop, port: 27762, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
+  - {name: KR+韩国(www.LCR189.COM)_3, server: hnt.cndns.shop, port: 27765, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
+  - {name: KR+韩国(www.LCR189.COM)_4, server: bp.i809.ml, port: 32087, type: trojan, password: b9c4f30f-0e95-4c23-80f8-b134414f43ec, sni: qt61.shenseven.xyz, skip-cert-verify: true, udp: true}
+  - {name: KR韩国(www.LCR189.COM)_2, server: 152.70.89.67, port: 44631, type: vmess, uuid: 198d8957-377e-4a06-d9ea-414cc0067de4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: KR+韩国(www.LCR189.COM)_5, server: hnt.cndns.shop, port: 27764, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
+  - {name: NL荷兰(www.LCR189.COM)_1, server: main.millionaireaisle.com, port: 2053, type: vmess, uuid: ab323ed9-dda5-4feb-9f17-c77c7fd811b6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /DQsafRJn/, headers: {Host: v2ray.wefuckgfw.ga}}, udp: true}
+  - {name: NL荷兰(www.LCR189.COM)_2, server: Shopify.com, port: 2086, type: vmess, uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aries, headers: {Host: scw.cloudflare.quest}}, udp: true}
+  - {name: NL荷兰(www.LCR189.COM)_3, server: king6.workingoogle.ga, port: 8880, type: vmess, uuid: 050624ec-ba6a-49c3-e8d9-c46e5c167be0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fh454hg4fthfh, headers: {Host: king6.workingoogle.ga}}, udp: true}
+  - {name: SG新加坡(www.LCR189.COM)_1, server: 01.SGIX.ANRUN-IX.TOP, port: 11001, type: vmess, uuid: dd86a105-00c1-41ba-899c-c31aa74f4539, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: SG新加坡(www.LCR189.COM)_2, server: sg80-2.sanfen001.pics, port: 80, type: vmess, uuid: 9f3f612a-2fb0-420d-830f-1a502a1db50c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn/download, headers: {Host: sg80-2.sanfen001.pics}}, udp: true}
+  - {name: SG新加坡(www.LCR189.COM)_3, server: gz.daxun.cyou, port: 20631, type: vmess, uuid: af4d2493-9156-4514-9f6b-ee5d1a1e4713, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /doxjp01, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: SG新加坡(www.LCR189.COM)_4, server: fbi.gov, port: 2086, type: vmess, uuid: 929029a5-9d88-4e2f-ee35-918fea716b77, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@heinuhome, headers: {Host: heinuhome-gcore-singapore.heinu.cf}}, udp: true}
+  - {name: SG新加坡(www.LCR189.COM)_5, server: 45.118.132.179, port: 48888, type: vmess, uuid: af4d2493-9156-4514-9f6b-ee5d1a1e4713, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /daxun/us2, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: SG新加坡(www.LCR189.COM)_7, server: 43.156.18.119, port: 32482, type: vmess, uuid: fd3df956-8d30-4942-f8be-f4441f292cc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: SG新加坡(www.LCR189.COM)_8, server: 138.2.83.217, port: 43863, type: vmess, uuid: ca984457-b017-46e5-d973-42a3c3fdc292, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: SG新加坡(www.LCR189.COM)_9, server: sg1.elknode.top, port: 80, type: vmess, uuid: 459270d2-e59b-3823-a170-d5202f04f29a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qatjpji, headers: {Host: "%257B%2522Host%2522:%2522data.video.qiyi.com%2522%257D"}}, udp: true}
+  - {name: TW台湾(www.LCR189.COM), server: gz.daxun.cyou, port: 20631, type: vmess, uuid: af4d2493-9156-4514-9f6b-ee5d1a1e4713, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /scloudhinet05, headers: {Host: "%257B%2522Host%2522:%2522www.baidu.com%2522%257D"}}, udp: true}
+  - {name: TW+台湾(www.LCR189.COM), server: tw3.elknode.top, port: 443, type: trojan, password: 459270d2-e59b-3823-a170-d5202f04f29a, sni: tw3.elknode.top, skip-cert-verify: true, udp: true}
+  - {name: UK英国(www.LCR189.COM)_1, server: gz.daxun.cyou, port: 20631, type: vmess, uuid: af4d2493-9156-4514-9f6b-ee5d1a1e4713, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /UK03, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: UK+英国(www.LCR189.COM), server: 219.76.13.180, port: 443, type: trojan, password: ZRYSly2IRuFlgpZCaep3Ey3DDXqTDczO04aeC8F36OjaYSCABnA573wN8xxK9S, sni: httah.freetrade.link, skip-cert-verify: true, udp: true}
+  - {name: UK英国(www.LCR189.COM)_2, server: cu.kapoknode.com, port: 25884, type: vmess, uuid: c1be1b8e-0555-48d9-bab0-29b097ada541, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.kapoknode.com}}, udp: true}
+  - {name: US美国(www.LCR189.COM)_1, server: shcu.1aba.cn, port: 61148, type: vmess, uuid: dc3fd041-0ac4-431c-be5e-f65d00d8ccb6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: shcu.1aba.cn}}, udp: true}
+  - {name: US美国(www.LCR189.COM)_2, server: shcu.1aba.cn, port: 61148, type: vmess, uuid: 8c90d865-4bbb-4f3e-be0b-ca2dcde937b2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: shcu.1aba.cn}}, udp: true}
+  - {name: US美国(www.LCR189.COM)_3, server: cu.kapoknode.com, port: 25885, type: vmess, uuid: c1be1b8e-0555-48d9-bab0-29b097ada541, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.kapoknode.com}}, udp: true}
+  - {name: US美国(www.LCR189.COM)_4, server: 13.225.102.6, port: 80, type: vmess, uuid: 134bf972-0520-42b3-da4d-24333dff0dc3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /0134bf972-0520-42b3-da4d-24333dff0dc3, headers: {Host: cc.cdn.yjbzl.cn}}, udp: true}
+  - {name: US美国(www.LCR189.COM)_5, server: ca.0112233.xyz, port: 443, type: vmess, uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ca.0112233.xyz}}, udp: true}
+  - {name: US美国(www.LCR189.COM)_6, server: azsh01.1aba.cn, port: 54958, type: vmess, uuid: f59fcbce-fb98-442c-9436-c22f9a31c6c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: azsh01.1aba.cn}}, udp: true}
+  - {name: US美国(www.LCR189.COM)_7, server: 183.245.7.190, port: 25575, type: vmess, uuid: 134bf972-0520-42b3-da4d-24333dff0dc3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /0134bf972-0520-42b3-da4d-24333dff0dc3, headers: {Host: 183.245.7.190}}, udp: true}
+  - {name: US美国(www.LCR189.COM)_8, server: 45.118.132.179, port: 48888, type: vmess, uuid: af4d2493-9156-4514-9f6b-ee5d1a1e4713, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /daxun/us1, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: US美国(www.LCR189.COM)_9, server: azsh01.1aba.cn, port: 54958, type: vmess, uuid: dc3fd041-0ac4-431c-be5e-f65d00d8ccb6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fly, headers: {Host: azsh01.1aba.cn}}, udp: true}
+  - {name: US美国(www.LCR189.COM)_10, server: 45.118.132.179, port: 48888, type: vmess, uuid: af4d2493-9156-4514-9f6b-ee5d1a1e4713, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /daxun/us2, headers: {Host: www.baidu.com}}, udp: true}
+  - {name: US美国(www.LCR189.COM)_11, server: gz.daxun.cyou, port: 20631, type: vmess, uuid: af4d2493-9156-4514-9f6b-ee5d1a1e4713, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /scloudhinet06, headers: {Host: "%7B%22Host%22:%22www.baidu.com%22%7D"}}, udp: true}
+  - {name: US美国(www.LCR189.COM)_12, server: gg1.tanglu.xyz, port: 8080, type: vmess, uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.asuka.buzz}}, udp: true}
+  - {name: US+美国(www.LCR189.COM)_1, server: tr1.tgcunzhang.xyz, port: 54859, type: trojan, password: 431b22e2-d67b-4a41-9c97-773cde0329a4, sni: tr1.tgcunzhang.xyz, skip-cert-verify: true, udp: true}
+  - {name: US美国(www.LCR189.COM)_13, server: 183.245.7.190, port: 25587, type: vmess, uuid: c45231f5-5872-4946-93e7-927d90a70b57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /0UZpFfslsyx6pv0DeCU2PP-1_l3WxdP8vLucTGdbrZ_IfxaYALBf5fYWYXleENta9lXxuVxATrNF1OU45FVGqLsfLWqRrOvQCVH9hWEL9l8FDQGv71QA1GC1Ct91GYYP9neJGRjhoe_ubM9lgdP77, headers: {Host: 183.245.7.190}}, udp: true}
+  - {name: US+美国(www.LCR189.COM)_2, server: tr2.tgcunzhang.xyz, port: 54675, type: trojan, password: 431b22e2-d67b-4a41-9c97-773cde0329a4, sni: tr2.tgcunzhang.xyz, skip-cert-verify: true, udp: true}
+  - {name: US美国(www.LCR189.COM)_14, server: 54.90.85.126, port: 25253, type: vmess, uuid: 10c0bf3e-9d0d-4a32-9e32-151aa8e46330, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: 54.90.85.126}}, udp: true}
+  - {name: US+美国(www.LCR189.COM)_3, server: tr9.tgcunzhang.xyz, port: 54778, type: trojan, password: 431b22e2-d67b-4a41-9c97-773cde0329a4, sni: tr9.tgcunzhang.xyz, skip-cert-verify: true, udp: true}
+  - {name: US美国(www.LCR189.COM)_15, server: www.digitalocean.com, port: 8080, type: vmess, uuid: a4d1d3dd-5097-4dd5-93fa-9b412233174f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.asuka.buzz}}, udp: true}
+  - {name: _CN_中国->🇷🇺_RU_俄罗斯联邦, server: hnt.cndns.shop, port: 27766, type: ss, cipher: chacha20-ietf-poly1305, password: 31347057-7af5-4562-b912-f1c217c4c160, udp: true}
+  - {name: _AM_亚美尼亚->🇺🇸_US_美国, server: 185.162.228.229, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}, udp: true}
+  - {name: default_name, server: 141.101.114.31, port: 443, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /5QNROSRV, headers: {Host: oplg1.zhujicn2.com}}, udp: true}
   - {name: _US_美国->🇩🇪_DE_德国, server: 172.64.154.222, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg1.cfcdn1.xyz}}, udp: true}
-  - {name: _US_美国 4, server: dba.happyfree.top, port: 443, type: trojan, password: 6578df36-8b6f-4411-b42a-521877145573, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 5, server: 129.146.190.42, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 6, server: 172.67.225.31, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 38.72img.xyz}}, udp: true}
-  - {name: _US_美国 7, server: jp1.happyfree.top, port: 443, type: trojan, password: 6578df36-8b6f-4411-b42a-521877145573, skip-cert-verify: true, udp: true}
-  - {name: _NL_荷兰 3, server: 185.212.200.75, port: 443, type: trojan, password: Sp3eDVp, skip-cert-verify: true, udp: true}
-  - {name: _HK_香港 2, server: hgc.iamnotagoodman.com, port: 443, type: trojan, password: f8d19ba5-8684-45f2-8523-77dbea588955, skip-cert-verify: true, udp: true}
-  - {name: _FR_法国 4, server: content-provider26.cdn-delivery.akamaicd.com, port: 443, type: trojan, password: origin, skip-cert-verify: true, udp: true}
-  - {name: default_name 4, server: 198.41.212.155, port: 443, type: vmess, uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /VHONOFZ3, headers: {Host: lg1.cfcdn2.xyz}}, udp: true}
-  - {name: _US_美国 8, server: cdn.chigua.tk, port: 443, type: vmess, uuid: 3d683981-c68c-43ca-a91b-ae71bfcbf365, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /3d683981, headers: {Host: philip-did-disclaimers-bill.trycloudflare.com}}, udp: true}
-  - {name: _TW_台湾, server: tw.xibai6.top, port: 31007, type: trojan, password: ca2345ba-46e7-3991-b1b7-45d18954caf1, skip-cert-verify: true, udp: true}
-  - {name: _FR_法国 5, server: 51.77.71.134, port: 443, type: trojan, password: origin, skip-cert-verify: true, udp: true}
-  - {name: AU澳大利亚(www.lcr189.com), server: 139.99.236.163, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: CA+加拿大(www.lcr189.com)_2, server: 202.110.80.135, port: 48336, type: ss, cipher: chacha20-ietf-poly1305, password: c961c48e-4f59-4be1-a658-821e493fc62e, udp: true}
-  - {name: CA+加拿大(www.lcr189.com)_3, server: 202.110.80.135, port: 48336, type: ss, cipher: chacha20-ietf-poly1305, password: 5bd2d25a-ea0e-4c76-af2f-6413d9e78d75, udp: true}
-  - {name: DE德国(www.lcr189.com)_1, server: do-3.heicloud.cf, port: 7773, type: vmess, uuid: b9c76bfb-2a78-4442-b40a-9faf19a99541, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /m3, headers: {Host: do-3.heicloud.cf}}, udp: true}
-  - {name: DE德国(www.lcr189.com)_2, server: 138.2.122.225, port: 80, type: vmess, uuid: 461aed20-0743-4f13-ee68-43394e875e42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: h1.800876.xyz}}, udp: true}
-  - {name: DE德国(www.lcr189.com)_3, server: 188.34.159.186, port: 35855, type: vmess, uuid: 97e8fba7-327a-4752-8aca-043858a7e518, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 188.34.159.186}}, udp: true}
-  - {name: DE德国(www.lcr189.com)_4, server: 53.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 53.72img.xyz}}, udp: true}
-  - {name: FR法国(www.lcr189.com), server: frr.xlkjjs.top, port: 443, type: vmess, uuid: b3b0c76a-c54b-37eb-b3aa-8ad440f29baf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: frr.xlkjjs.top}}, udp: true}
-  - {name: HK香港(www.lcr189.com)_1, server: hk1.czs1000.com, port: 8885, type: vmess, uuid: c478f928-1151-4deb-88cb-13a1acb3ed07, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: HK香港(www.lcr189.com)_2, server: cu.kapoknode.com, port: 25897, type: vmess, uuid: e1a70dd5-2576-4bd9-a2fb-861bc0688c1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.kapoknode.com}}, udp: true}
-  - {name: HK+香港(www.lcr189.com), server: hk1.trumpmvp.com, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: c961c48e-4f59-4be1-a658-821e493fc62e, udp: true}
-  - {name: HK香港(www.lcr189.com)_3, server: cu.kapoknode.com, port: 25897, type: vmess, uuid: e1a70dd5-2576-4bd9-a2fb-861bc0688c1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.kapoknode.com}}, udp: true}
-  - {name: ID印尼(www.lcr189.com)_1, server: 8.210.86.247, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: ID印尼(www.lcr189.com)_2, server: 141.101.114.25, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: ID印尼(www.lcr189.com)_3, server: 141.101.114.25, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: ID印尼(www.lcr189.com)_4, server: 198.41.203.3, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: lg1.cfcdn3.xyz}}, udp: true}
-  - {name: ID印尼(www.lcr189.com)_5, server: 47.243.92.11, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: ID印尼(www.lcr189.com)_6, server: 198.41.203.5, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: ID印尼(www.lcr189.com)_7, server: 104.29.64.25, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: ID印尼(www.lcr189.com)_8, server: 152.228.191.232, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: ID印尼(www.lcr189.com)_9, server: 167.179.32.53, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: ID印尼(www.lcr189.com)_10, server: 146.56.162.25, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: IN印度(www.lcr189.com), server: a-cm1.jsmmm.cyou, port: 39813, type: vmess, uuid: ee8b274d-752d-33f4-9fef-e8a86e4c4cb8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP日本(www.lcr189.com)_1, server: jp3.czs1000.com, port: 8886, type: vmess, uuid: c478f928-1151-4deb-88cb-13a1acb3ed07, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: JP日本(www.lcr189.com)_2, server: jp03-vm0.entry.srthdw.art, port: 447, type: vmess, uuid: f5b5d233-c568-3a33-987f-c22f30243909, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp03-vm0.entry.srthdw.art}}, udp: true}
-  - {name: JP+日本(www.lcr189.com)_1, server: 114.80.32.51, port: 233, type: trojan, password: 89cd0b3e-b9c1-4f76-8a96-0a6c6d1e8f71, sni: wel-jp.optage.moe, skip-cert-verify: true, udp: true}
-  - {name: JP+日本(www.lcr189.com)_2, server: 16.162.223.207, port: 443, type: trojan, password: 89cd0b3e-b9c1-4f76-8a96-0a6c6d1e8f71, sni: wel-jp.optage.moe, skip-cert-verify: true, udp: true}
-  - {name: JP日本(www.lcr189.com)_3, server: jp1.mayaa.cf, port: 443, type: vmess, uuid: 595b4629-116d-4fe1-dcab-d2a6b112b81a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hfhqqweqwxxx, headers: {Host: jp1.mayaa.cf}}, udp: true}
-  - {name: JP日本(www.lcr189.com)_4, server: jp05-vm0.entry.srthdw.art, port: 449, type: vmess, uuid: 122392b6-2a5a-342c-bbfa-e3301cb5e7e0, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jp05-vm0.entry.srthdw.art}}, udp: true}
-  - {name: KR韩国(www.lcr189.com), server: kr1.czs1000.com, port: 8887, type: vmess, uuid: c478f928-1151-4deb-88cb-13a1acb3ed07, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: NL荷兰(www.lcr189.com)_1, server: 104.29.64.24, port: 80, type: vmess, uuid: 61811ce4-1b9b-47bb-9473-c6666a0a8fa4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /p9Dq67Nx/, headers: {Host: fr1.cachexy.ga}}, udp: true}
-  - {name: NL荷兰(www.lcr189.com)_2, server: 47.243.92.11, port: 2086, type: vmess, uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aries, headers: {Host: scw.cloudflare.quest}}, udp: true}
-  - {name: PL波兰(www.lcr189.com)_1, server: cdn.chigua.tk, port: 443, type: vmess, uuid: 298026f0-7574-4709-81bb-eae1298b4de1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /298026f0, headers: {Host: buttons-lcd-fa-investment.trycloudflare.com}}, udp: true}
-  - {name: PL波兰(www.lcr189.com)_2, server: cdn.chigua.tk, port: 443, type: vmess, uuid: 298026f0-7574-4709-81bb-eae1298b4de1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /298026f0, headers: {Host: buttons-lcd-fa-investment.trycloudflare.com}}, udp: true}
-  - {name: RU俄罗斯(www.lcr189.com), server: 6.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 6.72img.xyz}}, udp: true}
-  - {name: SG新加坡(www.lcr189.com)_1, server: sg3.czs1000.com, port: 8883, type: vmess, uuid: c478f928-1151-4deb-88cb-13a1acb3ed07, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: SG+新加坡(www.lcr189.com)_1, server: guangzhou.yd.cn.interface.buzz, port: 63453, type: ss, cipher: chacha20-ietf-poly1305, password: 5bd2d25a-ea0e-4c76-af2f-6413d9e78d75, udp: true}
-  - {name: SG+新加坡(www.lcr189.com)_2, server: shct.kczz2038.online, port: 51033, type: ss, cipher: chacha20-ietf-poly1305, password: 75c2a4f3-d9ea-4c0f-a642-df54d319f6df, udp: true}
-  - {name: SG新加坡(www.lcr189.com)_2, server: azstu.oppo.quest, port: 2082, type: vmess, uuid: f46d5b0d-c103-406c-df16-105976fc2aa3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aries, headers: {Host: azstu.oppo.quest}}, udp: true}
-  - {name: SG新加坡(www.lcr189.com)_3, server: 167.71.213.247, port: 8081, type: vmess, uuid: b2ecf06e-7976-473a-8ec4-b2d4212ca607, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 167.71.213.247}}, udp: true}
-  - {name: SG+新加坡(www.lcr189.com)_3, server: guangzhou.yd.cn.interface.buzz, port: 63453, type: ss, cipher: chacha20-ietf-poly1305, password: 5bd2d25a-ea0e-4c76-af2f-6413d9e78d75, udp: true}
-  - {name: SG+新加坡(www.lcr189.com)_4, server: guangzhou.yd.cn.interface.buzz, port: 10819, type: ss, cipher: chacha20-ietf-poly1305, password: 5bd2d25a-ea0e-4c76-af2f-6413d9e78d75, udp: true}
-  - {name: UK英国(www.lcr189.com)_1, server: powerservice.com, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sshocean, headers: {Host: uk2.v2rayserv.com}}, udp: true}
-  - {name: UK英国(www.lcr189.com)_2, server: 46.72img.xyz, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 46.72img.xyz}}, udp: true}
-  - {name: US美国(www.lcr189.com)_1, server: 141.101.114.120, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: lg1.cfcdn3.xyz}}, udp: true}
-  - {name: US美国(www.lcr189.com)_2, server: 141.101.114.100, port: 443, type: vmess, uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /VHONOFZ3, headers: {Host: lg1.cfcdn2.xyz}}, udp: true}
-  - {name: US美国(www.lcr189.com)_3, server: 172.66.40.10, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 38.72img.xyz}}, udp: true}
-  - {name: US美国(www.lcr189.com)_4, server: 141.101.115.136, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg1.cfcdn1.xyz}}, udp: true}
-  - {name: US美国(www.lcr189.com)_5, server: 198.41.212.145, port: 443, type: vmess, uuid: 33aa57df-1c93-4318-9fce-e850437ee781, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: lg1.cfcdn3.xyz}}, udp: true}
-  - {name: US美国(www.lcr189.com)_6, server: 141.101.114.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: US美国(www.lcr189.com)_7, server: 198.41.212.155, port: 443, type: vmess, uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /VHONOFZ3, headers: {Host: lg1.cfcdn2.xyz}}, udp: true}
-  - {name: US美国(www.lcr189.com)_8, server: 141.101.115.136, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg1.cfcdn1.xyz}}, udp: true}
-  - {name: US美国(www.lcr189.com)_9, server: 141.101.114.20, port: 443, type: vmess, uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash1.trump2023.net}}, udp: true}
-  - {name: US美国(www.lcr189.com)_10, server: 172.64.148.111, port: 443, type: vmess, uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: fr2.cfcdn4.xyz}}, udp: true}
-  - {name: US美国(www.lcr189.com)_11, server: 141.101.114.102, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: US美国(www.lcr189.com)_12, server: 141.101.115.20, port: 443, type: vmess, uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash1.trump2023.net}}, udp: true}
-  - {name: US美国(www.lcr189.com)_13, server: 141.101.115.100, port: 443, type: vmess, uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /VHONOFZ3, headers: {Host: lg1.cfcdn2.xyz}}, udp: true}
-  - {name: US美国(www.lcr189.com)_14, server: 128.14.140.254, port: 443, type: vmess, uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: v2ray2.ssr-free2.xyz}}, udp: true}
-  - {name: US美国(www.lcr189.com)_15, server: 141.101.114.133, port: 443, type: vmess, uuid: fcfaec91-6096-44d8-956c-7868d9e874b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg1.cfcdn1.xyz}}, udp: true}
-  - {name: US美国(www.lcr189.com)_16, server: 211.75.11.74, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: US美国(www.lcr189.com)_17, server: 104.29.64.25, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: US美国(www.lcr189.com)_18, server: 128.14.140.254, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: US美国(www.lcr189.com)_19, server: 141.101.114.200, port: 443, type: vmess, uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: v2ray2.ssr-free2.xyz}}, udp: true}
-  - {name: US美国(www.lcr189.com)_20, server: 141.101.114.120, port: 443, type: vmess, uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: lg30.cfcdn3.xyz}}, udp: true}
-  - {name: US美国(www.lcr189.com)_21, server: 34.145.145.76, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: US美国(www.lcr189.com)_22, server: vu1.oppo.quest, port: 2082, type: vmess, uuid: ab19dee3-3e70-4f70-aa54-6f0af8dd1a6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aries, headers: {Host: vu1.oppo.quest}}, udp: true}
-  - {name: US美国(www.lcr189.com)_23, server: 141.101.114.20, port: 443, type: vmess, uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash1.trump2023.net}}, udp: true}
-  - {name: US美国(www.lcr189.com)_24, server: 141.101.114.17, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: US美国(www.lcr189.com)_25, server: 172.64.153.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: US美国(www.lcr189.com)_26, server: 172.64.154.150, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: US美国(www.lcr189.com)_27, server: 141.101.115.100, port: 443, type: vmess, uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /VHONOFZ3, headers: {Host: lg1.cfcdn2.xyz}}, udp: true}
-  - {name: US美国(www.lcr189.com)_28, server: cf.fovi.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxusovz2.fovi.tk}}, udp: true}
-  - {name: US美国(www.lcr189.com)_29, server: www.gov.hk, port: 2086, type: vmess, uuid: 1ab91f18-6168-4cb6-c9ca-2c3c7158fe4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aries, headers: {Host: linus.cloudflare.quest}}, udp: true}
-  - {name: US美国(www.lcr189.com)_30, server: 198.41.203.1, port: 443, type: vmess, uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /VHONOFZ3, headers: {Host: lg1.cfcdn2.xyz}}, udp: true}
-  - {name: US美国(www.lcr189.com)_31, server: 219.76.13.180, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: US美国(www.lcr189.com)_32, server: 141.101.115.155, port: 443, type: vmess, uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: clash6.ssr-free.xyz}}, udp: true}
-  - {name: US+美国(www.lcr189.com)_1, server: 14.215.164.183, port: 29516, type: ss, cipher: chacha20-ietf-poly1305, password: 5bd2d25a-ea0e-4c76-af2f-6413d9e78d75, udp: true}
-  - {name: US+美国(www.lcr189.com)_2, server: 14.215.164.183, port: 29516, type: ss, cipher: chacha20-ietf-poly1305, password: c961c48e-4f59-4be1-a658-821e493fc62e, udp: true}
-  - {name: US美国(www.lcr189.com)_33, server: 172.67.183.35, port: 443, type: vmess, uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 38.72img.xyz}}, udp: true}
+  - {name: default_name 2, server: 198.41.203.1, port: 443, type: vmess, uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /VHONOFZ3, headers: {Host: lg1.cfcdn2.xyz}}, udp: true}
+  - {name: default_name 3, server: uicdn.cf, port: 80, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/1736960111/63859bc177a33/, headers: {Host: sg3-v2ray.sshkit.org}}, udp: true}
+  - {name: _IR_伊朗->🇺🇸_US_美国, server: samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: jinajina123, udp: true}
+  - {name: _BZ_伯利兹->🇺🇸_US_美国, server: 203.30.190.190, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: lg1.trump2023.us}}, udp: true}
+  - {name: _US_美国, server: 66.235.200.22, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
+  - {name: _SG_新加坡, server: sg-am3.eqsunshine.com, port: 32001, type: ssr, cipher: aes-256-cfb, password: 3g0dHlKME, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - CA加拿大(www.LCR189.COM)
+      - DE德国(www.LCR189.COM)_1
+      - DE德国(www.LCR189.COM)_2
+      - DE+德国(www.LCR189.COM)
+      - FR法国(www.LCR189.COM)_1
+      - FR法国(www.LCR189.COM)_2
+      - FR法国(www.LCR189.COM)_3
+      - HK香港(www.LCR189.COM)_1
+      - HK香港(www.LCR189.COM)_2
+      - HK香港(www.LCR189.COM)_3
+      - HK香港(www.LCR189.COM)_4
+      - HK香港(www.LCR189.COM)_5
+      - HK香港(www.LCR189.COM)_6
+      - HK香港(www.LCR189.COM)_7
+      - HK香港(www.LCR189.COM)_8
+      - HK香港(www.LCR189.COM)_9
+      - HK香港(www.LCR189.COM)_10
+      - HK香港(www.LCR189.COM)_11
+      - HK香港(www.LCR189.COM)_12
+      - HK香港(www.LCR189.COM)_13
+      - HK+香港(www.LCR189.COM)
+      - ID印尼(www.LCR189.COM)_1
+      - IN印度(www.LCR189.COM)
+      - JP日本(www.LCR189.COM)_1
+      - JP日本(www.LCR189.COM)_2
+      - JP日本(www.LCR189.COM)_3
+      - JP日本(www.LCR189.COM)_4
+      - JP日本(www.LCR189.COM)_5
+      - JP日本(www.LCR189.COM)_6
+      - JP日本(www.LCR189.COM)_7
+      - JP+日本(www.LCR189.COM)
+      - JP日本(www.LCR189.COM)_8
+      - KR韩国(www.LCR189.COM)_1
+      - KR+韩国(www.LCR189.COM)_2
+      - KR+韩国(www.LCR189.COM)_3
+      - KR+韩国(www.LCR189.COM)_4
+      - KR韩国(www.LCR189.COM)_2
+      - KR+韩国(www.LCR189.COM)_5
+      - NL荷兰(www.LCR189.COM)_1
+      - NL荷兰(www.LCR189.COM)_2
+      - NL荷兰(www.LCR189.COM)_3
+      - SG新加坡(www.LCR189.COM)_1
+      - SG新加坡(www.LCR189.COM)_2
+      - SG新加坡(www.LCR189.COM)_3
+      - SG新加坡(www.LCR189.COM)_4
+      - SG新加坡(www.LCR189.COM)_5
+      - SG新加坡(www.LCR189.COM)_7
+      - SG新加坡(www.LCR189.COM)_8
+      - SG新加坡(www.LCR189.COM)_9
+      - TW台湾(www.LCR189.COM)
+      - TW+台湾(www.LCR189.COM)
+      - UK英国(www.LCR189.COM)_1
+      - UK+英国(www.LCR189.COM)
+      - UK英国(www.LCR189.COM)_2
+      - US美国(www.LCR189.COM)_1
+      - US美国(www.LCR189.COM)_2
+      - US美国(www.LCR189.COM)_3
+      - US美国(www.LCR189.COM)_4
+      - US美国(www.LCR189.COM)_5
+      - US美国(www.LCR189.COM)_6
+      - US美国(www.LCR189.COM)_7
+      - US美国(www.LCR189.COM)_8
+      - US美国(www.LCR189.COM)_9
+      - US美国(www.LCR189.COM)_10
+      - US美国(www.LCR189.COM)_11
+      - US美国(www.LCR189.COM)_12
+      - US+美国(www.LCR189.COM)_1
+      - US美国(www.LCR189.COM)_13
+      - US+美国(www.LCR189.COM)_2
+      - US美国(www.LCR189.COM)_14
+      - US+美国(www.LCR189.COM)_3
+      - US美国(www.LCR189.COM)_15
+      - _CN_中国->🇷🇺_RU_俄罗斯联邦
+      - _AM_亚美尼亚->🇺🇸_US_美国
       - default_name
-      - default_name 2
-      - _US_美国
-      - _NL_荷兰
-      - _JP_日本
-      - _DE_德国
-      - _US_美国 2
-      - _US_美国->🇫🇷_FR_法国
-      - _JP_日本 2
-      - _SG_新加坡
-      - _SG_新加坡 2
-      - _JP_日本 3
-      - _FR_法国
-      - _US_美国 3
-      - default_name 3
-      - _IN_印度
-      - _FR_法国 2
-      - _FR_法国 3
-      - _NL_荷兰 2
-      - _HK_香港
       - _US_美国->🇩🇪_DE_德国
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _NL_荷兰 3
-      - _HK_香港 2
-      - _FR_法国 4
-      - default_name 4
-      - _US_美国 8
-      - _TW_台湾
-      - _FR_法国 5
-      - AU澳大利亚(www.lcr189.com)
-      - CA+加拿大(www.lcr189.com)_2
-      - CA+加拿大(www.lcr189.com)_3
-      - DE德国(www.lcr189.com)_1
-      - DE德国(www.lcr189.com)_2
-      - DE德国(www.lcr189.com)_3
-      - DE德国(www.lcr189.com)_4
-      - FR法国(www.lcr189.com)
-      - HK香港(www.lcr189.com)_1
-      - HK香港(www.lcr189.com)_2
-      - HK+香港(www.lcr189.com)
-      - HK香港(www.lcr189.com)_3
-      - ID印尼(www.lcr189.com)_1
-      - ID印尼(www.lcr189.com)_2
-      - ID印尼(www.lcr189.com)_3
-      - ID印尼(www.lcr189.com)_4
-      - ID印尼(www.lcr189.com)_5
-      - ID印尼(www.lcr189.com)_6
-      - ID印尼(www.lcr189.com)_7
-      - ID印尼(www.lcr189.com)_8
-      - ID印尼(www.lcr189.com)_9
-      - ID印尼(www.lcr189.com)_10
-      - IN印度(www.lcr189.com)
-      - JP日本(www.lcr189.com)_1
-      - JP日本(www.lcr189.com)_2
-      - JP+日本(www.lcr189.com)_1
-      - JP+日本(www.lcr189.com)_2
-      - JP日本(www.lcr189.com)_3
-      - JP日本(www.lcr189.com)_4
-      - KR韩国(www.lcr189.com)
-      - NL荷兰(www.lcr189.com)_1
-      - NL荷兰(www.lcr189.com)_2
-      - PL波兰(www.lcr189.com)_1
-      - PL波兰(www.lcr189.com)_2
-      - RU俄罗斯(www.lcr189.com)
-      - SG新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_3
-      - SG+新加坡(www.lcr189.com)_3
-      - SG+新加坡(www.lcr189.com)_4
-      - UK英国(www.lcr189.com)_1
-      - UK英国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_1
-      - US美国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_3
-      - US美国(www.lcr189.com)_4
-      - US美国(www.lcr189.com)_5
-      - US美国(www.lcr189.com)_6
-      - US美国(www.lcr189.com)_7
-      - US美国(www.lcr189.com)_8
-      - US美国(www.lcr189.com)_9
-      - US美国(www.lcr189.com)_10
-      - US美国(www.lcr189.com)_11
-      - US美国(www.lcr189.com)_12
-      - US美国(www.lcr189.com)_13
-      - US美国(www.lcr189.com)_14
-      - US美国(www.lcr189.com)_15
-      - US美国(www.lcr189.com)_16
-      - US美国(www.lcr189.com)_17
-      - US美国(www.lcr189.com)_18
-      - US美国(www.lcr189.com)_19
-      - US美国(www.lcr189.com)_20
-      - US美国(www.lcr189.com)_21
-      - US美国(www.lcr189.com)_22
-      - US美国(www.lcr189.com)_23
-      - US美国(www.lcr189.com)_24
-      - US美国(www.lcr189.com)_25
-      - US美国(www.lcr189.com)_26
-      - US美国(www.lcr189.com)_27
-      - US美国(www.lcr189.com)_28
-      - US美国(www.lcr189.com)_29
-      - US美国(www.lcr189.com)_30
-      - US美国(www.lcr189.com)_31
-      - US美国(www.lcr189.com)_32
-      - US+美国(www.lcr189.com)_1
-      - US+美国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_33
+      - default_name 2
+      - default_name 3
+      - _IR_伊朗->🇺🇸_US_美国
+      - _BZ_伯利兹->🇺🇸_US_美国
+      - _US_美国
+      - _SG_新加坡
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - CA加拿大(www.LCR189.COM)
+      - DE德国(www.LCR189.COM)_1
+      - DE德国(www.LCR189.COM)_2
+      - DE+德国(www.LCR189.COM)
+      - FR法国(www.LCR189.COM)_1
+      - FR法国(www.LCR189.COM)_2
+      - FR法国(www.LCR189.COM)_3
+      - HK香港(www.LCR189.COM)_1
+      - HK香港(www.LCR189.COM)_2
+      - HK香港(www.LCR189.COM)_3
+      - HK香港(www.LCR189.COM)_4
+      - HK香港(www.LCR189.COM)_5
+      - HK香港(www.LCR189.COM)_6
+      - HK香港(www.LCR189.COM)_7
+      - HK香港(www.LCR189.COM)_8
+      - HK香港(www.LCR189.COM)_9
+      - HK香港(www.LCR189.COM)_10
+      - HK香港(www.LCR189.COM)_11
+      - HK香港(www.LCR189.COM)_12
+      - HK香港(www.LCR189.COM)_13
+      - HK+香港(www.LCR189.COM)
+      - ID印尼(www.LCR189.COM)_1
+      - IN印度(www.LCR189.COM)
+      - JP日本(www.LCR189.COM)_1
+      - JP日本(www.LCR189.COM)_2
+      - JP日本(www.LCR189.COM)_3
+      - JP日本(www.LCR189.COM)_4
+      - JP日本(www.LCR189.COM)_5
+      - JP日本(www.LCR189.COM)_6
+      - JP日本(www.LCR189.COM)_7
+      - JP+日本(www.LCR189.COM)
+      - JP日本(www.LCR189.COM)_8
+      - KR韩国(www.LCR189.COM)_1
+      - KR+韩国(www.LCR189.COM)_2
+      - KR+韩国(www.LCR189.COM)_3
+      - KR+韩国(www.LCR189.COM)_4
+      - KR韩国(www.LCR189.COM)_2
+      - KR+韩国(www.LCR189.COM)_5
+      - NL荷兰(www.LCR189.COM)_1
+      - NL荷兰(www.LCR189.COM)_2
+      - NL荷兰(www.LCR189.COM)_3
+      - SG新加坡(www.LCR189.COM)_1
+      - SG新加坡(www.LCR189.COM)_2
+      - SG新加坡(www.LCR189.COM)_3
+      - SG新加坡(www.LCR189.COM)_4
+      - SG新加坡(www.LCR189.COM)_5
+      - SG新加坡(www.LCR189.COM)_7
+      - SG新加坡(www.LCR189.COM)_8
+      - SG新加坡(www.LCR189.COM)_9
+      - TW台湾(www.LCR189.COM)
+      - TW+台湾(www.LCR189.COM)
+      - UK英国(www.LCR189.COM)_1
+      - UK+英国(www.LCR189.COM)
+      - UK英国(www.LCR189.COM)_2
+      - US美国(www.LCR189.COM)_1
+      - US美国(www.LCR189.COM)_2
+      - US美国(www.LCR189.COM)_3
+      - US美国(www.LCR189.COM)_4
+      - US美国(www.LCR189.COM)_5
+      - US美国(www.LCR189.COM)_6
+      - US美国(www.LCR189.COM)_7
+      - US美国(www.LCR189.COM)_8
+      - US美国(www.LCR189.COM)_9
+      - US美国(www.LCR189.COM)_10
+      - US美国(www.LCR189.COM)_11
+      - US美国(www.LCR189.COM)_12
+      - US+美国(www.LCR189.COM)_1
+      - US美国(www.LCR189.COM)_13
+      - US+美国(www.LCR189.COM)_2
+      - US美国(www.LCR189.COM)_14
+      - US+美国(www.LCR189.COM)_3
+      - US美国(www.LCR189.COM)_15
+      - _CN_中国->🇷🇺_RU_俄罗斯联邦
+      - _AM_亚美尼亚->🇺🇸_US_美国
       - default_name
-      - default_name 2
-      - _US_美国
-      - _NL_荷兰
-      - _JP_日本
-      - _DE_德国
-      - _US_美国 2
-      - _US_美国->🇫🇷_FR_法国
-      - _JP_日本 2
-      - _SG_新加坡
-      - _SG_新加坡 2
-      - _JP_日本 3
-      - _FR_法国
-      - _US_美国 3
-      - default_name 3
-      - _IN_印度
-      - _FR_法国 2
-      - _FR_法国 3
-      - _NL_荷兰 2
-      - _HK_香港
       - _US_美国->🇩🇪_DE_德国
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _NL_荷兰 3
-      - _HK_香港 2
-      - _FR_法国 4
-      - default_name 4
-      - _US_美国 8
-      - _TW_台湾
-      - _FR_法国 5
-      - AU澳大利亚(www.lcr189.com)
-      - CA+加拿大(www.lcr189.com)_2
-      - CA+加拿大(www.lcr189.com)_3
-      - DE德国(www.lcr189.com)_1
-      - DE德国(www.lcr189.com)_2
-      - DE德国(www.lcr189.com)_3
-      - DE德国(www.lcr189.com)_4
-      - FR法国(www.lcr189.com)
-      - HK香港(www.lcr189.com)_1
-      - HK香港(www.lcr189.com)_2
-      - HK+香港(www.lcr189.com)
-      - HK香港(www.lcr189.com)_3
-      - ID印尼(www.lcr189.com)_1
-      - ID印尼(www.lcr189.com)_2
-      - ID印尼(www.lcr189.com)_3
-      - ID印尼(www.lcr189.com)_4
-      - ID印尼(www.lcr189.com)_5
-      - ID印尼(www.lcr189.com)_6
-      - ID印尼(www.lcr189.com)_7
-      - ID印尼(www.lcr189.com)_8
-      - ID印尼(www.lcr189.com)_9
-      - ID印尼(www.lcr189.com)_10
-      - IN印度(www.lcr189.com)
-      - JP日本(www.lcr189.com)_1
-      - JP日本(www.lcr189.com)_2
-      - JP+日本(www.lcr189.com)_1
-      - JP+日本(www.lcr189.com)_2
-      - JP日本(www.lcr189.com)_3
-      - JP日本(www.lcr189.com)_4
-      - KR韩国(www.lcr189.com)
-      - NL荷兰(www.lcr189.com)_1
-      - NL荷兰(www.lcr189.com)_2
-      - PL波兰(www.lcr189.com)_1
-      - PL波兰(www.lcr189.com)_2
-      - RU俄罗斯(www.lcr189.com)
-      - SG新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_3
-      - SG+新加坡(www.lcr189.com)_3
-      - SG+新加坡(www.lcr189.com)_4
-      - UK英国(www.lcr189.com)_1
-      - UK英国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_1
-      - US美国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_3
-      - US美国(www.lcr189.com)_4
-      - US美国(www.lcr189.com)_5
-      - US美国(www.lcr189.com)_6
-      - US美国(www.lcr189.com)_7
-      - US美国(www.lcr189.com)_8
-      - US美国(www.lcr189.com)_9
-      - US美国(www.lcr189.com)_10
-      - US美国(www.lcr189.com)_11
-      - US美国(www.lcr189.com)_12
-      - US美国(www.lcr189.com)_13
-      - US美国(www.lcr189.com)_14
-      - US美国(www.lcr189.com)_15
-      - US美国(www.lcr189.com)_16
-      - US美国(www.lcr189.com)_17
-      - US美国(www.lcr189.com)_18
-      - US美国(www.lcr189.com)_19
-      - US美国(www.lcr189.com)_20
-      - US美国(www.lcr189.com)_21
-      - US美国(www.lcr189.com)_22
-      - US美国(www.lcr189.com)_23
-      - US美国(www.lcr189.com)_24
-      - US美国(www.lcr189.com)_25
-      - US美国(www.lcr189.com)_26
-      - US美国(www.lcr189.com)_27
-      - US美国(www.lcr189.com)_28
-      - US美国(www.lcr189.com)_29
-      - US美国(www.lcr189.com)_30
-      - US美国(www.lcr189.com)_31
-      - US美国(www.lcr189.com)_32
-      - US+美国(www.lcr189.com)_1
-      - US+美国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_33
+      - default_name 2
+      - default_name 3
+      - _IR_伊朗->🇺🇸_US_美国
+      - _BZ_伯利兹->🇺🇸_US_美国
+      - _US_美国
+      - _SG_新加坡
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - CA加拿大(www.LCR189.COM)
+      - DE德国(www.LCR189.COM)_1
+      - DE德国(www.LCR189.COM)_2
+      - DE+德国(www.LCR189.COM)
+      - FR法国(www.LCR189.COM)_1
+      - FR法国(www.LCR189.COM)_2
+      - FR法国(www.LCR189.COM)_3
+      - HK香港(www.LCR189.COM)_1
+      - HK香港(www.LCR189.COM)_2
+      - HK香港(www.LCR189.COM)_3
+      - HK香港(www.LCR189.COM)_4
+      - HK香港(www.LCR189.COM)_5
+      - HK香港(www.LCR189.COM)_6
+      - HK香港(www.LCR189.COM)_7
+      - HK香港(www.LCR189.COM)_8
+      - HK香港(www.LCR189.COM)_9
+      - HK香港(www.LCR189.COM)_10
+      - HK香港(www.LCR189.COM)_11
+      - HK香港(www.LCR189.COM)_12
+      - HK香港(www.LCR189.COM)_13
+      - HK+香港(www.LCR189.COM)
+      - ID印尼(www.LCR189.COM)_1
+      - IN印度(www.LCR189.COM)
+      - JP日本(www.LCR189.COM)_1
+      - JP日本(www.LCR189.COM)_2
+      - JP日本(www.LCR189.COM)_3
+      - JP日本(www.LCR189.COM)_4
+      - JP日本(www.LCR189.COM)_5
+      - JP日本(www.LCR189.COM)_6
+      - JP日本(www.LCR189.COM)_7
+      - JP+日本(www.LCR189.COM)
+      - JP日本(www.LCR189.COM)_8
+      - KR韩国(www.LCR189.COM)_1
+      - KR+韩国(www.LCR189.COM)_2
+      - KR+韩国(www.LCR189.COM)_3
+      - KR+韩国(www.LCR189.COM)_4
+      - KR韩国(www.LCR189.COM)_2
+      - KR+韩国(www.LCR189.COM)_5
+      - NL荷兰(www.LCR189.COM)_1
+      - NL荷兰(www.LCR189.COM)_2
+      - NL荷兰(www.LCR189.COM)_3
+      - SG新加坡(www.LCR189.COM)_1
+      - SG新加坡(www.LCR189.COM)_2
+      - SG新加坡(www.LCR189.COM)_3
+      - SG新加坡(www.LCR189.COM)_4
+      - SG新加坡(www.LCR189.COM)_5
+      - SG新加坡(www.LCR189.COM)_7
+      - SG新加坡(www.LCR189.COM)_8
+      - SG新加坡(www.LCR189.COM)_9
+      - TW台湾(www.LCR189.COM)
+      - TW+台湾(www.LCR189.COM)
+      - UK英国(www.LCR189.COM)_1
+      - UK+英国(www.LCR189.COM)
+      - UK英国(www.LCR189.COM)_2
+      - US美国(www.LCR189.COM)_1
+      - US美国(www.LCR189.COM)_2
+      - US美国(www.LCR189.COM)_3
+      - US美国(www.LCR189.COM)_4
+      - US美国(www.LCR189.COM)_5
+      - US美国(www.LCR189.COM)_6
+      - US美国(www.LCR189.COM)_7
+      - US美国(www.LCR189.COM)_8
+      - US美国(www.LCR189.COM)_9
+      - US美国(www.LCR189.COM)_10
+      - US美国(www.LCR189.COM)_11
+      - US美国(www.LCR189.COM)_12
+      - US+美国(www.LCR189.COM)_1
+      - US美国(www.LCR189.COM)_13
+      - US+美国(www.LCR189.COM)_2
+      - US美国(www.LCR189.COM)_14
+      - US+美国(www.LCR189.COM)_3
+      - US美国(www.LCR189.COM)_15
+      - _CN_中国->🇷🇺_RU_俄罗斯联邦
+      - _AM_亚美尼亚->🇺🇸_US_美国
       - default_name
-      - default_name 2
-      - _US_美国
-      - _NL_荷兰
-      - _JP_日本
-      - _DE_德国
-      - _US_美国 2
-      - _US_美国->🇫🇷_FR_法国
-      - _JP_日本 2
-      - _SG_新加坡
-      - _SG_新加坡 2
-      - _JP_日本 3
-      - _FR_法国
-      - _US_美国 3
-      - default_name 3
-      - _IN_印度
-      - _FR_法国 2
-      - _FR_法国 3
-      - _NL_荷兰 2
-      - _HK_香港
       - _US_美国->🇩🇪_DE_德国
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _NL_荷兰 3
-      - _HK_香港 2
-      - _FR_法国 4
-      - default_name 4
-      - _US_美国 8
-      - _TW_台湾
-      - _FR_法国 5
-      - AU澳大利亚(www.lcr189.com)
-      - CA+加拿大(www.lcr189.com)_2
-      - CA+加拿大(www.lcr189.com)_3
-      - DE德国(www.lcr189.com)_1
-      - DE德国(www.lcr189.com)_2
-      - DE德国(www.lcr189.com)_3
-      - DE德国(www.lcr189.com)_4
-      - FR法国(www.lcr189.com)
-      - HK香港(www.lcr189.com)_1
-      - HK香港(www.lcr189.com)_2
-      - HK+香港(www.lcr189.com)
-      - HK香港(www.lcr189.com)_3
-      - ID印尼(www.lcr189.com)_1
-      - ID印尼(www.lcr189.com)_2
-      - ID印尼(www.lcr189.com)_3
-      - ID印尼(www.lcr189.com)_4
-      - ID印尼(www.lcr189.com)_5
-      - ID印尼(www.lcr189.com)_6
-      - ID印尼(www.lcr189.com)_7
-      - ID印尼(www.lcr189.com)_8
-      - ID印尼(www.lcr189.com)_9
-      - ID印尼(www.lcr189.com)_10
-      - IN印度(www.lcr189.com)
-      - JP日本(www.lcr189.com)_1
-      - JP日本(www.lcr189.com)_2
-      - JP+日本(www.lcr189.com)_1
-      - JP+日本(www.lcr189.com)_2
-      - JP日本(www.lcr189.com)_3
-      - JP日本(www.lcr189.com)_4
-      - KR韩国(www.lcr189.com)
-      - NL荷兰(www.lcr189.com)_1
-      - NL荷兰(www.lcr189.com)_2
-      - PL波兰(www.lcr189.com)_1
-      - PL波兰(www.lcr189.com)_2
-      - RU俄罗斯(www.lcr189.com)
-      - SG新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_3
-      - SG+新加坡(www.lcr189.com)_3
-      - SG+新加坡(www.lcr189.com)_4
-      - UK英国(www.lcr189.com)_1
-      - UK英国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_1
-      - US美国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_3
-      - US美国(www.lcr189.com)_4
-      - US美国(www.lcr189.com)_5
-      - US美国(www.lcr189.com)_6
-      - US美国(www.lcr189.com)_7
-      - US美国(www.lcr189.com)_8
-      - US美国(www.lcr189.com)_9
-      - US美国(www.lcr189.com)_10
-      - US美国(www.lcr189.com)_11
-      - US美国(www.lcr189.com)_12
-      - US美国(www.lcr189.com)_13
-      - US美国(www.lcr189.com)_14
-      - US美国(www.lcr189.com)_15
-      - US美国(www.lcr189.com)_16
-      - US美国(www.lcr189.com)_17
-      - US美国(www.lcr189.com)_18
-      - US美国(www.lcr189.com)_19
-      - US美国(www.lcr189.com)_20
-      - US美国(www.lcr189.com)_21
-      - US美国(www.lcr189.com)_22
-      - US美国(www.lcr189.com)_23
-      - US美国(www.lcr189.com)_24
-      - US美国(www.lcr189.com)_25
-      - US美国(www.lcr189.com)_26
-      - US美国(www.lcr189.com)_27
-      - US美国(www.lcr189.com)_28
-      - US美国(www.lcr189.com)_29
-      - US美国(www.lcr189.com)_30
-      - US美国(www.lcr189.com)_31
-      - US美国(www.lcr189.com)_32
-      - US+美国(www.lcr189.com)_1
-      - US+美国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_33
+      - default_name 2
+      - default_name 3
+      - _IR_伊朗->🇺🇸_US_美国
+      - _BZ_伯利兹->🇺🇸_US_美国
+      - _US_美国
+      - _SG_新加坡
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -484,478 +368,371 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - CA加拿大(www.LCR189.COM)
+      - DE德国(www.LCR189.COM)_1
+      - DE德国(www.LCR189.COM)_2
+      - DE+德国(www.LCR189.COM)
+      - FR法国(www.LCR189.COM)_1
+      - FR法国(www.LCR189.COM)_2
+      - FR法国(www.LCR189.COM)_3
+      - HK香港(www.LCR189.COM)_1
+      - HK香港(www.LCR189.COM)_2
+      - HK香港(www.LCR189.COM)_3
+      - HK香港(www.LCR189.COM)_4
+      - HK香港(www.LCR189.COM)_5
+      - HK香港(www.LCR189.COM)_6
+      - HK香港(www.LCR189.COM)_7
+      - HK香港(www.LCR189.COM)_8
+      - HK香港(www.LCR189.COM)_9
+      - HK香港(www.LCR189.COM)_10
+      - HK香港(www.LCR189.COM)_11
+      - HK香港(www.LCR189.COM)_12
+      - HK香港(www.LCR189.COM)_13
+      - HK+香港(www.LCR189.COM)
+      - ID印尼(www.LCR189.COM)_1
+      - IN印度(www.LCR189.COM)
+      - JP日本(www.LCR189.COM)_1
+      - JP日本(www.LCR189.COM)_2
+      - JP日本(www.LCR189.COM)_3
+      - JP日本(www.LCR189.COM)_4
+      - JP日本(www.LCR189.COM)_5
+      - JP日本(www.LCR189.COM)_6
+      - JP日本(www.LCR189.COM)_7
+      - JP+日本(www.LCR189.COM)
+      - JP日本(www.LCR189.COM)_8
+      - KR韩国(www.LCR189.COM)_1
+      - KR+韩国(www.LCR189.COM)_2
+      - KR+韩国(www.LCR189.COM)_3
+      - KR+韩国(www.LCR189.COM)_4
+      - KR韩国(www.LCR189.COM)_2
+      - KR+韩国(www.LCR189.COM)_5
+      - NL荷兰(www.LCR189.COM)_1
+      - NL荷兰(www.LCR189.COM)_2
+      - NL荷兰(www.LCR189.COM)_3
+      - SG新加坡(www.LCR189.COM)_1
+      - SG新加坡(www.LCR189.COM)_2
+      - SG新加坡(www.LCR189.COM)_3
+      - SG新加坡(www.LCR189.COM)_4
+      - SG新加坡(www.LCR189.COM)_5
+      - SG新加坡(www.LCR189.COM)_7
+      - SG新加坡(www.LCR189.COM)_8
+      - SG新加坡(www.LCR189.COM)_9
+      - TW台湾(www.LCR189.COM)
+      - TW+台湾(www.LCR189.COM)
+      - UK英国(www.LCR189.COM)_1
+      - UK+英国(www.LCR189.COM)
+      - UK英国(www.LCR189.COM)_2
+      - US美国(www.LCR189.COM)_1
+      - US美国(www.LCR189.COM)_2
+      - US美国(www.LCR189.COM)_3
+      - US美国(www.LCR189.COM)_4
+      - US美国(www.LCR189.COM)_5
+      - US美国(www.LCR189.COM)_6
+      - US美国(www.LCR189.COM)_7
+      - US美国(www.LCR189.COM)_8
+      - US美国(www.LCR189.COM)_9
+      - US美国(www.LCR189.COM)_10
+      - US美国(www.LCR189.COM)_11
+      - US美国(www.LCR189.COM)_12
+      - US+美国(www.LCR189.COM)_1
+      - US美国(www.LCR189.COM)_13
+      - US+美国(www.LCR189.COM)_2
+      - US美国(www.LCR189.COM)_14
+      - US+美国(www.LCR189.COM)_3
+      - US美国(www.LCR189.COM)_15
+      - _CN_中国->🇷🇺_RU_俄罗斯联邦
+      - _AM_亚美尼亚->🇺🇸_US_美国
       - default_name
-      - default_name 2
-      - _US_美国
-      - _NL_荷兰
-      - _JP_日本
-      - _DE_德国
-      - _US_美国 2
-      - _US_美国->🇫🇷_FR_法国
-      - _JP_日本 2
-      - _SG_新加坡
-      - _SG_新加坡 2
-      - _JP_日本 3
-      - _FR_法国
-      - _US_美国 3
-      - default_name 3
-      - _IN_印度
-      - _FR_法国 2
-      - _FR_法国 3
-      - _NL_荷兰 2
-      - _HK_香港
       - _US_美国->🇩🇪_DE_德国
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _NL_荷兰 3
-      - _HK_香港 2
-      - _FR_法国 4
-      - default_name 4
-      - _US_美国 8
-      - _TW_台湾
-      - _FR_法国 5
-      - AU澳大利亚(www.lcr189.com)
-      - CA+加拿大(www.lcr189.com)_2
-      - CA+加拿大(www.lcr189.com)_3
-      - DE德国(www.lcr189.com)_1
-      - DE德国(www.lcr189.com)_2
-      - DE德国(www.lcr189.com)_3
-      - DE德国(www.lcr189.com)_4
-      - FR法国(www.lcr189.com)
-      - HK香港(www.lcr189.com)_1
-      - HK香港(www.lcr189.com)_2
-      - HK+香港(www.lcr189.com)
-      - HK香港(www.lcr189.com)_3
-      - ID印尼(www.lcr189.com)_1
-      - ID印尼(www.lcr189.com)_2
-      - ID印尼(www.lcr189.com)_3
-      - ID印尼(www.lcr189.com)_4
-      - ID印尼(www.lcr189.com)_5
-      - ID印尼(www.lcr189.com)_6
-      - ID印尼(www.lcr189.com)_7
-      - ID印尼(www.lcr189.com)_8
-      - ID印尼(www.lcr189.com)_9
-      - ID印尼(www.lcr189.com)_10
-      - IN印度(www.lcr189.com)
-      - JP日本(www.lcr189.com)_1
-      - JP日本(www.lcr189.com)_2
-      - JP+日本(www.lcr189.com)_1
-      - JP+日本(www.lcr189.com)_2
-      - JP日本(www.lcr189.com)_3
-      - JP日本(www.lcr189.com)_4
-      - KR韩国(www.lcr189.com)
-      - NL荷兰(www.lcr189.com)_1
-      - NL荷兰(www.lcr189.com)_2
-      - PL波兰(www.lcr189.com)_1
-      - PL波兰(www.lcr189.com)_2
-      - RU俄罗斯(www.lcr189.com)
-      - SG新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_3
-      - SG+新加坡(www.lcr189.com)_3
-      - SG+新加坡(www.lcr189.com)_4
-      - UK英国(www.lcr189.com)_1
-      - UK英国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_1
-      - US美国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_3
-      - US美国(www.lcr189.com)_4
-      - US美国(www.lcr189.com)_5
-      - US美国(www.lcr189.com)_6
-      - US美国(www.lcr189.com)_7
-      - US美国(www.lcr189.com)_8
-      - US美国(www.lcr189.com)_9
-      - US美国(www.lcr189.com)_10
-      - US美国(www.lcr189.com)_11
-      - US美国(www.lcr189.com)_12
-      - US美国(www.lcr189.com)_13
-      - US美国(www.lcr189.com)_14
-      - US美国(www.lcr189.com)_15
-      - US美国(www.lcr189.com)_16
-      - US美国(www.lcr189.com)_17
-      - US美国(www.lcr189.com)_18
-      - US美国(www.lcr189.com)_19
-      - US美国(www.lcr189.com)_20
-      - US美国(www.lcr189.com)_21
-      - US美国(www.lcr189.com)_22
-      - US美国(www.lcr189.com)_23
-      - US美国(www.lcr189.com)_24
-      - US美国(www.lcr189.com)_25
-      - US美国(www.lcr189.com)_26
-      - US美国(www.lcr189.com)_27
-      - US美国(www.lcr189.com)_28
-      - US美国(www.lcr189.com)_29
-      - US美国(www.lcr189.com)_30
-      - US美国(www.lcr189.com)_31
-      - US美国(www.lcr189.com)_32
-      - US+美国(www.lcr189.com)_1
-      - US+美国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_33
+      - default_name 2
+      - default_name 3
+      - _IR_伊朗->🇺🇸_US_美国
+      - _BZ_伯利兹->🇺🇸_US_美国
+      - _US_美国
+      - _SG_新加坡
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - _HK_香港
-      - _HK_香港 2
-      - _TW_台湾
-      - HK香港(www.lcr189.com)_1
-      - HK香港(www.lcr189.com)_2
-      - HK+香港(www.lcr189.com)
-      - HK香港(www.lcr189.com)_3
+      - HK香港(www.LCR189.COM)_1
+      - HK香港(www.LCR189.COM)_2
+      - HK香港(www.LCR189.COM)_3
+      - HK香港(www.LCR189.COM)_4
+      - HK香港(www.LCR189.COM)_5
+      - HK香港(www.LCR189.COM)_6
+      - HK香港(www.LCR189.COM)_7
+      - HK香港(www.LCR189.COM)_8
+      - HK香港(www.LCR189.COM)_9
+      - HK香港(www.LCR189.COM)_10
+      - HK香港(www.LCR189.COM)_11
+      - HK香港(www.LCR189.COM)_12
+      - HK香港(www.LCR189.COM)_13
+      - HK+香港(www.LCR189.COM)
+      - TW台湾(www.LCR189.COM)
+      - TW+台湾(www.LCR189.COM)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - CA加拿大(www.LCR189.COM)
+      - DE德国(www.LCR189.COM)_1
+      - DE德国(www.LCR189.COM)_2
+      - DE+德国(www.LCR189.COM)
+      - FR法国(www.LCR189.COM)_1
+      - FR法国(www.LCR189.COM)_2
+      - FR法国(www.LCR189.COM)_3
+      - HK香港(www.LCR189.COM)_1
+      - HK香港(www.LCR189.COM)_2
+      - HK香港(www.LCR189.COM)_3
+      - HK香港(www.LCR189.COM)_4
+      - HK香港(www.LCR189.COM)_5
+      - HK香港(www.LCR189.COM)_6
+      - HK香港(www.LCR189.COM)_7
+      - HK香港(www.LCR189.COM)_8
+      - HK香港(www.LCR189.COM)_9
+      - HK香港(www.LCR189.COM)_10
+      - HK香港(www.LCR189.COM)_11
+      - HK香港(www.LCR189.COM)_12
+      - HK香港(www.LCR189.COM)_13
+      - HK+香港(www.LCR189.COM)
+      - ID印尼(www.LCR189.COM)_1
+      - IN印度(www.LCR189.COM)
+      - JP日本(www.LCR189.COM)_1
+      - JP日本(www.LCR189.COM)_2
+      - JP日本(www.LCR189.COM)_3
+      - JP日本(www.LCR189.COM)_4
+      - JP日本(www.LCR189.COM)_5
+      - JP日本(www.LCR189.COM)_6
+      - JP日本(www.LCR189.COM)_7
+      - JP+日本(www.LCR189.COM)
+      - JP日本(www.LCR189.COM)_8
+      - KR韩国(www.LCR189.COM)_1
+      - KR+韩国(www.LCR189.COM)_2
+      - KR+韩国(www.LCR189.COM)_3
+      - KR+韩国(www.LCR189.COM)_4
+      - KR韩国(www.LCR189.COM)_2
+      - KR+韩国(www.LCR189.COM)_5
+      - NL荷兰(www.LCR189.COM)_1
+      - NL荷兰(www.LCR189.COM)_2
+      - NL荷兰(www.LCR189.COM)_3
+      - SG新加坡(www.LCR189.COM)_1
+      - SG新加坡(www.LCR189.COM)_2
+      - SG新加坡(www.LCR189.COM)_3
+      - SG新加坡(www.LCR189.COM)_4
+      - SG新加坡(www.LCR189.COM)_5
+      - SG新加坡(www.LCR189.COM)_7
+      - SG新加坡(www.LCR189.COM)_8
+      - SG新加坡(www.LCR189.COM)_9
+      - TW台湾(www.LCR189.COM)
+      - TW+台湾(www.LCR189.COM)
+      - UK英国(www.LCR189.COM)_1
+      - UK+英国(www.LCR189.COM)
+      - UK英国(www.LCR189.COM)_2
+      - US美国(www.LCR189.COM)_1
+      - US美国(www.LCR189.COM)_2
+      - US美国(www.LCR189.COM)_3
+      - US美国(www.LCR189.COM)_4
+      - US美国(www.LCR189.COM)_5
+      - US美国(www.LCR189.COM)_6
+      - US美国(www.LCR189.COM)_7
+      - US美国(www.LCR189.COM)_8
+      - US美国(www.LCR189.COM)_9
+      - US美国(www.LCR189.COM)_10
+      - US美国(www.LCR189.COM)_11
+      - US美国(www.LCR189.COM)_12
+      - US+美国(www.LCR189.COM)_1
+      - US美国(www.LCR189.COM)_13
+      - US+美国(www.LCR189.COM)_2
+      - US美国(www.LCR189.COM)_14
+      - US+美国(www.LCR189.COM)_3
+      - US美国(www.LCR189.COM)_15
+      - _CN_中国->🇷🇺_RU_俄罗斯联邦
+      - _AM_亚美尼亚->🇺🇸_US_美国
       - default_name
-      - default_name 2
-      - _US_美国
-      - _NL_荷兰
-      - _JP_日本
-      - _DE_德国
-      - _US_美国 2
-      - _US_美国->🇫🇷_FR_法国
-      - _JP_日本 2
-      - _SG_新加坡
-      - _SG_新加坡 2
-      - _JP_日本 3
-      - _FR_法国
-      - _US_美国 3
-      - default_name 3
-      - _IN_印度
-      - _FR_法国 2
-      - _FR_法国 3
-      - _NL_荷兰 2
-      - _HK_香港
       - _US_美国->🇩🇪_DE_德国
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _NL_荷兰 3
-      - _HK_香港 2
-      - _FR_法国 4
-      - default_name 4
-      - _US_美国 8
-      - _TW_台湾
-      - _FR_法国 5
-      - AU澳大利亚(www.lcr189.com)
-      - CA+加拿大(www.lcr189.com)_2
-      - CA+加拿大(www.lcr189.com)_3
-      - DE德国(www.lcr189.com)_1
-      - DE德国(www.lcr189.com)_2
-      - DE德国(www.lcr189.com)_3
-      - DE德国(www.lcr189.com)_4
-      - FR法国(www.lcr189.com)
-      - HK香港(www.lcr189.com)_1
-      - HK香港(www.lcr189.com)_2
-      - HK+香港(www.lcr189.com)
-      - HK香港(www.lcr189.com)_3
-      - ID印尼(www.lcr189.com)_1
-      - ID印尼(www.lcr189.com)_2
-      - ID印尼(www.lcr189.com)_3
-      - ID印尼(www.lcr189.com)_4
-      - ID印尼(www.lcr189.com)_5
-      - ID印尼(www.lcr189.com)_6
-      - ID印尼(www.lcr189.com)_7
-      - ID印尼(www.lcr189.com)_8
-      - ID印尼(www.lcr189.com)_9
-      - ID印尼(www.lcr189.com)_10
-      - IN印度(www.lcr189.com)
-      - JP日本(www.lcr189.com)_1
-      - JP日本(www.lcr189.com)_2
-      - JP+日本(www.lcr189.com)_1
-      - JP+日本(www.lcr189.com)_2
-      - JP日本(www.lcr189.com)_3
-      - JP日本(www.lcr189.com)_4
-      - KR韩国(www.lcr189.com)
-      - NL荷兰(www.lcr189.com)_1
-      - NL荷兰(www.lcr189.com)_2
-      - PL波兰(www.lcr189.com)_1
-      - PL波兰(www.lcr189.com)_2
-      - RU俄罗斯(www.lcr189.com)
-      - SG新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_3
-      - SG+新加坡(www.lcr189.com)_3
-      - SG+新加坡(www.lcr189.com)_4
-      - UK英国(www.lcr189.com)_1
-      - UK英国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_1
-      - US美国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_3
-      - US美国(www.lcr189.com)_4
-      - US美国(www.lcr189.com)_5
-      - US美国(www.lcr189.com)_6
-      - US美国(www.lcr189.com)_7
-      - US美国(www.lcr189.com)_8
-      - US美国(www.lcr189.com)_9
-      - US美国(www.lcr189.com)_10
-      - US美国(www.lcr189.com)_11
-      - US美国(www.lcr189.com)_12
-      - US美国(www.lcr189.com)_13
-      - US美国(www.lcr189.com)_14
-      - US美国(www.lcr189.com)_15
-      - US美国(www.lcr189.com)_16
-      - US美国(www.lcr189.com)_17
-      - US美国(www.lcr189.com)_18
-      - US美国(www.lcr189.com)_19
-      - US美国(www.lcr189.com)_20
-      - US美国(www.lcr189.com)_21
-      - US美国(www.lcr189.com)_22
-      - US美国(www.lcr189.com)_23
-      - US美国(www.lcr189.com)_24
-      - US美国(www.lcr189.com)_25
-      - US美国(www.lcr189.com)_26
-      - US美国(www.lcr189.com)_27
-      - US美国(www.lcr189.com)_28
-      - US美国(www.lcr189.com)_29
-      - US美国(www.lcr189.com)_30
-      - US美国(www.lcr189.com)_31
-      - US美国(www.lcr189.com)_32
-      - US+美国(www.lcr189.com)_1
-      - US+美国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_33
+      - default_name 2
+      - default_name 3
+      - _IR_伊朗->🇺🇸_US_美国
+      - _BZ_伯利兹->🇺🇸_US_美国
+      - _US_美国
+      - _SG_新加坡
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - CA加拿大(www.LCR189.COM)
+      - DE德国(www.LCR189.COM)_1
+      - DE德国(www.LCR189.COM)_2
+      - DE+德国(www.LCR189.COM)
+      - FR法国(www.LCR189.COM)_1
+      - FR法国(www.LCR189.COM)_2
+      - FR法国(www.LCR189.COM)_3
+      - HK香港(www.LCR189.COM)_1
+      - HK香港(www.LCR189.COM)_2
+      - HK香港(www.LCR189.COM)_3
+      - HK香港(www.LCR189.COM)_4
+      - HK香港(www.LCR189.COM)_5
+      - HK香港(www.LCR189.COM)_6
+      - HK香港(www.LCR189.COM)_7
+      - HK香港(www.LCR189.COM)_8
+      - HK香港(www.LCR189.COM)_9
+      - HK香港(www.LCR189.COM)_10
+      - HK香港(www.LCR189.COM)_11
+      - HK香港(www.LCR189.COM)_12
+      - HK香港(www.LCR189.COM)_13
+      - HK+香港(www.LCR189.COM)
+      - ID印尼(www.LCR189.COM)_1
+      - IN印度(www.LCR189.COM)
+      - JP日本(www.LCR189.COM)_1
+      - JP日本(www.LCR189.COM)_2
+      - JP日本(www.LCR189.COM)_3
+      - JP日本(www.LCR189.COM)_4
+      - JP日本(www.LCR189.COM)_5
+      - JP日本(www.LCR189.COM)_6
+      - JP日本(www.LCR189.COM)_7
+      - JP+日本(www.LCR189.COM)
+      - JP日本(www.LCR189.COM)_8
+      - KR韩国(www.LCR189.COM)_1
+      - KR+韩国(www.LCR189.COM)_2
+      - KR+韩国(www.LCR189.COM)_3
+      - KR+韩国(www.LCR189.COM)_4
+      - KR韩国(www.LCR189.COM)_2
+      - KR+韩国(www.LCR189.COM)_5
+      - NL荷兰(www.LCR189.COM)_1
+      - NL荷兰(www.LCR189.COM)_2
+      - NL荷兰(www.LCR189.COM)_3
+      - SG新加坡(www.LCR189.COM)_1
+      - SG新加坡(www.LCR189.COM)_2
+      - SG新加坡(www.LCR189.COM)_3
+      - SG新加坡(www.LCR189.COM)_4
+      - SG新加坡(www.LCR189.COM)_5
+      - SG新加坡(www.LCR189.COM)_7
+      - SG新加坡(www.LCR189.COM)_8
+      - SG新加坡(www.LCR189.COM)_9
+      - TW台湾(www.LCR189.COM)
+      - TW+台湾(www.LCR189.COM)
+      - UK英国(www.LCR189.COM)_1
+      - UK+英国(www.LCR189.COM)
+      - UK英国(www.LCR189.COM)_2
+      - US美国(www.LCR189.COM)_1
+      - US美国(www.LCR189.COM)_2
+      - US美国(www.LCR189.COM)_3
+      - US美国(www.LCR189.COM)_4
+      - US美国(www.LCR189.COM)_5
+      - US美国(www.LCR189.COM)_6
+      - US美国(www.LCR189.COM)_7
+      - US美国(www.LCR189.COM)_8
+      - US美国(www.LCR189.COM)_9
+      - US美国(www.LCR189.COM)_10
+      - US美国(www.LCR189.COM)_11
+      - US美国(www.LCR189.COM)_12
+      - US+美国(www.LCR189.COM)_1
+      - US美国(www.LCR189.COM)_13
+      - US+美国(www.LCR189.COM)_2
+      - US美国(www.LCR189.COM)_14
+      - US+美国(www.LCR189.COM)_3
+      - US美国(www.LCR189.COM)_15
+      - _CN_中国->🇷🇺_RU_俄罗斯联邦
+      - _AM_亚美尼亚->🇺🇸_US_美国
       - default_name
-      - default_name 2
-      - _US_美国
-      - _NL_荷兰
-      - _JP_日本
-      - _DE_德国
-      - _US_美国 2
-      - _US_美国->🇫🇷_FR_法国
-      - _JP_日本 2
-      - _SG_新加坡
-      - _SG_新加坡 2
-      - _JP_日本 3
-      - _FR_法国
-      - _US_美国 3
-      - default_name 3
-      - _IN_印度
-      - _FR_法国 2
-      - _FR_法国 3
-      - _NL_荷兰 2
-      - _HK_香港
       - _US_美国->🇩🇪_DE_德国
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _NL_荷兰 3
-      - _HK_香港 2
-      - _FR_法国 4
-      - default_name 4
-      - _US_美国 8
-      - _TW_台湾
-      - _FR_法国 5
-      - AU澳大利亚(www.lcr189.com)
-      - CA+加拿大(www.lcr189.com)_2
-      - CA+加拿大(www.lcr189.com)_3
-      - DE德国(www.lcr189.com)_1
-      - DE德国(www.lcr189.com)_2
-      - DE德国(www.lcr189.com)_3
-      - DE德国(www.lcr189.com)_4
-      - FR法国(www.lcr189.com)
-      - HK香港(www.lcr189.com)_1
-      - HK香港(www.lcr189.com)_2
-      - HK+香港(www.lcr189.com)
-      - HK香港(www.lcr189.com)_3
-      - ID印尼(www.lcr189.com)_1
-      - ID印尼(www.lcr189.com)_2
-      - ID印尼(www.lcr189.com)_3
-      - ID印尼(www.lcr189.com)_4
-      - ID印尼(www.lcr189.com)_5
-      - ID印尼(www.lcr189.com)_6
-      - ID印尼(www.lcr189.com)_7
-      - ID印尼(www.lcr189.com)_8
-      - ID印尼(www.lcr189.com)_9
-      - ID印尼(www.lcr189.com)_10
-      - IN印度(www.lcr189.com)
-      - JP日本(www.lcr189.com)_1
-      - JP日本(www.lcr189.com)_2
-      - JP+日本(www.lcr189.com)_1
-      - JP+日本(www.lcr189.com)_2
-      - JP日本(www.lcr189.com)_3
-      - JP日本(www.lcr189.com)_4
-      - KR韩国(www.lcr189.com)
-      - NL荷兰(www.lcr189.com)_1
-      - NL荷兰(www.lcr189.com)_2
-      - PL波兰(www.lcr189.com)_1
-      - PL波兰(www.lcr189.com)_2
-      - RU俄罗斯(www.lcr189.com)
-      - SG新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_3
-      - SG+新加坡(www.lcr189.com)_3
-      - SG+新加坡(www.lcr189.com)_4
-      - UK英国(www.lcr189.com)_1
-      - UK英国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_1
-      - US美国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_3
-      - US美国(www.lcr189.com)_4
-      - US美国(www.lcr189.com)_5
-      - US美国(www.lcr189.com)_6
-      - US美国(www.lcr189.com)_7
-      - US美国(www.lcr189.com)_8
-      - US美国(www.lcr189.com)_9
-      - US美国(www.lcr189.com)_10
-      - US美国(www.lcr189.com)_11
-      - US美国(www.lcr189.com)_12
-      - US美国(www.lcr189.com)_13
-      - US美国(www.lcr189.com)_14
-      - US美国(www.lcr189.com)_15
-      - US美国(www.lcr189.com)_16
-      - US美国(www.lcr189.com)_17
-      - US美国(www.lcr189.com)_18
-      - US美国(www.lcr189.com)_19
-      - US美国(www.lcr189.com)_20
-      - US美国(www.lcr189.com)_21
-      - US美国(www.lcr189.com)_22
-      - US美国(www.lcr189.com)_23
-      - US美国(www.lcr189.com)_24
-      - US美国(www.lcr189.com)_25
-      - US美国(www.lcr189.com)_26
-      - US美国(www.lcr189.com)_27
-      - US美国(www.lcr189.com)_28
-      - US美国(www.lcr189.com)_29
-      - US美国(www.lcr189.com)_30
-      - US美国(www.lcr189.com)_31
-      - US美国(www.lcr189.com)_32
-      - US+美国(www.lcr189.com)_1
-      - US+美国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_33
+      - default_name 2
+      - default_name 3
+      - _IR_伊朗->🇺🇸_US_美国
+      - _BZ_伯利兹->🇺🇸_US_美国
+      - _US_美国
+      - _SG_新加坡
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - CA加拿大(www.LCR189.COM)
+      - DE德国(www.LCR189.COM)_1
+      - DE德国(www.LCR189.COM)_2
+      - DE+德国(www.LCR189.COM)
+      - FR法国(www.LCR189.COM)_1
+      - FR法国(www.LCR189.COM)_2
+      - FR法国(www.LCR189.COM)_3
+      - HK香港(www.LCR189.COM)_1
+      - HK香港(www.LCR189.COM)_2
+      - HK香港(www.LCR189.COM)_3
+      - HK香港(www.LCR189.COM)_4
+      - HK香港(www.LCR189.COM)_5
+      - HK香港(www.LCR189.COM)_6
+      - HK香港(www.LCR189.COM)_7
+      - HK香港(www.LCR189.COM)_8
+      - HK香港(www.LCR189.COM)_9
+      - HK香港(www.LCR189.COM)_10
+      - HK香港(www.LCR189.COM)_11
+      - HK香港(www.LCR189.COM)_12
+      - HK香港(www.LCR189.COM)_13
+      - HK+香港(www.LCR189.COM)
+      - ID印尼(www.LCR189.COM)_1
+      - IN印度(www.LCR189.COM)
+      - JP日本(www.LCR189.COM)_1
+      - JP日本(www.LCR189.COM)_2
+      - JP日本(www.LCR189.COM)_3
+      - JP日本(www.LCR189.COM)_4
+      - JP日本(www.LCR189.COM)_5
+      - JP日本(www.LCR189.COM)_6
+      - JP日本(www.LCR189.COM)_7
+      - JP+日本(www.LCR189.COM)
+      - JP日本(www.LCR189.COM)_8
+      - KR韩国(www.LCR189.COM)_1
+      - KR+韩国(www.LCR189.COM)_2
+      - KR+韩国(www.LCR189.COM)_3
+      - KR+韩国(www.LCR189.COM)_4
+      - KR韩国(www.LCR189.COM)_2
+      - KR+韩国(www.LCR189.COM)_5
+      - NL荷兰(www.LCR189.COM)_1
+      - NL荷兰(www.LCR189.COM)_2
+      - NL荷兰(www.LCR189.COM)_3
+      - SG新加坡(www.LCR189.COM)_1
+      - SG新加坡(www.LCR189.COM)_2
+      - SG新加坡(www.LCR189.COM)_3
+      - SG新加坡(www.LCR189.COM)_4
+      - SG新加坡(www.LCR189.COM)_5
+      - SG新加坡(www.LCR189.COM)_7
+      - SG新加坡(www.LCR189.COM)_8
+      - SG新加坡(www.LCR189.COM)_9
+      - TW台湾(www.LCR189.COM)
+      - TW+台湾(www.LCR189.COM)
+      - UK英国(www.LCR189.COM)_1
+      - UK+英国(www.LCR189.COM)
+      - UK英国(www.LCR189.COM)_2
+      - US美国(www.LCR189.COM)_1
+      - US美国(www.LCR189.COM)_2
+      - US美国(www.LCR189.COM)_3
+      - US美国(www.LCR189.COM)_4
+      - US美国(www.LCR189.COM)_5
+      - US美国(www.LCR189.COM)_6
+      - US美国(www.LCR189.COM)_7
+      - US美国(www.LCR189.COM)_8
+      - US美国(www.LCR189.COM)_9
+      - US美国(www.LCR189.COM)_10
+      - US美国(www.LCR189.COM)_11
+      - US美国(www.LCR189.COM)_12
+      - US+美国(www.LCR189.COM)_1
+      - US美国(www.LCR189.COM)_13
+      - US+美国(www.LCR189.COM)_2
+      - US美国(www.LCR189.COM)_14
+      - US+美国(www.LCR189.COM)_3
+      - US美国(www.LCR189.COM)_15
+      - _CN_中国->🇷🇺_RU_俄罗斯联邦
+      - _AM_亚美尼亚->🇺🇸_US_美国
       - default_name
-      - default_name 2
-      - _US_美国
-      - _NL_荷兰
-      - _JP_日本
-      - _DE_德国
-      - _US_美国 2
-      - _US_美国->🇫🇷_FR_法国
-      - _JP_日本 2
-      - _SG_新加坡
-      - _SG_新加坡 2
-      - _JP_日本 3
-      - _FR_法国
-      - _US_美国 3
-      - default_name 3
-      - _IN_印度
-      - _FR_法国 2
-      - _FR_法国 3
-      - _NL_荷兰 2
-      - _HK_香港
       - _US_美国->🇩🇪_DE_德国
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _NL_荷兰 3
-      - _HK_香港 2
-      - _FR_法国 4
-      - default_name 4
-      - _US_美国 8
-      - _TW_台湾
-      - _FR_法国 5
-      - AU澳大利亚(www.lcr189.com)
-      - CA+加拿大(www.lcr189.com)_2
-      - CA+加拿大(www.lcr189.com)_3
-      - DE德国(www.lcr189.com)_1
-      - DE德国(www.lcr189.com)_2
-      - DE德国(www.lcr189.com)_3
-      - DE德国(www.lcr189.com)_4
-      - FR法国(www.lcr189.com)
-      - HK香港(www.lcr189.com)_1
-      - HK香港(www.lcr189.com)_2
-      - HK+香港(www.lcr189.com)
-      - HK香港(www.lcr189.com)_3
-      - ID印尼(www.lcr189.com)_1
-      - ID印尼(www.lcr189.com)_2
-      - ID印尼(www.lcr189.com)_3
-      - ID印尼(www.lcr189.com)_4
-      - ID印尼(www.lcr189.com)_5
-      - ID印尼(www.lcr189.com)_6
-      - ID印尼(www.lcr189.com)_7
-      - ID印尼(www.lcr189.com)_8
-      - ID印尼(www.lcr189.com)_9
-      - ID印尼(www.lcr189.com)_10
-      - IN印度(www.lcr189.com)
-      - JP日本(www.lcr189.com)_1
-      - JP日本(www.lcr189.com)_2
-      - JP+日本(www.lcr189.com)_1
-      - JP+日本(www.lcr189.com)_2
-      - JP日本(www.lcr189.com)_3
-      - JP日本(www.lcr189.com)_4
-      - KR韩国(www.lcr189.com)
-      - NL荷兰(www.lcr189.com)_1
-      - NL荷兰(www.lcr189.com)_2
-      - PL波兰(www.lcr189.com)_1
-      - PL波兰(www.lcr189.com)_2
-      - RU俄罗斯(www.lcr189.com)
-      - SG新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_3
-      - SG+新加坡(www.lcr189.com)_3
-      - SG+新加坡(www.lcr189.com)_4
-      - UK英国(www.lcr189.com)_1
-      - UK英国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_1
-      - US美国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_3
-      - US美国(www.lcr189.com)_4
-      - US美国(www.lcr189.com)_5
-      - US美国(www.lcr189.com)_6
-      - US美国(www.lcr189.com)_7
-      - US美国(www.lcr189.com)_8
-      - US美国(www.lcr189.com)_9
-      - US美国(www.lcr189.com)_10
-      - US美国(www.lcr189.com)_11
-      - US美国(www.lcr189.com)_12
-      - US美国(www.lcr189.com)_13
-      - US美国(www.lcr189.com)_14
-      - US美国(www.lcr189.com)_15
-      - US美国(www.lcr189.com)_16
-      - US美国(www.lcr189.com)_17
-      - US美国(www.lcr189.com)_18
-      - US美国(www.lcr189.com)_19
-      - US美国(www.lcr189.com)_20
-      - US美国(www.lcr189.com)_21
-      - US美国(www.lcr189.com)_22
-      - US美国(www.lcr189.com)_23
-      - US美国(www.lcr189.com)_24
-      - US美国(www.lcr189.com)_25
-      - US美国(www.lcr189.com)_26
-      - US美国(www.lcr189.com)_27
-      - US美国(www.lcr189.com)_28
-      - US美国(www.lcr189.com)_29
-      - US美国(www.lcr189.com)_30
-      - US美国(www.lcr189.com)_31
-      - US美国(www.lcr189.com)_32
-      - US+美国(www.lcr189.com)_1
-      - US+美国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_33
+      - default_name 2
+      - default_name 3
+      - _IR_伊朗->🇺🇸_US_美国
+      - _BZ_伯利兹->🇺🇸_US_美国
+      - _US_美国
+      - _SG_新加坡
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -971,117 +748,88 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - CA加拿大(www.LCR189.COM)
+      - DE德国(www.LCR189.COM)_1
+      - DE德国(www.LCR189.COM)_2
+      - DE+德国(www.LCR189.COM)
+      - FR法国(www.LCR189.COM)_1
+      - FR法国(www.LCR189.COM)_2
+      - FR法国(www.LCR189.COM)_3
+      - HK香港(www.LCR189.COM)_1
+      - HK香港(www.LCR189.COM)_2
+      - HK香港(www.LCR189.COM)_3
+      - HK香港(www.LCR189.COM)_4
+      - HK香港(www.LCR189.COM)_5
+      - HK香港(www.LCR189.COM)_6
+      - HK香港(www.LCR189.COM)_7
+      - HK香港(www.LCR189.COM)_8
+      - HK香港(www.LCR189.COM)_9
+      - HK香港(www.LCR189.COM)_10
+      - HK香港(www.LCR189.COM)_11
+      - HK香港(www.LCR189.COM)_12
+      - HK香港(www.LCR189.COM)_13
+      - HK+香港(www.LCR189.COM)
+      - ID印尼(www.LCR189.COM)_1
+      - IN印度(www.LCR189.COM)
+      - JP日本(www.LCR189.COM)_1
+      - JP日本(www.LCR189.COM)_2
+      - JP日本(www.LCR189.COM)_3
+      - JP日本(www.LCR189.COM)_4
+      - JP日本(www.LCR189.COM)_5
+      - JP日本(www.LCR189.COM)_6
+      - JP日本(www.LCR189.COM)_7
+      - JP+日本(www.LCR189.COM)
+      - JP日本(www.LCR189.COM)_8
+      - KR韩国(www.LCR189.COM)_1
+      - KR+韩国(www.LCR189.COM)_2
+      - KR+韩国(www.LCR189.COM)_3
+      - KR+韩国(www.LCR189.COM)_4
+      - KR韩国(www.LCR189.COM)_2
+      - KR+韩国(www.LCR189.COM)_5
+      - NL荷兰(www.LCR189.COM)_1
+      - NL荷兰(www.LCR189.COM)_2
+      - NL荷兰(www.LCR189.COM)_3
+      - SG新加坡(www.LCR189.COM)_1
+      - SG新加坡(www.LCR189.COM)_2
+      - SG新加坡(www.LCR189.COM)_3
+      - SG新加坡(www.LCR189.COM)_4
+      - SG新加坡(www.LCR189.COM)_5
+      - SG新加坡(www.LCR189.COM)_7
+      - SG新加坡(www.LCR189.COM)_8
+      - SG新加坡(www.LCR189.COM)_9
+      - TW台湾(www.LCR189.COM)
+      - TW+台湾(www.LCR189.COM)
+      - UK英国(www.LCR189.COM)_1
+      - UK+英国(www.LCR189.COM)
+      - UK英国(www.LCR189.COM)_2
+      - US美国(www.LCR189.COM)_1
+      - US美国(www.LCR189.COM)_2
+      - US美国(www.LCR189.COM)_3
+      - US美国(www.LCR189.COM)_4
+      - US美国(www.LCR189.COM)_5
+      - US美国(www.LCR189.COM)_6
+      - US美国(www.LCR189.COM)_7
+      - US美国(www.LCR189.COM)_8
+      - US美国(www.LCR189.COM)_9
+      - US美国(www.LCR189.COM)_10
+      - US美国(www.LCR189.COM)_11
+      - US美国(www.LCR189.COM)_12
+      - US+美国(www.LCR189.COM)_1
+      - US美国(www.LCR189.COM)_13
+      - US+美国(www.LCR189.COM)_2
+      - US美国(www.LCR189.COM)_14
+      - US+美国(www.LCR189.COM)_3
+      - US美国(www.LCR189.COM)_15
+      - _CN_中国->🇷🇺_RU_俄罗斯联邦
+      - _AM_亚美尼亚->🇺🇸_US_美国
       - default_name
-      - default_name 2
-      - _US_美国
-      - _NL_荷兰
-      - _JP_日本
-      - _DE_德国
-      - _US_美国 2
-      - _US_美国->🇫🇷_FR_法国
-      - _JP_日本 2
-      - _SG_新加坡
-      - _SG_新加坡 2
-      - _JP_日本 3
-      - _FR_法国
-      - _US_美国 3
-      - default_name 3
-      - _IN_印度
-      - _FR_法国 2
-      - _FR_法国 3
-      - _NL_荷兰 2
-      - _HK_香港
       - _US_美国->🇩🇪_DE_德国
-      - _US_美国 4
-      - _US_美国 5
-      - _US_美国 6
-      - _US_美国 7
-      - _NL_荷兰 3
-      - _HK_香港 2
-      - _FR_法国 4
-      - default_name 4
-      - _US_美国 8
-      - _TW_台湾
-      - _FR_法国 5
-      - AU澳大利亚(www.lcr189.com)
-      - CA+加拿大(www.lcr189.com)_2
-      - CA+加拿大(www.lcr189.com)_3
-      - DE德国(www.lcr189.com)_1
-      - DE德国(www.lcr189.com)_2
-      - DE德国(www.lcr189.com)_3
-      - DE德国(www.lcr189.com)_4
-      - FR法国(www.lcr189.com)
-      - HK香港(www.lcr189.com)_1
-      - HK香港(www.lcr189.com)_2
-      - HK+香港(www.lcr189.com)
-      - HK香港(www.lcr189.com)_3
-      - ID印尼(www.lcr189.com)_1
-      - ID印尼(www.lcr189.com)_2
-      - ID印尼(www.lcr189.com)_3
-      - ID印尼(www.lcr189.com)_4
-      - ID印尼(www.lcr189.com)_5
-      - ID印尼(www.lcr189.com)_6
-      - ID印尼(www.lcr189.com)_7
-      - ID印尼(www.lcr189.com)_8
-      - ID印尼(www.lcr189.com)_9
-      - ID印尼(www.lcr189.com)_10
-      - IN印度(www.lcr189.com)
-      - JP日本(www.lcr189.com)_1
-      - JP日本(www.lcr189.com)_2
-      - JP+日本(www.lcr189.com)_1
-      - JP+日本(www.lcr189.com)_2
-      - JP日本(www.lcr189.com)_3
-      - JP日本(www.lcr189.com)_4
-      - KR韩国(www.lcr189.com)
-      - NL荷兰(www.lcr189.com)_1
-      - NL荷兰(www.lcr189.com)_2
-      - PL波兰(www.lcr189.com)_1
-      - PL波兰(www.lcr189.com)_2
-      - RU俄罗斯(www.lcr189.com)
-      - SG新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_1
-      - SG+新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_2
-      - SG新加坡(www.lcr189.com)_3
-      - SG+新加坡(www.lcr189.com)_3
-      - SG+新加坡(www.lcr189.com)_4
-      - UK英国(www.lcr189.com)_1
-      - UK英国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_1
-      - US美国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_3
-      - US美国(www.lcr189.com)_4
-      - US美国(www.lcr189.com)_5
-      - US美国(www.lcr189.com)_6
-      - US美国(www.lcr189.com)_7
-      - US美国(www.lcr189.com)_8
-      - US美国(www.lcr189.com)_9
-      - US美国(www.lcr189.com)_10
-      - US美国(www.lcr189.com)_11
-      - US美国(www.lcr189.com)_12
-      - US美国(www.lcr189.com)_13
-      - US美国(www.lcr189.com)_14
-      - US美国(www.lcr189.com)_15
-      - US美国(www.lcr189.com)_16
-      - US美国(www.lcr189.com)_17
-      - US美国(www.lcr189.com)_18
-      - US美国(www.lcr189.com)_19
-      - US美国(www.lcr189.com)_20
-      - US美国(www.lcr189.com)_21
-      - US美国(www.lcr189.com)_22
-      - US美国(www.lcr189.com)_23
-      - US美国(www.lcr189.com)_24
-      - US美国(www.lcr189.com)_25
-      - US美国(www.lcr189.com)_26
-      - US美国(www.lcr189.com)_27
-      - US美国(www.lcr189.com)_28
-      - US美国(www.lcr189.com)_29
-      - US美国(www.lcr189.com)_30
-      - US美国(www.lcr189.com)_31
-      - US美国(www.lcr189.com)_32
-      - US+美国(www.lcr189.com)_1
-      - US+美国(www.lcr189.com)_2
-      - US美国(www.lcr189.com)_33
+      - default_name 2
+      - default_name 3
+      - _IR_伊朗->🇺🇸_US_美国
+      - _BZ_伯利兹->🇺🇸_US_美国
+      - _US_美国
+      - _SG_新加坡
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
