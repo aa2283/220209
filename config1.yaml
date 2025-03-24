@@ -7,7 +7,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "订阅链接"
+    url: "https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml"
   
 
 unified-delay: true
