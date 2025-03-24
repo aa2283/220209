@@ -1,5 +1,5 @@
 proxy-providers:
- 红杏云:
+ Airport1:
     type: http
     interval: 1800
     health-check:
