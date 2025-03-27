@@ -2,7 +2,7 @@
 # 机场订阅
 proxy-providers:
   Airport1:
-    url: "https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml"
+    url: "https://github.geekery.cn/raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml"
     type: http
     interval: 86400
     health-check:
